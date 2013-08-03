@@ -1,0 +1,102 @@
+---
+layout: post
+title: LESS and/or Sass = CSS bliss
+categories:
+- Techsposure
+tags:
+- compass
+- css preprocessors
+- less
+- mixins
+- sass
+- stylesheets
+- web design
+status: publish
+type: post
+published: true
+meta:
+  _publicize_pending: '1'
+  _wpas_done_1917361: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2013-05-11
+    18:39:12";}
+  publicize_twitter_user: RussMatney
+  _wpas_done_1917358: '1'
+  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:204680660;b:1;}}
+---
+What's up code-monkeys? This post is all about <a title="Wikipedia - Cascading style sheets" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a>. In just a few minutes, you'll be able to style with, um, style.
+
+For the first few months of my hack of a web development career, I've been writing CSS the way I thought it had to be: pure CSS. Different projects had different levels of organization, from well-named, modular files to disgusting, hundred-line Frankenstein monsters. I'd heard of CSS preprocessors, but hadn't gotten into them. It's definitely important to learn the basics, sure. But once you can ride a bike, you might as well get a motorcycle. Especially if it's free, downloads in seconds, and makes you a much better, um, bicyclist.
+
+The two most popular preprocessors are <a title="LESS CSS" href="http://lesscss.org/">LESS</a> and <a title="Sass CSS" href="http://sass-lang.com/">Sass</a>. Choosing between them is not as important as just picking one and using it. They both have several awesome features that will immediately speed up your styling. I'll briefly get into three of them: <strong>nesting</strong>, <strong>variables</strong>, and <strong>mixins</strong>.
+
+HTML is <strong>nested</strong>, so why shouldn't your stylesheet be? There are examples on both websites, but here's the gist. This:
+
+<code>.post{
+&nbsp;&nbsp;color:black;
+}
+.post a{
+&nbsp;&nbsp;text-decoration:none;
+}
+.post a:hover{
+&nbsp;&nbsp;color:green;
+}</code>
+
+can be written like this:
+
+<code>.post{
+&nbsp;&nbsp;color:black;
+&nbsp;&nbsp;a{
+&nbsp;&nbsp;&nbsp;&nbsp;text-decoration:none;
+&nbsp;&nbsp;&nbsp;&nbsp;&amp;:hover{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color:green;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;}
+}</code>
+
+So that, logically, styling the &lt;a&gt; tags inside the class '.post' is handled <em>inside</em> the styling of '.post'. In both LESS and Sass, the '&amp;' is used to append other classes or states (ex: ':hover') onto whatever element you are already styling.
+
+<strong>Variables</strong> do exactly what they should. You can assign any value at the top of your stylesheet, and use it throughout your stylesheets. No more copying and pasting of color-specific hex codes, or hoping you set all the fonts, line-heights, and border-radii properly.
+
+And if that doesn't convince you, <strong>Mixins</strong> will. Mixins act like variables for full styles, rather than just values. They are simple to write, and you can reuse them everywhere. The example from the LESS homepage uses Mixins and an @radius variable. Instead of this:
+
+<code>#header {
+&nbsp;&nbsp;-webkit-border-radius: 5px;
+&nbsp;&nbsp;-moz-border-radius: 5px;
+&nbsp;&nbsp;-ms-border-radius: 5px;
+&nbsp;&nbsp;-o-border-radius: 5px;
+&nbsp;&nbsp;border-radius: 5px;
+}
+#footer {
+&nbsp;&nbsp;-webkit-border-radius: 10px;
+&nbsp;&nbsp;-moz-border-radius: 10px;
+&nbsp;&nbsp;-ms-border-radius: 10px;
+&nbsp;&nbsp;-o-border-radius: 10px;
+&nbsp;&nbsp;border-radius: 10px;
+}</code>
+
+You can create this mixin:
+
+<code>.rounded-corners (@radius: 5px) {
+&nbsp;&nbsp;-webkit-border-radius: @radius;
+&nbsp;&nbsp;-moz-border-radius: @radius;
+&nbsp;&nbsp;-ms-border-radius: @radius;
+&nbsp;&nbsp;-o-border-radius: @radius;
+&nbsp;&nbsp;border-radius: @radius;
+}</code>
+
+And apply it to elements like this:
+
+<code>#header {
+&nbsp;&nbsp;.rounded-corners;
+}
+#footer {
+&nbsp;&nbsp;.rounded-corners(10px);
+}</code>
+
+And on top of writing your own mixins, there are of course many that have already been written available all over the web. Here are <a title="Less elements" href="http://lesselements.com/">some for LESS</a>, here are <a title="Compass Sass" href="http://compass-style.org/">some for Sass</a>. As <a title="CSS Tricks" href="http://css-tricks.com/">Chris Coyier of CSS Tricks</a> says, preprocessors make CSS fun again.
+
+I recommend both LESS and Sass. They both come with more than I mentioned here, including nice-sounding things like functions and inheritance. If you're command-line/terminal shy, you might have an easier time starting with LESS, because you can compile it in the browser (just add the LESS compiling script to your HTML). At the same time, I'd encourage you to cozy up to the terminal soon. You'll be glad you did.
+
+If you're really gun-hoe about Sass, good for you! :) Checkout <a title="Compass sass" href="http://compass-style.org/">Compass</a>. It's a ruby-gem that provides you with a ton of CSS3 mixins right out of the box. Chris Coyier says Sass + Compass is the best way to CSS, and I trust that man. I'm using this combo to build a Wordpress theme now, to replace the default I've been riding for the last few months. (If you're interested, I'm starting from <a title="Underscore S" href="http://underscores.me/">a design-stripped theme called _s</a>.)
+
+So, in summary, preprocessors are awesome. Use them in your next (all your future) project(s). Want to get even better? Learn how to use <a title="Twitter Bootstrap" href="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a>. Read the documentation! It's a powerful scaffolding tool and component base for any website's style needs, is fully responsive, and is written entirely in LESS.
