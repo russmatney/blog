@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The Waldy's girl
+categories:
+- 100-worders
 tags:
 - this is not a true story
 - ;)

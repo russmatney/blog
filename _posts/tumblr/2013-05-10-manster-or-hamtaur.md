@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Manster or Hamtaur?
+categories:
+- 100-worders
 tags:
 - hamster huey and the gooey kablooie
 - is a ficticious comic in calvin and hobbes

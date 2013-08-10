@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 'Prompt from a friend: basketball'
+categories:
+- 100-worders
 tags:
 - basketball
 - shootout

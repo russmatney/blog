@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Adventure capitalist
+categories:
+- 100-worders
 tags:
 - '100'
 - word

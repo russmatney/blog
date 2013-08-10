@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Questionnaire
+categories:
+- 100-worders
 tags:
 - '100'
 - word

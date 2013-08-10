@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Generix is perfectly safe
+categories:
+- 100-worders
 tags: 
 ---
 I’m at work. My lungs are burning, my muscles are weak, and my headache is blaring.

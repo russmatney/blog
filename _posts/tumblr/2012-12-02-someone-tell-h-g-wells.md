@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Someone tell H.G. Wells
+categories:
+- 100-worders
 tags:
 - the time machine
 - subway

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Get nice and clean
+categories:
+- 100-worders
 tags:
 - gin
 - bathtub

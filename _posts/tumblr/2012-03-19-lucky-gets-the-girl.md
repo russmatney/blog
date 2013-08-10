@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Lucky gets the girl
+categories:
+- 100-worders
 tags:
 - lucky
 - girl

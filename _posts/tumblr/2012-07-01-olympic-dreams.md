@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Olympic dreams
+categories:
+- 100-worders
 tags:
 - olympic
 - dreams

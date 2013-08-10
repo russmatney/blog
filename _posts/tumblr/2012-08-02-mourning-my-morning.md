@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Mourning my morning
+categories:
+- 100-worders
 tags:
 - missing
 - train

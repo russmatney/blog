@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A periodic purchase
+categories:
+- 100-worders
 tags:
 - periodic
 - table

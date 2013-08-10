@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The Stepford Whites
+categories:
+- 100-worders
 tags:
 - based on a true story
 ---

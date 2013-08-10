@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Theft on ice
+categories:
+- 100-worders
 tags:
 - '100'
 - word

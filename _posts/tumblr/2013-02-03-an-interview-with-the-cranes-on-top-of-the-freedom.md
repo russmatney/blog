@@ -2,6 +2,8 @@
 layout: post
 title: An interview with the cranes on top of the Freedom Tower, whose names are Mel
   and Gilgamesh
+categories:
+- 100-worders
 tags:
 - i've sat on this idea for a long time
 - i hope you guys enjoy it

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: First in cast
+categories:
+- 100-worders
 tags:
 - broken ankle
 - owie

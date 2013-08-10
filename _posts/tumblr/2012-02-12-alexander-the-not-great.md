@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Alexander, the not great
+categories:
+- 100-worders
 tags:
 - '100'
 - Timeless

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Third from the door, before the turned seats
+categories:
+- 100-worders
 tags:
 - fading
 - weather

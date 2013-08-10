@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Perfectly frank
+categories:
+- 100-worders
 tags:
 - frank
 - quiet

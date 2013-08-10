@@ -1,6 +1,8 @@
 ---
 layout: post
 title: I smell a rat
+categories:
+- 100-worders
 tags:
 - rat
 - ghoul

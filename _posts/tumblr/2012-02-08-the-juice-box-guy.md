@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The juice box guy
+categories:
+- 100-worders
 tags:
 - bendy
 - box

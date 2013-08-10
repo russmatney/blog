@@ -1,6 +1,8 @@
 ---
 layout: post
 title: What I'll tell my kids
+categories:
+- 100-worders
 tags:
 - teeth
 - brush

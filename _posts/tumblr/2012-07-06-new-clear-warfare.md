@@ -1,6 +1,8 @@
 ---
 layout: post
 title: New, clear warfare
+categories:
+- 100-worders
 tags:
 - love
 - bombs

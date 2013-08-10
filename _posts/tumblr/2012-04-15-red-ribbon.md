@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Red ribbon
+categories:
+- 100-worders
 tags:
 - red
 - ribbon

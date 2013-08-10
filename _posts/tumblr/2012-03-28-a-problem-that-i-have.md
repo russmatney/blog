@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A problem that I have
+categories:
+- 100-worders
 tags:
 - mojo
 - chambers

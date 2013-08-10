@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Ode to the woman in the Portlandia intro
+categories:
+- 100-worders
 tags:
 - ode
 - poem

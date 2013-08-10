@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The hipster movie
+categories:
+- 100-worders
 tags:
 - '100'
 - words

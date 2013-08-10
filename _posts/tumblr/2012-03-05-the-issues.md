@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The issues
+categories:
+- 100-worders
 tags:
 - gin
 - bathtub

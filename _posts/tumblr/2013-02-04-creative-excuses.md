@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Creative excuses
+categories:
+- 100-worders
 tags:
 - subway stories
 - write what you know

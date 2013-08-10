@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Is funny the right word?
+categories:
+- 100-worders
 tags:
 - funny
 - drabble

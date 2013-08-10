@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Mind-control
+categories:
+- 100-worders
 tags:
 - overthinking
 - will

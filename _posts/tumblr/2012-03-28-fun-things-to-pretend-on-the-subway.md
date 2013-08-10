@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Fun things to pretend on the subway
+categories:
+- 100-worders
 tags:
 - subway
 - story

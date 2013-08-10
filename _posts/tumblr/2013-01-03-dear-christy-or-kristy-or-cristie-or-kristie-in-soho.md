@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Dear Christy or Kristy or Cristie or Kristie in SoHo
+categories:
+- 100-worders
 tags:
 - version two
 - extra-sensory ebb and flow

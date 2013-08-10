@@ -1,6 +1,8 @@
 ---
 layout: post
 title: In-between feelings
+categories:
+- 100-worders
 tags:
 - some old stuff
 - still can't quite nail this emotion

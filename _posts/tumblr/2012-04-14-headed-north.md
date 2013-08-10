@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Headed north
+categories:
+- 100-worders
 tags:
 - waddle
 - penguin

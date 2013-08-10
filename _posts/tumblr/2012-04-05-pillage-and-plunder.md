@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Pillage and plunder
+categories:
+- 100-worders
 tags:
 - viking
 - school

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: These are one or two liners
+categories:
+- 100-worders
 tags:
 - liners
 - couldn't write a whole story

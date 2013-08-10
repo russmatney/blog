@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Peace of mind
+categories:
+- 100-worders
 tags:
 - gun control
 - peace of mind

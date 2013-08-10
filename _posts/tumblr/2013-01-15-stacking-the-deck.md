@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Stacking the deck
+categories:
+- 100-worders
 tags:
 - sorry this story ends so abruptly
 - i didn't want to make the conclusion

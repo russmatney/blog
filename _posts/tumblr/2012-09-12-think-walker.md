@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Think-walker
+categories:
+- 100-worders
 tags:
 - i can't stop thinking
 - and the thoughts keep coming

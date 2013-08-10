@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Damn you, inspiration!
+categories:
+- 100-worders
 tags:
 - i cheated twice to make it 100
 - don't tell

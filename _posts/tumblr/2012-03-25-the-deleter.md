@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The Deleter
+categories:
+- 100-worders
 tags:
 - '100'
 - word

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Special deliverance
+categories:
+- 100-worders
 tags:
 - deliverance
 - delivery
