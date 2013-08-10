@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The ugly bros
+categories:
+- 100-worders
 tags:
 - ugly bros
 - band

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Time in the dark
+categories:
+- 100-worders 
 tags:
 - dark
 - '100'

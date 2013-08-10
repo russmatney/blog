@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Loosing our minds
+categories:
+- 100-worders
 tags:
 - minds
 - loosing

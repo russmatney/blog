@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Unspoken rules of the C train
+categories:
+- 100-worders
 tags:
 - c train
 - rules

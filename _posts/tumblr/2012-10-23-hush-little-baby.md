@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Hush little baby
+categories:
+- 100-worders
 tags:
 - hush little baby
 - don't you cry

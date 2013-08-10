@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Smooth criminals
+categories:
+- 100-worders
 tags:
 - smooth
 - criminals

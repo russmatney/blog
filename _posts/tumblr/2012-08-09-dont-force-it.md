@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Don't force it
+categories:
+- 100-worders
 tags:
 - shoes
 - hipster girl

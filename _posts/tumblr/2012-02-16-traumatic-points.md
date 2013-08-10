@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Traumatic points
+categories:
+- 100-worders
 tags: 
 ---
 Jerry was a salesman one point from a sale. “The point is…” Jerry was saying. The intern to his left, whom Jerry would soon learn “seemed troubled,” ran to the window and leapt into free fall. 

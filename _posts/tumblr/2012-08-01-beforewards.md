@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Beforewards
+categories:
+- 100-worders
 tags:
 - time is like whaaaaaaat
 - the end

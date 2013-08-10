@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The king's tax
+categories:
+- 100-worders
 tags:
 - king
 - carl

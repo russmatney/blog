@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Full, 4-minute relationship
+categories:
+- 100-worders
 tags:
 - missed connections
 - potential creepers

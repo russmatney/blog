@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Not a true story
+categories:
+- 100-worders
 tags:
 - mardi gras
 - '100'

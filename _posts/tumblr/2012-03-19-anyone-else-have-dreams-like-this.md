@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Anyone else have dreams like this?
+categories:
+- 100-worders
 tags:
 - dreams
 - gun

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Hunger Pains
+categories:
+- 100-worders
 tags:
 - based on a true story
 - don't forget sunscreen!

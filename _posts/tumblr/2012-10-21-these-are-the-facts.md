@@ -1,6 +1,8 @@
 ---
 layout: post
 title: These are the facts
+categories:
+- 100-worders
 tags:
 - enstein
 - mosquitos

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Curtain call
+categories:
+- 100-worders
 tags:
 - curtain rod
 - it knows

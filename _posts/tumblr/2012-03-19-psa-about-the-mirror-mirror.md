@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 'PSA about the mirror, mirror '
+categories:
+- 100-worders
 tags:
 - PSA
 - mirror

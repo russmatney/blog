@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A ghost, I think
+categories:
+- 100-worders
 tags:
 - ghost story
 - well not really

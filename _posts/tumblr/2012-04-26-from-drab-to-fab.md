@@ -1,6 +1,8 @@
 ---
 layout: post
 title: From drab to fab
+categories:
+- 100-worders
 tags:
 - '100'
 - word

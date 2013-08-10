@@ -1,6 +1,8 @@
 ---
 layout: post
 title: First person vs third person
+categories:
+- 100-worders
 tags:
 - first
 - person

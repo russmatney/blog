@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Aches and ashes
+categories:
+- 100-worders
 tags:
 - aches
 - ashes

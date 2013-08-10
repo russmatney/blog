@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 'Guest post (Brock): Brain teaser'
+categories:
+- 100-worders
 tags: 
 ---
 I have a challenge for you: imagine you’re eating a big bowl of rice, and suddenly you find a giant piece, about as big as a big toe! What do you do? Do you call the museum, or the police?

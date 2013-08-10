@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Small hands
+categories:
+- 100-worders
 tags:
 - small hands
 - carneys

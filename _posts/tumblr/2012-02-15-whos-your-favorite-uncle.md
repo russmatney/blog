@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Who's your favorite uncle?
+categories:
+- 100-worders
 tags: 
 ---
 Reports of Uncle Sam robbing convenience stores bounced around until they cornered him in a tree house behind a dumpy trailer. The policeman smirked over the speaker, “I WANT YOU to come down from there.”

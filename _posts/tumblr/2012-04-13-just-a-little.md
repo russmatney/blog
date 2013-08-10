@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Just a little
+categories:
+- 100-worders
 tags:
 - subway
 - '100'

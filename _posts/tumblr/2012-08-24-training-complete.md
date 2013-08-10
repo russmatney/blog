@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Training complete
+categories:
+- 100-worders
 tags:
 - nods
 - smiles

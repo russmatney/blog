@@ -1,6 +1,8 @@
 ---
 layout: post
 title: You don't wanna
+categories:
+- 100-worders
 tags:
 - 'things you don''t wanna do that didn''t make the cut:'
 - eat that sandwich

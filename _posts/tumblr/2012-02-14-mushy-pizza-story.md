@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Mushy pizza story
+categories:
+- 100-worders
 tags:
 - '100'
 - word

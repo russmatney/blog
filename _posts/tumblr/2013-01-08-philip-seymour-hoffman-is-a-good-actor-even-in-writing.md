@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Philip Seymour Hoffman is a good actor even in writing
+categories:
+- 100-worders
 tags:
 - philip
 - seymour

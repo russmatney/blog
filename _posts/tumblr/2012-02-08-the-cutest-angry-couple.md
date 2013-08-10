@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The cutest angry couple
+categories:
+- 100-worders
 tags:
 - cute
 - angry

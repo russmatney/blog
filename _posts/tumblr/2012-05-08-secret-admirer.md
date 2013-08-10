@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Secret admirer
+categories:
+- 100-worders
 tags:
 - secret
 - admirer

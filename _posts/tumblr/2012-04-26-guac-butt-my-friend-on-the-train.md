@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Guac-butt, my friend on the train
+categories:
+- 100-worders
 tags:
 - guacamole
 - butt

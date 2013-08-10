@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Barack Obama is my new girlfriend's crazy ex-boyfriend
+categories:
+- 100-worders
 tags:
 - Obama
 - boyfriend

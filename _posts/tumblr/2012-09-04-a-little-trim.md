@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A little trim
+categories:
+- 100-worders
 tags:
 - Jack
 - Nicholson

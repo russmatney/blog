@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Just beyond the glass
+categories:
+- 100-worders
 tags:
 - chambers
 - subway

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Speak before you think
+categories:
+- 100-worders
 tags: 
 ---
 The artist that changed the world wasn’t known when he was alive.

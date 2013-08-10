@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 'Productivity: find something you want to do less'
+categories:
+- 100-worders
 tags:
 - productive
 - pigsty

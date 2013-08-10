@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Definition by example
+categories:
+- 100-worders
 tags:
 - '100'
 - words
