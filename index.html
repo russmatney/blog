@@ -7,32 +7,24 @@ title: Russell Matney
   <h1>Blog Posts</h1>
 
   <ul class="posts">
-    TECH:
-    {% for post in site.categories.techsposure %}
+    5 latest TECH:
+    {% for post in site.categories.techsposure limit:5 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
   <ul class="posts">
-    GET IT WRITE:
-    {% for post in site.categories.getitwrite %}
+    5 latest Get It Write:
+    {% for post in site.categories.getitwrite limit:5 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
   <ul class="posts">
-    100-worders:
-    {% for post in site.categories.100-worders %}
+    5 latest 100-worders:
+    {% for post in site.categories.100-worders limit:5 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
-
-  <ul class="posts">
-    ALL:
-    {% for post in site.posts %}
-      {{post.categories}}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
 </div>
