@@ -4,32 +4,30 @@ title: Russell Matney
 ---
 
 <div id="home">
-  <h1>Latest Posts</h1>
+  <h1>Latest Posts</h1> <!-- / <h1>Most Popular</h1> -->
 
   <div class="five-latest">
     <div class="row-fluid">
       <ul class="posts span4">
-        <h3>Techsposure</h3>
+        <h3>Techsposure <a href="/techsposure.html">(all posts)</a></h3>
         {% for post in site.categories.techsposure limit:5 %}
           <li><span>{{ post.date | date: "%h '%y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
-        <li><a href="/techsposure.html">all Techsposure posts</a></li>
       </ul>
 
       <ul class="posts span4">
-        <h3>Get It Write</h3>
+        <h3>Get It Write <a href="/getitwrite.html">(all posts)</a></h3>
         {% for post in site.categories.getitwrite limit:5 %}
           <li><span>{{ post.date | date: "%h '%y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
-        <li><a href="/getitwrite.html">all Get It Write posts</a></li>
+        <li></li>
       </ul>
 
       <ul class="posts span4">
-        <h3>100-word Stories</h3>
+        <h3>100-word Stories <a href="/100-word-stories.html"> (all stories)</a></h3>
         {% for post in site.categories.100-worders limit:5 %}
           <li><span>{{ post.date | date: "%h '%y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
-        <li><a href="/100-word-stories.html">all 100-word Stories</a></li>
       </ul>
     </div>
   </div>
