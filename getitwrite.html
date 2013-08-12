@@ -1,0 +1,17 @@
+---
+layout: default
+title: Russell Matney - Get It Write
+---
+
+<div id="home">
+  <h1>Get It Write</h1>
+
+  <div class="get-it-write">
+    <ul class="posts">
+      {% for post in site.categories.getitwrite %}
+        <li><span>{{ post.date | date: "%h '%y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>

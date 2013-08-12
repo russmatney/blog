@@ -1,0 +1,17 @@
+---
+layout: default
+title: Russell Matney - Techsposure
+---
+
+<div id="home">
+  <h1>Techsposure</h1>
+
+  <div class="techsposure">
+    <ul class="posts">
+      {% for post in site.categories.techsposure %}
+        <li><span>{{ post.date | date: "%h '%y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>
