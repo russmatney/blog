@@ -197,3 +197,11 @@ ul.posts a:hover{
 .post pre.terminal code {
   background-color: #333;
 }
+
+.post a{
+  color:#a00;
+  text-decoration: none;
+}
+.post a:hover{
+  text-decoration: underline;
+}
