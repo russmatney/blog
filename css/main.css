@@ -14,7 +14,8 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
   font-size: small;
   text-align: center;
 }
@@ -28,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p {
   margin: 1em 0;
-  font-family: 'Fauna One', serif;
+  font-size: 15px;
 }
 
 a         { color: #00a; }
@@ -42,13 +43,9 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 /*
-font-family: 'Overlock SC', cursive;
-font-family: 'Fresca', sans-serif;
-font-family: 'Fauna One', serif;
 font-family: 'Economica', sans-serif;
-font-family: 'Cabin Condensed', sans-serif;
-font-family: 'Simonetta', cursive;
-font-family: 'Source Code Pro', sans-serif;
+font-family: 'Squada One', cursive;
+font-family: 'Pathway Gothic One', sans-serif;
 font-family: 'Merriweather', serif;
 */
 
@@ -68,22 +65,23 @@ ul.posts li {
 
 ul.posts span {
   color: #aaa;
-  font-family: 'Fauna One', serif;
-  font-size: 80%;
+  font-family: 'Economica', sans-serif;
+  font-size: 115%;
 }
 
 ul.posts p {
   color:#888;
   margin: 4px 0;
-  font-family:'Fresca', sans-serif;
+  font-family: 'Economica', sans-serif;
+  font-size: 115%;
 }
 
 ul.posts a{
   color:#444;
   text-align: left;
   text-decoration: none;
-  font-size: 90%;
-  font-family: 'Fauna One', serif;
+  font-family: 'Economica', sans-serif;
+  font-size: 115%;
 }
 ul.posts a:hover{
   color:#a00;
