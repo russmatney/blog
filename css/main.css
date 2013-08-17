@@ -49,6 +49,24 @@ ul.posts span {
   font-size: 80%;
 }
 
+ul.posts p {
+  font-weight: bold;
+  color:#888;
+  font-size: 12.3px;
+  margin: 0px;
+}
+
+ul.posts a{
+  color:#444;
+  text-align: left;
+  text-decoration: none;
+}
+ul.posts a:hover{
+  color:#a00;
+  text-align: left;
+  text-decoration: none;
+}
+
 /*****************************************************************************/
 /*
 /* Site
