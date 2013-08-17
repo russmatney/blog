@@ -20,10 +20,16 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 150%;
+  font-weight: bolder;
+  font-family: 'Economica', sans-serif;
+}
 
 h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+p {
+  margin: 1em 0;
+  font-family: 'Fauna One', serif;
+}
 
 a         { color: #00a; }
 a:hover   { color: #000; }
@@ -62,26 +68,25 @@ ul.posts li {
 
 ul.posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
+  font-family: 'Fauna One', serif;
   font-size: 80%;
 }
 
 ul.posts p {
-  font-weight: bold;
   color:#888;
-  font-size: 12.3px;
-  margin: 0px;
+  margin: 4px 0;
+  font-family:'Fresca', sans-serif;
 }
 
 ul.posts a{
   color:#444;
   text-align: left;
   text-decoration: none;
+  font-size: 90%;
+  font-family: 'Fauna One', serif;
 }
 ul.posts a:hover{
   color:#a00;
-  text-align: left;
-  text-decoration: none;
 }
 
 /*****************************************************************************/
