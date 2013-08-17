@@ -31,29 +31,37 @@ The two most popular preprocessors are <a title="LESS CSS" href="http://lesscss.
 
 HTML is <strong>nested</strong>, so why shouldn't your stylesheet be? There are examples on both websites, but here's the gist. This:
 
-<code>.post{
-&nbsp;&nbsp;color:black;
+`
+.post{
+	color:black;
 }
+`
+
+`
 .post a{
-&nbsp;&nbsp;text-decoration:none;
+	text-decoration:none;
 }
+`
+
+`
 .post a:hover{
-&nbsp;&nbsp;color:green;
-}</code>
+	color:green;
+}
+`
 
 can be written like this:
 
-<code>.post{
-&nbsp;&nbsp;color:black;
-&nbsp;&nbsp;a{
-&nbsp;&nbsp;&nbsp;&nbsp;text-decoration:none;
-&nbsp;&nbsp;&nbsp;&nbsp;&amp;:hover{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color:green;
-&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;}
-}</code>
+`.post{
+	color:black;
+	a{
+		text-decoration:none;
+		&amp;:hover{
+			color:green;
+		}
+	}
+}`
 
-So that, logically, styling the &lt;a&gt; tags inside the class '.post' is handled <em>inside</em> the styling of '.post'. In both LESS and Sass, the '&amp;' is used to append other classes or states (ex: ':hover') onto whatever element you are already styling.
+So that, logically, styling the `<a>` tags inside the class '.post' is handled <em>inside</em> the styling of '.post'. In both LESS and Sass, the '&amp;' is used to append other classes or states (ex: ':hover') onto whatever element you are already styling.
 
 <strong>Variables</strong> do exactly what they should. You can assign any value at the top of your stylesheet, and use it throughout your stylesheets. No more copying and pasting of color-specific hex codes, or hoping you set all the fonts, line-heights, and border-radii properly.
 
