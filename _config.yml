@@ -2,3 +2,5 @@ name: Russell Matney
 markdown: redcarpet
 pygments: true
 subhead: Software and Fiction Engineer
+future: false
+permalink: none
