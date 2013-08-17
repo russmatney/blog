@@ -35,7 +35,7 @@ title: Russell Matney
 
       <ul class="posts span4">
         <h3>Demos <a href="/demos.html"> (more demos)</a></h3>
-        <p>Just a few games for now.</p>
+        <p>Just one game for now.</p>
         {% for post in site.categories.demos limit:5 %}
           <li><span>{{ post.date | date: "%h '%y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
