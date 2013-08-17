@@ -17,21 +17,38 @@ tags:
 - and the guys says
 - THIS CAB IS YUUUGE!
 ---
-How did you get all the way up here?
+<strong>How did you get all the way up here?</strong>
+
 Mel: I wanted to be a swan, but I was born here instead.
+
 Gilgamesh: Elevator.
-What’s your favorite part of the day?
+
+<strong>What’s your favorite part of the day?</strong>
+
 Mel: Pretending to be a swan.
+
 Gilgamesh: Sunset.
-How does it feel to be working on the Freedom Tower?
+
+<strong>How does it feel to be working on the Freedom Tower?</strong>
+
 Mel: I’d have been a prouder swan.
+
 Gilgamesh: Ironic.
-Play any music while you work?
+
+<strong>Play any music while you work?</strong>
+
 Mel: Swan Lake.
+
 Gilgamesh: No.
-What are you going to do next?
+
+<strong>What are you going to do next?</strong>
+
 Mel: Swan dive.
+
 Gilgamesh: (shrugs) Taxi-driver?
-Anything else?
+
+<strong>Anything else?</strong>
+
 Mel: Nope.
+
 Gilgamesh: Advice for the weary: The opposite of love isn’t hate, it’s indifference.
