@@ -4,8 +4,6 @@ title: Russell Matney
 ---
 
 <div id="home">
-  <h1>Latest Posts</h1> <!-- / <h1>Most Popular</h1> -->
-
   <div class="five-latest">
     <div class="row-fluid">
       <ul class="posts span4">
@@ -26,7 +24,7 @@ title: Russell Matney
       </ul>
 
       <ul class="posts span4">
-        <h3>100-word Stories <a href="/100-word-stories.html"> (more stories)</a></h3>
+        <h3>100-word Stories <a href="/100-worders.html"> (more stories)</a></h3>
         <p>100 words, on the dot, no ifs, ands, or butts.</p>
         {% for post in site.categories.100-worders limit:5 %}
           <li><span>{{ post.date | date: "%h '%y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -35,7 +33,7 @@ title: Russell Matney
 
       <ul class="posts span4">
         <h3>Demos <a href="/demos.html"> (more demos)</a></h3>
-        <p>Just a few games for now.</p>
+        <p>Just one game for now.</p>
         {% for post in site.categories.demos limit:5 %}
           <li><span>{{ post.date | date: "%h '%y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
