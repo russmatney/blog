@@ -14,20 +14,40 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
   font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 150%;
+  font-weight: bolder;
+  font-family: 'Economica', sans-serif;
+}
 
 h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+p {
+  margin: 1em 0;
+  font-size: 15px;
+}
 
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
+
+
+/*****************************************************************************/
+/*
+/* Fonts
+/*
+/*****************************************************************************/
+/*
+font-family: 'Economica', sans-serif;
+font-family: 'Squada One', cursive;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Merriweather', serif;
+*/
 
 /*****************************************************************************/
 /*
@@ -45,26 +65,26 @@ ul.posts li {
 
 ul.posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+  font-family: 'Economica', sans-serif;
+  font-size: 115%;
 }
 
 ul.posts p {
-  font-weight: bold;
   color:#888;
-  font-size: 12.3px;
-  margin: 0px;
+  margin: 4px 0;
+  font-family: 'Economica', sans-serif;
+  font-size: 115%;
 }
 
 ul.posts a{
   color:#444;
   text-align: left;
   text-decoration: none;
+  font-family: 'Economica', sans-serif;
+  font-size: 115%;
 }
 ul.posts a:hover{
   color:#a00;
-  text-align: left;
-  text-decoration: none;
 }
 
 /*****************************************************************************/
@@ -176,4 +196,12 @@ ul.posts a:hover{
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.post a{
+  color:#a00;
+  text-decoration: none;
+}
+.post a:hover{
+  text-decoration: underline;
 }
