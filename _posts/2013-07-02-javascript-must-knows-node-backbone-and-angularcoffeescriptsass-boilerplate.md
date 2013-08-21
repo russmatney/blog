@@ -39,13 +39,17 @@ I also found a great set of <a title="BackboneJS" href="http://backbonejs.org/">
 Backbone is a great framework, but lately I highly recommend <a title="Angular JS" href="http://angularjs.org/">AngularJS</a>. What's the difference between frameworks, you ask? As I see it, the framework you choose determines how much "magic" you get. Different frameworks will do different things for you right out of the box (without you having to do anything). AngularJS, for example, does some  beautiful data-binding and live updating that would take a ton of work to achieve in other frameworks. Lots of "magic" can be very helpful, but can also lead to tricky debugging and distancing yourself from pure JavaScript. It really comes down to your personal language and architecture preferences.
 
 That being said, I love <a title="CoffeeScript" href="http://coffeescript.org/">CoffeeScript</a> + AngularJS + <a title="Sass" href="http://sass-lang.com/">Sass</a>/<a title="Compass" href="http://compass-style.org/">Compass</a> these days. I've listed below the terminal sequence I run through to get an Angular/CoffeeScript/Sass boilerplate stack up and running in just a minute or two. It's all done via <a title="Yeoman" href="http://yeoman.io/">Yeoman</a>, <a title="GruntJs" href="http://gruntjs.com/">Grunt</a>, and <a title="Bower" href="http://bower.io/">Bower</a>, and you'll need to use <a title="NPMJS" href="https://npmjs.org/">npm</a> (Node Package Manager, super helpful, you should be using it if you aren't already). It even includes Karma for unit testing. Execute these commands inside the directory you'd like to add the app to.
-<blockquote><code>npm install yo grunt-cli bower
+
+{% highlight bash %}
+npm install yo grunt-cli bower
 npm install generator-angular generator-karma
 yo angular --coffee --minsafe
 // `Y` for yes to bootstrap, scss, and all the angular stuff.
 npm install
 bower install
-grunt server</code></blockquote>
+grunt server
+{% endhighlight %}
+
 If `grunt` isn't found, try `npm install grunt` and then `grunt server` again. To get unit tests running (via `grunt karma`), you need to change `bower_components` in karma.conf.js to `components`. That should work, and if it doesn't, let me know. I'm happy to troubleshoot with you via comments here or <a title="Twitter Russell Matney" href="https://twitter.com/russmatney">twitter</a>.
 
 Happy projamming!

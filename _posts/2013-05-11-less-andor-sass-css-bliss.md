@@ -31,75 +31,77 @@ The two most popular preprocessors are <a title="LESS CSS" href="http://lesscss.
 
 HTML is <strong>nested</strong>, so why shouldn't your stylesheet be? There are examples on both websites, but here's the gist. This:
 
-`
+{% highlight css %}
 .post{
 	color:black;
 }
-`
-
-`
 .post a{
 	text-decoration:none;
 }
-`
-
-`
 .post a:hover{
 	color:green;
 }
-`
+{% endhighlight %}
 
 can be written like this:
 
-`.post{
+{% highlight scss %}
+.post{
 	color:black;
 	a{
 		text-decoration:none;
-		&amp;:hover{
+		&:hover{
 			color:green;
 		}
 	}
-}`
+}
+{% endhighlight %}
 
-So that, logically, styling the `<a>` tags inside the class '.post' is handled <em>inside</em> the styling of '.post'. In both LESS and Sass, the '&amp;' is used to append other classes or states (ex: ':hover') onto whatever element you are already styling.
+So that, logically, styling the `<a>` tags inside the class `.post` is handled <em>inside</em> the styling of `.post`. In both LESS and Sass, the `&` is used to append other classes or states (ex: `:hover`) onto whatever element you are already styling.
 
 <strong>Variables</strong> do exactly what they should. You can assign any value at the top of your stylesheet, and use it throughout your stylesheets. No more copying and pasting of color-specific hex codes, or hoping you set all the fonts, line-heights, and border-radii properly.
 
 And if that doesn't convince you, <strong>Mixins</strong> will. Mixins act like variables for full styles, rather than just values. They are simple to write, and you can reuse them everywhere. The example from the LESS homepage uses Mixins and an @radius variable. Instead of this:
 
-<code>#header {
-&nbsp;&nbsp;-webkit-border-radius: 5px;
-&nbsp;&nbsp;-moz-border-radius: 5px;
-&nbsp;&nbsp;-ms-border-radius: 5px;
-&nbsp;&nbsp;-o-border-radius: 5px;
-&nbsp;&nbsp;border-radius: 5px;
+{% highlight css %}
+#header {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
 }
 #footer {
-&nbsp;&nbsp;-webkit-border-radius: 10px;
-&nbsp;&nbsp;-moz-border-radius: 10px;
-&nbsp;&nbsp;-ms-border-radius: 10px;
-&nbsp;&nbsp;-o-border-radius: 10px;
-&nbsp;&nbsp;border-radius: 10px;
-}</code>
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+}
+{% endhighlight %}
 
 You can create this mixin:
 
-<code>.rounded-corners (@radius: 5px) {
-&nbsp;&nbsp;-webkit-border-radius: @radius;
-&nbsp;&nbsp;-moz-border-radius: @radius;
-&nbsp;&nbsp;-ms-border-radius: @radius;
-&nbsp;&nbsp;-o-border-radius: @radius;
-&nbsp;&nbsp;border-radius: @radius;
-}</code>
+{% highlight scss %}
+.rounded-corners(@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-ms-border-radius: @radius;
+	-o-border-radius: @radius;
+	border-radius: @radius;
+}
+{% endhighlight %}
 
 And apply it to elements like this:
 
-<code>#header {
-&nbsp;&nbsp;.rounded-corners;
+{% highlight scss %}
+#header {
+	.rounded-corners;
 }
 #footer {
-&nbsp;&nbsp;.rounded-corners(10px);
-}</code>
+	.rounded-corners(10px);
+}
+{% endhighlight %}
 
 And on top of writing your own mixins, there are of course many that have already been written available all over the web. Here are <a title="Less elements" href="http://lesselements.com/">some for LESS</a>, here are <a title="Compass Sass" href="http://compass-style.org/">some for Sass</a>. As <a title="CSS Tricks" href="http://css-tricks.com/">Chris Coyier of CSS Tricks</a> says, preprocessors make CSS fun again.
 
