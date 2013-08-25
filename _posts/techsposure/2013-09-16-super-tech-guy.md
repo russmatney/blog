@@ -24,7 +24,7 @@ Open-Source Contributing! see last post
 
 Tests and Docs! uncle bob
 
-Book reading? meh.
+Book reading? meh. online reading? YES! getpocket, email subscriptions, participate in the discussions
 
 Experimenting/Collaborating! github resume, exposure, see open source post
 
