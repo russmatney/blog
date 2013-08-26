@@ -8,6 +8,8 @@ tags:
 - games
 ---
 
+<p>I've only tested this in chrome...</p>
+
 <script type="text/javascript" src="./discloverly/game.min.js"></script>
 <canvas style="margin:auto;" id="canvas"></canvas>
 
