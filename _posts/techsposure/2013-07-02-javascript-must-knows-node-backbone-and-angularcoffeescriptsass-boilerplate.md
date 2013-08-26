@@ -42,8 +42,8 @@ That being said, I love <a title="CoffeeScript" href="http://coffeescript.org/">
 
 {% highlight bash %}
 npm install yo grunt-cli bower
-npm install generator-angular generator-karma
-yo angular --coffee --minsafe
+npm install generator-angular
+yo angular --coffee
 // `Y` for yes to bootstrap, scss, and all the angular stuff.
 npm install
 bower install
