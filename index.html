@@ -30,10 +30,12 @@ title: Russell Matney
     <div class="five-latest">
       <div class="row-fluid">
         <ul class="posts span4">
-          <h3>Techsposure <a href="/techsposure.html">(more posts)</a></h3>
-          <p>For code monkeys and...future code monkeys?</p>
 
           <li ng-repeat="post in tech_posts | filter:searchText | limitTo: 5">
+            <span ng-show="$first">
+              <h3>Techsposure <a href="/techsposure.html">(more posts)</a></h3>
+              <p>For code monkeys and...future code monkeys?</p>
+            </span>
              <span ng-bind-html-unsafe="post.date | date:'MMM d, y' | highlight:searchText"></span> &raquo;
             <a ng-href="{{ '{{ post.url ' }}}}" ng-click="externalLink()"
                ng-bind-html-unsafe="post.title | highlight:searchText"></a>
@@ -42,9 +44,11 @@ title: Russell Matney
         </ul>
 
         <ul class="posts span4">
-          <h3>Get It Write <a href="/getitwrite.html">(more posts)</a></h3>
-          <p>I'm definitely a writer. Or, at least, a crazy person.</p> 
           <li ng-repeat="post in getitwrite_posts | filter:searchText | limitTo: 5">
+            <span ng-show="$first">
+              <h3>Get It Write <a href="/getitwrite.html">(more posts)</a></h3>
+              <p>I'm definitely a writer. Or, at least, a crazy person.</p> 
+            </span>
              <span ng-bind-html-unsafe="post.date | date:'MMM d, y' | highlight:searchText"></span> &raquo;
             <a ng-href="{{ '{{ post.url ' }}}}" ng-click="externalLink()"
                ng-bind-html-unsafe="post.title | highlight:searchText"></a>
@@ -53,9 +57,11 @@ title: Russell Matney
         </ul>
 
         <ul class="posts span4">
-          <h3>100-word Stories <a href="/100-worders.html"> (more stories)</a></h3>
-          <p>100 words, on the dot, no ifs, ands, or butts.</p>
           <li ng-repeat="post in hundred_worders_posts | filter:searchText | limitTo: 5">
+            <span ng-show="$first">
+              <h3>100-word Stories <a href="/100-worders.html"> (more stories)</a></h3>
+              <p>100 words, on the dot, no ifs, ands, or butts.</p>
+            </span>
              <span ng-bind-html-unsafe="post.date | date:'MMM d, y' | highlight:searchText"></span> &raquo;
             <a ng-href="{{ '{{ post.url ' }}}}" ng-click="externalLink()"
                ng-bind-html-unsafe="post.title | highlight:searchText"></a>
@@ -63,9 +69,12 @@ title: Russell Matney
         </ul>
 
         <ul class="posts span4">
-          <h3>Demos <a href="/demos.html"> (more demos)</a></h3>
-          <p>Just one game for now.</p>
+          
           <li ng-repeat="post in demos_posts | filter:searchText | limitTo: 5">
+            <span ng-show="$first">
+              <h3>Demos <a href="/demos.html"> (more demos)</a></h3>
+              <p>Just one game for now.</p>
+            </span>
              <span ng-bind-html-unsafe="post.date | date:'MMM d, y' | highlight:searchText"></span> &raquo;
             <a ng-href="{{ '{{ post.url ' }}}}" ng-click="externalLink()"
                ng-bind-html-unsafe="post.title | highlight:searchText"></a>
