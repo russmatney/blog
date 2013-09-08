@@ -3,22 +3,7 @@ layout: default
 title: Russell Matney
 ---
 
-<script type="text/javascript" src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
-<script type="text/javascript" src="/js/jekyll-search-controller.js"></script>
-
-<script type="text/javascript">
-   // Using liquid to populate JeykllApp.posts array
-   JekyllApp.posts = [{% for post in site.posts %}{"title" : "{{ post.title }}", "url" : "{{ post.url }}", "date" : "{{ post.date | date_to_string }}", "content" : "{{ post.content | strip_html | strip_newlines | truncate : 120 }}"}{% if forloop.rindex0 != 0 %},{% endif %}{% endfor %}];
-   
-   JekyllApp.tech_posts = [{% for post in site.categories.techsposure %}{"title" : "{{ post.title }}", "url" : "{{ post.url }}", "date" : "{{ post.date | date_to_string }}", "content" : "{{ post.content | strip_html | strip_newlines | truncate : 120 }}"}{% if forloop.rindex0 != 0 %},{% endif %}{% endfor %}];
-
-  JekyllApp.getitwrite_posts = [{% for post in site.categories.getitwrite %}{"title" : "{{ post.title }}", "url" : "{{ post.url }}", "date" : "{{ post.date | date_to_string }}", "content" : "{{ post.content | strip_html | strip_newlines | truncate : 120 }}"}{% if forloop.rindex0 != 0 %},{% endif %}{% endfor %}];
-
-  JekyllApp['100_worders_posts'] = [{% for post in site.categories['100-worders'] %}{"title" : "{{ post.title }}", "url" : "{{ post.url }}", "date" : "{{ post.date | date_to_string }}", "content" : "{{ post.content | strip_html | strip_newlines | truncate : 120 }}"}{% if forloop.rindex0 != 0 %},{% endif %}{% endfor %}];
-
-  JekyllApp.demos_posts = [{% for post in site.categories.demos %}{"title" : "{{ post.title }}", "url" : "{{ post.url }}", "date" : "{{ post.date | date_to_string }}", "content" : "{{ post.content | strip_html | strip_newlines | truncate : 120 }}"}{% if forloop.rindex0 != 0 %},{% endif %}{% endfor %}];
-
-</script>
+{% include search.html %}
 
 <div id="search-container" class="entrance" ng-app="JekyllApp" ng-controller="JekyllSearchController">
 
@@ -30,7 +15,6 @@ title: Russell Matney
     <div class="five-latest">
       <div class="row-fluid">
         <ul class="posts span4">
-
           <li ng-repeat="post in tech_posts | filter:searchText | limitTo: 5">
             <span ng-show="$first">
               <h3>Techsposure <a href="/techsposure.html">(more posts)</a></h3>
@@ -53,7 +37,6 @@ title: Russell Matney
             <a ng-href="{{ '{{ post.url ' }}}}" ng-click="externalLink()"
                ng-bind-html-unsafe="post.title | highlight:searchText"></a>
           </li>
-          <li></li>
         </ul>
 
         <ul class="posts span4">
@@ -69,7 +52,6 @@ title: Russell Matney
         </ul>
 
         <ul class="posts span4">
-          
           <li ng-repeat="post in demos_posts | filter:searchText | limitTo: 5">
             <span ng-show="$first">
               <h3>Demos <a href="/demos.html"> (more demos)</a></h3>
