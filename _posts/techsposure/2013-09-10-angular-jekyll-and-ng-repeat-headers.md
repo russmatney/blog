@@ -13,7 +13,7 @@ published: true
 
 *TL;DR*:
 
-AngularJS filtering in my Jekyll blog (as featured on [my homepage](/)) via this awesome [gist](https://gist.github.com/RainerAtSpirit/3076150), and I get into an Angular pattern I answered in [this Stack Overflow thread](http://stackoverflow.com/questions/17652665/angularjs-hide-parent-element-if-children-loop-is-empty-filtered).
+I added AngularJS filtering to this Jekyll blog (on [the homepage](/)) via this [gist](https://gist.github.com/RainerAtSpirit/3076150), and I get into an Angular problem I answered in [this Stack Overflow thread](http://stackoverflow.com/questions/17652665/angularjs-hide-parent-element-if-children-loop-is-empty-filtered).
 
 ***
 
@@ -23,21 +23,24 @@ I decided to implement something I've been thinking about for a long time:
 AngularJS filtering in my happy little Jekyll blog.
 
 I've been thinking about it for a while,
-and googled it a few times.
-This time, I found the most amazing little [gist](https://gist.github.com/RainerAtSpirit/3076150).
+and I'd Googled it a few times.
+This time, I came across this [gist](https://gist.github.com/RainerAtSpirit/3076150).
 The simplifying key here is using Jekyll's [Liquid templating](http://liquidmarkup.org/)
-to build the array of objects you want to filter.
+to build the array of objects you want to filter out of the posts in `site.posts`.
 After that, it's all [angular filtering magic](http://docs.angularjs.org/api/ng.filter:filter).
 
 Angular filtering gives me full-text search of my blog,
 which will make it easy to find whatever resource or story I'm looking for in no time.
 The above gist also features a filter for some nice regex-powered highlighting.
 
+Let me know if you're trying to implement this,
+I'm happy to help you debug.
+
 ***
 
 While adding filtering to my blog,
 a design pattern came up that I'd seen a few months back:
-ng-repeats with headers. 
+headers inside ng-repeats. 
 The problem is the same as in [this Stack Overflow thread](http://stackoverflow.com/questions/17652665/angularjs-hide-parent-element-if-children-loop-is-empty-filtered).
 Specifically, I had posts in four sections of the blog that I was filtering simultaneously,
 each with individual headers. 
@@ -90,7 +93,7 @@ and then set it's `display: none`.
 won't build those extra headers at all,
 and lets you keep the DOM nice and clean.
 
-A working example showing the before and after:
+An example showing the before and after:
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
 <script type="text/javascript" src="../js/jekyll-search-controller.js"></script>
