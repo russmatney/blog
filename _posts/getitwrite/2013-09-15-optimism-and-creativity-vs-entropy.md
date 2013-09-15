@@ -12,7 +12,6 @@ type: post
 
 *TL;DR*:
 
-Some conclusions:
 Optimism isn't about hope, it's about proactive creativity.
 Creativity counters entropy.
 It's our job to create the good that comes out of the bad.
