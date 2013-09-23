@@ -25,3 +25,7 @@ i haven't had/needed to get into regex extensively yet
 by leaning on the shoulders of my team
 but this was a great way to learn the basics without any tl;dr reading of rules
 reminds of: vim adventures or shortcut-foo
+
+better grunt files link
+
+maybe get into testing?
