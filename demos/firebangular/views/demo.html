@@ -1,0 +1,47 @@
+<div class="demo">
+
+<h1>Firebangular Demo</h1>
+
+<div class="row-fluid">
+  <div class="span4">
+    <form>
+      <label>Name: </label>
+      <input ng-hide="lockName" style="width:100%" type="text" ng-model="userName">
+      <label ng-show="lockName" ng-click="lockName = false">{{userName}}</label>
+      <label>Message: </label>
+      <input style="width:100%" type="text" ng-model="chat.message" on-enter="addMessage(chat)">
+    </form>
+
+    <button style="width:100%" class="btn" ng-click="addMessage(chat)">Add new chat message</button>
+  </div>
+  <div class="span5 offset2">
+    <h4>AngularJS + Firebase Chat + Activity Logs</h4>
+    <p>Mad props to <a href="http://angularfire.com/">AngularFire</a>. A heroic framework just got super powers.</p>
+    <p>I'm using two firebase forges, one to handle an array of chat messages, the other to record events related to the chats.</p>
+    
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span5">
+    <h3>Chat Log</h3>
+    <ul>
+      <li ng-repeat="chat in chats">
+        <small>{{chat.name}}</small>: {{chat.message}} <small class="pull-right">{{chat.pluses}}<span ng-click="plusOne(chat)" id="plus">+</span></small>
+      </li>
+    </ul>
+  </div>
+
+  <div class="span5 offset1">
+    <h3>Activity Feed</h3>
+    <ul>
+      <li ng-repeat="activity in activities">
+        <small>{{ activity.date }}</small>: {{activity.user}} {{activity.event}} "{{activity.detail}}"
+      <br>
+      <br>
+      </li>
+    </ul>
+  </div>
+</div>
+
+</div>
