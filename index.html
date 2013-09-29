@@ -55,7 +55,7 @@ title: Russell Matney
           <li ng-repeat="post in demos_posts | filter:searchText | limitTo: 5">
             <span ng-if="$first">
               <h3>Demos <a href="/demos.html"> (more demos)</a></h3>
-              <p>Just one game for now.</p>
+              <p>A game and an AngularJS demo for now.</p>
             </span>
              <span ng-bind-html-unsafe="post.date | date:'MMM d, y' | highlight:searchText"></span> &raquo;
             <a ng-href="{{ '{{ post.url ' }}}}" ng-click="externalLink()"
