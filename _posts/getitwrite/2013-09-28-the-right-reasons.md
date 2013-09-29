@@ -1,25 +1,27 @@
 ---
 layout: post
-title: 
+title: The Right Reasons
 categories:
 - GetItWrite
 tags:
-- address
+- ambitions
+- prestige
+- success
+- purpose
 type: post
-published: false
 ---
 
 *TL;DR*:
 
-Some conclusions:
 Make sure you're the "author of your own ambitions"
 by ignoring prestige and not needing approval.
 
 ---
 
-[Brain Pickings](http://www.brainpickings.org/) had another great article called [How to find your purpose and doing what you love](http://www.brainpickings.org/index.php/2012/02/27/purpose-work-love/). Below are some details I've gleaned from this and some related posts.
+Another great article from [Brain Pickings](http://www.brainpickings.org/): [How to find your purpose and doing what you love](http://www.brainpickings.org/index.php/2012/02/27/purpose-work-love/).
+Below are some details I've gleaned from this and some related posts.
 
-Paul Graham tells us that doing anything for prestige is generally not a good idea.
+[Paul Graham][1] tells us that doing anything for prestige is generally not a good idea.
 "If it didn't suck, then they wouldn't have had to make it prestigious."
 He says prestige pushes us from working on what we like into working on what we'd like to like.
 
@@ -31,7 +33,11 @@ not somebody else's.
 It's crucial to make sure we are the "authors of our own ambitions."
 
 [Hugh MacLeod](http://gapingvoid.com/ie/) tells us the best way to get approval is not to need it.
+Nothing to add except that he's right.
 
-[Stephen Jay Gould tells us here](http://www.brainpickings.org/index.php/2013/05/23/uncommon-genius-stephen-jay-gould-connections-creativity/):
+[Denise Shekerjian tells us](http://www.brainpickings.org/index.php/2013/05/23/uncommon-genius-stephen-jay-gould-connections-creativity/):
 "The trick to creativity, if there is a single useful thing to say about it, is to identify your own peculiar talent and then to settle down to work with it for a good long time."
 
+So get back to whatever you love to do!
+
+[1]: http://en.wikipedia.org/wiki/Paul_Graham_(computer_programmer)
