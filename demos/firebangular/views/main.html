@@ -1,0 +1,17 @@
+<div class="hero-unit">
+  <h1>Firebangular</h1>
+
+  <form>
+    <input type="text" ng-model="object.name">
+    <input type="text" ng-model="object.duder">
+  </form>
+
+  <button ng-click="addToFire()">Push</button>
+
+  <ul>
+    <li ng-repeat="fire in fires">1{{fire}}</li>
+  </ul>
+
+  {{fires}}
+
+</div>
