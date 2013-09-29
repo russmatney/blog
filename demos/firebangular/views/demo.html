@@ -18,6 +18,7 @@
     <h4>AngularJS + Firebase Chat + Activity Logs</h4>
     <p>Mad props to <a href="http://angularfire.com/">AngularFire</a>. A heroic framework just got super powers.</p>
     <p>I'm using two firebase forges, one to handle an array of chat messages, the other to record events related to the chats.</p>
+    <p><a href="https://github.com/russmatney/firebangular">Source Code on Github.</a></p>
     
   </div>
 </div>
@@ -27,7 +28,9 @@
     <h3>Chat Log</h3>
     <ul>
       <li ng-repeat="chat in chats">
-        <small>{{chat.name}}</small>: {{chat.message}} <small class="pull-right">{{chat.pluses}}<span ng-click="plusOne(chat)" id="plus">+</span></small>
+        <!-- <small ng-click="delete(chat)" id="plus">(delete)</small> -->
+        <small>{{chat.name}}</small>: {{chat.message}} 
+        <small class="pull-right">{{chat.pluses}}<span ng-click="plusOne(chat)" id="plus">+</span></small>
       </li>
     </ul>
   </div>
@@ -35,8 +38,8 @@
   <div class="span5 offset1">
     <h3>Activity Feed</h3>
     <ul>
-      <li ng-repeat="activity in activities">
-        <small>{{ activity.date }}</small>: {{activity.user}} {{activity.event}} "{{activity.detail}}"
+      <li ng-repeat="activity in activities | orderBy:'desc'">
+        <small>{{ activity.date }}</small>: {{activity.user}} <strong>{{activity.event}}</strong> "{{activity.detail}}"
       <br>
       <br>
       </li>
