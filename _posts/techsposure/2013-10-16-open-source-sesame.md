@@ -10,6 +10,14 @@ type: post
 published: false
 ---
 
+autonomy video from rca - open-sourcey ness!
+
+the github challenge
+
+plugins and gists (which don't count, as i found)
+
+
+
 open-source: dive in.
 github resumes
 testing
