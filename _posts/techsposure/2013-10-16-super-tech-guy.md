@@ -39,3 +39,6 @@ Learning from Everyone! so much to learn and so many teachers.
 Ask why and be opinionated - that girl's talk that i grabbed screenshots from
 
 etc.
+
+
+katas! article in pocket
