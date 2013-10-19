@@ -42,3 +42,23 @@ etc.
 
 
 katas! article in pocket
+
+
+
+
+meetups!
+
+hackerhours - beginner -> intermediate is not a solo ride. 15 minutes of help can save days, hours, careers, etc.
+
+social aspect
+food aspect
+networking
+etc.
+just go!
+
+
+
+
+note: 
+helper pages - shortcuts i use (chrome, sublime)
+resource pages - learning resources, list/tag languages + difficulty level
