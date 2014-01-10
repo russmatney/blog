@@ -62,3 +62,13 @@ just go!
 note: 
 helper pages - shortcuts i use (chrome, sublime)
 resource pages - learning resources, list/tag languages + difficulty level
+
+
+
+
+why it takes time to do engineering: 
+
+https://github.com/airbnb/javascript/issues/102#issuecomment-28157738
+
+language from maker day post, working from home, things slipping during interruptions
+
