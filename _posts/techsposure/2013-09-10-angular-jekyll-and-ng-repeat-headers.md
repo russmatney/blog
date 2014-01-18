@@ -11,7 +11,7 @@ type: post
 published: true
 ---
 
-*TL;DR*:
+**TL;DR**:
 
 I added AngularJS filtering to this Jekyll blog (on [the homepage](/)) via this [gist](https://gist.github.com/RainerAtSpirit/3076150), and I get into an Angular problem I answered in [this Stack Overflow thread](http://stackoverflow.com/questions/17652665/angularjs-hide-parent-element-if-children-loop-is-empty-filtered).
 
