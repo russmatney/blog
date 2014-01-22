@@ -4,8 +4,6 @@ title: ''
 categories:
 - Techsposure
 tags:
-- grunt
-- regex crossword
 type: post
 published: false
 ---
