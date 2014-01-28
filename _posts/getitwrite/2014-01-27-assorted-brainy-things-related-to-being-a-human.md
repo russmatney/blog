@@ -78,7 +78,7 @@ Otherwise, forgeddabouttit.
 
 ###Some exposure to Paul Graham
 
-Mostly from [this post](http://www.paulgraham.com/opensource.html) on what
+From [this post](http://www.paulgraham.com/opensource.html) on what
 modern business can learn from open-source.
 
 On "bloggers" as a "fad":
@@ -102,61 +102,3 @@ because that's what you were getting whether you liked it or not.
 But now you can read any writer you want.
 So the average quality of writing online isn't what the print media are competing against.
 They're competing against the best writing online.
-
-On old-style business vs the start-up economy:
-
->	Ironically, though open source [projects] and blogs are done for free,
-those worlds resemble market economies, while most companies,
-for all their talk about the value of free markets,
-are run internally like communist states.
-
-...
-
->	The big advantage of investment over employment,
-as the examples of open source and blogging suggest,
-is that people working on projects of their own are enormously more productive.
-And a startup is a project of one's own in two senses,
-both of them important:
-it's creatively one's own,
-and also economically one's own.
-
-...
-
->	Why not let people spend 100% of their time on their own projects,
-and instead of trying to approximate the value of what they create,
-give them the actual market value?
-Impossible?
-That is in fact what venture capitalists do.
-
-...
-
->	Hackers tend to think business is for MBAs.
-But business administration is not what you're doing in a startup.
-What you're doing is business creation.
-And the first phase of that is mostly product creation-- that is, hacking.
-That's the hard part.
-It's a lot harder to create something people love
-than to take something people love and figure out how to make money from it.
-
-On working from home vs pretending to work in the office:
-
-> The basic idea behind office hours is that if you can't make people work,
-you can at least prevent them from having fun.
-If employees have to be in the building a certain number of hours a day,
-and are forbidden to do non-work things while there,
-then they must be working.
-In theory.
-In practice they spend a lot of their time in a no-man's land,
-where they're neither working nor having fun.
-
-...
-
-> The other problem with pretend work is that it often looks better than real work.
-When I'm writing or hacking I spend as much time just thinking as I do actually typing.
-Half the time I'm sitting drinking a cup of tea, or walking around the neighborhood.
-This is a critical phase-- this is where ideas come from-- and yet I'd feel guilty doing this in most offices,
-with everyone else looking busy.
-
----
-
-
