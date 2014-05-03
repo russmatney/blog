@@ -1,5 +1,11 @@
 ---
-published: false
+published: true
+layout: post
+categories: 
+  - GetItWrite
+tags: 
+  - null
+type: post
 ---
 
 ## Checking out prose.io
