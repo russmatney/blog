@@ -1,0 +1,3 @@
+[submodule "the_program"]
+    path = _theme_packages/the-program
+    url = https://github.com/jekyllbootstrap/theme-the-program.git
