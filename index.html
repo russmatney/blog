@@ -18,7 +18,7 @@ title: Russell Matney
           <li ng-repeat="post in tech_posts | filter:searchText | limitTo: 5">
             <span ng-if="$first">
               <h3>Techsposure <a href="/techsposure.html">(more posts)</a></h3>
-              <p>For code monkeys and...future code monkeys?</p>
+              <p>For code monkeys</p>
             </span>
              <span ng-bind-html-unsafe="post.date | date:'MMM d, y' | highlight:searchText"></span> &raquo;
             <a ng-href="{{ '{{ post.url ' }}}}" ng-click="externalLink()"
@@ -31,7 +31,7 @@ title: Russell Matney
           <li ng-repeat="post in getitwrite_posts | filter:searchText | limitTo: 5">
             <span ng-if="$first">
               <h3>Get It Write <a href="/getitwrite.html">(more posts)</a></h3>
-              <p>I'm definitely a writer. Or, at least, a crazy person.</p> 
+              <p>I'm definitely a writer. Or, at least, a crazy person.</p>
             </span>
              <span ng-bind-html-unsafe="post.date | date:'MMM d, y' | highlight:searchText"></span> &raquo;
             <a ng-href="{{ '{{ post.url ' }}}}" ng-click="externalLink()"
