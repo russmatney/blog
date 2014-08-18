@@ -28,4 +28,12 @@ title: 5 Favorites
 1. Super Smash Bros 64
 1. Last of Us
 
+####Ouya games
 
+1. Hidden in Plain Sight
+
+####Upcoming Coursera Courses
+
+1. Game Theory
+1. Algorithms
+1. Regression Modelling
