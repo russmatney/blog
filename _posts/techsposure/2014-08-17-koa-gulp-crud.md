@@ -18,4 +18,38 @@ from the beginning.
 
 ---
 
+##A lil baby Koa app
 
+server.js
+koa version
+how to run it (node --harmony)
+
+##Big Gulps, huh?
+
+gulpfile.js
+package.json npm start
+
+##Start your testing engines
+
+test/endpoint.js
+gulpfile test edits
+
+##Your failing endpoint test
+
+test/endpoint
+
+##Your Just-Approved Endpoint
+
+server.js
+
+##A healthy refactor
+
+server.js
+api/endpoint.js
+gulpfile update
+
+##Lather, rinse, repeat.
+
+Next steps:
+
+  - perhaps a database?
