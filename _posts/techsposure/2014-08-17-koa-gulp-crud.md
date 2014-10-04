@@ -287,3 +287,4 @@ a new endpoint
 ##Next steps:
 
   - perhaps a database?
+  - plans for a front-end - connect to the Angular Gulp CRUD series
