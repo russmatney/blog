@@ -7,6 +7,7 @@ tags:
 - Koa
 - Nodejs
 type: post
+published: false
 ---
 
 ###*TL;DR*:
@@ -174,16 +175,104 @@ and changes to any file should restart the server without an issue.
 
 ##Start your testing engines
 
-test/endpoint.js
-gulpfile test edits
+I'm also a big fan of TDD, or at the very least, testing early and often.
+It's important to get your testing environment setup early in any project
+– difficulty getting tests running is a terrible excuse for no tests.
 
-##Your failing endpoint test
+We're going to use mocha, chai, and co-supertest to set up an endpoint-level
+test.
 
-test/endpoint
+`npm i --save-dev gulp-mocha-co gulp-exit chai co-supertest supertest`
+
+```javascript
+//test/endpoint.js
+var app = require('../server.js');
+var request = require('co-supertest').agent(app.listen());
+var expect = require('chai').expect;
+
+describe('/ endpoint', function() {
+	it('should return Hello, World', function *(){
+		var res = yield request.get('/').expect(200).end();
+		expect(res.text).to.equal('Hello, World');
+  });
+});
+```
+
+There are a few things going on here:
+
+- We're using co-supertest as a wrapper over the
+[supertest](https://github.com/visionmedia/supertest) library to expect a 200
+as the status code.
+- We're using chai's expect library to test the response text
+- Our test functions are actually generators! This lets us `yield`
+async responses without needing a callback or promise structure - we'll
+use gulp-mocha-co to implement that.
+
+Let's get these tests failing! add this to your gulpfile:
+
+```javascript
+//gulpfile.js
+var mocha = require('gulp-mocha-co'),
+  exit = require('gulp-exit');
+
+gulp.task('test-once', function(){
+  gulp.src(['test/*.js'])
+    .pipe(mocha({
+    	reporter: 'nyan'
+    }))
+    .pipe(exit());
+});
+```
+
+With all that in place, we should be good to go, right?
+Try `gulp test-once` and see what happens.
+That old `Unexpected token *` again, huh?
+
+Because we're using generators in our tests, we need our good-ole
+--harmony flag attached to our test command.
+We'll update our package.json to solve this again.
+
+```javascript
+//package.json
+{
+	...
+	"scripts": {
+		"test": "node --harmony `which gulp` test-once"
+  }
+	...
+}
+```
+
+Now you can run your tests with `npm start` - you should have one failing.
+Let's get it to pass!
 
 ##Your Just-Approved Endpoint
 
-server.js
+Koa itself is very slim - we'll have to add some koa-* modules to get
+routes and logging working.
+
+`npm i --save koa-logger koa-route`
+
+```javascript
+//server.js
+var logger = require('koa-logger'),
+  route = require('koa-route');
+
+...
+
+app.use(logger());
+
+app.use(route.get('/', function*() {
+	this.body = "Hello, World";
+}));
+```
+
+This should be enough to get your test passing! Run `npm test` to see it.
+
+You should also see your app running in the browser - run `npm start`
+and navigate to port 8000.
+
+##Live Re-running tests
 
 ##A healthy refactor
 
@@ -193,6 +282,8 @@ gulpfile update
 
 ##Lather, rinse, repeat.
 
-Next steps:
+a new endpoint
+
+##Next steps:
 
   - perhaps a database?
