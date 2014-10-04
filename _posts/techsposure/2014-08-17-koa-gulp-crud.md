@@ -27,7 +27,7 @@ I hope to get into the details of how generators work in another post,
 but for now, you can recognize a generator by the `*` added to the
 function signature, and the use of a new keyword `yield`:
 
-```
+```javascript
 var doWork = function *() {
 	console.log("I am a generator");
 	var data = yield getData();
@@ -106,14 +106,71 @@ and just use `npm start` to make the magic happen.
 
 ##A lil baby Koa app
 
-server.js
-koa version
-how to run it (node --harmony)
+Let's get our app up and running.
+
+Here's the code for a basic http server:
+
+```javascript
+//server.js
+var koa = require('koa');
+
+var app = module.exports = koa(),
+  port = process.env.PORT || 8000,
+  env = process.env.NODE_ENV || 'development';
+
+app.listen(port);
+console.log('app listening on port: ', port);
+```
+
+If we try to run this with `node server.js`,
+you should see an error like `SyntaxError: Unexpected token *`.
+`node --harmony server.js` should run smoothly (displaying the console.log
+above). If you're still seeing the same syntax error,
+make sure you're running node v0.11.9 or higher. (Again,
+[nvm](https://github.com/creationix/nvm) is a great tool for managing your
+node version per project).
+
+You can use the package.json's `scripts` property to wrap up the
+start command for your app.
+
+```json
+//package.json
+{
+	...
+	"scripts": {
+		"start": "node --harmony server.js"
+  }
+	...
+}
+```
+
+At this point you should be able to run your app with `npm start`.
 
 ##Big Gulps, huh?
 
-gulpfile.js
-package.json npm start
+I'm a big fan of gulp – it's a simple yet powerful task manager
+for any javascript app. We're going to use it here to get some
+live-reload going to speed up or development.
+
+`npm i --save-dev gulp gulp-nodemon`, then throw this in a `gulpfile.js`
+
+```javascript
+//gulpfile.js
+var gulp = require('gulp'),
+  nodemon = require('gulp-nodemon');
+
+gulp.task('nodemon', function() {
+	nodemon({
+		script: 'server.js',
+		nodeArgs: ['--harmony']
+  }).on('restart');
+});
+
+gulp.task('default', ['nodemon']);
+```
+
+You should now be able to run your app with `gulp`,
+and changes to any file should restart the server without an issue.
 
 ##Start your testing engines
 
