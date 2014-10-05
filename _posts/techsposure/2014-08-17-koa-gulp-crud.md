@@ -391,13 +391,57 @@ module.exports.show = function*() {
 }
 ```
 
-Badabing, badaboom, this code is refactored.
+Bada-bing, bada-boom, this code is refactored, and we know it's still working
+great because our tests are passing.
 
 ##Lather, rinse, repeat.
 
-a new endpoint
+The last thing we'll do for now is add a new endpoint, starting of course with a
+test for it.
 
-##Next steps:
+```javascript
+//test/endpoint.js
 
-  - perhaps a database?
-  - plans for a front-end - connect to the Angular Gulp CRUD series
+it('should create an object', function *() {
+	var object = {ziggity: 'zap'};
+	var res = yield request.post('/').send(object).expect(201).end();
+	expect(res.body.created_at).to.exist;
+	expect(res.body.ziggity).to.equal('zap');
+});
+```
+
+Once your test fails, we can add the route and handler to our Koa app.
+Run `npm i --save co-parse` to handle the request body with ease.
+
+```javascript
+//server.js
+app.use(route.post('/', endpoint.create));
+```
+
+```javascript
+//api/endpoint.js
+var parse = require('co-body');
+
+module.exports.create = function*() {
+	var object = yield parse(this);
+	object.created_at = new Date;
+	// TODO: save to DB
+	this.status = 201;
+	this.body = object;
+}
+```
+
+We aren't saving to the DB yet, but we are enforcing some parts of our
+interaction, such as setting the status and created_at date, as well as
+returning our 'created' object to the client.
+
+##Next Steps
+
+You're off and running with a functional dev-env for building whatever Koa app
+you'd like. Congrats! In a future post, I'd love to get this app talking with an
+actual database (mongo or rethinkdb perhaps?). If you want to start in on that
+now, check out some of the other [Koa
+examples](https://github.com/koajs/examples).
+
+Reach out to me in the comments below or on [Twitter](https://twitter.com/russmatney)
+if you've got any questions.
