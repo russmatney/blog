@@ -7,16 +7,17 @@ tags:
 - Koa
 - Nodejs
 type: post
-published: false
 ---
 
 ###*TL;DR*:
 
-A step-by-step walkthrough for building a Koa app
-and getting a few endpoint-level tests covering your CRUD
+A step-by-step walkthrough for building a Koa app, setting up a gulp dev
+environment, and getting a few endpoint-level tests covering your CRUD
 from the beginning.
 
 All code in this post can be found on [github](https://github.com/russmatney/koa-gulp-crud).
+*Note: Some code was modified during the writing of the post that has not yet been
+updated in the linked repo. Update to come soon.*
 
 ---
 
@@ -28,13 +29,11 @@ I hope to get into the details of how generators work in another post,
 but for now, you can recognize a generator by the `*` added to the
 function signature, and the use of a new keyword `yield`:
 
-```javascript
-var doWork = function *() {
-	console.log("I am a generator");
-	var data = yield getData();
-	console.log(data);
-}
-```
+    var doWork = function *() {
+      console.log("I am a generator");
+      var data = yield getData();
+      console.log(data);
+    }
 
 Generators allow functions to be broken into pieces
 that can run with more control than before.
@@ -111,17 +110,15 @@ Let's get our app up and running.
 
 Here's the code for a basic http server:
 
-```javascript
-//server.js
-var koa = require('koa');
+    //server.js
+    var koa = require('koa');
 
-var app = module.exports = koa(),
-  port = process.env.PORT || 8000,
-  env = process.env.NODE_ENV || 'development';
+    var app = module.exports = koa(),
+      port = process.env.PORT || 8000,
+      env = process.env.NODE_ENV || 'development';
 
-app.listen(port);
-console.log('app listening on port: ', port);
-```
+    app.listen(port);
+    console.log('app listening on port: ', port);
 
 If we try to run this with `node server.js`,
 you should see an error like `SyntaxError: Unexpected token *`.
@@ -134,16 +131,10 @@ node version per project).
 You can use the package.json's `scripts` property to wrap up the
 start command for your app.
 
-```json
-//package.json
-{
-	...
-	"scripts": {
-		"start": "node --harmony server.js"
-  }
-	...
-}
-```
+    //package.json
+    "scripts": {
+      "start": "node --harmony server.js"
+    }
 
 At this point you should be able to run your app with `npm start`.
 
@@ -155,20 +146,18 @@ live-reload going to speed up or development.
 
 `npm i --save-dev gulp gulp-nodemon`, then throw this in a `gulpfile.js`
 
-```javascript
-//gulpfile.js
-var gulp = require('gulp'),
-  nodemon = require('gulp-nodemon');
+    //gulpfile.js
+    var gulp = require('gulp'),
+      nodemon = require('gulp-nodemon');
 
-gulp.task('nodemon', function() {
-	nodemon({
-		script: 'server.js',
-		nodeArgs: ['--harmony']
-  }).on('restart');
-});
+    gulp.task('nodemon', function() {
+      nodemon({
+        script: 'server.js',
+        nodeArgs: ['--harmony']
+      }).on('restart');
+    });
 
-gulp.task('default', ['nodemon']);
-```
+    gulp.task('default', ['nodemon']);
 
 You should now be able to run your app with `gulp`,
 and changes to any file should restart the server without an issue.
@@ -184,19 +173,17 @@ test.
 
 `npm i --save-dev gulp-mocha-co gulp-exit chai co-supertest supertest`
 
-```javascript
-//test/endpoint.js
-var app = require('../server.js');
-var request = require('co-supertest').agent(app.listen());
-var expect = require('chai').expect;
+    //test/endpoint.js
+    var app = require('../server.js');
+    var request = require('co-supertest').agent(app.listen());
+    var expect = require('chai').expect;
 
-describe('/ endpoint', function() {
-	it('should return Hello, World', function *(){
-		var res = yield request.get('/').expect(200).end();
-		expect(res.text).to.equal('Hello, World');
-  });
-});
-```
+    describe('/ endpoint', function() {
+      it('should return Hello, World', function *(){
+        var res = yield request.get('/').expect(200).end();
+        expect(res.text).to.equal('Hello, World');
+      });
+    });
 
 There are a few things going on here:
 
@@ -210,19 +197,17 @@ use gulp-mocha-co to implement that.
 
 Let's get these tests failing! add this to your gulpfile:
 
-```javascript
-//gulpfile.js
-var mocha = require('gulp-mocha-co'),
-  exit = require('gulp-exit');
+    //gulpfile.js
+    var mocha = require('gulp-mocha-co'),
+      exit = require('gulp-exit');
 
-gulp.task('test-once', function(){
-  gulp.src(['test/*.js'])
-    .pipe(mocha({
-    	reporter: 'nyan'
-    }))
-    .pipe(exit());
-});
-```
+    gulp.task('test-once', function(){
+      gulp.src(['test/*.js'])
+        .pipe(mocha({
+          reporter: 'nyan'
+        }))
+        .pipe(exit());
+    });
 
 With all that in place, we should be good to go, right?
 Try `gulp test-once` and see what happens.
@@ -232,16 +217,10 @@ Because we're using generators in our tests, we need our good-ole
 --harmony flag attached to our test command.
 We'll update our package.json to solve this again.
 
-```javascript
-//package.json
-{
-	...
-	"scripts": {
-		"test": "node --harmony `which gulp` test-once"
-  }
-	...
-}
-```
+    //package.json
+    "scripts": {
+      "test": "node --harmony `which gulp` test-once"
+    }
 
 Now you can run your tests with `npm start` - you should have one failing.
 Let's get it to pass!
@@ -253,19 +232,15 @@ routes and logging working.
 
 `npm i --save koa-logger koa-route`
 
-```javascript
-//server.js
-var logger = require('koa-logger'),
-  route = require('koa-route');
+    //server.js
+    var logger = require('koa-logger'),
+      route = require('koa-route');
+    ...
+    app.use(logger());
 
-...
-
-app.use(logger());
-
-app.use(route.get('/', function*() {
-	this.body = "Hello, World";
-}));
-```
+    app.use(route.get('/', function*() {
+      this.body = "Hello, World";
+    }));
 
 This should be enough to get your test passing! Run `npm test` to see it.
 
@@ -290,28 +265,26 @@ to specific files. We're also going to refactor our test-once function to run
 the our simpler mocha task. `test-once` will exit after tests are run (good for
 CI purposes), while `mocha` will run repeatedly.
 
-```javascript
-//gulpfile.js
-gulp.task('watch', function() {
-	gulp.watch(
-	  ['*.js', 'test/*.js'], //blurbs of files to watch
-	  ['mocha'] //tasks to run when the above files change
-  );
-});
+    //gulpfile.js
+    gulp.task('watch', function() {
+	    gulp.watch(
+	      ['*.js', 'test/*.js'], //blurbs of files to watch
+	      ['mocha'] //tasks to run when the above files change
+      );
+    });
 
-gulp.task('mocha', function() {
-	return gulp.src(['test/*.js'])
-	  .pipe(mocha({
-	    reporter: 'nyan'
-    }));
-});
+    gulp.task('mocha', function() {
+      return gulp.src(['test/*.js'])
+        .pipe(mocha({
+          reporter: 'nyan'
+        }));
+    });
 
-gulp.task('test-once', function() {
-	gulp.tasks.mocha.fn().pipe(exit());
-});
+    gulp.task('test-once', function() {
+      gulp.tasks.mocha.fn().pipe(exit());
+    });
 
-gulp.task('default', ['nodemon', 'mocha', 'watch']);
-```
+    gulp.task('default', ['nodemon', 'mocha', 'watch']);
 
 Normally this would be enough – a simple `gulp` will start your server,
 run your tests, and restart both of those things on any file change.
@@ -322,15 +295,10 @@ way as before - via the package.json.
 Everything should run fine with the 'node --harmony `which gulp`' command,
 so that's what we'll drop into our package.json:
 
-```javascript
-{
-	...
-	"scripts": {
-		"start": "node --harmony `which gulp`"
-  }
-  ...
-}
-```
+    //package.json
+    "scripts": {
+      "start": "node --harmony `which gulp`"
+    }
 
 Now we can do it all with `npm start`.
 
@@ -347,23 +315,19 @@ environment. That's probably the easiest solution at this point.
 
 In our gulpfile, add a PORT to both the `nodemon` task and the `mocha` task.
 
-```javascript
-...
-gulp.task('nodemon', function() {
-	nodemon({
-		script: 'server.js',
-		env: {PORT: 8000},
-		nodeArgs: ['--harmony']
-  }).on('restart');
-})
-...
-gulp.task('mocha', function {
-	process.env.PORT = 8001;
-	return gulp.src([...])
-    ....etc
-});
-...
-```
+    gulp.task('nodemon', function() {
+      nodemon({
+        script: 'server.js',
+        env: {PORT: 8000},
+        nodeArgs: ['--harmony']
+      }).on('restart');
+    })
+
+    gulp.task('mocha', function {
+      process.env.PORT = 8001;
+      return gulp.src([...])
+        ....etc
+    });
 
 That ought to do it. `npm start` should start your server and run your tests,
 and any save to js file should restart and re-run both.
@@ -376,20 +340,16 @@ running, with blissful instant feedback bliss.
 We are good developers! We write maintainable code! Let's refactor our endpoint
 functions out of the server file.
 
-```javascript
-//server.js
-var endpoint = require('api/endpoint');
-app.use(route.get('/', endpoint.show);
-```
+    //server.js
+    var endpoint = require('api/endpoint');
+    app.use(route.get('/', endpoint.show);
 
 Create a new directory and file for our endpoint:
 
-```javascript
-//api/endpoint.js
-module.exports.show = function*() {
-	this.body = "Hello, World";
-}
-```
+    //api/endpoint.js
+    module.exports.show = function*() {
+      this.body = "Hello, World";
+    }
 
 Bada-bing, bada-boom, this code is refactored, and we know it's still working
 great because our tests are passing.
@@ -399,37 +359,31 @@ great because our tests are passing.
 The last thing we'll do for now is add a new endpoint, starting of course with a
 test for it.
 
-```javascript
-//test/endpoint.js
+    //test/endpoint.js
 
-it('should create an object', function *() {
-	var object = {ziggity: 'zap'};
-	var res = yield request.post('/').send(object).expect(201).end();
-	expect(res.body.created_at).to.exist;
-	expect(res.body.ziggity).to.equal('zap');
-});
-```
+    it('should create an object', function *() {
+      var object = {ziggity: 'zap'};
+      var res = yield request.post('/').send(object).expect(201).end();
+      expect(res.body.created_at).to.exist;
+      expect(res.body.ziggity).to.equal('zap');
+    });
 
 Once your test fails, we can add the route and handler to our Koa app.
 Run `npm i --save co-parse` to handle the request body with ease.
 
-```javascript
-//server.js
-app.use(route.post('/', endpoint.create));
-```
+    //server.js
+    app.use(route.post('/', endpoint.create));
 
-```javascript
-//api/endpoint.js
-var parse = require('co-body');
+    //api/endpoint.js
+    var parse = require('co-body');
 
-module.exports.create = function*() {
-	var object = yield parse(this);
-	object.created_at = new Date;
-	// TODO: save to DB
-	this.status = 201;
-	this.body = object;
-}
-```
+    module.exports.create = function*() {
+      var object = yield parse(this);
+      object.created_at = new Date;
+      // TODO: save to DB
+      this.status = 201;
+      this.body = object;
+    }
 
 We aren't saving to the DB yet, but we are enforcing some parts of our
 interaction, such as setting the status and created_at date, as well as
