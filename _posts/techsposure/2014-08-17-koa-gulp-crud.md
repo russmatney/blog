@@ -248,7 +248,7 @@ Let's get it to pass!
 
 ##Your Just-Approved Endpoint
 
-Koa itself is very slim - we'll have to add some koa-* modules to get
+Koa itself is very slim - we'll have to add some koa modules to get
 routes and logging working.
 
 `npm i --save koa-logger koa-route`
@@ -269,16 +269,129 @@ app.use(route.get('/', function*() {
 
 This should be enough to get your test passing! Run `npm test` to see it.
 
-You should also see your app running in the browser - run `npm start`
-and navigate to port 8000.
+You should also see your app running in the browser, and routes logged wherever
+your server is running - run `npm start` and navigate to port 8000.
 
 ##Live Re-running tests
 
+So far, here's what we've got:
+
+- Koa server with routes and logging
+- Tests exercising one endpoint
+- Live-reload of code on file save
+
+The next thing to add is live-reload for our tests.
+Whenever I save a file, I want to see what tests are passing or failing
+as soon as possible - the shorter that turn-around time is, the faster you'll
+be able to improve your code.
+
+We're going to add a `watch` task to our gulpfile that will react to changes
+to specific files. We're also going to refactor our test-once function to run
+the our simpler mocha task. `test-once` will exit after tests are run (good for
+CI purposes), while `mocha` will run repeatedly.
+
+```javascript
+//gulpfile.js
+gulp.task('watch', function() {
+	gulp.watch(
+	  ['*.js', 'test/*.js'], //blurbs of files to watch
+	  ['mocha'] //tasks to run when the above files change
+  );
+});
+
+gulp.task('mocha', function() {
+	return gulp.src(['test/*.js'])
+	  .pipe(mocha({
+	    reporter: 'nyan'
+    }));
+});
+
+gulp.task('test-once', function() {
+	gulp.tasks.mocha.fn().pipe(exit());
+});
+
+gulp.task('default', ['nodemon', 'mocha', 'watch']);
+```
+
+Normally this would be enough – a simple `gulp` will start your server,
+run your tests, and restart both of those things on any file change.
+But we're on the cutting edge of javascript here - and our tests are going
+to whine if our process doesn't flag `--harmony`. We can fix that the same
+way as before - via the package.json.
+
+Everything should run fine with the 'node --harmony `which gulp`' command,
+so that's what we'll drop into our package.json:
+
+```javascript
+{
+	...
+	"scripts": {
+		"start": "node --harmony `which gulp`"
+  }
+  ...
+}
+```
+
+Now we can do it all with `npm start`.
+
+##EADDRINUSE
+
+Except what's this error? E-ADDR-IN-USE?
+
+EADDRINUSE pops up whenever a process wants to run on a PORT that's
+already exposing a process. In our case, our app is running on port 8000
+via Nodemon, and then supertest tries to run it again in our mocha tests.
+
+One way to solve this problem is to specify a different PORT based on the
+environment. That's probably the easiest solution at this point.
+
+In our gulpfile, add a PORT to both the `nodemon` task and the `mocha` task.
+
+```javascript
+...
+gulp.task('nodemon', function() {
+	nodemon({
+		script: 'server.js',
+		env: {PORT: 8000},
+		nodeArgs: ['--harmony']
+  }).on('restart');
+})
+...
+gulp.task('mocha', function {
+	process.env.PORT = 8001;
+	return gulp.src([...])
+    ....etc
+});
+...
+```
+
+That ought to do it. `npm start` should start your server and run your tests,
+and any save to js file should restart and re-run both.
+
 ##A healthy refactor
 
-server.js
-api/endpoint.js
-gulpfile update
+Now we're in business. The rest of our work can be done while `npm start` is
+running, with blissful instant feedback bliss.
+
+We are good developers! We write maintainable code! Let's refactor our endpoint
+functions out of the server file.
+
+```javascript
+//server.js
+var endpoint = require('api/endpoint');
+app.use(route.get('/', endpoint.show);
+```
+
+Create a new directory and file for our endpoint:
+
+```javascript
+//api/endpoint.js
+module.exports.show = function*() {
+	this.body = "Hello, World";
+}
+```
+
+Badabing, badaboom, this code is refactored.
 
 ##Lather, rinse, repeat.
 
