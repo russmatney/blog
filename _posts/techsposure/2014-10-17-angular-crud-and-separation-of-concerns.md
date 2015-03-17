@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Angular TDD+CRUD Example Part 1'
+title: 'Angular TDD + CRUD Example Part 1'
 categories:
 - Techsposure
 tags:
@@ -59,4 +59,6 @@ if you find yourself adding alot of complexity to a controller,
 it's likely your logic belongs in a service (or factory),
 which also means that logic will be DRY and reusable in other controllers in your app.
 
-##Directives are glorious
+##Directives are hard, but worth it
+
+##When to Test? (not ALWAYS?)
