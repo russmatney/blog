@@ -46,14 +46,12 @@ Specifically, I had posts in four sections of the blog that I was filtering simu
 each with individual headers. 
 At first, this builds out like so:
 
-```html
-<div ng-repeat="section in section">
-	{% assign blerg = '{{section.name}}' %} {{blerg}}
-	<div ng-repeat="post in section.posts | filter:searchText">
-		{% assign blerg = '{{post.title}}' %} {{blerg}}
-	</div>
-</div>
-```
+    <div ng-repeat="section in section">
+      {% assign blerg = '{{section.name}}' %} {{blerg}}
+      <div ng-repeat="post in section.posts | filter:searchText">
+        {% assign blerg = '{{post.title}}' %} {{blerg}}
+      </div>
+    </div>
 
 And this works great!
 Until your filter eliminates all of the posts in a section,
@@ -71,14 +69,12 @@ Apparently we can use `$first` to check if we're in the first element.
 Which works out great for us.
 Check this out:
 
-```html
-<div ng-repeat="section in section">
-	<div ng-repeat="post in section.posts | filter:searchText">
-		{% assign blerg = '{{section.name}}' %} <span ng-if="$first">{{blerg}}</span>
-		{% assign blerg = '{{post.title}}' %} {{blerg}}
-	</div>
-</div>
-```
+    <div ng-repeat="section in section">
+      <div ng-repeat="post in section.posts | filter:searchText">
+        {% assign blerg = '{{section.name}}' %} <span ng-if="$first">{{blerg}}</span>
+        {% assign blerg = '{{post.title}}' %} {{blerg}}
+      </div>
+    </div>
 
 We can move the section header into the inner ng-repeat,
 and use angular's ng-if directive to build that element only when the first element exists.
@@ -95,26 +91,26 @@ and lets you keep the DOM nice and clean.
 
 An example showing the before and after:
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
-<script type="text/javascript" src="../js/jekyll-search-controller.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+    <script type="text/javascript" src="../js/jekyll-search-controller.js"></script>
 
-<div ng-app="JekyllDemoApp" ng-controller="JekyllDemoCtrl">
-	<input type="text" style="margin:10px;float:left" ng-model="searchText" placeholder="type to filter...">
-	<div style="margin:2%;width:43%;position:relative;float:left; clear:both">
-		<div ng-repeat="section in sections">
-			<h5 ng-bind-html-unsafe="section.name"></h5>
-			<div ng-repeat="post in section.posts | filter:searchText">
-				<span ng-bind-html-unsafe="post.title"></span>
-			</div>
-		</div>
-	</div>
+    <div ng-app="JekyllDemoApp" ng-controller="JekyllDemoCtrl">
+      <input type="text" style="margin:10px;float:left" ng-model="searchText" placeholder="type to filter...">
+      <div style="margin:2%;width:43%;position:relative;float:left; clear:both">
+        <div ng-repeat="section in sections">
+          <h5 ng-bind-html-unsafe="section.name"></h5>
+          <div ng-repeat="post in section.posts | filter:searchText">
+            <span ng-bind-html-unsafe="post.title"></span>
+          </div>
+        </div>
+      </div>
 
-	<div style="margin:2%;width:43%;position:relative;float:right; clear:right">
-		<div ng-repeat="section in sections">
-			<div ng-repeat="post in section.posts | filter:searchText">
-				<h5 ng-if="$first" ng-bind-html-unsafe="section.name"></h5>
-				<span ng-bind-html-unsafe="post.title">d</span>
-			</div>
-		</div>
-	</div>
-</div>
+      <div style="margin:2%;width:43%;position:relative;float:right; clear:right">
+        <div ng-repeat="section in sections">
+          <div ng-repeat="post in section.posts | filter:searchText">
+            <h5 ng-if="$first" ng-bind-html-unsafe="section.name"></h5>
+            <span ng-bind-html-unsafe="post.title">d</span>
+          </div>
+        </div>
+      </div>
+    </div>
