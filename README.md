@@ -3,6 +3,23 @@ russmatney.github.io
 
 A jekyll blog for tech and fiction.
 
+#up'n'runnin'
+
+##install
+
+```
+bundle install
+```
+
+##watch
+
+```
+jekyll serve -w
+#OR
+bundle exec jekyll serve -w
+```
+
+
 #categories
 
 ##techsposure
