@@ -29,9 +29,3 @@ Posts/guides/collections of resources covering mostly JavaScript (Angular, Node)
 ##getitwrite
 
 Writing, when paired with research and creativity, is an easy way to teach yourself anything and discover your true self. So why not?
-
-#development
-
-```
-jekyll serve -w
-```
