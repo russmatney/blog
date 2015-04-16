@@ -34,24 +34,27 @@ Shortlist of production lambda functions:
 [Lambda](http://aws.amazon.com/lambda/) is a new tool in Amazon's suite of web services.
 
 Each Lambda function runs on a fresh machine and can be handed any bit of data -
-and you only pay for that machine's uptime (which at present is limited to 60 seconds).
+and you only pay for that machine's uptime, which at present is limited to 60 seconds.
 
-Lambda recently added a slew of new features as it exited Beta and offically 'launched'.
+Lambda recently added a slew of new features as it exited beta and offically launched.
 My experience as of writing this is limited to interactions with S3 events
 and invoking these functions via the AWS SDK.
 
-Separation of Concerns is huge for simplifying your codebase.
-Lambda lets you define a function that you want to run
+[Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns)
+is huge for simplifying your codebase.
+Lambda lets you define a function
 without needing to maintain any of the infrastructure.
-That's a big deal, especially when it means any Lambda function you write is already completely scalable.
+That's a big deal,
+especially when it means any Lambda function you write is already scalable.
 
-The implications there are very functional in design -
+The achitecture resulting from using Lambda is functional in design -
 for me Lambda (and microservices in general) feel like a functional language pattern
 applied at the architectural level.
 
 ##What am I using it for?
 
-Any task that you can isolate from your server is a good candidate for a Lambda function.
+Any task that you can isolate from your server
+is a good candidate for a Lambda function.
 
 In some recent consulting work (for [The Bosco](http://thebos.co/)),
 I used Lambda to do some lazy file conversions
@@ -64,6 +67,7 @@ Easy enough - just upload it.
 
 Overtime, you may want that .gif in various other sizes and formats.
 There are many ways to do this:
+
 - Process the files locally, then upload all of them
 - Run a task on your server that fetches, processes, reuploads
 
@@ -88,7 +92,7 @@ an S3 bucket can only fire events to one Lambda function.
 
 That means you either (1) need to do all your work reacting to that event in one function,
 or (2) write a Lambda function that invokes other Lambda funcs based on the inital event.
-This (2) isn't too complicated, and I think it's a better strategy long-term.
+This isn't too complicated, and I think it's a better strategy long-term.
 
 For an example of how to do this,
 the next section features a longer-running process (>60s)
@@ -102,10 +106,7 @@ Ideally, we'd upload the finished product to Vimeo for all the world to see.
 
 Processing this is not trivial – at a certain point,
 too many gifs means the process is going to take more than 60 seconds
-(we also need to download them all, and upload a ~25mb video to vimeo -
-that's just not feasible in <60 seconds.
-(If there is, let me know!
-It boggled my mind for days!)).
+(we also need to download them all, and upload a ~25mb video to vimeo).
 
 The solution I found is covered by these functions:
 
@@ -115,13 +116,13 @@ The solution I found is covered by these functions:
   - [mp4s-to-timelapse](https://github.com/russmatney/lambda-mp4s-to-timelapse)
   - [upload-to-vimeo](https://github.com/russmatney/lambda-upload-to-vimeo)
 
-Create-timelapse is something of an orchestrator;
-it defines the interface for external consumers of this service
+`create-timelapse` is something of an orchestrator;
+it defines the interface for external consumers of this service,
 and it manages the flow of the whole process,
 invoking the other lambda functions when the time is right.
 
 Accomplishing this is somewhat complicated because of Lambda's 60 second limitation –
-create-timelapse gets it done by incrementing a timer
+`create-timelapse` gets it done by incrementing a timer
 and invoking itself again after 45 seconds.
 There is potential for more efficiency here,
 perhaps with an external data store, or something like AWS's `waitFor()`.
@@ -142,15 +143,16 @@ it just took the ffmpeg binary too long.
 The solution here - run 50 pngs at a time in `pngs-to-mp4`,
 then string those mp4s together in `mp4s-to-timelapse`.
 - `upload-to-vimeo` was simple enough to earn it's own function,
-but for some reason my upload requests would futz out,
+but for some reason my upload requests would ECONNRESET out,
 especially for larger videos.
-Turns out, throwing a ton of memory at Lambda resolves this kind of thing.
+Turns out, throwing a ton of memory at Lambda resolves this kind of thing
+by giving you more CPU to work with.
 I'm running this at 1024mb and 60s to ensure it works for larger videos.
 
 #Some general lambda things
 
 - `gif-to-mp4` has been very cheap to run (likely true for `create-timelapse`, data pending).
-Paying only for up-time makes much more sense than always-on processes.
+Paying only for uptime is very convenient in this case.
 - Uploads/downloads between S3 and Lambda are very fast.
 That's expected, but was a nice surprise –
 I was running functions locally, and grew worried b/c things were slow to download/upload.
@@ -168,14 +170,14 @@ Between all these functions, there was plenty to DRY up.
 Lambduh is a set of components for common tasks in Lambda functions.
 The components so far:
 
-- [`lambduh-transform-s3-event`](https://github.com/lambduh/lambduh-transform-s3-event) - Transforms S3 Event JSON into a flattened object with bucket and key
-- [`lambduh-validate`](https://github.com/lambduh/lambduh-validate) - Validates fields according to your will
-- [`lambduh-execute`](https://github.com/lambduh/lambduh-execute) - Executes any shell string or bash file
-- [`lambduh-get-s3-object`](https://github.com/lambduh/lambduh-get-s3-object) - Download any file from S3 to a local filepath
-- [`lambduh-download-file`](https://github.com/lambduh/lambduh-download-file) - Download any file based on URL
-- [`lambduh-put-s3-object`](https://github.com/lambduh/lambduh-put-s3-object) - Upload any local file to S3
-- [`lambduh-list-s3-objects`](https://github.com/lambduh/lambduh-list-s3-objects) - List any S3 keys based on Bucket, prefix, and regex
-- [`lambduh-gulp`](https://github.com/lambduh/lambduh-gulp) - Gulp tasks to make your lambda workflow all hunky-dory
+- [lambduh-transform-s3-event](https://github.com/lambduh/lambduh-transform-s3-event) - Transforms S3 Event JSON into a flattened object with bucket and key
+- [lambduh-validate](https://github.com/lambduh/lambduh-validate) - Validates fields according to your will
+- [lambduh-execute](https://github.com/lambduh/lambduh-execute) - Executes any shell string or bash file
+- [lambduh-get-s3-object](https://github.com/lambduh/lambduh-get-s3-object) - Download any file from S3 to a local filepath
+- [lambduh-download-file](https://github.com/lambduh/lambduh-download-file) - Download any file based on URL
+- [lambduh-put-s3-object](https://github.com/lambduh/lambduh-put-s3-object) - Upload any local file to S3
+- [lambduh-list-s3-objects](https://github.com/lambduh/lambduh-list-s3-objects) - List S3 keys based on Bucket, prefix, and regex
+- [lambduh-gulp](https://github.com/lambduh/lambduh-gulp) - Gulp tasks to make your lambda workflow all hunky-dory
 
 The first thing - these functions are small!
 It's likely you could just as easily build them into your function itself.
