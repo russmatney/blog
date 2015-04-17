@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Docker is powerful - some thoughts and a mini-overview'
+title: 'Docker is powerful - a quick overview'
 categories:
 - Techsposure
 tags:
@@ -17,11 +17,11 @@ type: post
 
 ###*TL;DR*:
 
-I have no real sys-admin experience,
+I have only minimal sys-admin experience,
 but was able to get a cluster of Docker containers running without too much trouble.
 
 [Docker](https://www.docker.com/)
-(plus [Docker-Machine](https://docs.docker.com/machine/),
+(plus [Docker-Machine](https://docs.docker.com/machine/)
 and [Docker-Compose](https://docs.docker.com/compose/)),
 [Consul](https://www.consul.io/),
 and [Registrator](https://github.com/gliderlabs/registrator)
@@ -35,7 +35,7 @@ that exposes the definition of a container.
 
 ##What the derp is Docker?
 
-Docker is a platform for running apps on a computer.
+Docker is a platform for running apps on any computer.
 It's a binary that you install wherever you want to run your apps,
 and once installed, you can install "containers" defined by Dockerfiles.
 
@@ -57,12 +57,13 @@ And it'd probably work great.
 
 ##Dockerfiles rock.
 
-The advantage of Docker is the Dockerfile –
+The advantage of Docker is the
+[Dockerfile](https://docs.docker.com/reference/builder/) –
 in one place, you define the exact spec for one of your containers.
 
 That file can be used to build the container from scratch,
-and it'll run the same every single time,
-whether your app is building in Dev, in Staging, or in Production.
+and it'll run the same in every build,
+whether your app is in Dev, Staging, or Production.
 
 This is great for aligning the environment your app runs in,
 but it also implies something powerful:
@@ -195,7 +196,7 @@ Docker to the rescue!
 
 Here's an awesome [Wordpress Dockerfile](https://github.com/eugeneware/docker-wordpress-nginx).
 That plus Docker Machine lets you go from 0 to locally running Wordpress in just a few minutes,
-and lets you push up your own wordpress instance to any machine in the same amount of time.
+and lets you push up your own wordpress instance to any machine in the cloud in the same amount of time.
 
 ##Beast mode
 
