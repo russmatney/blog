@@ -1,2 +1,6 @@
 _site
 .DS_Store
+dst/
+config.js
+.awspublish-*
+node_modules/
