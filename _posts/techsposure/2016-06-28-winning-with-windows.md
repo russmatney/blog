@@ -38,6 +38,7 @@ Be wary of this! Sometimes you can unwittingly Quit the wrong app entirely!
 ###`Command` + `Tab` = your new bfff.
 
 Right now:
+
 1. Hold `Command`
 2. Press `Tab`
 3. Don't let go of `Command`
