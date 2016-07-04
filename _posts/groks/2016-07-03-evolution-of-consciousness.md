@@ -7,7 +7,7 @@ tags:
 type: post
 ---
 
-###Piece: [*How Did Consciousness Evolve?*](http://www.theatlantic.com/science/archive/2016/06/how-consciousness-evolved/485558/?single_page=true)
+###GROK: [*How Did Consciousness Evolve?*](http://www.theatlantic.com/science/archive/2016/06/how-consciousness-evolved/485558/?single_page=true)
 
 ##Goal
 
