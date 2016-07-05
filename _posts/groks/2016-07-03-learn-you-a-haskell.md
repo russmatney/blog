@@ -132,21 +132,31 @@ Type Variables and Polymorphic Functions
   - `read "5" :: Float`
 
 ###Chapter 4
+
 ###Chapter 5
+
 ###Chapter 6
+
 ###Chapter 7
+
 ###Chapter 8
+
 ###Chapter 9
+
 ###Chapter 10
+
 ###Chapter 11
+
 ###Chapter 12
+
 ###Chapter 13
+
 ###Chapter 14
 
 ##Kickers
 
-  - #TODO: look into haskell vim/emacs plugins
-  - #TODO: research some: 'proving a function'
-  - #TODO: general overview: who and when and why were languages designed (history of programming languages)
-  - #TODO: compare things lexicographically?
-  - #TODO: start working with elixir
+  - TODO: look into haskell vim/emacs plugins
+  - TODO: research some: 'proving a function'
+  - TODO: general overview: who and when and why were languages designed (history of programming languages)
+  - TODO: compare things lexicographically?
+  - TODO: start working with elixir

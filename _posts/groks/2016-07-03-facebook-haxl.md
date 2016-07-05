@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Haxl from Facebook'
+title: 'GROK: Haxl from Facebook'
 categories:
 - GROKs
 tags:
@@ -10,6 +10,7 @@ type: post
 Two here that are close enough to the same: a github repo and an article on its origins
 
 ###GROK: [*Open-sourcing Haxl: A library for Haskell*](https://code.facebook.com/posts/302060973291128/open-sourcing-haxl-a-library-for-haskell/)
+
 ###GROK: [*facebook/Haxl (github repo)*](https://github.com/facebook/Haxl)
 
 ##Goal
@@ -28,40 +29,53 @@ So this seems like a great project to explore.
 
 ##Resource
 
-  Media Outlet: [code.facebook.com (facebook dev blog)](https://code.facebook.com/posts/302060973291128/open-sourcing-haxl-a-library-for-haskell/)
-  Authors:
-    Simon Marlow
-    Jon Purdy
-  Discovered:
-    Github issue for graphql - related to merging graphql schemas - `check out "haxl" for optimization inspiration`
-    [discovery source](https://github.com/graphql/graphql-js/issues/143#issuecomment-137807156)
+###Media Outlet
+
+[code.facebook.com (facebook dev blog)](https://code.facebook.com/posts/302060973291128/open-sourcing-haxl-a-library-for-haskell/)
+
+###Authors:
+
+  Simon Marlow, Jon Purdy
+
+###Discovered:
+
+I found a reference to this while looking up a Github issue for graphql.
+I was actually looking for information related to merging graphql schemas.
+Found and pocketed this along the way. [Issue link](https://github.com/graphql/graphql-js/issues/143#issuecomment-137807156).
 
 ##Offload
 
-Haxl
+###Haxl
+
   - layer between application code and 'data sources'
-  - can automatically:
+
+#####can automatically:
+
     - group multiple requests into a single one
     - concurrently request data from multiple
     - cache previous requests
   - benefit: sep of concerns: moving optimization out of the application logic 
-  - accomplished via:
+
+#####accomplished via:
+
     - implicit concurrency via Applicative functors
     - implicit caching means soundness and modularity for free
 
-Implicit Concurrency
+###Implicit Concurrency
+
   - `numCommonFriends x y = length <$> (intersect <$> friendsOf x <*> friendsOf y)`
     - `<*>` allows for concurrent function application
 
-Implicit Caching
+###Implicit Caching
+
   - soundness - ensures that changing resources behind the haxl layer don't lead to unpredictable results
   - modularity - call sites don't need to know anything about how other call sites work
 
 ##Kickers
 
-- #TODO: put together/link well-written FB Tech posts
-- #TODO: pursue Simon Marlow, Jon Purdy for background, other tech writing, github projects
-- #TODO: Read source for Haxl
+- TODO: put together/link well-written FB Tech posts
+- TODO: pursue Simon Marlow, Jon Purdy for background, other tech writing, github projects
+- TODO: Read source for Haxl
   - learn how soundness is ensured
-- #TODO: handful of haskell concepts to read about/understand
+- TODO: handful of haskell concepts to read about/understand
 
