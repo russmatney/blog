@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Composing an Elasticsearch Query in Golang'
+title: 'Unparsable JSON (null bytes) bug'
 categories:
 - Techsposure
 tags:
@@ -31,3 +31,5 @@ Unnested
 Nested
 
 Proper ranking via subdocs
+
+TLDR: couldn't get to the bottom of a huge unparsable json output file - turned out to be some null bytes - wasn't resetting the cursor after truncating the file before writing the closing bracket
