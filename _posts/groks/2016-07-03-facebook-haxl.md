@@ -31,11 +31,13 @@ So this seems like a great project to explore.
 
 ###Media Outlet
 
-[code.facebook.com (facebook dev blog)](https://code.facebook.com/posts/302060973291128/open-sourcing-haxl-a-library-for-haskell/)
+[code.facebook.com (facebook dev blog)](https://code.facebook.com/posts/302060973291128/open-sourcing-haxl-a-library-for-haskell/),
+published June 10, 2014
 
 ###Authors:
 
-  Simon Marlow, Jon Purdy
+ - Simon Marlow
+ - Jon Purdy
 
 ###Discovered:
 
