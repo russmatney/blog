@@ -1,0 +1,28 @@
+{:paths ["src"]
+ :deps
+ {io.github.borkdude/quickblog
+  {:local/root "../../borkdude/quickblog"}}
+ :tasks
+ {:requires ([quickblog.cli :as cli]
+             [babashka.fs :as fs]
+             [clojure.edn :as edn]
+             [tasks :as blog-tasks])
+  :init
+  (def opts
+    {:blog-title       "Danger Russ Blog"
+     :blog-author      "Russell Matney"
+     :blog-url         "https://blog.russmatney.com"
+     :blog-description "Clojure, Game Dev, and Nerd Tools"
+     :posts-dir        "_posts/techsposure"
+     :twitter-handle   "russmatney"
+     :post-paths       (blog-tasks/post-paths)})
+  quickblog
+  {:doc  "Start blogging quickly! \n
+Run `bb quickblog help` for details.
+Run `bb quickblog render` to build.
+Run `bb quickblog watch` to dev."
+   :task (cli/dispatch opts)}
+
+  render (shell "bb quickblog render")
+  watch  (shell "bb quickblog watch")}
+ }
