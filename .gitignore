@@ -4,3 +4,9 @@ dst/
 config.js
 .awspublish-*
 node_modules/
+
+.clj-kondo/.cache
+.lsp/
+.work/
+
+public/
