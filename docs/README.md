@@ -1,9 +1,6 @@
 blog
-====
+====================
 
-A docsify blog
-
-# categories
 
 ## techsposure
 

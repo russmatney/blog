@@ -9,5 +9,6 @@
       (println args)
       (apply shell args)))
 
-  build (shelll "echo 'TODO impl building'")
-  watch (shelll "echo 'TODO impl watching'")}}
+  build (shelll "docsify build docs")
+  watch (shelll "echo 'TODO impl watching'")
+  serve (shelll "docsify serve docs")}}
