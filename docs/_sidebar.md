@@ -1,3 +1,4 @@
 * [Home](/)
-* [Posts](/posts)
+* [Posts](/posts/)
+* [Portfolio](/portfolio)
 * [About](/about)
