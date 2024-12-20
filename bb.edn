@@ -10,6 +10,4 @@
       (apply shell args)))
 
   build (shelll "echo 'TODO impl building'")
-  watch (shelll "echo 'TODO impl watching'")
-  }
- }
+  watch (shelll "echo 'TODO impl watching'")}}
