@@ -3,15 +3,15 @@ russmatney.github.io
 
 A jekyll blog for tech and fiction.
 
-#up'n'runnin'
+# up'n'runnin'
 
-##install
+## install
 
 ```
 bundle install
 ```
 
-##watch
+## watch
 
 ```zsh
 jekyll serve -w
@@ -19,7 +19,7 @@ jekyll serve -w
 bundle exec jekyll serve -w
 ```
 
-##build and deploy
+## build and deploy
 
 ```zsh
 jekyll build -d dst
@@ -41,12 +41,12 @@ module.exports = {
 };
 ```
 
-#categories
+# categories
 
-##techsposure
+## techsposure
 
 Posts/guides/collections of resources covering mostly JavaScript (Angular, Node), but touching other languages and concepts as well (TDD, Uncle Bob, Blog Tech, etc)
 
-##getitwrite
+## getitwrite
 
 Writing, when paired with research and creativity, is an easy way to teach yourself anything and discover your true self. So why not?
