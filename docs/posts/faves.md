@@ -1,10 +1,15 @@
 ---
 layout: page
-title: 5 Favorites
+title: Favorites
 ---
-{% include JB/setup %}
 
-####iPhone Games
+markdown
+
+# Some of my Faves
+
+I love making lists - here are some lists of faves!
+
+#### iPhone Games
 
 1. Super Crate Box
 1. Super Hexagon
@@ -12,7 +17,7 @@ title: 5 Favorites
 1. Superbrothers: Sword and Sworcery
 1. Radballs
 
-####Projamming Languages
+#### Projamming Languages
 
 1. Javascript
 1. Golang
@@ -20,7 +25,7 @@ title: 5 Favorites
 1. Ruby?
 1. Haskell/Erlang?
 
-####Games
+#### Games
 
 1. Braid
 1. Katherine
@@ -28,12 +33,12 @@ title: 5 Favorites
 1. Super Smash Bros 64
 1. Last of Us
 
-####Ouya games
+#### Ouya games
 
 1. Hidden in Plain Sight
 2. American Dream
 
-####Upcoming Coursera Courses
+#### Upcoming Coursera Courses
 
 1. Game Theory
 1. Algorithms

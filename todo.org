@@ -41,7 +41,9 @@ CLOSED: [2024-12-21 Sat 15:13]
 ** [X] mix in content from new-blog
 CLOSED: [2024-12-21 Sat 15:10]
 no content?
-** [-] dedupe all the posts
+** [X] dedupe the posts
+CLOSED: [2024-12-21 Sat 15:48]
+** [ ] clean up narsty markdown in places
 ** [ ] mix in 'posts' from mind garden
 ** [ ] mix in 'notes' from mind garden
 ** [ ] mix 'groks' into notes/garden
