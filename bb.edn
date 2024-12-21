@@ -13,7 +13,6 @@
 
   build (do
           (log "regenerating all pages")
-          (tasks/regen-all-pages)
-          (shelll "docsify build docs"))
+          (tasks/regen-all-pages))
   watch (shelll "echo 'TODO impl watching'")
   serve (shelll "docsify serve docs")}}
