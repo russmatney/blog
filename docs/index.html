@@ -32,23 +32,24 @@
 
   <script>
     window.$docsify = {
-      themeColor: '#dc703f',
-      name: '<span>Danger Russ Blog</span>',
-      repo: 'https://github.com/russmatney/blog',
-      logo: '/images/portrait_8x.png',
       auto2top: true,
-      topMargin: 50,
-      nativeEmoji: true,
-      loadSidebar: true,
-      loadNavbar: true,
-      subMaxLevel: 2,
       coverpage: true,
       footer: {
-        copy: '<span>&copy; 2024</span>',
+        copy: '<span>&copy; 2012-2024 Russell Matney</span><br/>',
         pre: '<hr/>',
         style: 'text-align: right;',
-        class: 'className',
       },
+      loadNavbar: true,
+      loadSidebar: true,
+      logo: '/images/portrait-nobg-2x.png',
+      name: '<span>Danger Russ Blog</span>',
+      nativeEmoji: true,
+      plugins: [
+        titlePlugin({
+          suffix: ' | Danger Russ Blog'
+        })
+      ],
+      repo: 'https://github.com/russmatney/blog',
       // requestHeaders: {
       //   'cache-control': 'max-age=600',
       // },
@@ -64,16 +65,14 @@
         noData: 'No Results!',
         depth: 3,
       },
+      subMaxLevel: 2,
+      themeColor: '#dc703f',
       timeUpdater: {
         text: ">Last Modified: {docsify-updated}",
         formatUpdated: "{MM}/{DD}/{YYYY}",
         whereToPlace: "top",
       },
-      plugins: [
-        titlePlugin({
-          suffix: ' | Danger Russ Blog'
-        })
-      ]
+      topMargin: 50,
     }
     function titlePlugin(config) {
       return (hook, vm) => {
