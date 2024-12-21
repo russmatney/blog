@@ -15,6 +15,9 @@
 (def docs-dir (str repo-dir "/docs"))
 (def posts-dir (str repo-dir "/docs/posts"))
 (def hundos-dir (str repo-dir "/docs/posts/100-worders"))
+(def techsposure-dir (str repo-dir "/docs/posts/techsposure"))
+(def getitwrite-dir (str repo-dir "/docs/posts/getitwrite"))
+(def groks-dir (str repo-dir "/docs/posts/groks"))
 (def org-garden-dir (str (fs/home) "/todo/garden"))
 (def org-daily-dir (str (fs/home) "/todo/daily"))
 
@@ -26,6 +29,9 @@
 * [Home](/home)
 * [Dev Logs](/devlogs/)
 * [Posts](/posts/)
+
+--
+
 "
   )
 
@@ -161,6 +167,7 @@
                              "\n\n")
                         (->> posts
                              (map (fn [{:post/keys [relative-url title]}]
+                                    ;; TODO include tags/blurb/word-count
                                     (str "* [" title "](" relative-url ")")))
                              (string/join "\n"))])))]
 
@@ -179,7 +186,10 @@
   (write-index {:directory hundos-dir}))
 
 (defn regen-all-pages []
-  (->> [hundos-dir]
+  (->> [hundos-dir
+        techsposure-dir
+        getitwrite-dir
+        groks-dir]
        (map (fn [dir]
               (write-index {:directory dir})
               (write-sidebar {:directory dir})))
