@@ -76,7 +76,7 @@
 
 ;; posts side bar
 
-(defn write-sidebar [directory]
+(defn write-sidebar [{directory :directory}]
   (let [posts (->> (fs/glob directory "*.md")
                    (map #(->post {:post-path (str %)}))
                    (remove (fn [{fname :fname}]
@@ -91,10 +91,10 @@
       (string/join "\n" post-links))))
 
 (comment
-  (write-sidebar hundos-dir)
+  (write-sidebar {:directory hundos-dir})
   )
 
-(defn write-index [directory]
+(defn write-index [{directory :directory}]
   (let [posts (->> (fs/glob directory "*.md")
                    (map #(->post {:post-path (str %)}))
                    (remove (fn [{fname :fname}]
@@ -115,5 +115,5 @@
         ))))
 
 (comment
-  (write-index hundos-dir)
+  (write-index {:directory hundos-dir})
   )
