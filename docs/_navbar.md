@@ -1,6 +1,6 @@
 * [:house: Home](/)
+* [Dev Logs](/devlogs/)
 * [Posts](/posts/)
-    * [Dev Logs](/posts/devlog/)
     * [100 word stories](/posts/100-worders/)
     * [Techsposure](/posts/techsposure/)
     * [Get It Write](/posts/getitwrite/)
