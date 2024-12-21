@@ -15,8 +15,13 @@ group by tag?
 ** [ ] mix in content from blog-gatsby
 ** [ ] mix in content from new-blog
 ** [ ] mix in 'posts' from mind garden
+** [ ] mix in 'notes' from mind garden
+** [ ] mix 'groks' into notes/garden
 * other pages
 ** [ ] collected clips/rants/plans/todos from the mind garden?
+** [ ] dedicated game pages
+for itch + steam games, plus work-in-progress ones
+include 'status'
 * portfolio build out
 ** [ ] add copy/gifs/links for hatbot
 ** [ ] add copy/gifs/links for dino
@@ -26,3 +31,10 @@ group by tag?
 ** [ ] add yt devlogs
 * bullet devlog
 ** [ ] write first bullet devlog post: glossolalia listen clips
+* socials
+** [ ] about social links
+- [ ] mastodon
+- [ ] carrd
+- [ ] patreon
+- [ ] kofi
+- [ ] bluesky
