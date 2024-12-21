@@ -35,26 +35,6 @@
 
 ")
 
-(def gened-page-defs
-  [{:directory     hundos-dir
-    :index-content (str "
-## 100 Word Stories
-
-Known colloquially as hundos.
-")}
-   {:directory   techsposure-dir
-    :index-title "Techsposure"}
-   {:directory   getitwrite-dir
-    :index-title "Get It? Write!"}
-   {:directory     groks-dir
-    :index-title   "GROKs"
-    :index-content (str "
-## GROKs
-
-Notes and hopefully specific things I'm trying to understand better.
-")}])
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; data getters
 
@@ -76,7 +56,9 @@ Notes and hopefully specific things I'm trying to understand better.
      }))
 
 (comment
-  (parse-datey-fname "2022-04-22-bloodie-blah.md"))
+  (parse-datey-fname "2022-04-22-bloodie-blah.md")
+  (parse-datey-fname "faves.md")
+  )
 
 (defn ->post
   [{:keys [garden-path]
@@ -96,17 +78,17 @@ Notes and hopefully specific things I'm trying to understand better.
              )
 
       (:post/path post) (assoc :post/relative-url (string/replace path docs-dir ""))
-      date              (assoc :post/date-created date))
+      (not (nil? date)) (assoc :post/date-created date))
     ))
 
 
-(defn sort-latest-first [posts]
+(defn sort-latest-created-first [posts]
   (->> posts
-       (sort-by (some-fn :post/date-created :post/last-modified) dates/sort-latest-first)))
+       (sort-by :post/date-created dates/sort-latest-first)))
 
-(defn sort-oldest-first [posts]
+(defn sort-oldest-created-first [posts]
   (->> posts
-       (sort-by (some-fn :post/date-created :post/last-modified) dates/sort-chrono)))
+       (sort-by :post/date-created dates/sort-chrono)))
 
 ;; post getters
 
@@ -140,54 +122,121 @@ Notes and hopefully specific things I'm trying to understand better.
   (garden-posts)
   (daily-posts))
 
-;; posts side bar
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; generating pages
+
+(def gened-page-defs
+  [{:directory      posts-dir
+    :title          "Posts"
+    :index-preamble (str "
+
+## Posts
+
+Blog posts from over the years.
+
+Some broad categories:
+
+* [100 word stories](/posts/100-worders/)
+* [Get It Write](/posts/getitwrite/)
+* [groks](/posts/groks/)
+* [techsposure](/posts/techsposure/)
+
+")
+    :->posts         tasks/local-posts
+    :->text          (fn [post] (str "* " (tasks/post->md-text-link post)
+                                     (cond
+                                       (#{"techsposure"} (:post/parent-fname post)) " #techsposure"
+                                       (#{"getitwrite"} (:post/parent-fname post))  " #getitwrite"
+                                       (#{"groks"} (:post/parent-fname post))       " #groks"
+                                       (#{"100-worders"} (:post/parent-fname post)) " #hundos")))
+    :sidebar-content (str "
+
+* [100 word stories](/posts/100-worders/)
+* [Get It Write](/posts/getitwrite/)
+* [groks](/posts/groks/)
+* [techsposure](/posts/techsposure/)
+
+")}
+   {:directory      hundos-dir
+    :index-preamble (str "
+## 100 Word Stories
+
+Known colloquially as hundos.
+")}
+   {:directory techsposure-dir
+    :title     "Techsposure"}
+   {:directory getitwrite-dir
+    :title     "Get It? Write!"}
+
+   {:directory      groks-dir
+    :title          "GROKs"
+    :index-preamble (str "
+## GROKs
+
+Notes and hopefully specific things I'm trying to understand better.
+")}
+   ])
+
+(def exclude-from-index #{"README.md" "_sidebar.md"})
+
+(defn post->md-text-link
+  [{:post/keys [relative-url title]}]
+  (str "[" title "](" relative-url ")"))
+
+(defn post-links [{directory :directory
+                   posts     :posts
+                   ->text    :->text}]
+  (let [posts (->> (or posts (posts-in-dir directory))
+                   (remove (comp exclude-from-index :post/fname))
+                   sort-latest-created-first)]
+    (->> posts
+         (group-by (fn [post] (when (:post/date-created post) (t/format "MMMM YYYY" (:post/date-created post)))))
+         (sort-by (fn [[_group psts]] (some-> psts first :post/date-created))
+                  dates/sort-latest-first)
+         (mapcat (fn [[group posts]]
+                   [(str "\n\n" (or group "Date Unspecified") "\n\n")
+                    (->> posts
+                         sort-latest-created-first
+                         (map ->text) (string/join "\n"))])))))
 
 (defn write-page [{directory :directory
-                   posts     :posts
                    path      :path
-                   ->text    :->text
-                   preamble  :preamble}]
-  (let [path  (str directory "/" path)
-        posts (->> (or posts (posts-in-dir directory))
-                   (remove (fn [{fname :post/fname}]
-                             (#{"README.md" "_sidebar.md"} fname)))
-                   sort-latest-first)
-        post-links
-        (->> posts
-             (group-by (fn [post] (t/format "MMMM YYYY" (:post/date-created post))))
-             (sort-by #(-> % second first :post/date-created) dates/sort-latest-first)
-             (mapcat (fn [[group posts]]
-                       [(str "\n\n" group "\n\n")
-                        (->> posts
-                             (sort-by :post/date-created dates/sort-latest-first)
-                             (map ->text) (string/join "\n"))])))]
+                   preamble  :preamble
+                   ;; a complete content overwrite
+                   content   :content
+                   :as       opts}]
+  (let [path (str directory "/" path)]
     (log "Writing to" path)
     (spit path
-          (str preamble (string/join "\n" post-links)))))
+          (str preamble
+               (or content (string/join "\n" (post-links opts)))))))
 
-(defn write-sidebar [{:as         opts
-                      index-title :index-title}]
+
+
+(defn write-sidebar [{:as             opts
+                      title           :title
+                      sidebar-content :sidebar-content
+                      }]
   (write-page (assoc opts
                      :path "_sidebar.md"
-                     :->text (fn [{:post/keys [relative-url title]}]
-                               (str "* [" title "](" relative-url ")"))
+                     :->text (fn [post] (str "* " (post->md-text-link post)))
                      :preamble (str generated-page-preamble side-bar-top-links
                                     (cond
-                                      index-title (str index-title))))))
+                                      title (str title)))
+                     :content sidebar-content)))
 
 (defn write-index
-  [{:as           opts
-    index-title   :index-title
-    index-content :index-content}]
+  [{:as            opts
+    title          :title
+    index-preamble :index-preamble}]
   (write-page (assoc opts
                      :path "README.md"
-                     :->text (fn [{:post/keys [relative-url title]}]
-                               (str "* [" title "](" relative-url ")"))
+                     :->text
+                     (:->text opts (fn [post] (str "* " (post->md-text-link post))))
                      :preamble (str generated-page-preamble
                                     (cond
-                                      index-content index-content
-                                      index-title   (str "# " index-title))))))
-
+                                      index-preamble index-preamble
+                                      title          (str "# " title))))))
 
 (comment
   (write-index {:directory hundos-dir}))
@@ -195,8 +244,11 @@ Notes and hopefully specific things I'm trying to understand better.
 (defn regen-all-pages []
   (->> gened-page-defs
        (map (fn [opts]
-              (write-index opts)
-              (write-sidebar opts)))
+              (let [opts (cond-> opts
+                           (:->posts opts) (assoc :posts ((:->posts opts)))
+                           )]
+                (write-index opts)
+                (write-sidebar opts))))
        doall))
 
 (comment
