@@ -10,13 +10,6 @@
 ** [ ] generate all posts page
 group by month/year?
 group by tag?
-* old content
-** [ ] mix in content from hugo-blog
-** [ ] mix in content from blog-gatsby
-** [ ] mix in content from new-blog
-** [ ] mix in 'posts' from mind garden
-** [ ] mix in 'notes' from mind garden
-** [ ] mix 'groks' into notes/garden
 * other pages
 ** [ ] collected clips/rants/plans/todos from the mind garden?
 ** [ ] dedicated game pages
@@ -38,3 +31,17 @@ include 'status'
 - [ ] patreon
 - [ ] kofi
 - [ ] bluesky
+* old content
+** [X] mix in content from blog-gatsby
+CLOSED: [2024-12-21 Sat 15:13]
+** [X] mix in content from hugo-blog
+CLOSED: [2024-12-21 Sat 15:13]
+** [X] mix in content from blog-11ty
+CLOSED: [2024-12-21 Sat 15:13]
+** [X] mix in content from new-blog
+CLOSED: [2024-12-21 Sat 15:10]
+no content?
+** [-] dedupe all the posts
+** [ ] mix in 'posts' from mind garden
+** [ ] mix in 'notes' from mind garden
+** [ ] mix 'groks' into notes/garden
