@@ -28,12 +28,32 @@
   "
 * [Home](/home)
 * [Dev Logs](/devlogs/)
+* [Portfolio](/portfolio/)
 * [Posts](/posts/)
 
 --
 
-"
-  )
+")
+
+(def gened-page-defs
+  [{:directory     hundos-dir
+    :index-content (str "
+## 100 Word Stories
+
+Known colloquially as hundos.
+")}
+   {:directory   techsposure-dir
+    :index-title "Techsposure"}
+   {:directory   getitwrite-dir
+    :index-title "Get It? Write!"}
+   {:directory     groks-dir
+    :index-title   "GROKs"
+    :index-content (str "
+## GROKs
+
+Notes and hopefully specific things I'm trying to understand better.
+")}])
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; data getters
@@ -155,9 +175,6 @@
                                     (cond
                                       index-title (str index-title))))))
 
-(comment
-  (write-sidebar {:directory hundos-dir}))
-
 (defn write-index
   [{:as           opts
     index-title   :index-title
@@ -175,27 +192,8 @@
 (comment
   (write-index {:directory hundos-dir}))
 
-(def page-defs
-  [{:directory     hundos-dir
-    :index-content (str "
-## 100 Word Stories
-
-Known colloquially as hundos.
-")}
-   {:directory   techsposure-dir
-    :index-title "Techsposure"}
-   {:directory   getitwrite-dir
-    :index-title "Get It? Write!"}
-   {:directory     groks-dir
-    :index-title   "GROKs"
-    :index-content (str "
-## GROKs
-
-Notes and hopefully specific things I'm trying to understand better.
-")}])
-
 (defn regen-all-pages []
-  (->> page-defs
+  (->> gened-page-defs
        (map (fn [opts]
               (write-index opts)
               (write-sidebar opts)))

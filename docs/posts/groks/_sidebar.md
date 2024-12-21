@@ -5,6 +5,7 @@
 
 * [Home](/home)
 * [Dev Logs](/devlogs/)
+* [Portfolio](/portfolio/)
 * [Posts](/posts/)
 
 --
