@@ -18,7 +18,7 @@ type: post
 A quick shout out to [@jcollard](github.com/jcollard) for the code style in this file (link to source below):
 
 
-```
+```elm
 module Tetromino where
 
 import Location (..)
@@ -28,7 +28,7 @@ import Util
 -- should contain exactly 4 different locations
 type Tetromino = [Location]
 
--- A line piece 
+-- A line piece
 -- ****
 line : Tetromino
 line = [(0,0), (1,0), (2,0), (3,0)]

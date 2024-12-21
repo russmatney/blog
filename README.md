@@ -1,22 +1,9 @@
-blog
+Danger Russ Blog
 ====
 
-A docsify blog
+A docsify blog, dev log, and portfolio site.
 
-# categories
-
-## techsposure
-
-Posts/guides/collections of resources covering mostly JavaScript (Angular,
-Node), but touching other languages and concepts as well (TDD, Uncle Bob, Blog
-Tech, etc)
-
-## getitwrite
-
-Writing, when paired with research and creativity, is an easy way to teach
-yourself anything and discover your true self. So why not?
-
-# docsify
+# docsify links
 
 - [Configuration docs](https://docsify.js.org/#/configuration)
   - writing a plugin: https://docsify.js.org/#/write-a-plugin
