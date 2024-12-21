@@ -1,16 +1,24 @@
 # Games
 
-TODO: flesh this out way more!
+TODO: add dates
 
-### Solo Dev
+TODO: add blurbs
+
+TODO: add clips/images
+
+### Danger Russ Games
 
 * Dot Hop
 * Dino
 * Blox
 * Beat Em Up City
 
-### With Teams
+### Moonstorm Clerics
 
-* Rapid Eye Madness (Moonstorm Clerics)
-* Carving With Care (Cat Tale Game)
+* Rapid Eye Madness
+* Wicked Peak
+
+### Cat Tale Games
+
+* Carving With Care
 
