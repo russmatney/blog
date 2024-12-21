@@ -122,10 +122,13 @@
 
 ;; posts side bar
 
-
-(defn write-sidebar [{directory :directory}]
-  (let [path  (str directory "/_sidebar.md")
-        posts (->> (posts-in-dir directory)
+(defn write-page [{directory :directory
+                   posts     :posts
+                   path      :path
+                   ->text    :->text
+                   preamble  :preamble}]
+  (let [path  (str directory "/" path)
+        posts (->> (or posts (posts-in-dir directory))
                    (remove (fn [{fname :post/fname}]
                              (#{"README.md" "_sidebar.md"} fname)))
                    sort-latest-first)
@@ -134,65 +137,68 @@
              (group-by (fn [post] (t/format "MMMM YYYY" (:post/date-created post))))
              (sort-by #(-> % second first :post/date-created) dates/sort-latest-first)
              (mapcat (fn [[group posts]]
-                       [(str "\n\n"
-                             group
-                             "\n\n")
+                       [(str "\n\n" group "\n\n")
                         (->> posts
-                             (map (fn [{:post/keys [relative-url title]}]
-                                    (str "* [" title "](" relative-url ")")))
-                             (string/join "\n"))])))]
+                             (sort-by :post/date-created dates/sort-latest-first)
+                             (map ->text) (string/join "\n"))])))]
     (log "Writing to" path)
     (spit path
-          (str
-            generated-page-preamble
-            side-bar-top-links
-            (string/join "\n" post-links)))))
+          (str preamble (string/join "\n" post-links)))))
+
+(defn write-sidebar [{:as         opts
+                      index-title :index-title}]
+  (write-page (assoc opts
+                     :path "_sidebar.md"
+                     :->text (fn [{:post/keys [relative-url title]}]
+                               (str "* [" title "](" relative-url ")"))
+                     :preamble (str generated-page-preamble side-bar-top-links
+                                    (cond
+                                      index-title (str index-title))))))
 
 (comment
   (write-sidebar {:directory hundos-dir}))
 
-(defn write-index [{directory :directory}]
-  (let [path  (str directory "/README.md")
-        posts (->> (posts-in-dir directory)
-                   (remove (fn [{fname :post/fname}]
-                             (#{"README.md" "_sidebar.md"} fname)))
-                   sort-oldest-first)
-        post-links
-        (->> posts
-             (group-by (fn [post] (t/format "MMMM YYYY" (:post/date-created post))))
-             (sort-by #(-> % second first :post/date-created) dates/sort-latest-first)
-             (mapcat (fn [[group posts]]
-                       [(str "\n\n"
-                             group
-                             "\n\n")
-                        (->> posts
-                             (map (fn [{:post/keys [relative-url title]}]
-                                    ;; TODO include tags/blurb/word-count
-                                    (str "* [" title "](" relative-url ")")))
-                             (string/join "\n"))])))]
+(defn write-index
+  [{:as           opts
+    index-title   :index-title
+    index-content :index-content}]
+  (write-page (assoc opts
+                     :path "README.md"
+                     :->text (fn [{:post/keys [relative-url title]}]
+                               (str "* [" title "](" relative-url ")"))
+                     :preamble (str generated-page-preamble
+                                    (cond
+                                      index-content index-content
+                                      index-title   (str "# " index-title))))))
 
-    (log "Writing to" path)
-    (spit path
-          (str
-            generated-page-preamble
-            "## " (fs/file-name directory)
-            (str "\n\n")
-            (str "Known colloquially as hundos")
-            (str "\n\n")
-            (string/join "\n" (doall post-links))
-            ))))
 
 (comment
   (write-index {:directory hundos-dir}))
 
+(def page-defs
+  [{:directory     hundos-dir
+    :index-content (str "
+## 100 Word Stories
+
+Known colloquially as hundos.
+")}
+   {:directory   techsposure-dir
+    :index-title "Techsposure"}
+   {:directory   getitwrite-dir
+    :index-title "Get It? Write!"}
+   {:directory     groks-dir
+    :index-title   "GROKs"
+    :index-content (str "
+## GROKs
+
+Notes and hopefully specific things I'm trying to understand better.
+")}])
+
 (defn regen-all-pages []
-  (->> [hundos-dir
-        techsposure-dir
-        getitwrite-dir
-        groks-dir]
-       (map (fn [dir]
-              (write-index {:directory dir})
-              (write-sidebar {:directory dir})))
+  (->> page-defs
+       (map (fn [opts]
+              (write-index opts)
+              (write-sidebar opts)))
        doall))
 
 (comment
