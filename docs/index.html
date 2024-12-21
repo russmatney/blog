@@ -12,6 +12,10 @@
 
   <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.css">
+
+  <!-- Adds the default breadcrumb styling -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-breadcrumb@latest/dist/breadcrumb.min.css">
 
   <!-- Custom Styles -->
    <style>
@@ -29,14 +33,12 @@
   <script>
     window.$docsify = {
       themeColor: '#dc703f',
-      search: 'auto',
-      name: 'Danger Russ Blog',
+      name: '<span>Danger Russ Blog</span>',
       repo: 'https://github.com/russmatney/blog',
-      // logo: 'assets/Log_logo_4x.png',
+      logo: '/images/portrait_8x.png',
       auto2top: true,
       topMargin: 50,
       nativeEmoji: true,
-      // hideSidebar: true,
       loadSidebar: true,
       loadNavbar: true,
       subMaxLevel: 2,
@@ -46,6 +48,26 @@
         pre: '<hr/>',
         style: 'text-align: right;',
         class: 'className',
+      },
+      // requestHeaders: {
+      //   'cache-control': 'max-age=600',
+      // },
+      routes: {
+        '/blah/(.*)': function (route, matched, next) {
+          console.log("route", route, "matched", matched)
+          next('# Custom BLAH Markdown\n\n- whatchu digging for? You a bot? Get outta here!');
+        }
+      },
+      search: {
+        paths: 'auto',
+        placeholder: 'search...',
+        noData: 'No Results!',
+        depth: 3,
+      },
+      timeUpdater: {
+        text: ">Last Modified: {docsify-updated}",
+        formatUpdated: "{MM}/{DD}/{YYYY}",
+        whereToPlace: "top",
       },
       plugins: [
         titlePlugin({
@@ -75,6 +97,12 @@
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
+
+<!-- Adds the breadcrumb JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/docsify-breadcrumb@latest/dist/index.min.js"></script>
+
+  <script src="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-gdscript.min.js"></script>
 </body>
 </html>
