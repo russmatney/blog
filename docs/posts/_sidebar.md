@@ -1,7 +1,7 @@
 * [Home](/)
+* [Dev Logs](/devlogs/)
 * [Posts](/posts/)
     * [100 word stories](/posts/100-worders/ "100 word stories a.k.a. Hundos")
-        * [Jack](/posts/100-worders/2012-02-21-jack.md)
     * [Get It Write](/posts/getitwrite/)
     * [groks](/posts/groks/)
     * [techsposure](/posts/techsposure/)
