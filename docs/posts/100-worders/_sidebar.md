@@ -1,7 +1,3 @@
-## 100-worders
-
-Known colloquially as hundos
-
 * [2012-02-08-the-juice-box-guy.md](/posts/100-worders/2012-02-08-the-juice-box-guy.md)
 * [2012-02-08-ode-to-the-woman-in-the-portlandia-intro.md](/posts/100-worders/2012-02-08-ode-to-the-woman-in-the-portlandia-intro.md)
 * [2012-02-10-the-kings-tax.md](/posts/100-worders/2012-02-10-the-kings-tax.md)
