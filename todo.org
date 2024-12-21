@@ -1,0 +1,28 @@
+#+title: Todo
+
+* sidebar, index gen
+** [ ] generate 100-worder index pages
+** [ ] generate 100-worder sidebar pages
+** [ ] generate techsposure index pages
+** [ ] generate techsposure sidebar pages
+** [ ] generate getitwrite index pages
+** [ ] generate getitwrite sidebar pages
+** [ ] generate all posts page
+group by month/year?
+group by tag?
+* old content
+** [ ] mix in content from hugo-blog
+** [ ] mix in content from blog-gatsby
+** [ ] mix in content from new-blog
+** [ ] mix in 'posts' from mind garden
+* other pages
+** [ ] collected clips/rants/plans/todos from the mind garden?
+* portfolio build out
+** [ ] add copy/gifs/links for hatbot
+** [ ] add copy/gifs/links for dino
+** [ ] add copy/gifs/links for REM
+** [ ] add copy/gifs/links for carving with care
+** [ ] add rough resume
+** [ ] add yt devlogs
+* bullet devlog
+** [ ] write first bullet devlog post: glossolalia listen clips

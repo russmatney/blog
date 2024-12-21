@@ -1,9 +1,15 @@
 * [:house: Home](/)
 * [Posts](/posts/)
+    * [Dev Logs](/posts/devlog/)
     * [100 word stories](/posts/100-worders/)
+    * [Techsposure](/posts/techsposure/)
     * [Get It Write](/posts/getitwrite/)
-    * [groks](/posts/groks/)
-    * [techsposure](/posts/techsposure/)
+    * [Groks](/posts/groks/)
+* [Portfolio](/portfolio/)
+    * [Games](/portfolio/games.md)
+    * [Open Source](/portfolio/open_source.md)
+    * [Videos](/portfolio/videos.md)
+    * [Resume](/portfolio/resume.md)
 * [About](/about)
 
 
