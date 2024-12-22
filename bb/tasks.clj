@@ -13,11 +13,15 @@
 
 (def repo-dir (str (fs/home) "/russmatney/blog"))
 (def docs-dir (str repo-dir "/docs"))
+
 (def posts-dir (str repo-dir "/docs/posts"))
 (def hundos-dir (str repo-dir "/docs/posts/100-worders"))
 (def techsposure-dir (str repo-dir "/docs/posts/techsposure"))
 (def getitwrite-dir (str repo-dir "/docs/posts/getitwrite"))
 (def groks-dir (str repo-dir "/docs/posts/groks"))
+
+(def devlogs-dir (str repo-dir "/docs/devlogs"))
+
 (def org-garden-dir (str (fs/home) "/todo/garden"))
 (def org-daily-dir (str (fs/home) "/todo/daily"))
 
@@ -41,17 +45,27 @@
 ;; posts
 
 (defn parse-datey-fname [fname]
-  (let [date-matches (re-seq #"(\d{4}-\d{2}-\d{2})-" fname)
-        date         (some-> date-matches first last dates/parse-time-string)
-        title        (cond-> fname
-                       (some-> date-matches first last)
-                       (string/replace (-> date-matches first first) "")
+  (let [date-matches       (re-seq #"(\d{4}-\d{2}-\d{2})-" fname)
+        year-month-matches (re-seq #"(\d{4}-\d{2})-" fname)
+        date               (some-> date-matches first last dates/parse-time-string)
+        year-month         (some-> year-month-matches first last)
+        title              (cond-> fname
+                             (some-> date-matches first last)
+                             (string/replace (-> date-matches first first) "")
 
-                       true
-                       (string/replace ".md" ""))
+                             (and
+                               (not (some-> date-matches first last))
+                               (some-> year-month-matches first last))
+                             (-> (string/replace (-> year-month-matches first first) "")
+                                 (#(str year-month ": " %))
+                                 )
+
+                             true
+                             (string/replace ".md" ""))
         ]
-    {:title title
-     :date  date
+    {:title      title
+     :date       date
+     :year-month year-month
      ;; :matches date-matches
      }))
 
@@ -67,14 +81,15 @@
         fname         (fs/file-name path)
         {title :title
          date  :date} (parse-datey-fname fname)]
+    ;; TODO last time git-touched (all times git-touched?)
+    ;; TODO parse tags, front-matters?
+    ;; TODO parse dates for non-datey-filenames
     (cond-> post
       true (assoc
              :post/title title
              :post/fname fname
              :post/parent-fname (fs/file-name (fs/parent path))
              :post/last-modified (fs/file-time->millis (fs/last-modified-time path))
-             ;; last time git-touched (all times git-touched?)
-             ;; category
              )
 
       (:post/path post) (assoc :post/relative-url (string/replace path docs-dir ""))
@@ -126,7 +141,24 @@
 ;; generating pages
 
 (def gened-page-defs
-  [{:directory      posts-dir
+  [
+   {:directory      devlogs-dir
+    :title          "Dev Logs"
+    ;; TODO we could slurp-in the preamble, maybe up to a <!--- BLOG END PREAMBLE ---> comment?
+    :index-preamble (str "
+
+## Dev Logs
+
+Notes, clips, commits, etc collected along the dev path.
+
+")
+    :->text (fn [post] (str "* " (tasks/post->md-text-link post)
+                            (cond
+                              (string/includes? (:post/fname post) "gloss") " #glossolalia")))
+    ;; :sidebar-content (str "")
+
+    :skip-group-by true}
+   {:directory      posts-dir
     :title          "Posts"
     :index-preamble (str "
 
@@ -183,21 +215,29 @@ Notes and hopefully specific things I'm trying to understand better.
   [{:post/keys [relative-url title]}]
   (str "[" title "](" relative-url ")"))
 
-(defn post-links [{directory :directory
-                   posts     :posts
-                   ->text    :->text}]
+(defn post-link-content [{directory     :directory
+                          posts         :posts
+                          ->text        :->text
+                          skip-group-by :skip-group-by
+                          }]
   (let [posts (->> (or posts (posts-in-dir directory))
                    (remove (comp exclude-from-index :post/fname))
                    sort-latest-created-first)]
-    (->> posts
-         (group-by (fn [post] (when (:post/date-created post) (t/format "MMMM YYYY" (:post/date-created post)))))
-         (sort-by (fn [[_group psts]] (some-> psts first :post/date-created))
-                  dates/sort-latest-first)
-         (mapcat (fn [[group posts]]
-                   [(str "\n\n" (or group "Date Unspecified") "\n\n")
-                    (->> posts
-                         sort-latest-created-first
-                         (map ->text) (string/join "\n"))])))))
+    (if skip-group-by
+      (->> posts
+           sort-latest-created-first
+           (map ->text)
+           (string/join "\n"))
+      (->> posts
+           (group-by (fn [post] (when (:post/date-created post) (t/format "MMMM YYYY" (:post/date-created post)))))
+           (sort-by (fn [[_group psts]] (some-> psts first :post/date-created))
+                    dates/sort-latest-first)
+           (mapcat (fn [[group posts]]
+                     [(str "\n\n" (or group "Date Unspecified") "\n\n")
+                      (->> posts
+                           sort-latest-created-first
+                           (map ->text) (string/join "\n"))]))
+           (string/join "\n")))))
 
 (defn write-page [{directory :directory
                    path      :path
@@ -209,8 +249,7 @@ Notes and hopefully specific things I'm trying to understand better.
     (log "Writing to" path)
     (spit path
           (str preamble
-               (or content (string/join "\n" (post-links opts)))))))
-
+               (or content (post-link-content opts))))))
 
 
 (defn write-sidebar [{:as             opts

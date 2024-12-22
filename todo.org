@@ -1,15 +1,14 @@
 #+title: Todo
 
-* sidebar, index gen
-** [ ] generate 100-worder index pages
-** [ ] generate 100-worder sidebar pages
-** [ ] generate techsposure index pages
-** [ ] generate techsposure sidebar pages
-** [ ] generate getitwrite index pages
-** [ ] generate getitwrite sidebar pages
-** [ ] generate all posts page
-group by month/year?
-group by tag?
+* bullet devlog
+** [ ] write first bullet devlog post: glossolalia listen clips
+* old content
+** [ ] clean up narsty markdown in places
+** [ ] mix in poems and haskell post from medium
+** [ ] mix in some things from ~/Writing
+** [ ] mix in 'posts' from mind garden
+** [ ] mix in 'notes' from mind garden
+** [ ] mix 'groks' into notes/garden
 * other pages
 ** [ ] collected clips/rants/plans/todos from the mind garden?
 ** [ ] dedicated game pages
@@ -22,8 +21,6 @@ include 'status'
 ** [ ] add copy/gifs/links for carving with care
 ** [ ] add rough resume
 ** [ ] add yt devlogs
-* bullet devlog
-** [ ] write first bullet devlog post: glossolalia listen clips
 * socials
 ** [ ] about social links
 - [ ] mastodon
@@ -32,22 +29,36 @@ include 'status'
 - [ ] kofi
 - [ ] bluesky
 ** [ ] header/footer socials
-* old content
-** [X] mix in content from blog-gatsby
-CLOSED: [2024-12-21 Sat 15:13]
-** [X] mix in content from hugo-blog
-CLOSED: [2024-12-21 Sat 15:13]
-** [X] mix in content from blog-11ty
-CLOSED: [2024-12-21 Sat 15:13]
-** [X] mix in content from new-blog
-CLOSED: [2024-12-21 Sat 15:10]
-no content?
-** [X] dedupe the posts
-CLOSED: [2024-12-21 Sat 15:48]
-** [ ] clean up narsty markdown in places
-** [ ] mix in poems and haskell post from medium
-** [ ] mix in 'posts' from mind garden
-** [ ] mix in 'notes' from mind garden
-** [ ] mix 'groks' into notes/garden
 * homepage rewrite
 ** [ ] pull in content/posts/etc from blog_home.org
+* done
+** sidebar, index gen
+*** [X] generate 100-worder index pages
+CLOSED: [2024-12-21 Sat 18:59]
+*** [X] generate 100-worder sidebar pages
+CLOSED: [2024-12-21 Sat 18:59]
+*** [X] generate techsposure index pages
+CLOSED: [2024-12-21 Sat 18:59]
+*** [X] generate techsposure sidebar pages
+CLOSED: [2024-12-21 Sat 18:59]
+*** [X] generate getitwrite index pages
+CLOSED: [2024-12-21 Sat 18:59]
+*** [X] generate getitwrite sidebar pages
+CLOSED: [2024-12-21 Sat 18:59]
+*** [X] generate all posts page
+CLOSED: [2024-12-21 Sat 18:59]
+group by month/year?
+group by tag?
+
+** old content
+*** [X] mix in content from blog-gatsby
+CLOSED: [2024-12-21 Sat 15:13]
+*** [X] mix in content from hugo-blog
+CLOSED: [2024-12-21 Sat 15:13]
+*** [X] mix in content from blog-11ty
+CLOSED: [2024-12-21 Sat 15:13]
+*** [X] mix in content from new-blog
+CLOSED: [2024-12-21 Sat 15:10]
+no content?
+*** [X] dedupe the posts
+CLOSED: [2024-12-21 Sat 15:48]
