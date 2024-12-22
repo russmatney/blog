@@ -22,7 +22,7 @@ I'd be cool to intersperse commits here as well!
 
 <video controls width="80%" height="400px">
     <source
-    src="../_images/glossolalia/listen prototyping 2024-12-11 13-07.mp4"
+    src="/blog/_images/glossolalia/listen prototyping 2024-12-11 13-07.mp4"
     type="video/mp4"
     />
 </video>

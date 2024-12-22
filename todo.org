@@ -1,7 +1,9 @@
 #+title: Todo
 
 * bullet devlog
-** [ ] write first bullet devlog post: glossolalia listen clips
+** [X] write first bullet devlog post: glossolalia listen clips
+CLOSED: [2024-12-21 Sat 21:03]
+** [ ] generate some older devlogs based on clip dates
 * old content
 ** [ ] clean up narsty markdown in places
 ** [ ] mix in poems and haskell post from medium
