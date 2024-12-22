@@ -22,14 +22,14 @@ I'd be cool to intersperse commits here as well!
 
 <video controls width="80%" height="400px">
     <source
-    src="/blog/_images/glossolalia/listen prototyping 2024-12-11 13-07.mp4"
+    src="_images/glossolalia/listen prototyping 2024-12-11 13-07.mp4"
     type="video/mp4"
     />
 </video>
 
 <video controls width="80%" height="400px">
     <source
-    src="../_images/glossolalia/listen prototyping 2 2024-12-11 13-10.mp4"
+    src="_images/glossolalia/listen prototyping 2 2024-12-11 13-10.mp4"
     type="video/mp4"
     />
 </video>
@@ -42,7 +42,7 @@ We see the camera zooming out when we hold `L` on the keyboard.
 
 <video controls width="80%" height="400px">
     <source
-    src="../_images/glossolalia/listen enemy fade in-out 2024-12-11 14-01.mp4"
+    src="_images/glossolalia/listen enemy fade in-out 2024-12-11 14-01.mp4"
     type="video/mp4"
     />
 </video>
@@ -56,7 +56,7 @@ circle around the player.
 
 <video controls width="80%" height="400px">
     <source
-    src="../_images/glossolalia/listen including light scale 2024-12-11 14-14.mp4"
+    src="_images/glossolalia/listen including light scale 2024-12-11 14-14.mp4"
     type="video/mp4"
     />
 </video>
@@ -69,7 +69,7 @@ Scaling the light on the player along with the listen area's size.
 
 <video controls width="80%" height="400px">
     <source
-    src="../_images/glossolalia/listen first blur shader 2024-12-11 14-43.mp4"
+    src="_images/glossolalia/listen first blur shader 2024-12-11 14-43.mp4"
     type="video/mp4"
     />
 </video>
@@ -82,7 +82,7 @@ You can see EVERYTHING is blurred, which is not ideal.
 
 <video controls width="80%" height="400px">
     <source
-    src="../_images/glossolalia/listen with fade light blur 2024-12-11 15-04.mp4"
+    src="_images/glossolalia/listen with fade light blur 2024-12-11 15-04.mp4"
     type="video/mp4"
     />
 </video>
@@ -96,7 +96,7 @@ with the light + listen areas.
 
 <video controls width="80%" height="400px">
     <source
-    src="../_images/glossolalia/listen with slowmo 2024-12-11 15-22.mp4"
+    src="_images/glossolalia/listen with slowmo 2024-12-11 15-22.mp4"
     type="video/mp4"
     />
 </video>
@@ -110,7 +110,7 @@ this later.
 
 <video controls width="80%" height="400px">
     <source
-    src="../_images/glossolalia/first yell capture 2024-12-11 16-03.mp4"
+    src="_images/glossolalia/first yell capture 2024-12-11 16-03.mp4"
     type="video/mp4"
     />
 </video>
@@ -127,21 +127,21 @@ Camera](https://github.com/ramokz/phantom-camera).
 
 <video controls width="80%" height="400px">
     <source
-    src="../_images/glossolalia/listen shows coins and player respawn 2024-12-11 16-47.mp4"
+    src="_images/glossolalia/listen shows coins and player respawn 2024-12-11 16-47.mp4"
     type="video/mp4"
     />
 </video>
 
 <video controls width="80%" height="400px">
     <source
-    src="../_images/glossolalia/listen coins and respawns 2024-12-11 16-49.mp4"
+    src="_images/glossolalia/listen coins and respawns 2024-12-11 16-49.mp4"
     type="video/mp4"
     />
 </video>
 
 <video controls width="80%" height="400px">
     <source
-    src="../_images/glossolalia/listen gym two playthrough 2024-12-11 16-51.mp4"
+    src="_images/glossolalia/listen gym two playthrough 2024-12-11 16-51.mp4"
     type="video/mp4"
     />
 </video>
