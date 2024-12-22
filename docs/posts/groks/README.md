@@ -8,6 +8,8 @@
 Notes and hopefully specific things I'm trying to understand better.
 
 
+
+
 July 2016
 
 

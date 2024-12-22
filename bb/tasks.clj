@@ -140,6 +140,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; generating pages
 
+(declare post->md-text-link)
+
 (def gened-page-defs
   [
    {:directory      devlogs-dir
@@ -152,7 +154,7 @@
 Notes, clips, commits, etc collected along the dev path.
 
 ")
-    :->text (fn [post] (str "* " (tasks/post->md-text-link post)
+    :->text (fn [post] (str "* " (post->md-text-link post)
                             (cond
                               (string/includes? (:post/fname post) "gloss") " #glossolalia")))
     ;; :sidebar-content (str "")
@@ -175,7 +177,7 @@ Some broad categories:
 
 ")
     :->posts         tasks/local-posts
-    :->text          (fn [post] (str "* " (tasks/post->md-text-link post)
+    :->text          (fn [post] (str "* " (post->md-text-link post)
                                      (cond
                                        (#{"techsposure"} (:post/parent-fname post)) " #techsposure"
                                        (#{"getitwrite"} (:post/parent-fname post))  " #getitwrite"
@@ -248,7 +250,7 @@ Notes and hopefully specific things I'm trying to understand better.
   (let [path (str directory "/" path)]
     (log "Writing to" path)
     (spit path
-          (str preamble
+          (str preamble "\n\n"
                (or content (post-link-content opts))))))
 
 
@@ -260,8 +262,7 @@ Notes and hopefully specific things I'm trying to understand better.
                      :path "_sidebar.md"
                      :->text (fn [post] (str "* " (post->md-text-link post)))
                      :preamble (str generated-page-preamble side-bar-top-links
-                                    (cond
-                                      title (str title)))
+                                    (cond title title))
                      :content sidebar-content)))
 
 (defn write-index

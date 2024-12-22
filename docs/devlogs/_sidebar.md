@@ -10,5 +10,7 @@
 
 --
 
-Dev Logs* [projects](/devlogs/projects.md)
-* [2024-12: glossolalia-prototyping](/devlogs/2024-12-glossolalia-prototyping.md)
+Dev Logs
+
+* [glossolalia-listen-prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md)
+* [projects](/devlogs/projects.md)
