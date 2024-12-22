@@ -7,5 +7,11 @@ It's in a very early stage, and we're just starting to explore some mechanic ide
 I enjoyed hacking this 'Listen' feature together, and adding some bells and
 whistles along the way.
 
-![](_images/glossolalia/listen prototyping 2 2024-12-11 13-10.mp4)
+![listen prototype 2](../_images/glossolalia/listen%20prototyping%202%202024-12-11%2013-10.mp4 'Listen Prototype 2 :include :type=video controls width=80% height=400px')
 
+<video controls width="80%" height="400px">
+    <source
+    src="../_images/glossolalia/listen%20prototyping%202%202024-12-11%2013-10.mp4"
+    type="video/mp4"
+    />
+</video>
