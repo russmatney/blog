@@ -1,29 +1,8 @@
 #+title: Todo
 
-* bullet devlog
-** [X] write first bullet devlog post: glossolalia listen clips
-CLOSED: [2024-12-21 Sat 21:03]
-** [ ] generate some older devlogs based on clip dates
-* old content
-** [ ] clean up narsty markdown in places
-** [ ] mix in poems and haskell post from medium
-** [ ] mix in some things from ~/Writing
-** [ ] mix in 'posts' from mind garden
-** [ ] mix in 'notes' from mind garden
-** [ ] mix 'groks' into notes/garden
-* other pages
-** [ ] collected clips/rants/plans/todos from the mind garden?
-** [ ] dedicated game pages
-for itch + steam games, plus work-in-progress ones
-include 'status'
-* portfolio build out
-** [ ] add copy/gifs/links for hatbot
-** [ ] add copy/gifs/links for dino
-** [ ] add copy/gifs/links for REM
-** [ ] add copy/gifs/links for carving with care
-** [ ] add rough resume
-** [ ] add yt devlogs
-* socials
+* homepage rewrite
+** [ ] pull in content/posts/etc from blog_home.org
+* socials/about
 ** [ ] about social links
 - [ ] mastodon
 - [ ] carrd
@@ -31,9 +10,31 @@ include 'status'
 - [ ] kofi
 - [ ] bluesky
 ** [ ] header/footer socials
-* homepage rewrite
-** [ ] pull in content/posts/etc from blog_home.org
+* portfolio build out
+** [ ] add copy/gifs/links for hatbot
+** [ ] add copy/gifs/links for dino
+** [ ] add copy/gifs/links for REM
+** [ ] add copy/gifs/links for wicked peak
+** [ ] add copy/gifs/links for carving with care
+** [ ] add rough resume
+** [ ] add yt devlogs
+* bullet devlog
+** [ ] generate some older devlogs based on old clips and dates
+* old content
+** [ ] clean up narsty markdown in places
+** [ ] mix in poems and haskell post from medium
+** [ ] mix in some things from ~/Writing
+** [ ] mix in 'posts' from mind garden
+** [ ] mix in 'notes' from mind garden
+** [ ] mix/purge 'groks' into notes/garden
+* other pages
+** [ ] collected clips/rants/projects/todos from the mind garden?
+** [ ] dedicated game/project pages?
+for itch + steam games, plus work-in-progress ones
+include 'status'
 * done
+** [X] write first bullet devlog post: glossolalia listen clips
+CLOSED: [2024-12-21 Sat 21:03]
 ** sidebar, index gen
 *** [X] generate 100-worder index pages
 CLOSED: [2024-12-21 Sat 18:59]
