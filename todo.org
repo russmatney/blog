@@ -1,7 +1,8 @@
 #+title: Todo
 
 * homepage rewrite
-** [ ] pull in content/posts/etc from blog_home.org
+** [ ] pull in posts from blog_home.org
+e.g. specific videos, posts, lists, etc
 * socials/about
 ** [ ] about social links
 - [ ] mastodon
@@ -65,3 +66,10 @@ CLOSED: [2024-12-21 Sat 15:10]
 no content?
 *** [X] dedupe the posts
 CLOSED: [2024-12-21 Sat 15:48]
+
+** [X] pull in content from blog_home.org
+CLOSED: [2024-12-23 Mon 14:54]
+** [X] portfolio games blow out
+CLOSED: [2024-12-23 Mon 14:54]
+** [X] portfolio repos blow out
+CLOSED: [2024-12-23 Mon 14:54]
