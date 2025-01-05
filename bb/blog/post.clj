@@ -36,10 +36,13 @@
 
 (defn sort-latest-created-first [posts]
   (->> posts
-       (sort-by :post/date-created dates/sort-latest-first)))
+       (sort-by :post/title)
+       (sort-by :post/date-created dates/sort-latest-first)
+       ))
 
 (defn sort-oldest-created-first [posts]
   (->> posts
+       (sort-by :post/title)
        (sort-by :post/date-created dates/sort-chrono)))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

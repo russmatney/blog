@@ -212,7 +212,7 @@ Notes and hopefully specific things I'm trying to understand better.
   (let [def    (cond-> def
                  ;; attach list of posts
                  (:->posts def)
-                 (assoc :posts ((:->posts def))))
+                 (assoc :posts ((:->posts))))
         gen-fn (:generate def)]
     (gen-fn def)))
 

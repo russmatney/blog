@@ -64,8 +64,8 @@ December 2012
 
 
 * [someone-tell-h-g-wells](/posts/100-worders/2012-12-02-someone-tell-h-g-wells.md)
-* [barack-obama-is-my-new-girlfriends-crazy-ex-boyfriend](/posts/100-worders/2012-12-01-barack-obama-is-my-new-girlfriends-crazy-ex-boyfriend.md)
 * [a-ghost-i-think](/posts/100-worders/2012-12-01-a-ghost-i-think.md)
+* [barack-obama-is-my-new-girlfriends-crazy-ex-boyfriend](/posts/100-worders/2012-12-01-barack-obama-is-my-new-girlfriends-crazy-ex-boyfriend.md)
 
 
 November 2012
@@ -109,8 +109,8 @@ July 2012
 
 
 * [new-clear-warfare](/posts/100-worders/2012-07-06-new-clear-warfare.md)
-* [unspoken-rules-of-the-c-train](/posts/100-worders/2012-07-06-unspoken-rules-of-the-c-train.md)
 * [these-are-one-or-two-liners](/posts/100-worders/2012-07-06-these-are-one-or-two-liners.md)
+* [unspoken-rules-of-the-c-train](/posts/100-worders/2012-07-06-unspoken-rules-of-the-c-train.md)
 * [full-4-minute-relationship](/posts/100-worders/2012-07-03-full-4-minute-relationship.md)
 * [what-ill-tell-my-kids](/posts/100-worders/2012-07-02-what-ill-tell-my-kids.md)
 * [olympic-dreams](/posts/100-worders/2012-07-01-olympic-dreams.md)
@@ -132,8 +132,8 @@ April 2012
 
 
 * [pipedream](/posts/100-worders/2012-04-27-pipedream.md)
-* [guac-butt-my-friend-on-the-train](/posts/100-worders/2012-04-26-guac-butt-my-friend-on-the-train.md)
 * [from-drab-to-fab](/posts/100-worders/2012-04-26-from-drab-to-fab.md)
+* [guac-butt-my-friend-on-the-train](/posts/100-worders/2012-04-26-guac-butt-my-friend-on-the-train.md)
 * [just-beyond-the-glass](/posts/100-worders/2012-04-21-just-beyond-the-glass.md)
 * [red-ribbon](/posts/100-worders/2012-04-15-red-ribbon.md)
 * [headed-north](/posts/100-worders/2012-04-14-headed-north.md)
@@ -146,26 +146,26 @@ March 2012
 
 
 * [first-in-cast](/posts/100-worders/2012-03-29-first-in-cast.md)
-* [the-ugly-bros](/posts/100-worders/2012-03-28-the-ugly-bros.md)
 * [a-problem-that-i-have](/posts/100-worders/2012-03-28-a-problem-that-i-have.md)
 * [fun-things-to-pretend-on-the-subway](/posts/100-worders/2012-03-28-fun-things-to-pretend-on-the-subway.md)
+* [the-ugly-bros](/posts/100-worders/2012-03-28-the-ugly-bros.md)
 * [the-deleter](/posts/100-worders/2012-03-25-the-deleter.md)
 * [generix-is-perfectly-safe](/posts/100-worders/2012-03-21-generix-is-perfectly-safe.md)
-* [anyone-else-have-dreams-like-this](/posts/100-worders/2012-03-19-anyone-else-have-dreams-like-this.md)
-* [psa-about-the-mirror-mirror](/posts/100-worders/2012-03-19-psa-about-the-mirror-mirror.md)
-* [lucky-gets-the-girl](/posts/100-worders/2012-03-19-lucky-gets-the-girl.md)
-* [special-deliverance](/posts/100-worders/2012-03-19-special-deliverance.md)
 * [a-periodic-purchase](/posts/100-worders/2012-03-19-a-periodic-purchase.md)
+* [anyone-else-have-dreams-like-this](/posts/100-worders/2012-03-19-anyone-else-have-dreams-like-this.md)
 * [i-smell-a-rat](/posts/100-worders/2012-03-19-i-smell-a-rat.md)
+* [lucky-gets-the-girl](/posts/100-worders/2012-03-19-lucky-gets-the-girl.md)
+* [psa-about-the-mirror-mirror](/posts/100-worders/2012-03-19-psa-about-the-mirror-mirror.md)
+* [special-deliverance](/posts/100-worders/2012-03-19-special-deliverance.md)
 * [career](/posts/100-worders/2012-03-15-career.md)
-* [is-funny-the-right-word](/posts/100-worders/2012-03-13-is-funny-the-right-word.md)
 * [aches-and-ashes](/posts/100-worders/2012-03-13-aches-and-ashes.md)
+* [is-funny-the-right-word](/posts/100-worders/2012-03-13-is-funny-the-right-word.md)
 * [time-in-the-dark](/posts/100-worders/2012-03-09-time-in-the-dark.md)
 * [the-money](/posts/100-worders/2012-03-06-the-money.md)
 * [get-nice-and-clean](/posts/100-worders/2012-03-05-get-nice-and-clean.md)
-* [the-issues](/posts/100-worders/2012-03-05-the-issues.md)
-* [smooth-criminals](/posts/100-worders/2012-03-05-smooth-criminals.md)
 * [not-a-true-story](/posts/100-worders/2012-03-05-not-a-true-story.md)
+* [smooth-criminals](/posts/100-worders/2012-03-05-smooth-criminals.md)
+* [the-issues](/posts/100-worders/2012-03-05-the-issues.md)
 
 
 February 2012
@@ -185,6 +185,6 @@ February 2012
 * [first-person-vs-third-person](/posts/100-worders/2012-02-11-first-person-vs-third-person.md)
 * [the-kings-tax](/posts/100-worders/2012-02-10-the-kings-tax.md)
 * [prompt-from-a-friend-basketball](/posts/100-worders/2012-02-09-prompt-from-a-friend-basketball.md)
-* [the-juice-box-guy](/posts/100-worders/2012-02-08-the-juice-box-guy.md)
 * [ode-to-the-woman-in-the-portlandia-intro](/posts/100-worders/2012-02-08-ode-to-the-woman-in-the-portlandia-intro.md)
 * [the-cutest-angry-couple](/posts/100-worders/2012-02-08-the-cutest-angry-couple.md)
+* [the-juice-box-guy](/posts/100-worders/2012-02-08-the-juice-box-guy.md)
