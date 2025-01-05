@@ -1,8 +1,6 @@
-(ns config
+(ns blog.config
   (:require
-   [babashka.fs :as fs]
-   )
-  )
+   [babashka.fs :as fs]))
 
 
 (def repo-dir (str (fs/home) "/russmatney/blog"))

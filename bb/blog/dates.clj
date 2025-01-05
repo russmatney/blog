@@ -1,8 +1,9 @@
-(ns dates
+(ns blog.dates
   (:require
    [clojure.string :as string]
    [tick.core :as t]
    [util :as util]))
+
 
 (def date-formats-with-zone
   [:iso-zoned-date-time
@@ -79,10 +80,8 @@
                       (string? time-string) string/trim
                       true                  ((apply some-fn wrapped-parse-attempts)))]
         time
-        (do
-          #?(:clj (println "Error parsing time string" time-string)
-             :cljs (println "Error parsing time string" time-string))
-          nil)))))
+        (do (println "Error parsing time string" time-string)
+            nil)))))
 
 (comment
   (t/parse-zoned-date-time
@@ -292,3 +291,37 @@
 
 (defn sort-chrono [a b] (-sort a b t/<))
 (defn sort-latest-first [a b] (-sort a b t/>))
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; public blog helpers
+
+(defn parse-datey-fname [fname]
+  (let [date-matches       (re-seq #"(\d{4}-\d{2}-\d{2})-" fname)
+        year-month-matches (re-seq #"(\d{4}-\d{2})-" fname)
+        date               (some-> date-matches first last parse-time-string)
+        year-month         (some-> year-month-matches first last)
+        title              (cond-> fname
+                             (some-> date-matches first last)
+                             (string/replace (-> date-matches first first) "")
+
+                             (and
+                               (not (some-> date-matches first last))
+                               (some-> year-month-matches first last))
+                             (-> (string/replace (-> year-month-matches first first) "")
+                                 (#(str year-month ": " %))
+                                 )
+
+                             true
+                             (string/replace ".md" ""))
+        ]
+    {:title      title
+     :date       date
+     :year-month year-month
+     ;; :matches date-matches
+     }))
+
+(comment
+  (parse-datey-fname "2022-04-22-bloodie-blah.md")
+  (parse-datey-fname "faves.md")
+  )

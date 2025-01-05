@@ -1,4 +1,4 @@
-(ns util
+(ns blog.util
   (:require
    #?@(:clj [[babashka.process :refer [$ check]]
              [clojure.java.io :as io]
