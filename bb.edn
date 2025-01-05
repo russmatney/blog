@@ -3,7 +3,7 @@
  :tasks
  {:requires ([babashka.fs :as fs]
              [clojure.edn :as edn]
-             [tasks :as tasks])
+             [blog.tasks :as tasks])
   :init
   (do
     (defn log [& args]
