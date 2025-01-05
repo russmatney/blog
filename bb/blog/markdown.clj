@@ -3,8 +3,8 @@
    [clojure.string :as string]
    [tick.core :as t]
 
-   [post :as post]
-   [dates :as dates]
+   [blog.post :as post]
+   [blog.dates :as dates]
    ))
 
 

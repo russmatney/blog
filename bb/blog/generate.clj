@@ -14,8 +14,6 @@
   (let [path (str directory "/" path)]
     (log/log "Writing to" path)
     (spit path
-          (str
-            generated-page-preamble "\n\n"
-            (when preamble
-              (str preamble "\n\n"))
-            content))))
+          (str generated-page-preamble "\n\n"
+               (when preamble (str preamble "\n\n"))
+               content))))
