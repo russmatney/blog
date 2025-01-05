@@ -211,8 +211,8 @@ Notes and hopefully specific things I'm trying to understand better.
   (log/log "Generating page for def" (:id def))
   (let [def    (cond-> def
                  ;; attach list of posts
-                 (:posts-fn def)
-                 (assoc :posts ((:posts-fn def))))
+                 (:->posts def)
+                 (assoc :posts ((:->posts def))))
         gen-fn (:generate def)]
     (gen-fn def)))
 
@@ -227,6 +227,9 @@ Notes and hopefully specific things I'm trying to understand better.
 
 (comment
   (-> (:groks/index groks-page-defs)
+      (def->generate-page))
+
+  (-> (:posts/index posts-page-defs)
       (def->generate-page))
 
   (write-indexes-and-sidebars))
