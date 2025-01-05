@@ -12,15 +12,22 @@ e.g. specific videos, posts, lists, etc
 - [ ] bluesky
 ** [ ] header/footer socials
 * portfolio build out
-** [ ] add copy/gifs/links for hatbot
+** [ ] add copy/gifs/links for dothop
 ** [ ] add copy/gifs/links for dino
 ** [ ] add copy/gifs/links for REM
+:PROPER
+:id: fb4-e2aa-4c8d-a622-419c58b06a22
+:END:
 ** [ ] add copy/gifs/links for wicked peak
 ** [ ] add copy/gifs/links for carving with care
 ** [ ] add rough resume
 ** [ ] add yt devlogs
 * bullet devlog
 ** [ ] generate some older devlogs based on old clips and dates
+* mind-garden and notes
+** [-] expose cli command for .org -> notes/*.md ingestion
+** [-] bb task for scanning org-roam and building 'published' 'posts' 'devlogs' etc
+** [ ] write emacs interactive cmd for write-this-org-file to blog/*
 * old content
 ** [ ] clean up narsty markdown in places
 ** [ ] mix in poems and haskell post from medium
