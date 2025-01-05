@@ -3,6 +3,8 @@
   so-mind-ya-bizniz. --->
 
 
+
+
 * [Home](/)
 * [About](/about.md)
 * [Dev Logs](/devlogs/)
@@ -58,20 +60,20 @@ July 2016
 * [composing-elasticsearch-query-golang](/posts/techsposure/2016-07-24-composing-elasticsearch-query-golang.md)
 * [get-github](/posts/techsposure/2016-07-24-get-github.md)
 * [jp-concussed-and-wtf-is-an-spa](/posts/techsposure/2016-07-22-jp-concussed-and-wtf-is-an-spa.md)
-* [learn-your-browser-dev-tools](/posts/techsposure/2016-07-20-learn-your-browser-dev-tools.md)
 * [wtf-is-js](/posts/techsposure/2016-07-20-wtf-is-js.md)
+* [learn-your-browser-dev-tools](/posts/techsposure/2016-07-20-learn-your-browser-dev-tools.md)
 * [getting-tabby](/posts/techsposure/2016-07-19-getting-tabby.md)
 * [composing-elasticsearch-query-golang](/posts/techsposure/2016-07-19-composing-elasticsearch-query-golang.md)
 * [wtf-is-html](/posts/techsposure/2016-07-18-wtf-is-html.md)
 * [debug-unparsable-json-output](/posts/techsposure/2016-07-18-debug-unparsable-json-output.md)
-* [screenshots](/posts/techsposure/2016-07-17-screenshots.md)
 * [unparsable-json-null-bytes](/posts/techsposure/2016-07-17-unparsable-json-null-bytes.md)
 * [wtf-is-js](/posts/techsposure/2016-07-17-wtf-is-js.md)
+* [screenshots](/posts/techsposure/2016-07-17-screenshots.md)
 * [wtf-is-css](/posts/techsposure/2016-07-15-wtf-is-css.md)
 * [spotlight-and-alfred](/posts/techsposure/2016-07-15-spotlight-and-alfred.md)
 * [tetris-elm-love-for-the-game](/posts/techsposure/2016-07-11-tetris-elm-love-for-the-game.md)
-* [golang-defer-in-a-select](/posts/techsposure/2016-07-09-golang-defer-in-a-select.md)
 * [update-protobuf-golang-grpc](/posts/techsposure/2016-07-09-update-protobuf-golang-grpc.md)
+* [golang-defer-in-a-select](/posts/techsposure/2016-07-09-golang-defer-in-a-select.md)
 
 
 June 2016

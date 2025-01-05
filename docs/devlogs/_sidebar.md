@@ -3,6 +3,8 @@
   so-mind-ya-bizniz. --->
 
 
+
+
 * [Home](/)
 * [About](/about.md)
 * [Dev Logs](/devlogs/)
@@ -15,5 +17,5 @@ Dev Logs
 
 
 
-* [glossolalia-listen-prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md)
+* [glossolalia-listen-prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md) #glossolalia
 * [projects](/devlogs/projects.md)
