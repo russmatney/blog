@@ -2,7 +2,7 @@
   (:require
    [clojure.string :as string]
    [tick.core :as t]
-   [util :as util]))
+   [blog.util :as util]))
 
 
 (def date-formats-with-zone
