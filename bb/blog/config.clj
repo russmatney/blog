@@ -14,6 +14,6 @@
 
 (def devlogs-dir (str repo-dir "/docs/devlogs"))
 
-(def org-garden-dir (str (fs/home) "/todo/garden"))
-(def org-daily-dir (str (fs/home) "/todo/daily"))
 (def org-dir (str (fs/home) "/todo"))
+(def org-garden-dir (str org-dir "/garden"))
+(def org-daily-dir (str org-dir "/daily"))
