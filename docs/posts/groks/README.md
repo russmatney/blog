@@ -19,5 +19,5 @@ July 2016
 * [elixir-should-take-over-world](/posts/groks/2016-07-17-elixir-should-take-over-world.md)
 * [elm-game-in-five-days](/posts/groks/2016-07-12-elm-game-in-five-days.md)
 * [evolution-of-consciousness](/posts/groks/2016-07-03-evolution-of-consciousness.md)
-* [learn-you-a-haskell](/posts/groks/2016-07-03-learn-you-a-haskell.md)
 * [facebook-haxl](/posts/groks/2016-07-03-facebook-haxl.md)
+* [learn-you-a-haskell](/posts/groks/2016-07-03-learn-you-a-haskell.md)

@@ -65,26 +65,26 @@ July 2016
 * [composing-elasticsearch-query-golang](/posts/techsposure/2016-07-24-composing-elasticsearch-query-golang.md) #techsposure
 * [get-github](/posts/techsposure/2016-07-24-get-github.md) #techsposure
 * [jp-concussed-and-wtf-is-an-spa](/posts/techsposure/2016-07-22-jp-concussed-and-wtf-is-an-spa.md) #techsposure
-* [wtf-is-js](/posts/techsposure/2016-07-20-wtf-is-js.md) #techsposure
 * [learn-your-browser-dev-tools](/posts/techsposure/2016-07-20-learn-your-browser-dev-tools.md) #techsposure
-* [getting-tabby](/posts/techsposure/2016-07-19-getting-tabby.md) #techsposure
+* [wtf-is-js](/posts/techsposure/2016-07-20-wtf-is-js.md) #techsposure
 * [composing-elasticsearch-query-golang](/posts/techsposure/2016-07-19-composing-elasticsearch-query-golang.md) #techsposure
-* [wtf-is-html](/posts/techsposure/2016-07-18-wtf-is-html.md) #techsposure
-* [debug-unparsable-json-output](/posts/techsposure/2016-07-18-debug-unparsable-json-output.md) #techsposure
+* [getting-tabby](/posts/techsposure/2016-07-19-getting-tabby.md) #techsposure
 * [arch-linux-from-scratch](/posts/groks/2016-07-18-arch-linux-from-scratch.md) #groks
+* [debug-unparsable-json-output](/posts/techsposure/2016-07-18-debug-unparsable-json-output.md) #techsposure
+* [wtf-is-html](/posts/techsposure/2016-07-18-wtf-is-html.md) #techsposure
+* [elixir-should-take-over-world](/posts/groks/2016-07-17-elixir-should-take-over-world.md) #groks
+* [screenshots](/posts/techsposure/2016-07-17-screenshots.md) #techsposure
 * [unparsable-json-null-bytes](/posts/techsposure/2016-07-17-unparsable-json-null-bytes.md) #techsposure
 * [wtf-is-js](/posts/techsposure/2016-07-17-wtf-is-js.md) #techsposure
-* [screenshots](/posts/techsposure/2016-07-17-screenshots.md) #techsposure
-* [elixir-should-take-over-world](/posts/groks/2016-07-17-elixir-should-take-over-world.md) #groks
-* [wtf-is-css](/posts/techsposure/2016-07-15-wtf-is-css.md) #techsposure
 * [spotlight-and-alfred](/posts/techsposure/2016-07-15-spotlight-and-alfred.md) #techsposure
+* [wtf-is-css](/posts/techsposure/2016-07-15-wtf-is-css.md) #techsposure
 * [elm-game-in-five-days](/posts/groks/2016-07-12-elm-game-in-five-days.md) #groks
 * [tetris-elm-love-for-the-game](/posts/techsposure/2016-07-11-tetris-elm-love-for-the-game.md) #techsposure
-* [update-protobuf-golang-grpc](/posts/techsposure/2016-07-09-update-protobuf-golang-grpc.md) #techsposure
 * [golang-defer-in-a-select](/posts/techsposure/2016-07-09-golang-defer-in-a-select.md) #techsposure
+* [update-protobuf-golang-grpc](/posts/techsposure/2016-07-09-update-protobuf-golang-grpc.md) #techsposure
 * [evolution-of-consciousness](/posts/groks/2016-07-03-evolution-of-consciousness.md) #groks
-* [learn-you-a-haskell](/posts/groks/2016-07-03-learn-you-a-haskell.md) #groks
 * [facebook-haxl](/posts/groks/2016-07-03-facebook-haxl.md) #groks
+* [learn-you-a-haskell](/posts/groks/2016-07-03-learn-you-a-haskell.md) #groks
 
 
 June 2016
@@ -250,33 +250,33 @@ December 2012
 * [what-is-information-architecture](/posts/techsposure/2012-12-09-what-is-information-architecture.md) #techsposure
 * [vision-and-brilliance-at-the-connecticut-forum](/posts/getitwrite/2012-12-08-vision-and-brilliance-at-the-connecticut-forum.md) #getitwrite
 * [someone-tell-h-g-wells](/posts/100-worders/2012-12-02-someone-tell-h-g-wells.md) #hundos
-* [pay-attention-to-the-words](/posts/getitwrite/2012-12-01-pay-attention-to-the-words.md) #getitwrite
-* [barack-obama-is-my-new-girlfriends-crazy-ex-boyfriend](/posts/100-worders/2012-12-01-barack-obama-is-my-new-girlfriends-crazy-ex-boyfriend.md) #hundos
 * [a-ghost-i-think](/posts/100-worders/2012-12-01-a-ghost-i-think.md) #hundos
+* [barack-obama-is-my-new-girlfriends-crazy-ex-boyfriend](/posts/100-worders/2012-12-01-barack-obama-is-my-new-girlfriends-crazy-ex-boyfriend.md) #hundos
+* [pay-attention-to-the-words](/posts/getitwrite/2012-12-01-pay-attention-to-the-words.md) #getitwrite
 
 
 November 2012
 
 
 * [damn-you-inspiration](/posts/100-worders/2012-11-29-damn-you-inspiration.md) #hundos
-* [what-writing-can-do-for-you](/posts/getitwrite/2012-11-27-what-writing-can-do-for-you.md) #getitwrite
 * [5-useful-dev-tools-and-where-im-diving-lately](/posts/techsposure/2012-11-27-5-useful-dev-tools-and-where-im-diving-lately.md) #techsposure
+* [what-writing-can-do-for-you](/posts/getitwrite/2012-11-27-what-writing-can-do-for-you.md) #getitwrite
 * [delusions-of-grandeur-a-moment-in-character-emotional-acres](/posts/getitwrite/2012-11-10-delusions-of-grandeur-a-moment-in-character-emotional-acres.md) #getitwrite
 * [tools-that-taught-me-to-code](/posts/techsposure/2012-11-10-tools-that-taught-me-to-code.md) #techsposure
-* [writing-when-youre-stuck](/posts/getitwrite/2012-11-03-writing-when-youre-stuck.md) #getitwrite
 * [email-subscriptions-that-i-actually-like](/posts/techsposure/2012-11-03-email-subscriptions-that-i-actually-like.md) #techsposure
+* [writing-when-youre-stuck](/posts/getitwrite/2012-11-03-writing-when-youre-stuck.md) #getitwrite
 
 
 October 2012
 
 
-* [nanowrimo-approaches](/posts/getitwrite/2012-10-26-nanowrimo-approaches.md) #getitwrite
 * [6-web-technologies-i-use-everyday](/posts/techsposure/2012-10-26-6-web-technologies-i-use-everyday.md) #techsposure
+* [nanowrimo-approaches](/posts/getitwrite/2012-10-26-nanowrimo-approaches.md) #getitwrite
 * [hush-little-baby](/posts/100-worders/2012-10-23-hush-little-baby.md) #hundos
 * [productivity-find-something-you-want-to-do-less](/posts/100-worders/2012-10-22-productivity-find-something-you-want-to-do-less.md) #hundos
 * [these-are-the-facts](/posts/100-worders/2012-10-21-these-are-the-facts.md) #hundos
-* [discovering-the-big-things](/posts/getitwrite/2012-10-20-discovering-the-big-things.md) #getitwrite
 * [blog-tech](/posts/techsposure/2012-10-20-blog-tech.md) #techsposure
+* [discovering-the-big-things](/posts/getitwrite/2012-10-20-discovering-the-big-things.md) #getitwrite
 
 
 September 2012
@@ -306,8 +306,8 @@ July 2012
 
 
 * [new-clear-warfare](/posts/100-worders/2012-07-06-new-clear-warfare.md) #hundos
-* [unspoken-rules-of-the-c-train](/posts/100-worders/2012-07-06-unspoken-rules-of-the-c-train.md) #hundos
 * [these-are-one-or-two-liners](/posts/100-worders/2012-07-06-these-are-one-or-two-liners.md) #hundos
+* [unspoken-rules-of-the-c-train](/posts/100-worders/2012-07-06-unspoken-rules-of-the-c-train.md) #hundos
 * [full-4-minute-relationship](/posts/100-worders/2012-07-03-full-4-minute-relationship.md) #hundos
 * [what-ill-tell-my-kids](/posts/100-worders/2012-07-02-what-ill-tell-my-kids.md) #hundos
 * [olympic-dreams](/posts/100-worders/2012-07-01-olympic-dreams.md) #hundos
@@ -329,8 +329,8 @@ April 2012
 
 
 * [pipedream](/posts/100-worders/2012-04-27-pipedream.md) #hundos
-* [guac-butt-my-friend-on-the-train](/posts/100-worders/2012-04-26-guac-butt-my-friend-on-the-train.md) #hundos
 * [from-drab-to-fab](/posts/100-worders/2012-04-26-from-drab-to-fab.md) #hundos
+* [guac-butt-my-friend-on-the-train](/posts/100-worders/2012-04-26-guac-butt-my-friend-on-the-train.md) #hundos
 * [just-beyond-the-glass](/posts/100-worders/2012-04-21-just-beyond-the-glass.md) #hundos
 * [red-ribbon](/posts/100-worders/2012-04-15-red-ribbon.md) #hundos
 * [headed-north](/posts/100-worders/2012-04-14-headed-north.md) #hundos
@@ -343,26 +343,26 @@ March 2012
 
 
 * [first-in-cast](/posts/100-worders/2012-03-29-first-in-cast.md) #hundos
-* [the-ugly-bros](/posts/100-worders/2012-03-28-the-ugly-bros.md) #hundos
 * [a-problem-that-i-have](/posts/100-worders/2012-03-28-a-problem-that-i-have.md) #hundos
 * [fun-things-to-pretend-on-the-subway](/posts/100-worders/2012-03-28-fun-things-to-pretend-on-the-subway.md) #hundos
+* [the-ugly-bros](/posts/100-worders/2012-03-28-the-ugly-bros.md) #hundos
 * [the-deleter](/posts/100-worders/2012-03-25-the-deleter.md) #hundos
 * [generix-is-perfectly-safe](/posts/100-worders/2012-03-21-generix-is-perfectly-safe.md) #hundos
-* [anyone-else-have-dreams-like-this](/posts/100-worders/2012-03-19-anyone-else-have-dreams-like-this.md) #hundos
-* [psa-about-the-mirror-mirror](/posts/100-worders/2012-03-19-psa-about-the-mirror-mirror.md) #hundos
-* [lucky-gets-the-girl](/posts/100-worders/2012-03-19-lucky-gets-the-girl.md) #hundos
-* [special-deliverance](/posts/100-worders/2012-03-19-special-deliverance.md) #hundos
 * [a-periodic-purchase](/posts/100-worders/2012-03-19-a-periodic-purchase.md) #hundos
+* [anyone-else-have-dreams-like-this](/posts/100-worders/2012-03-19-anyone-else-have-dreams-like-this.md) #hundos
 * [i-smell-a-rat](/posts/100-worders/2012-03-19-i-smell-a-rat.md) #hundos
+* [lucky-gets-the-girl](/posts/100-worders/2012-03-19-lucky-gets-the-girl.md) #hundos
+* [psa-about-the-mirror-mirror](/posts/100-worders/2012-03-19-psa-about-the-mirror-mirror.md) #hundos
+* [special-deliverance](/posts/100-worders/2012-03-19-special-deliverance.md) #hundos
 * [career](/posts/100-worders/2012-03-15-career.md) #hundos
-* [is-funny-the-right-word](/posts/100-worders/2012-03-13-is-funny-the-right-word.md) #hundos
 * [aches-and-ashes](/posts/100-worders/2012-03-13-aches-and-ashes.md) #hundos
+* [is-funny-the-right-word](/posts/100-worders/2012-03-13-is-funny-the-right-word.md) #hundos
 * [time-in-the-dark](/posts/100-worders/2012-03-09-time-in-the-dark.md) #hundos
 * [the-money](/posts/100-worders/2012-03-06-the-money.md) #hundos
 * [get-nice-and-clean](/posts/100-worders/2012-03-05-get-nice-and-clean.md) #hundos
-* [the-issues](/posts/100-worders/2012-03-05-the-issues.md) #hundos
-* [smooth-criminals](/posts/100-worders/2012-03-05-smooth-criminals.md) #hundos
 * [not-a-true-story](/posts/100-worders/2012-03-05-not-a-true-story.md) #hundos
+* [smooth-criminals](/posts/100-worders/2012-03-05-smooth-criminals.md) #hundos
+* [the-issues](/posts/100-worders/2012-03-05-the-issues.md) #hundos
 
 
 February 2012
@@ -382,14 +382,14 @@ February 2012
 * [first-person-vs-third-person](/posts/100-worders/2012-02-11-first-person-vs-third-person.md) #hundos
 * [the-kings-tax](/posts/100-worders/2012-02-10-the-kings-tax.md) #hundos
 * [prompt-from-a-friend-basketball](/posts/100-worders/2012-02-09-prompt-from-a-friend-basketball.md) #hundos
-* [the-juice-box-guy](/posts/100-worders/2012-02-08-the-juice-box-guy.md) #hundos
 * [ode-to-the-woman-in-the-portlandia-intro](/posts/100-worders/2012-02-08-ode-to-the-woman-in-the-portlandia-intro.md) #hundos
 * [the-cutest-angry-couple](/posts/100-worders/2012-02-08-the-cutest-angry-couple.md) #hundos
+* [the-juice-box-guy](/posts/100-worders/2012-02-08-the-juice-box-guy.md) #hundos
 
 
 Date Unspecified
 
 
-* [resources](/posts/resources.md)
 * [archive](/posts/archive.md)
 * [faves](/posts/faves.md)
+* [resources](/posts/resources.md)
