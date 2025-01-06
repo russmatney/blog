@@ -12,6 +12,8 @@
 (def getitwrite-dir (str repo-dir "/docs/posts/getitwrite"))
 (def groks-dir (str repo-dir "/docs/posts/groks"))
 
+(def garden-posts-dir (str repo-dir "/docs/posts/notes"))
+
 (def devlogs-dir (str repo-dir "/docs/devlogs"))
 
 (def org-dir (str (fs/home) "/todo"))

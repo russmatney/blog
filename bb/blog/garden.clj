@@ -1,11 +1,14 @@
 (ns blog.garden
   (:require
+   [babashka.fs :as fs]
    [clojure.set :as set]
+   [clojure.string :as string]
    [org-crud.core :as org-crud]
 
    [blog.config :as config]
+   [blog.log :as log]
    [blog.post :as post]
-   [babashka.fs :as fs]))
+   [blog.generate :as gen]))
 
 (defonce garden-notes (atom nil))
 
@@ -27,10 +30,57 @@
       #_(take 1)
       )))
 
+(defn ->post [note]
+  (merge note (post/->post {:garden-path (:org/source-file note)}))
+  )
+
 (defn garden-note-posts []
   (->>
     (notes-with-tags #{"post" "published"})
-    (map (fn [note]
-           ;; TODO merge ':post/' keys into org note
-           (merge note #_(post/note->post note))
-           ))))
+    (map ->post)))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; rendering
+
+(defn post->md-lines [
+                      {:post/keys [title fname]
+                       :org/keys  [name tags]}
+                      ]
+  (log/log "post to md lines" name title tags)
+
+  "
+
+some content
+
+"
+
+  )
+
+(defn write-garden-post
+  [{:post/keys [title fname]
+    :org/keys  [name tags source-file]
+    :as        post}]
+  (log/log "generating garden post" fname)
+  (gen/write-page
+    {:directory config/garden-posts-dir
+     :path      fname
+     :content   (post->md-lines post)}))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; cli input
+
+(defn generate-post [opts]
+  (let [path (:path opts)]
+    (-> path
+        org-crud/path->nested-item
+        ->post
+        write-garden-post)))
+
+(comment
+  (->>
+    (fs/list-dir config/org-garden-dir)
+    (take 1)
+    (first)
+    ((fn [x] (generate-post {:path x})))
+    )
+  )
