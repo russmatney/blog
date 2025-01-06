@@ -12,8 +12,11 @@
 (defn ->post
   [{:keys [garden-path]
     :as   post}]
-  (let [path                      (:post/path post garden-path)
-        fname                     (fs/file-name path)
+  (let [path (:post/path post garden-path)
+
+        ;; replace any .org ext with a .md one
+        fname (string/replace (fs/file-name path) #"\.org" ".md")
+
         {title :title date :date} (dates/parse-datey-fname fname)]
     ;; TODO last time git-touched (all times git-touched?)
     ;; TODO parse tags, front-matters?
