@@ -4,6 +4,7 @@
    [clojure.set :as set]
    [clojure.string :as string]
    [org-crud.core :as org-crud]
+   [org-crud.markdown :as org-crud.markdown]
 
    [blog.config :as config]
    [blog.log :as log]
@@ -31,30 +32,18 @@
       )))
 
 (defn ->post [note]
-  (merge note (post/->post {:garden-path (:org/source-file note)}))
-  )
-
-(defn garden-note-posts []
-  (->>
-    (notes-with-tags #{"post" "published"})
-    (map ->post)))
+  (merge note (post/->post {:garden-path (:org/source-file note)})))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; rendering
 
-(defn post->md-lines [
-                      {:post/keys [title fname]
-                       :org/keys  [name tags]}
-                      ]
+(defn post->md-lines
+  [{:post/keys [title fname]
+    :org/keys  [name tags]
+    :as        note}]
   (log/log "post to md lines" name title tags)
-
-  "
-
-some content
-
-"
-
-  )
+  (let [md-item (org-crud.markdown/item->md-item note)]
+    (->> md-item :body (string/join "\n"))))
 
 (defn write-garden-post
   [{:post/keys [title fname]
@@ -81,6 +70,22 @@ some content
     (fs/list-dir config/org-garden-dir)
     (take 1)
     (first)
-    ((fn [x] (generate-post {:path x})))
-    )
+    ((fn [x] (generate-post {:path x}))))
+  )
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; bulk regeneration
+
+(defn garden-note-posts []
+  (->>
+    (notes-with-tags #{"post" "published"})
+    (map ->post)))
+
+(defn regenerate-all-garden-posts []
+  (->> (garden-note-posts)
+       (map write-garden-post)
+       (doall)))
+
+(comment
+  (regenerate-all-garden-posts)
   )
