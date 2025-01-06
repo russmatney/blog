@@ -25,9 +25,19 @@ e.g. specific videos, posts, lists, etc
 * bullet devlog
 ** [ ] generate some older devlogs based on old clips and dates
 * mind-garden and notes
-** [-] expose cli command for .org -> notes/*.md ingestion
-** [-] bb task for scanning org-roam and building 'published' 'posts' 'devlogs' etc
-** [ ] write emacs interactive cmd for write-this-org-file to blog/*
+** [X] expose cli command for .org -> notes/*.md ingestion
+CLOSED: [2025-01-05 Sun 19:37]
+** [X] bb task for scanning org-roam and building 'published' 'posts' 'devlogs' etc
+CLOSED: [2025-01-05 Sun 19:37]
+** [X] write emacs interactive cmd for write-this-org-file to blog/*
+CLOSED: [2025-01-05 Sun 19:48]
+** dig into org-crud's generated md-lines
+(drop/keep the frontmatter?)
+** we need a custom md-link impl/answer for id:<uuid> roam links/content
+would be great to do something fancy - popups or expandable sections
+* frontmatter?
+we might want to support/parse a frontmatter or otherwise associate metadata
+(lots of frontmatters already exist on old posts)
 * old content
 ** [ ] clean up narsty markdown in places
 ** [ ] mix in poems and haskell post from medium
