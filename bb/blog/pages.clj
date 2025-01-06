@@ -28,6 +28,7 @@
   * [Techsposure](/posts/techsposure/)
   * [Get It Write](/posts/getitwrite/)
   * [Groks](/posts/groks/)
+  * [Notes](/posts/notes/)
 "))
 
 (defn h1-text-link [post]
@@ -196,13 +197,32 @@ Known colloquially as hundos.
 Notes and hopefully specific things I'm trying to understand better.
 ")}})
 
+(def notes-page-defs
+  {:notes/sidebar
+   {:generate  write-sidebar
+    :directory config/garden-posts-dir
+    :title     "Notes"
+    :preamble  sidebar-top-links-with-post-categories}
+
+   :notes/index
+   {:generate  write-index
+    :directory config/garden-posts-dir
+    :title     "Notes"
+    :preamble  (str "
+## NOTEs
+
+Notes and hopefully specific things I'm trying to understand better.
+")}})
+
 (defn all-page-defs []
   (merge devlog-page-defs
          posts-page-defs
          hundos-page-defs
          techsposure-page-defs
          getitwrite-page-defs
-         groks-page-defs))
+         groks-page-defs
+         notes-page-defs
+         ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; generators

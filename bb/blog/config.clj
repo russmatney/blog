@@ -12,6 +12,7 @@
 (def getitwrite-dir (str repo-dir "/docs/posts/getitwrite"))
 (def groks-dir (str repo-dir "/docs/posts/groks"))
 
+;; used to both read and write to these files
 (def garden-posts-dir (str repo-dir "/docs/posts/notes"))
 
 (def devlogs-dir (str repo-dir "/docs/devlogs"))
