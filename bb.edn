@@ -11,6 +11,7 @@
   (do
     (defn log [& args]
       (apply println args))
+
     (defn shelll [& args]
       (apply println args)
       (apply shell args)))
@@ -18,5 +19,17 @@
   build (do
           (log "regenerating all pages")
           (tasks/regen-all-pages))
-  watch (shelll "echo 'TODO impl watching'")
-  serve (shelll "docsify serve docs")}}
+
+  watch
+  (do
+    ;; hmmmm need to fork to run all watchers here
+    ;; how do i usually do this?
+
+    (when true #_osx?
+          (println "you might want to 'bb --nrepl 1667'"))
+    (shelll "docsify serve docs")
+    )
+
+  serve
+  (shelll "docsify serve docs")
+  }}
