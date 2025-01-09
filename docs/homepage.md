@@ -13,6 +13,9 @@ I've recently resurrected a bunch of old content, including my [100 word stories
 
 Check out my new [Dev Logs](/devlogs/) section for mostly visual updates on my projects.
 
+* [DevLog: Glossolalia Listen Prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md) #glossolalia
+* [DevLog: Zooming In On Dino](/devlogs/2024-01-08-zooming-in-on-dino.md)
+
 You can also find all my older (and slowly, some newer) [Posts here](/posts/).
 
 ---
