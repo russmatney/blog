@@ -11,4 +11,5 @@ Notes, clips, commits, etc collected along the dev path.
 
 
 * [glossolalia-listen-prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md) #glossolalia
+* [zooming-in-on-dino](/devlogs/2024-01-08-zooming-in-on-dino.md)
 * [projects](/devlogs/projects.md)
