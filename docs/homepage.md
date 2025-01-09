@@ -10,8 +10,10 @@ Welcome to the latest rendition of my blog!
 ## Lately
 
 I've recently resurrected a bunch of old content, including my [100 word stories](/posts/100-worders/).
-Check out [Posts](/posts/) for blog-posty things, and [Dev Logs](/devlogs/) for work-in-progress
-updates on my projects.
+
+Check out my new [Dev Logs](/devlogs/) section for mostly visual updates on my projects.
+
+You can also find all my older (and slowly, some newer) [Posts here](/posts/).
 
 ---
 
@@ -20,7 +22,7 @@ team. Check it out [here on itch.io](https://cattalegames.itch.io/carving-with-c
 
 ---
 
-I've released three steam games this year:
+I released three steam games in 2024, be sure to check em out!
 
 - Dot Hop is a grid-based puzzle game - it's simple but challenging!
  [github](https://github.com/russmatney/dothop) |
