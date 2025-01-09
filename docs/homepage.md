@@ -9,14 +9,32 @@ Welcome to the latest rendition of my blog!
 
 ## Lately
 
-I've recently resurrected a bunch of old content, including my [100 word stories](/posts/100-worders/).
+#### New Dev Logs
 
 Check out my new [Dev Logs](/devlogs/) section for mostly visual updates on my projects.
 
 * [DevLog: Glossolalia Listen Prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md) #glossolalia
 * [DevLog: Zooming In On Dino](/devlogs/2024-01-08-zooming-in-on-dino.md)
 
+#### Yee Olde Scribblings
+
 You can also find all my older (and slowly, some newer) [Posts here](/posts/).
+
+#### New Hundos? Old Hundos?
+
+I've recently resurrected a bunch of old content, including my [100 word stories](/posts/100-worders/).
+
+New "Hundos"!
+
+* [Writing Hundos Again](/posts/100-worders/2025-01-05-writing-hundos-again.md)
+* [Eventually It's A Game](/posts/100-worders/2025-01-06-eventually-its-a-game.md)
+
+Some Old Ones:
+
+* [New Clear Warfare](/posts/100-worders/2012-07-06-new-clear-warfare.md)
+* [Full 4-minute relationship](/posts/100-worders/2012-07-03-full-4-minute-relationship.md)
+* [Loosing our Minds](/posts/100-worders/2012-08-23-loosing-our-minds.md)
+* [First-Person vs Third-Person](/posts/100-worders/2012-02-11-first-person-vs-third-person.md)
 
 ---
 
