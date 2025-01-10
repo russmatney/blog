@@ -1,9 +1,25 @@
 Danger Russ Blog
 ====
 
-A docsify blog, dev log, and portfolio site.
+A devlog and portfolio site.
 
-# docsify links
+I've over-engineered my personal site a bunch of times - this time i'm trying to
+support the old content AND make devlogging minimal-effort.
+
+Check out the 100-word stories from way back, and hopefully soon I'll pull in
+some poetry and fiction doodles from over the years.
+
+# tools
+
+This blog is built with docsify! It's a simple and modern way to host a bunch of
+markdown as a website, and I quite like it.
+
+The sidebars/indexes are generated with clojure (babashka) - see bb.edn and
+`bb/blog/*.clj` for the code.
+
+#### docsify links
+
+Some helpful links collected while reading through docsify's documentation.
 
 - [Configuration docs](https://docsify.js.org/#/configuration)
   - writing a plugin: https://docsify.js.org/#/write-a-plugin

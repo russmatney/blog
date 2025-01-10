@@ -1,28 +1,25 @@
-Danger Russ Blog
-====================
-
 Hi there, I'm Russ!
+===================
 
-I'm an indie game dev building games, mostly in Godot.
+I'm an independent game dev making games, mostly in Godot.
 
-Welcome to the latest rendition of my blog!
+Welcome to my portfolio and devlogs site!
 
-## Lately
+> aka blog refactor #74! Hopefully this one sticks!
 
-#### New Dev Logs
+## Lately (January 2025)
 
-Check out my new [Dev Logs](/devlogs/) section for mostly visual updates on my projects.
+### New Dev Logs!
+
+Check out my new [Dev Logs](/devlogs/) section for updates on my projects and meanderings.
 
 * [DevLog: Glossolalia Listen Prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md) #glossolalia
 * [DevLog: Zooming In On Dino](/devlogs/2024-01-08-zooming-in-on-dino.md)
 
-#### Yee Olde Scribblings
+### New Hundos? Old Hundos?
 
-You can also find all my older (and slowly, some newer) [Posts here](/posts/).
-
-#### New Hundos? Old Hundos?
-
-I've recently resurrected a bunch of old content, including my [100 word stories](/posts/100-worders/).
+I've recently resurrected a bunch of old content, including my [100 word
+stories](/posts/100-worders/), which I like to call 'Hundos'.
 
 New "Hundos"!
 
@@ -36,12 +33,21 @@ Some Old Ones:
 * [Loosing our Minds](/posts/100-worders/2012-08-23-loosing-our-minds.md)
 * [First-Person vs Third-Person](/posts/100-worders/2012-02-11-first-person-vs-third-person.md)
 
+> ### Yee Olde Scribblings
+>
+> You can find my older (and slowly, some newer) [blog posts here](/posts/).
+
+
 ---
+
+## Most recent game
 
 My most recent game is Carving With Care, which I built with the Cat Tale Games
 team. Check it out [here on itch.io](https://cattalegames.itch.io/carving-with-care).
 
 ---
+
+## Steam Games!
 
 I released three steam games in 2024, be sure to check em out!
 

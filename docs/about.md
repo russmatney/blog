@@ -1,8 +1,15 @@
 # About
 
 Welcome to my blog! I've been through several implementations over the years -
-this latest docsify version features writing from the last ten years, plus some
-of my game dev content. Feel free to poke around.
+this latest docsify version features writing from the last ten+ years, plus some
+of my game dev content.
+
+I'm still feeling out how to present all this content, plus I want to import
+huge swaths of my org-roam mind garden... More to come soon!
+
+For now, use the sidebar to nav around - right now this is mostly old posts and
+generated lists of old posts. For new things, you might like my [Dev Logs](/devlogs/), or
+reading some [tiny stories](/posts/100-worders/).
 
 ## Tools
 
