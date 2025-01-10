@@ -1,23 +1,33 @@
-# Games
+# Games Portfolio
 
-
-I started solo-deving on games full time in July of 2022.
-
-My first year was all about game jams - I mostly worked in one monorepo, from which I submitted 10+ (tiny) games.
-
-In my second year, I pushed for steam releases. Dot Hop launched on
-March 1st 2024, and a Dino a few months later on June 1st.
-
-In the second half of 2024, I collaborated with other game devs,
-building Rapid Eye Madness and Carving with Care with two different teams from the Indie Game Academy community.
+> I started solo-deving on games full time in July of 2022.
+>
+> My first year was all about game jams - I mostly worked in one monorepo
+> (russmatney/dino), from which I submitted 10+ (tiny) games and worked as many
+> tools and prototypes.
+>
+> In my second year, I pushed for steam releases. `Dot Hop` launched on
+> March 2024, and `Dino` launched a few months later in June.
+>
+> In the second half of 2024, I pushed for more collaboration! I led Team
+> Moonstorm through the launch of `Rapid Eye Madness` in late October as part of
+> the Indie Game Academy's Level 3 program.
+>
+> In November, I built `Carving with Care` with Cat Tale Games - more to come on
+> that in Q1 2025!
 
 # Launched
 
+Below I'll dig into each game, grouped by team.
+
+!> I hope to get more images per project in here soon!
+
 ## Danger Russ Games
 
-A silly name for my solo-dev work.
+Once a silly name for my solo-dev work, now a fully fledge one-person LLC!
 
-There are more games and prototypes available on [my itch.io page](https://russmatney.itch.io).
+> Beyond the games listed here, there are more games and prototypes available on
+> [my itch.io page](https://russmatney.itch.io).
 
 ### Dot Hop
 
