@@ -297,8 +297,8 @@
 ;; public blog helpers
 
 (defn parse-datey-fname [fname]
-  (let [date-matches       (re-seq #"(\d{4}-\d{2}-\d{2})-" fname)
-        year-month-matches (re-seq #"(\d{4}-\d{2})-" fname)
+  (let [date-matches       (re-seq #"(\d{4}-\d{2}-\d{2})" fname)
+        year-month-matches (re-seq #"(\d{4}-\d{2})" fname)
         date               (some-> date-matches first last parse-time-string)
         year-month         (some-> year-month-matches first last)
         title              (cond-> fname
