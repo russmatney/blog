@@ -14,8 +14,14 @@
     :as       def}]
   (let [path (str directory "/" path)]
     (log/log "Writing to" path)
-    (fs/create-dirs path) ;; mkdir -p path
+    (fs/create-dirs (fs/parent path)) ;; mkdir -p path
     (spit path
           (str generated-page-preamble "\n\n"
                (when preamble (str preamble "\n\n"))
                content))))
+
+(comment
+  (write-page
+    {:directory (str (fs/home) "/russmatney")
+     :path      "some-file.md"
+     :content   "### hi there"}))
