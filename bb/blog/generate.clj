@@ -11,7 +11,7 @@
     path      :path
     preamble  :preamble
     content   :content
-    :as       def}]
+    :as       _def}]
   (let [path (str directory "/" path)]
     (log/log "Writing to" path)
     (fs/create-dirs (fs/parent path)) ;; mkdir -p path
