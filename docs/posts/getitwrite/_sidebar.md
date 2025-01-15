@@ -14,6 +14,7 @@
   * [Techsposure](/posts/techsposure/)
   * [Get It Write](/posts/getitwrite/)
   * [Groks](/posts/groks/)
+  * [Notes](/posts/notes/)
 
 
 
