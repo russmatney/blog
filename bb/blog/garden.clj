@@ -84,9 +84,9 @@
   (let [date-fname  (daily-path->date-str (:path opts))
         title       (:org/name item)
         file-title  (title->fname title)
-        hundo-fname (str date-fname "-" file-title ".md")
-        hundo-path  (str config/hundos-dir "/" hundo-fname)]
-    (log/log "creating hundo from daily" hundo-path)
+        hundo-fname (str date-fname "-" file-title ".md")]
+    (log/log "creating hundo from daily" hundo-fname
+             "word count:"(:org/word-count item))
     (gen/write-page
       {:directory config/hundos-dir
        :path      hundo-fname
@@ -129,8 +129,7 @@
         (process-daily opts)
 
         :else
-        (process-garden-note opts)
-        )
+        (process-garden-note opts))
 
       :else
       (log/log "Unsupported file extension" (fs/extension path))
