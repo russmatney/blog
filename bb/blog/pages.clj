@@ -219,9 +219,18 @@ Notes and hopefully specific things I'm trying to understand better.
     :directory config/garden-posts-dir
     :title     "Notes"
     :preamble  (str "
-## NOTEs
+## Garden Notes
 
-Notes and hopefully specific things I'm trying to understand better.
+This section is still a work in progress!
+
+I have a years-deep mindgarden of interconnected notes,
+and I'm toying with different ways of sharing that content here.
+
+To start it'll probably be some listicles.
+
+I hope to take time with each,
+rather than throw them all over the wall.
+
 ")}})
 
 (defn all-page-defs []
