@@ -51,7 +51,8 @@
   ;; TODO we need a custom md-link impl/answer for id:<uuid> roam links/content
   ;; would be great to do something fancy - popups or expandable sections
 
-  (let [md-item (org-crud.markdown/item->md-item note)]
+  (let [md-item (org-crud.markdown/item->md-item
+                  note {:drop-id-links true})]
     (->> md-item :body (string/join "\n"))))
 
 (defn write-garden-post
