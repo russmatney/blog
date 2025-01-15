@@ -404,4 +404,7 @@ Date Unspecified
 
 * [archive](/posts/archive.md)
 * [faves](/posts/faves.md)
+* [games_i_love](/posts/notes/games_i_love.md)
+* [juicy](/posts/notes/juicy.md)
 * [resources](/posts/resources.md)
+* [things_i_like_in_games](/posts/notes/things_i_like_in_games.md)
