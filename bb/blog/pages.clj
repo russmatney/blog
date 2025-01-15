@@ -52,6 +52,9 @@
       (assoc :content (md/posts-index def))
 
       true
+      (assoc :overwrite? true)
+
+      true
       (gen/write-page))))
 
 (defn write-index
@@ -68,6 +71,9 @@
 
       (nil? (:preamble def))
       (assoc :preamble (str "## " (or title " More Posts")))
+
+      true
+      (assoc :overwrite? true)
 
       true
       (gen/write-page))))
