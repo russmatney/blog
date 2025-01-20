@@ -36,7 +36,7 @@ A short puzzle game. Try to find a path connecting all the dots!
 Dot Hop launched with 72 puzzles (12 on 6 'worlds'). I hope to increase this
 number on a per season basis, once I'm past the mobile release.
 
-Originally implemented as a PuzzleScript game called Flower Eater.
+Originally implemented as a PuzzleScript game called [Flower Eater](https://russmatney.itch.io/flower-eater).
 
 ```
 Status: Launched
@@ -51,16 +51,20 @@ Engine: Godot
 | [Dot Hop code on github](https://github.com/russmatney/dothop)
 | [Dot Hop docs (wip)](https://russmatney.github.io/dothop)
 
+<iframe src="https://store.steampowered.com/widget/2779710/" frameborder="0" width="646" height="190"></iframe>
+
 - TODO: add links to youtube devlogs about dothop
 - TODO: drop in dothop logo/banner/gifs
-- TODO: link to flower eater
 
 ### Dino
 
 Dino started as a Godot monorepo. It has featured several games and prototypes,
-including a small metroidvania (hatbot), some platformer and top down
-experiments (shirt, spike, etc), a short beat em up (super elevator level), and
-even an early version of Dot Hop.
+including a small metroidvania
+([hatbot](https://russmatney.itch.io/mvania19-web)), some platformer and top
+down experiments ([shirt](https://russmatney.itch.io/shirt),
+[spike](https://russmatney.itch.io/spike), etc), a short beat em up ([super
+elevator level](https://russmatney.itch.io/super-elevator-level-web)), and even an
+early version of Dot Hop.
 
 In the build-up to Dino's launch, the mechanics from these games were
 refactored into reusable components. Dino launched with a few game modes
@@ -87,9 +91,10 @@ Engine: Godot
 | [Dino code on github](https://github.com/russmatney/dino)
 | [Dino docs site](https://russmatney.github.io/dino)
 
+<iframe src="https://store.steampowered.com/widget/2589550/" frameborder="0" width="646" height="190"></iframe>
+
 - TODO: add links to youtube devlogs about dino
-- TODO: drop in dothop logo/banner/gifs
-- TODO: in-text links to some of the itch games (e.g. hatbot, super elevator level)
+- TODO: drop in dino logo/banner/gifs
 
 ### Web Games
 
@@ -132,6 +137,7 @@ Team: Moonstorm Clerics
 [R.E.M. on Steam](https://store.steampowered.com/app/3248030/Rapid_Eye_Madness)
 | [R.E.M. on itch.io](https://moonstorm-clerics.itch.io/rapid-eye-madness)
 
+<iframe src="https://store.steampowered.com/widget/3248030/" frameborder="0" width="646" height="190"></iframe>
 
 ### Wicked Peak
 
@@ -147,6 +153,8 @@ Team: Moonstorm Clerics
 ```
 
 [Wicked Peak on itch.io](https://moonstorm-clerics.itch.io/wicked-peak)
+
+<iframe frameborder="0" src="https://itch.io/embed/2824176" width="552" height="167"><a href="https://moonstorm-clerics.itch.io/wicked-peak">Wicked Peak by Team Moonstorm, Janguardian, Moss Covered Bones, Malethar, russmatney, TooLoo Studio, André Castro</a></iframe>
 
 ## Cat Tale Games
 
@@ -167,6 +175,8 @@ Team: Cat Tale Games
 ```
 
 [Carving With Care on itch.io](https://cattalegames.itch.io/carving-with-care)
+
+<iframe frameborder="0" src="https://itch.io/embed/3103109" width="552" height="167"><a href="https://cat-tale-games.itch.io/carving-with-care">Carving with Care by Cat Tale Games, russmatney, margaretglin, Ariyassa, artmuse62, questionmarc, Leanasta, becdar, Miraiya, Vulspera</a></iframe>
 
 # In-progress
 
@@ -205,6 +215,8 @@ Engine: Godot
 
 [Blox on itch.io](https://russmatney.itch.io/blox)
 | [Blox code on github](https://github.com/russmatney/blox)
+
+<iframe frameborder="0" src="https://itch.io/embed/2787786" width="552" height="167"><a href="https://russmatney.itch.io/blox">Blox by russmatney</a></iframe>
 
 ### Beat Em Up City
 
