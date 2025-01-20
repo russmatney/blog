@@ -118,7 +118,19 @@
     :preamble      (str "
 ## Dev Logs
 
-Notes, clips, commits, etc collected along the dev path.
+### Fancy Reveal.js presentations
+
+Some raw reveal.js presentations that support my youtube videos.
+
+* [Dino 'So Far'](/html/devlog_01_dino_so_far.html)
+* [A Tour of Dot Hop](/html/devlog_a_tour_of_dot_hop.html)
+* [Aseprite Bulk Tag Creation](/html/devlog_aseprite_bulk_tag_creation.html)
+* [Dot Hop Game Trailer](/html/devlog_dothop_game_trailer.html)
+* [Log.gd, a GDScript Pretty Printer](/html/devlog_log_gdscript_pretty_printer.html)
+
+### Markdown Devlogs
+
+
 ")}})
 
 
