@@ -141,6 +141,17 @@ how Wicked Peak turned out after only a few days of development.
 Rapid Eye Madness is a cozy horror microgame bonanza. See if you can survive all
 the microgames, and keep playing to unlock all the audiolog-lore.
 
+<video controls width="80%" height="400px">
+    <source
+    src="_images/rapid-eye-madness/microgame tvs and playthroughs 2024-10-08 at 16.51.24.mp4"
+    type="video/mp4"
+    />
+</video>
+
+<figcaption><em>REM's minigames, all at once.</em></figcaption>
+
+<img src="_images/rapid-eye-madness/REMClip_Mix_2.gif" alt="REM Mixed gameplay clip" />
+
 ```
 Status: Launched
 Platform: Steam
@@ -160,6 +171,13 @@ Team: Moonstorm Clerics
 
 A short platformer with a grapple mechanic, built for IGA's Level 3 weekend
 game jam.
+
+<video controls width="80%" height="400px">
+    <source
+    src="_images/wicked-peak/prelaunch gameplay 2024-07-16 17-28.mp4"
+    type="video/mp4"
+    />
+</video>
 
 ```
 Status: Launched
@@ -182,6 +200,15 @@ A team formed from connections made across IGA classes in 2024.
 Inspired by "Strange Horticulture but Wood Carving", Carving with Care is a
 cozy rune-carving game. Use your book of runes and careful carving skills to enrich the lives of your customers.
 
+<video controls width="80%" height="400px">
+    <source
+    src="_images/carving-with-care/carving recording 2024-11-18 18-31.mp4"
+    type="video/mp4"
+    />
+</video>
+
+<figcaption><em>An in-progress clip experimenting with adding wood-shavings while carving.</em></figcaption>
+
 ```
 Status: Launched
 Platform: Itch
@@ -200,6 +227,24 @@ Team: Cat Tale Games
 ### Glossolalia
 
 A Godot Metroidvania, coming in 2025.
+
+> Check out my ["Listen" prototype devlog](/devlogs/2024-12-11-glossolalia-listen-prototyping)
+
+<video controls width="80%" height="400px">
+    <source
+    src="_images/glossolalia/listen prototyping 2024-12-11 13-07.mp4"
+    type="video/mp4"
+    />
+</video>
+
+<video controls width="80%" height="400px">
+    <source
+    src="_images/glossolalia/listen gym two playthrough 2024-12-11 16-51.mp4"
+    type="video/mp4"
+    />
+</video>
+
+<figcaption><em>An early prototype experimenting with a 'Listen' mechanic.</em></figcaption>
 
 ```
 Status: In development
@@ -224,6 +269,15 @@ The next step is to prototype a few different ideas:
 
 I'm not making enough time for this project at the moment :/
 
+<video controls width="80%" height="400px">
+    <source
+    src="_images/blox/editing-while-running-in-editor 2024-06-15 19-01.mp4"
+    type="video/mp4"
+    />
+</video>
+
+<figcaption><em>Tetris blocks falling directly in the godot editor (at @tool-time!)</em></figcaption>
+
 ```
 Status: Prototype on itch.io
 Next step: Prototype Roguelike mechanics
@@ -244,7 +298,16 @@ The idea is a sort of Animal Crossing <> Beat Em Up - an idea that makes sense
 in some ways and is kind of crazy in others. Move to an apartment in the big
 city, meet your neighbors, defend your territory, build up your reputation!
 
-Probably too early to share! More to come soon.
+<video controls width="80%" height="400px">
+    <source
+    src="_images/beatemupcity/Peek 2023-08-17 14-21.mp4"
+    type="video/mp4"
+    />
+</video>
+
+<figcaption><em>An early prototype, mostly toying with pixel art look-and-feel.</em></figcaption>
+
+Too early in dev to share much more! Stay tuned.
 
 ```
 Status: In development
