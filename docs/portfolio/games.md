@@ -20,8 +20,6 @@
 
 Below I'll dig into each game, grouped by team.
 
-!> I hope to get more images per project in here soon!
-
 ## Danger Russ Games
 
 Once a silly name for my solo-dev work, now a fully fledge one-person LLC!
@@ -32,6 +30,15 @@ Once a silly name for my solo-dev work, now a fully fledge one-person LLC!
 ### Dot Hop
 
 A short puzzle game. Try to find a path connecting all the dots!
+
+<video controls width="80%" height="400px">
+    <source
+    src="_images/dothop/dothop_gameplay_feb_10_2024.mp4"
+    type="video/mp4"
+    />
+</video>
+
+<figcaption><em>Some clips from a few weeks before the Steam launch.</em></figcaption>
 
 Dot Hop launched with 72 puzzles (12 on 6 'worlds'). I hope to increase this
 number on a per season basis, once I'm past the mobile release.
@@ -46,15 +53,17 @@ Next step: Mobile release
 Engine: Godot
 ```
 
+> I've covered Dot Hop in video as well:
+>
+> - [A Tour of Dot Hop](https://youtu.be/yfdHTPWyWvA)
+> - [Dot Hop Game Trailer](https://youtu.be/fxT0u9VVcIg)
+
 [Dot Hop on Steam](https://store.steampowered.com/app/2779710/Dot_Hop)
 | [Dot Hop on itch.io](https://russmatney.itch.io/dothop)
 | [Dot Hop code on github](https://github.com/russmatney/dothop)
 | [Dot Hop docs (wip)](https://russmatney.github.io/dothop)
 
 <iframe src="https://store.steampowered.com/widget/2779710/" frameborder="0" width="646" height="190"></iframe>
-
-- TODO: add links to youtube devlogs about dothop
-- TODO: drop in dothop logo/banner/gifs
 
 ### Dino
 
@@ -66,9 +75,20 @@ down experiments ([shirt](https://russmatney.itch.io/shirt),
 elevator level](https://russmatney.itch.io/super-elevator-level-web)), and even an
 early version of Dot Hop.
 
+> I covered this early phase of Dino in a video devlog: [Dino 'So Far'](https://youtu.be/9cyAnNLGrZI)
+
 In the build-up to Dino's launch, the mechanics from these games were
 refactored into reusable components. Dino launched with a few game modes
 supported by some basic procedural level generation.
+
+<video controls width="80%" height="400px">
+    <source
+    src="_images/dino/dino-first-villagers 2024-05-07 19-35.mp4"
+    type="video/mp4"
+    />
+</video>
+
+<figcaption><em>An generated snowy village experiment in Dino.</em></figcaption>
 
 Next up: creating and honing the content - I'm recreating some of the original
 game jam ideas using the proc-gen system, and toying with various player and
@@ -92,9 +112,6 @@ Engine: Godot
 | [Dino docs site](https://russmatney.github.io/dino)
 
 <iframe src="https://store.steampowered.com/widget/2589550/" frameborder="0" width="646" height="190"></iframe>
-
-- TODO: add links to youtube devlogs about dino
-- TODO: drop in dino logo/banner/gifs
 
 ### Web Games
 
@@ -201,7 +218,7 @@ The next step is to prototype a few different ideas:
   - Would a 'clicker' tetris be a fun 'background' game?
 - "Balatro-Tetris"
   - Applying deckbuilder roguelike mechanics to some tried and true block-faller
-  games
+    games
 - "Set Tetris"
   - a block faller with rules similar to 'Set'
 

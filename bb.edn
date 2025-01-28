@@ -26,7 +26,7 @@
     ;; how do i usually do this?
 
     (when true #_osx?
-          (println "you might want to 'bb --nrepl 1667'"))
+          (println "you might want to 'bb --nrepl-server 1667'"))
     (shelll "docsify serve docs")
     )
 
