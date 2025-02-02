@@ -63,8 +63,8 @@ I was `sayingsorry` - `itwasnothing` - `justathankyou`.
     I've thought alot since
     about this person's personal rain cloud.
 
-in the moment i think projected my full doom-scroll onto them.\
-And I was sorry that they felt how i felt. (did they?)
+in the moment i projected my full doom-scroll onto them.\
+And I was sorry that they felt how i felt. (but did they even?)
 
 this person couldn't know i've run 2k+ miles in the park\
 thinking all-that-time about walking lanes\
@@ -118,7 +118,7 @@ I can still hear it in my mind's ear. (mind's ear*s*?)
 
 In the store i caught myself as tears hit me\
 which made it worse b/c it was mixed with embarrassment!\
-like `wtf is happening i'm just walking to the store!`\
+like `wtf is happening i'm just walking to the store!`
 
     i was shook.
 
