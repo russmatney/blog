@@ -15,6 +15,7 @@ Known colloquially as hundos.
 February 2025
 
 
+* [whos-in-charge-here](/posts/100-worders/2025-02-06-whos-in-charge-here.md)
 * [to-feel-like-new](/posts/100-worders/2025-02-02-to-feel-like-new.md)
 * [STOP-APOLOGIZING-~RAGE~](/posts/100-worders/2025-02-01-STOP-APOLOGIZING-~RAGE~.md)
 
