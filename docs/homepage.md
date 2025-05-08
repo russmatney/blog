@@ -1,11 +1,20 @@
 Hi there, I'm Russ!
 ===================
 
-I'm an independent game dev making games, mostly in Godot.
+I'm an independent software engineer making games, mostly in Godot.
 
-Welcome to my portfolio and devlogs site!
+> Welcome to my portfolio and devlogs site, AKA BLOG REFACTOR #74!\
+> \
+> Hopefully this one sticks!
 
-> aka blog refactor #74! Hopefully this one sticks!
+## Lately (May 2025)
+
+### Godot Con in Boston
+
+I just got back from Godot Con, and it was amazing!! So glad there was finally
+one closer to me! So many indie devs and indie games to parse, and I gave a
+lightning talk about [Log.gd](https://github.com/russmatney/log.gd). Updates,
+posts, and a YouTube link to come soon!
 
 ## Lately (January 2025)
 
@@ -40,10 +49,10 @@ Some Old Ones:
 
 ---
 
-## Most recent game
+## Other Recent things
 
-My most recent game is Carving With Care, which I built with the Cat Tale Games
-team. Check it out [here on itch.io](https://cattalegames.itch.io/carving-with-care).
+- A new version of [Carving With Care](https://gelcatgames.itch.io/carving-with-care) (a game by [Gelatinous Cat
+Games](https://gelcatgames.itch.io)) shipped in early April. Check it out!
 
 ---
 
