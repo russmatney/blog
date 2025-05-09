@@ -1,5 +1,10 @@
 #+title: Todo
 
+
+* rss and sharing
+** [ ] add rss support
+** [ ] add to indieblog and other rss feeders
+https://indieblog.page/suggest
 * homepage rewrite
 ** [ ] pull in posts from blog_home.org
 e.g. specific videos, posts, lists, etc
