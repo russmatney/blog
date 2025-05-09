@@ -16,26 +16,25 @@ one closer to me! So many indie devs and indie games to parse, and I gave a
 lightning talk about [Log.gd](https://github.com/russmatney/log.gd). Updates,
 posts, and a YouTube link to come soon!
 
-## Lately (January 2025)
-
-### New Dev Logs!
+### Dev Logs!
 
 Check out my new [Dev Logs](/devlogs/) section for updates on my projects and meanderings.
 
+* [DevLog: Boston Godot Con](/devlogs/2025-05-09-boston-godot-con.md)
+* [DevLog: Zooming In On Dino](/devlogs/2025-01-08-zooming-in-on-dino.md)
 * [DevLog: Glossolalia Listen Prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md) #glossolalia
-* [DevLog: Zooming In On Dino](/devlogs/2024-01-08-zooming-in-on-dino.md)
 
 ### New Hundos? Old Hundos?
 
-I've recently resurrected a bunch of old content, including my [100 word
+I've resurrected a bunch of old content, including my [100 word
 stories](/posts/100-worders/), which I like to call 'Hundos'.
 
-New "Hundos"!
+Some 'new' "Hundos" (~2025)!
 
 * [Writing Hundos Again](/posts/100-worders/2025-01-05-writing-hundos-again.md)
 * [Eventually It's A Game](/posts/100-worders/2025-01-06-eventually-its-a-game.md)
 
-Some Old Ones:
+Some Old Ones (~2012):
 
 * [New Clear Warfare](/posts/100-worders/2012-07-06-new-clear-warfare.md)
 * [Full 4-minute relationship](/posts/100-worders/2012-07-03-full-4-minute-relationship.md)
