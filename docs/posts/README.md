@@ -25,6 +25,12 @@ Some broad categories:
 
 
 
+May 2025
+
+
+* [boston-godot-con](/posts/techsposure/2025-05-09-boston-godot-con.md) #techsposure
+
+
 February 2025
 
 
