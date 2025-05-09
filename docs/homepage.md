@@ -12,15 +12,19 @@ I'm an independent software engineer making games, mostly in Godot.
 ### Godot Con in Boston
 
 I just got back from Godot Con, and it was amazing!! So glad there was finally
-one closer to me! So many indie devs and indie games to parse, and I gave a
-lightning talk about [Log.gd](https://github.com/russmatney/log.gd). Updates,
-posts, and a YouTube link to come soon!
+one closer to me! So many indie devs and indie games to parse!
+
+I wrote a Techsposure post covering most of my interactions here:
+[Post: Boston Godot Con](/posts/techsposure/2025-05-09-boston-godot-con.md)
+
+At Godot Con, I gave a lightning talk about
+[Log.gd](https://github.com/russmatney/log.gd). Updates, posts, and a YouTube
+link to come soon!
 
 ### Dev Logs!
 
 Check out my new [Dev Logs](/devlogs/) section for updates on my projects and meanderings.
 
-* [DevLog: Boston Godot Con](/devlogs/2025-05-09-boston-godot-con.md)
 * [DevLog: Zooming In On Dino](/devlogs/2025-01-08-zooming-in-on-dino.md)
 * [DevLog: Glossolalia Listen Prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md) #glossolalia
 
