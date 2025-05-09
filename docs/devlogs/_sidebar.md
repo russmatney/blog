@@ -17,6 +17,7 @@ Dev Logs
 
 
 
+* [boston-godot-con](/devlogs/2025-05-09-boston-godot-con.md)
+* [zooming-in-on-dino](/devlogs/2025-01-08-zooming-in-on-dino.md)
 * [glossolalia-listen-prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md) #glossolalia
-* [zooming-in-on-dino](/devlogs/2024-01-08-zooming-in-on-dino.md)
 * [projects](/devlogs/projects.md)
