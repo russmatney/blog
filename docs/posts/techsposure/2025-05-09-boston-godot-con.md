@@ -195,6 +195,9 @@ their futures hold. In particular:
 - Eric and I connected over Chess and Wario-Ware likes, and it turns out
   he's a stellar technical artist (check out [that
   portfolio](https://www.youtube.com/watch?v=c3ACqBg-yAs)! :eyes:)
+- I talked only briefly with [David
+  (vidvadgames)](https://linktr.ee/vidvadgames), but he seems like a great
+  resource re: console ports!
 - I'm certainly forgetting other folks here, hopefully I'll update this with
   more in the future as I comb through my notes.
 
