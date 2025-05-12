@@ -86,9 +86,10 @@ with some signals on it! I'm hopeful to delete a bunch of defensive code in Dino
 :D [Here's a blog post by Eric covering
 this pattern](https://dev.to/bajathefrog/riding-the-event-bus-in-godot-ped).
 
-Rawb Herb's UI design talk was also awesome, and so was Adam Scott's state of
-the Godot on the Web. Plus Casey + Sarah's Cross-Disciplinary Collaboration
-tips (and love for custom resources and in-house tooling). HP van Braam's
+[Rawb Herb](https://rawbherb.art/)'s UI design talk was also awesome, and so was
+[Adam Scott](https://adamscott.studio/)'s state of the Godot on the Web. Plus
+[Casey](https://bsky.app/profile/naud.bsky.social) + Sarah's Cross-Disciplinary Collaboration tips (and love for
+custom resources and in-house tooling). [HP van Braam](https://blog.tmm.cx/)'s
 nanotech tool was mind-blowing. So many insights and so much inspiration to
 glean!
 
@@ -131,11 +132,13 @@ upgraded RPG-Maker.
 > Looking for more game engines to poke at? Defold, Bevy, Heaps.io, Luxe, Love2D all
 > look pretty cool! If only we had infinite time....
 
-Chris Ridenour's Multiplayer Dome Keeper talk was spot on, and I'd have liked it
-more were it not for the multiplayer-impl-flashbacks I was having from [Rapid
-Eye Madness](https://store.steampowered.com/app/3248030/Rapid_Eye_Madness/)'s
-build last fall. The talk did a great job of breaking down all the multiplayer
-decisions you need to make to bring your game to more than one player at a time.
+[Chris Ridenour](https://www.linkedin.com/in/cridenour/)'s Multiplayer Dome
+Keeper talk was spot on - multiplayer is challenging and complicated, and he did
+a great job of unpacking the terms and decisions required to make the magic
+happen. I was having flashbacks to working out our approach in [Rapid Eye
+Madness](https://store.steampowered.com/app/3248030/Rapid_Eye_Madness/) last
+fall - a talk like this would have gotten us all on the same page much more
+quickly!
 
 [StayAtHomeDev](https://www.youtube.com/@stayathomedev)'s talk may have been my
 favorite overall - the strong throughline was encouragement to be yourself and
