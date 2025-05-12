@@ -5,11 +5,16 @@
 > You can find the [full schedule
 > here](https://conference.godotengine.org/2025/schedule/), and when the
 > conference talks hit YouTube, I'll update this to include a link to that
-> playlist. If there are other lists of all-the-things, lmk - I'd love to
+> playlist.
+> If there are other lists of all-the-things, lmk - I'd love to
 > include a link to that.
 >
-> Also, as the YouTube videos land, I'll update this post with some in-line
+> As the YouTube videos land, I'll update this post with some in-line
 > links to make this more useful.
+
+> Update: there's an [Interview with every Showcase
+> Developer](https://www.youtube.com/watch?v=9NJn7dTTZnw) on Youtube - a great
+> way to see all the indie games in the showcase!
 
 # Boston Godot Con
 
@@ -201,9 +206,10 @@ their futures hold. In particular:
 - I'm certainly forgetting other folks here, hopefully I'll update this with
   more in the future as I comb through my notes.
 
-## Other Writeups
+## Other Writeups/Content
 
 - [An itch.io devlog](https://itch.io/blog/941196/godotcon-boston-2025) by [AsFunAs/DevEarley](https://asfunasfun.itch.io/)
+- [Interviews with every Showcase Developer](https://www.youtube.com/watch?v=9NJn7dTTZnw)
 
 ## T'was a blast!
 
