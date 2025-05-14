@@ -213,6 +213,8 @@ their futures hold. In particular:
 
 - [An itch.io devlog](https://itch.io/blog/941196/godotcon-boston-2025) by [AsFunAs/DevEarley](https://asfunasfun.itch.io/)
 - [Interviews with every Showcase Developer](https://www.youtube.com/watch?v=9NJn7dTTZnw)
+- [Reflecting on Godot
+  Con](https://www.essay-games.com/blog/reflecting-on-godotcon/) by [Essay Games](https://bsky.app/profile/essaygames.bsky.social)
 
 ## T'was a blast!
 
