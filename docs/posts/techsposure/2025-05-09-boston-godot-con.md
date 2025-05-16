@@ -215,6 +215,7 @@ their futures hold. In particular:
 - [Interviews with every Showcase Developer](https://www.youtube.com/watch?v=9NJn7dTTZnw)
 - [Reflecting on Godot
   Con](https://www.essay-games.com/blog/reflecting-on-godotcon/) by [Essay Games](https://bsky.app/profile/essaygames.bsky.social)
+- [Exodrifter on showcasing _no signal_](https://www.exodrifter.space/blog/20250516012109)
 
 ## T'was a blast!
 
