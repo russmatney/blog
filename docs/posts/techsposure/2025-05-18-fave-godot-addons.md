@@ -4,15 +4,34 @@ A hopefully well maintained shortlist of Godot Addons that I love to "add on".
 
 > Apologies for that lame pun.
 
-Not too much yet - this file will grow!
+Not too much yet - this file will grow! I have tons to add and comment on - the
+community is growing rapidly!
 
-## GdUnit
+These are grouped into two big chunks: Not-mine, then mine. Within that, it's
+just alphabetical.
+
+TOC:
+
+- Not Mine
+  - [GDUnit](#GDUnit)
+  - [MetSys](#MetSys)
+  - [Pandora](#Pandora)
+  - [Phantom Camera](#PhantomCamera)
+- Mine
+  - [Bones](#Bones)
+  - [Log.gd](#Log-gd)
+
+## GDUnit
 
 A super solid Godot unit test framework - includes a companion github action
 workflow!
 
 There is also GUT, but I've found I prefer GDUnit's handling of certain
 crash-situations. (#TODO link issue/thread)
+
+## MetSys
+
+A solid set of building blocks for creating Metroidvanias in Godot. Check it out!
 
 ## Pandora
 
@@ -29,7 +48,7 @@ It's quite nice!
 All kinds of camera features that you'll want, available out of the box, and
 reasonably customizable. Check it out!
 
-# My Addons
+# Mine
 
 > Bias warning!
 
