@@ -209,10 +209,16 @@ their futures hold. In particular:
 - I'm certainly forgetting other folks here, hopefully I'll update this with
   more in the future as I comb through my notes.
 
-## Other Writeups/Content
+## Other Recaps
+
+Youtube:
+
+- [Interviews with every Showcase Developer](https://www.youtube.com/watch?v=9NJn7dTTZnw)
+- [My GodotCon 2025 Recap](https://www.youtube.com/watch?v=KwwMhC_TnjI) by [StayAtHomeDev](https://www.youtube.com/@stayathomedev)
+
+Blogs:
 
 - [An itch.io devlog](https://itch.io/blog/941196/godotcon-boston-2025) by [AsFunAs/DevEarley](https://asfunasfun.itch.io/)
-- [Interviews with every Showcase Developer](https://www.youtube.com/watch?v=9NJn7dTTZnw)
 - [Reflecting on Godot
   Con](https://www.essay-games.com/blog/reflecting-on-godotcon/) by [Essay Games](https://bsky.app/profile/essaygames.bsky.social)
 - [Exodrifter on showcasing _no signal_](https://www.exodrifter.space/blog/20250516012109)
