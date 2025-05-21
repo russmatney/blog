@@ -28,6 +28,7 @@ Some broad categories:
 May 2025
 
 
+* [fave-godot-addons](/posts/techsposure/2025-05-18-fave-godot-addons.md) #techsposure
 * [boston-godot-con](/posts/techsposure/2025-05-09-boston-godot-con.md) #techsposure
 
 
