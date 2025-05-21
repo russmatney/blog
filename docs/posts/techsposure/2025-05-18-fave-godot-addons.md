@@ -1,39 +1,83 @@
 # Fave Godot Addons
 
-A hopefully well maintained shortlist of Godot Addons that I love to "add on".
+A (hopefully well-maintained) list of Godot Addons that I love to "add on".
 
 > Apologies for that lame pun.
 
-Not too much yet - this file will grow! I have tons to add and comment on - the
-community is growing rapidly!
+Not too much yet - this post will grow! I intend to be able to point folks here
+as a sort of personal 'awesome-godot-addons' list.
 
-These are grouped into two big chunks: Not-mine, then mine. Within that, it's
-just alphabetical.
+Right now these are sorted alphabetically.
 
-TOC:
+Note there is a bit of bias - some of these are addons I've created.
 
-- Not Mine
-  - [GDUnit](#GDUnit)
-  - [MetSys](#MetSys)
-  - [Pandora](#Pandora)
-  - [Phantom Camera](#PhantomCamera)
-- Mine
-  - [Bones](#Bones)
-  - [Log.gd](#Log-gd)
+- [Aseprite Wizard](#Aseprite-Wizard)
+- [Bones](#Bones)
+- [GDUnit](#GDUnit)
+- [Input Helper](#Input-Helper)
+- [Log.gd](#Loggd)
+- [MetSys](#MetSys)
+- [Pandora](#Pandora)
+- [Phantom Camera](#Phantom-Camera)
+- [Sound Manager](#Sound-Manager)
+
+## Aseprite Wizard
+
+- [github.com/viniciusgerevini/godot-aseprite-wizard](https://github.com/viniciusgerevini/godot-aseprite-wizard)
+- [docs](https://thisisvini.com/aseprite-wizard/)
+
+Out of the box time-savings with this one! You can drag+drop an aseprite file
+onto an AnimatedSprite2D, and it'll create the sprite frames for you using your
+your tags from Aseprite.
+
+## Bones
+
+- [github.com/russmatney/bones](https://github.com/russmatney/bones)
+
+A suite of addons that I pulled out of
+[Dino](https://github.com/russmatney/dino). Should perhaps be broken down
+further at some point - but I'm letting these tools evolve a bit first.
 
 ## GDUnit
+
+- [github.com/MikeSchulze/gdUnit4](https://github.com/MikeSchulze/gdUnit4)
+- [GDUnit docs](https://mikeschulze.github.io/gdUnit4/)
+- [https://github.com/MikeSchulze/gdUnit4-action](https://github.com/MikeSchulze/gdUnit4-action)
 
 A super solid Godot unit test framework - includes a companion github action
 workflow!
 
-There is also GUT, but I've found I prefer GDUnit's handling of certain
-crash-situations. (#TODO link issue/thread)
+There is also [GUT](https://github.com/bitwes/gut), but I've found I prefer GDUnit's handling of [certain
+crash-situations](https://github.com/bitwes/Gut/issues/362#issuecomment-1141272385).
+
+## Input Helper
+
+- [github.com/nathanhoad/godot_input_helper](https://github.com/nathanhoad/godot_input_helper)
+- [docs](https://github.com/nathanhoad/godot_input_helper/tree/main/docs)
+
+Mics Input Handling boilerplate for managing changing controllers, detecting
+inputs, etc. Quite useful, and something you'd probably end up writing yourself
+anyway!
+
+## Log.gd
+
+- [github.com/russmatney/log.gd](https://github.com/russmatney/log.gd)
+- [docs](https://russmatney.github.io/log.gd)
+
+A `print()` replacement that adds colors to Godot's output window. Includes a
+prefix with the script and line number that made the call.
 
 ## MetSys
+
+- [github.com/KoBeWi/Metroidvania-System](https://github.com/KoBeWi/Metroidvania-System)
+- [docs](https://github.com/KoBeWi/Metroidvania-System/wiki)
 
 A solid set of building blocks for creating Metroidvanias in Godot. Check it out!
 
 ## Pandora
+
+- [github.com/bitbrain/pandora](https://github.com/bitbrain/pandora)
+- [docs](https://bitbra.in/pandora/#/)
 
 > I adopted Pandora before fully understanding Godot's Custom Resources - so
 > lately I try to go as far as I can with those before bringing in the
@@ -45,22 +89,16 @@ It's quite nice!
 
 ## Phantom Camera
 
+- [github.com/ramokz/phantom-camera](https://github.com/ramokz/phantom-camera)
+- [docs](https://phantom-camera.dev/)
+
 All kinds of camera features that you'll want, available out of the box, and
-reasonably customizable. Check it out!
+quite customizable. Check it out!
 
-# Mine
+## Sound Manager
 
-> Bias warning!
+- [github.com/nathanhoad/godot_sound_manager](https://github.com/nathanhoad/godot_sound_manager)
+- [docs](https://github.com/nathanhoad/godot_sound_manager/tree/main/docs)
 
-These are addons I wrote and maintain, and that generally get added every
-project I work on.
-
-## Log.gd
-
-A `print()` replacement that adds colors to Godot's output window. Includes a
-prefix with the script and line number that made the call.
-
-## Bones
-
-A suite of addons that I pulled out of Dino. Should perhaps be broken down
-further at some point - but I'm letting these tools evolve a bit first.
+Sound managing boilerplate that you'd probably have to write anyway! Much thanks
+to Nathan Hoad for another great addon.
