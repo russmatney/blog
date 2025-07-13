@@ -1,4 +1,5 @@
-As a literate haskell doc: https://github.com/urbint/lens-operator-onboarding
+This post is also available [as a literate haskell
+doc](https://github.com/urbint/lens-operator-onboarding).
 
 # Haskell Lens Operator Onboarding
 
@@ -16,37 +17,38 @@ provides documentation and usage examples, once you know what you're looking
 for. The [Lens website](https://lens.github.io/) is a great place to start.
 
 The motivation for this post is an attempt at smoothing out and condensing the
-Lens learning curve. Using Lens requires familiarity with several new concepts
-encoded in a handful of new operators. The learning process was frustrating - I
-knew the problems I was facing had a simple answer. I spent too long staring
-blankly at Lens's at/ix and folded operators, frustrated that all I wanted was
-to list the values in my HashMap. Lens makes this very easy, but only if you've
-done it before.
+`Lens` learning curve. Using `Lens` requires familiarity with several new
+concepts encoded in a handful of new operators. The learning process was
+frustrating - I knew the problems I was facing had a simple answer. I spent too
+long staring blankly at `Lens`'s `at`/`ix` and `folded` operators, frustrated
+that all I wanted was to list the values in my HashMap. `Lens` makes this very
+easy, but only if you've done it before.
 
 ## So what the heck is a lens?
 
-[Control.Lens](https://hackage.haskell.org/package/lens) is a Haskell package
+[`Control.Lens`](https://hackage.haskell.org/package/lens) is a Haskell package
 written by [Edward Kmett](https://github.com/ekmett). It provides 'Optics' for
 working with data structures; these optics let you access and update values
-(view and set) as well as modify the structure itself (for example, converting a
-HashMap into a HashSet).
+(`view` and `set`) as well as modify the structure itself (for example,
+converting a HashMap into a HashSet).
 
-Within the Control.Lens package, a Lens itself is the place to start. A lens can
-be defined as both a Getter and Setter for the same data structure. The same
-lens can then be used in different contexts to view or set a value. This is
-useful on its own, but the real power comes from composition - multiple lenses
-can be composed together and used as one, allowing you to view or set
-arbitrarily nested structures with ease. If this is not sticking, fear
-not - we'll get into the nitty-gritty details in the examples below.
+Within the `Control.Lens` package, a `Lens` itself is the place to start. A lens
+can be defined as both a `Getter` and `Setter` for the same data structure. The
+same lens can then be used in different contexts to `view` or `set` a value.
+This is useful on its own, but the real power comes from composition - multiple
+lenses can be composed together and used as one, allowing you to `view` or `set`
+arbitrarily nested structures with ease. If this is not sticking, fear not -
+we'll get into the nitty-gritty details in the examples below.
 
-The Lens package is very large - in this post, we're only going to cover examples for the following:
+The `Lens` package is very large - in this post, we're only going to cover
+examples for the following:
 
-- view (^.), preview (^?), and (^?!)
-- set (.~)
-- over (%~)
-- at and ix
-- toListOf (^..) and folded
-- has and hasn't
+- `view` (`^.`), `preview` (`^?`), and (`^?!`)
+- `set` (`.~`)
+- `over` (`%~`)
+- `at` and `ix`
+- `toListOf` (`^..`) and `folded`
+- `has` and `hasn't`
 
 These together cover many use-cases, and will speed up your Haskell
 productivity. We'll visit some more advanced operators in a future post. If
@@ -56,24 +58,24 @@ there are any you'd like covered in a similar way, please leave a comment!
 
 First things first - you NEED instant operator documentation lookup. If you're
 on a Mac, this can be done via [Alfred](https://www.alfredapp.com/) and [Dash](https://kapeli.com/dash). Setup is on your own, but to
-motivate you, searching for a Lens operator like ^. can be done via
-[cmd]+[space] hs ^..
+motivate you, searching for a `Lens` operator like `^.` can be done via
+`[cmd]+[space] hs ^.`.
 
-TODO add alfred screenshot here with caption:
+<img src="_images/haskell-lens-operator-onboarding/haskell_dash_search.webp" />
 
-- Searchable Lens documentation on OSX via Alfred and Dash integration.
+^ Searchable Lens documentation on OSX via Alfred and Dash integration.
 
 This workflow feature is crucial for quickly looking up operators you don't
-know, which should help you feel less like !?!?!?, and more like "Oh, ^?! is
-just an unsafe view on Maybe a".
+know, which should help you feel less like `!?!?!?`, and more like "Oh, `^?!` is
+just an unsafe `view` on `Maybe a`".
 
 Tooling like this is critical for searching for obscure operators and super
-generic function names. view, and set are not quite specific enough for today's
+generic function names. `view` and `set` are not quite specific enough for today's
 Google.
 
 If an OS built-in tool is not available, the "Index" pages on
 [Hackage](https://hackage.haskell.org/) can also make quick work of finding an
-operator exposed by a library. Here's the [index page for the Lens
+operator exposed by a library. Here's the [index page for the `Lens`
 library](https://hackage.haskell.org/package/lens-4.16.1/docs/doc-index-All.html).
 
 ## Literate Haskell
@@ -122,7 +124,7 @@ data Item
 
 Now let's write some lenses for our data types.
 
-Remember that lenses can be defined as a Getter and a Setter between two structures.
+Remember that lenses can be defined as a `Getter` and a `Setter` between two structures.
 
 ``` haskell
 -- | A lens from a User to Text.
@@ -161,21 +163,23 @@ weight = lens _itemWeight (\i w -> i { _itemWeight = w })
 ```
 
 > Advanced Usage: Note that it is possible to generate lenses with [Template
-> Haskell](https://wiki.haskell.org/Template_Haskell)! We're not going to get into that magic in this post - I recommend
-> making sure you know how to write these yourself first.
+> Haskell](https://wiki.haskell.org/Template_Haskell)! We're not going to get
+> into that magic in this post - I recommend making sure you know how to write
+> these yourself first.
 
 Great. Let's put these lenses to work.
 
-## `view` (^.), `preview` (^?), and (^?!)
+## `view` (`^.`), `preview` (`^?`), and (`^?!`)
 
-view is used for applying the Getter in your lenses to the a of your choice.
+`view` is used for applying the `Getter` in your lenses to the `a` of your
+choice.
 
-> Mnemonic: The use of the carrot ^ is quite literal - it's an upside down 'v', as
-> in view. Beyond that, view|^. vs preview|^? is used to differentiate a from
-> Maybe a.
+> Mnemonic: The use of the carrot `^` is quite literal - it's an upside down
+> 'v', as in `view`. Beyond that, `view`|`^.` vs `preview`|`^?` is used to
+> differentiate `a` from `Maybe a`.
 
-If that's not mnemonic enough, wait until we get to over's use of % as a pun on
-mod(ulo/ify). You'll be all, "smh Ed Kmett, you are one cheeky operator."
+If that's not mnemonic enough, wait until we get to `over`'s use of `%` as a pun
+on `mod(ulo/ify)`. You'll be all, ":smh: Ed Kmett, you are one cheeky operator."
 
 ``` haskell
 viewExamples :: IO ()
@@ -197,20 +201,21 @@ viewExamples = do
 
 The best part about lenses, of course, is that they compose!
 
-But what's this? _Just? preview and ^?!? Did you just drop a new operator out of
-nowhere? Welcome to Haskell, where the operators are fun toy things anyone can
-drop in anywhere! Whenever you see a new operator, I encourage you to laugh
-maniacally. It might help.
+But what's this? `_Just`? `preview` and `^?`!? Did you just drop a new operator
+out of nowhere? Welcome to Haskell, where the operators are fun toy things
+anyone can drop in anywhere! Whenever you see a new operator, I encourage you to
+laugh maniacally. It might help.
 
-preview (and its infix version (^?)) are similar to view and (^.). The
-difference is that preview lets us walk over Folds and Traversal, in this case,
-the Maybe Pet. _Just is a Prism providing a Traversal for targeting the Just a
-of a Maybe a. I'm sure you caught all of that. More examples please!
+`preview` (and its infix version (`^?`)) are similar to `view` and (`^.`). The
+difference is that `preview` lets us walk over `Folds` and `Traversal`, in this
+case, the `Maybe Pet`. `_Just` is a `Prism` providing a `Traversal` for
+targeting the `Just a` of a `Maybe a`. I'm sure you caught all of that. More
+examples please!
 
-> We're not going to dig heavily into Folds, Traversals, or Prisms themselves in
-> this post. Rather, we'll stick close to usage examples, and learn enough
-> practical Lens knowledge that exploring those on your own later is a little more
-> sane.
+> We're not going to dig heavily into `Folds`, `Traversals`, or `Prisms`
+> themselves in this post. Rather, we'll stick close to usage examples, and
+> learn enough practical `Lens` knowledge that exploring those on your own later
+> is a little more sane.
 
 ``` haskell
 previewExamples :: IO ()
@@ -238,25 +243,25 @@ previewExamples = do
   -- forcing Maybes to unwrap when writing tests.
 ```
 
-I don't know if there's a named version for ^?!. Maybe it's unsafePreview? I'm
-sure there are plenty of snarky view/preview related extended metaphors to
-explore. viewbang? Maybe?
+I don't know if there's a named version for `^?!`. Maybe it's `unsafePreview`?
+I'm sure there are plenty of snarky `view`/`preview` related extended metaphors
+to explore. `viewbang`? Maybe?
 
-## `set` (.~)
+## `set` (`.~`)
 
-set lets us update values on our data structures, using the same lenses we used
-to view those values.
+`set` lets us update values on our data structures, using the same lenses we
+used to view those values.
 
-The .~ (tilda) should be read similar to the = operator in an imperative
+The `.~` (tilda) should be read similar to the `=` operator in an imperative
 language - it sets the value on the right to be the target of the lens, and
 returns the updated object.
 
-> Mnemonic: .~ as a kind of side-ways 's'. Seriously.
+> Mnemonic: `.~` as a kind of side-ways 's'. Seriously.
 >
-> Advanced Lens Note: = is often swappable for ~ lens operators when working in a
-> StateT context.
+> Advanced Lens Note: `=` is often swappable for `~` lens operators when working
+> in a `StateT` context.
 
-Let's check out some set examples.
+Let's check out some `set` examples.
 
 ``` haskell
 setExamples :: IO ()
@@ -275,15 +280,16 @@ setExamples = do
 ```
 
 
-What's this? An ampersand? &?!? Did you laugh like a super villain? I hope you did.
+What's this? An ampersand? `&`?!? Did you laugh like a super villain? I hope you
+did.
 
-If you ask a seasoned Haskell Lenser what this & is all about, they'll say, oh,
-it's just the reverse application operator, duh. It's an inverted $.
+If you ask a seasoned Haskell Lenser what this `&` is all about, they'll say,
+oh, it's just the reverse application operator, duh. It's an inverted `$`.
 
-The & makes updating an object with set|.~ easier. The advice I got was to read
-it as "with". That last line should read: "print bob with score set to 42".
+The `&` makes updating an object with `set`|`.~` easier. The advice I got was to
+read it as "with". That last line should read: "print bob with score set to 42".
 
-You know what else is cool? You can chain &s to update multiple targets on the
+You know what else is cool? You can chain `&`s to update multiple targets on the
 same object. Mind blown, amirite?
 
 ``` haskell
@@ -310,23 +316,23 @@ fancySetExamples = do
   print $ bob & pet ?~ (Pet (PetName "Fitzgerald"))
 ```
 
-So now you can view and set with lenses, and compose lenses arbitrarily.
-Remember that setting is not just an "update," but at times a "delete,"
-depending on the lens - we'll see an example of that when we get to at.
+So now you can `view` and `set` with lenses, and compose lenses arbitrarily.
+Remember that `set`ting is not just an "update," but at times a "delete,"
+depending on the lens - we'll see an example of that when we get to `at`.
 
-But first! You probably want something a little more flexible than set - say you
-wanted to increment Bob's score, but don't want to use lenses multiple times to
-view then add to it. (Let's also say you didn't know Ed Kmett already wrote +~
-for this exact use-case).
+But first! You probably want something a little more flexible than `set` - say
+you wanted to increment Bob's score, but don't want to use lenses multiple times
+to view then add to it. (Let's also say you didn't know Ed Kmett already wrote
+`+~` for this exact use-case).
 
-## `over` (%~)
+## `over` (`%~`)
 
-over (%~) is like set (.~), but takes a function from a -> b rather than just b.
-That way you can pass a function rather than a value to replace whatever the
-target of the lens is.
+`over` (`%~`) is like `set` (`.~`), but takes a function from `a -> b` rather
+than just `b`. That way you can pass a function rather than a value to replace
+whatever the target of the lens is.
 
-> Mnemonic: I alluded to the theory behind the % earlier - this is your mod
-> operator, used as a kind of nerdy pun on 'modulo'/'modify'. Yep.
+> Mnemonic: I alluded to the theory behind the `%` earlier - this is your `mod`
+> operator, used as a kind of nerdy pun from 'modulo' to 'modify'. Yep.
 
 ``` haskell
 overExamples :: IO ()
@@ -348,7 +354,8 @@ overExamples = do
   -- Just (UserName "Fitzy")
 ```
 
-over is pretty handy! I hit a use-case for wrapping errors the other day that I rather liked:
+`over` is pretty handy! I hit a use-case for wrapping errors the other day that
+I rather liked:
 
 ``` haskell
 -- StorageError in a module somewhere
@@ -380,45 +387,48 @@ moreOverExamples = do
   -- Right "datadata"
 ```
 
-The use of over above uses Lens's _Left Prism to target the Either's Left a
-cases, and apply the function to that target if a target is found. If it's Right
-b, no target is found, and the object is returned unmodified.
+The use of `over` above uses `Lens`'s `_Left` Prism to target the Either's `Left
+a` cases, and apply the function to that target if a target is found. If it's
+`Right b`, no target is found, and the object is returned unmodified.
 
 ## `at` and `ix`
 
-at and ix are for things that are indexed. Maps, HashMaps, Lists - collections
-with keys or indexes. at and ix are some of my favorite Optics - once they are
-in your repertoire, you'll be hella annoyed when you have to work with indexed
-structures in other languages.
+`at` and `ix` are for things that are indexed. Maps, HashMaps, Lists -
+collections with keys or indexes. `at` and `ix` are some of my favorite
+'Optics' - once they are in your repertoire, you'll be hella annoyed when you
+have to work with indexed structures in other languages.
 
-at and ix are roughly the same, with a key difference - ix is a Traversal, while
-at is a Lens. You don't know what a Traversal is? Geez, you weren't born
-spouting Category Theory? You probably didn't even know Redux is just a big
-Monadic Klieisli composition (>=>). Even Fitzgerald knows that, and he's just a
-goldfish.
+`at` and `ix` are roughly the same, with a key difference - `ix` is a Traversal,
+while `at` is a Lens. You don't know what a Traversal is? Geez, you weren't born
+spouting [Category
+Theory](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)?
+You probably didn't even know Redux is just a big Monadic Klieisli composition
+(`>=>`). Even Fitzgerald knows that, and he's just a goldfish.
 
 Traversals are different from Lenses (and Folds) in this context because a
 Traversal cannot change the structure of the thing being traversed - it can
-adjust the values in place, but it cannot add or remove elements. Thus, Ix makes
-for more convenient in place adjustments, while At is useful for adding and
+adjust the values in-place, but it cannot add or remove elements. Thus, `Ix` makes
+for more convenient in-place adjustments, while `At` is useful for adding and
 removing elements.
 
-You may be wondering why we don't just us at for everything - indeed, you can if
-you'd like. However, at is a lens to Maybe a, while ix is a traversal to a. It's
-the ?~/^? to your .~/^. Ix-y goodness. As a result, at requires you to use a
-_Just or a preview/?~, which is more verbose than is necessary.
+You may be wondering why we don't just us `at` for everything - indeed, you can
+if you'd like. However, `at` is a lens to `Maybe a`, while `ix` is a traversal
+to `a`. It's the `?~`/`^?` to your `.~`/`^.` `Ix`-y goodness. `at` requires you
+to use a `_Just` or a `preview`/`?~`, which is sometimes more verbose than is
+necessary.
 
-A more practical reason is that, at times, at cannot be legally implemented. You
-may write a custom data structure for which the Lens laws are not satisfied with
-at (this happened to us at Urbint!). Because ix and Traversals cannot modify the
-structure itself, there are fewer requirements to a valid implementation.
+A more practical reason is that, sometimes, `at` cannot be legally implemented.
+You may write a custom data structure for which the `Lens` laws are not
+satisfied with `at` (this happened to us at Urbint!). Because `ix` and
+Traversals cannot modify the structure itself, there are fewer requirements to a
+valid implementation.
 
-> Mnemonic: at is named such because it refers to an element "at" a key, while ix
-> is said to represent the "i-th" element in a structure. Both, however, can take
-> keys of any type, as long as you implement the required type classes for that
-> key.
+> Mnemonic: `at` is named such because it refers to an element "at" a key, while
+> `ix` is said to represent the "i-th" element in a structure. Both, however, can
+> take keys of any type, as long as you implement the required type classes for
+> that key.
 
-Enough jabbering. Let's see what at and ix can do!
+Enough jabbering. Let's see what `at` and `ix` can do!
 
 ``` haskell
 atIxExamples :: IO ()
@@ -474,7 +484,7 @@ atIxExamples = do
 ```
 
 Per the monoid instance mentioned above - it is worth mentioning and showing a
-case for another optic called non. First an example, then an explanation.
+case for another optic called `non`. First an example, then an explanation.
 
 ``` haskell
 atIxNonExamples :: IO ()
@@ -490,23 +500,23 @@ atIxNonExamples = do
   -- Nothing
 ```
 
-non is built with a default value, and it targets a Maybe a. When the lens is
-used, if the value found is a Nothing, the default value is used, and the lens
-continues. If the value is Just a, the a is passed along as it is.
+`non` is built with a default value, and it targets a `Maybe a`. When the lens is
+used, if the value found is a `Nothing`, the default value is used, and the lens
+continues. If the value is `Just a`, the `a` is passed along as-is.
 
-In the above example, the lens to Bob's at "gold" results in a Nothing, so
-defaultGoldItem is used in its place, and the value lens operates over that
+In the above example, the lens to Bob's at "gold" results in a `Nothing`, so
+`defaultGoldItem` is used in its place, and the `value` lens operates over that
 default item.
 
-non is very useful when paired with typeclasses, like Monoid and mempty or
-Default and def.
+`non` is very useful when paired with typeclasses, like `Monoid` and `mempty` or
+`Default` and `def`.
 
-## `toListOf` (^..) and `folded`
+## `toListOf` (`^..`) and `folded`
 
 Structures like HashMaps are useful for looking things up by key - but how do
 you get a list of values in your HashMap? I was hung up on this for a while,
-even after crawling Control.Lens.Fold. The answer: toListOf (aka (^..)) combined
-with folded.
+even after crawling `Control.Lens.Fold`. The answer: `toListOf` (aka (`^..`))
+combined with `folded`.
 
 ``` haskell
 toListOfExamples :: IO ()
@@ -532,14 +542,14 @@ toListOfExamples = do
   -- [Item {_itemValue = 99, _itemWeight = 10}]
 ```
 
-There's more to folded and working with toListOf, but this is enough to get you
+There's more to `folded` and working with `toListOf`, but this is enough to get you
 started.
 
 ## `has` and `hasn't`
 
-has is a useful operator with a big gotcha. From the docs, has checks to see if
-a passed Fold or Traversal matches one or more entries. The thing to note is
-that it will ALWAYS return true for a lens.
+`has` is a useful operator with a big gotcha. From the docs, `has` checks to see if
+a passed `Fold` or `Traversal` matches one or more entries. The thing to note is
+that it will ALWAYS return `true` for a Lens.
 
 ``` haskell
 hasGotcha :: IO ()
@@ -551,8 +561,8 @@ hasGotcha = do
   -- True
 ```
 
-What? True? Remember that at is a lens. If you want this to be useful, you'll
-have to use ix, our resident indexed Traversal.
+What? True? Remember that `at` is a Lens. If you want this to be useful, you'll
+have to use `ix`, our resident indexed Traversal.
 
 ``` haskell
 hasGotchaIx :: IO ()
@@ -569,7 +579,7 @@ hasGotchaIx = do
   -- True
 ```
 
-And just for kicks, an example of hasn't.
+And just for kicks, an example of `hasn't`.
 
 ``` haskell
 hasn'tExample :: IO ()
@@ -583,7 +593,7 @@ hasn'tExample = do
 
 # Next Steps
 
-There are plenty of more useful operators and optics in Lens. If you're hungry
+There are plenty of more useful operators and optics in [Lens](https://hackage.haskell.org/package/lens-4.16.1). If you're hungry
 for more, here's more lens material from around the web.
 
 - [Kmett's cheat sheet in the lens

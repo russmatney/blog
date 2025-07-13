@@ -73,6 +73,12 @@ January 2020
 * [arch-post](/posts/techsposure/2020-01-25-arch-post.md) #techsposure
 
 
+May 2018
+
+
+* [haskell-lens-operator-onboarding](/posts/techsposure/2018-05-22-haskell-lens-operator-onboarding.md) #techsposure
+
+
 August 2016
 
 
