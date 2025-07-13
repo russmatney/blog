@@ -22,6 +22,7 @@ Some raw reveal.js presentations that support my youtube videos.
 
 
 
+* [dothop-speedrun](/devlogs/2025-06-10-dothop-speedrun.md)
 * [zooming-in-on-dino](/devlogs/2025-01-08-zooming-in-on-dino.md)
 * [glossolalia-listen-prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md) #glossolalia
 * [projects](/devlogs/projects.md)
