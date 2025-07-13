@@ -24,7 +24,7 @@
   (str
     sidebar-top-links
     "
-  * [100 word stories](/posts/100-worders/)
+  * [Hundos](/posts/100-worders/)
   * [Techsposure](/posts/techsposure/)
   * [Get It Write](/posts/getitwrite/)
   * [Groks](/posts/groks/)
@@ -149,7 +149,7 @@ Blog posts from over the years.
 
 Some broad categories:
 
-* [100 word stories](/posts/100-worders/)
+* [Hundos](/posts/100-worders/)
 * [Get It Write](/posts/getitwrite/)
 * [groks](/posts/groks/)
 * [techsposure](/posts/techsposure/)
@@ -170,9 +170,10 @@ Some broad categories:
    {:generate  write-index
     :directory config/hundos-dir
     :preamble  (str "
-## 100 Word Stories
+## Hundos
 
-Known colloquially as hundos.
+Formerly called 100-word-stories, but now including poems and rants of the
+arbitrary-word-count variety.
 ")}})
 
 (def techsposure-page-defs

@@ -3,7 +3,7 @@
 * [Dev Logs](/devlogs/)
 * [Portfolio](/portfolio/)
 * [Posts](/posts/)
-  * [100 word stories](/posts/100-worders/)
+  * [Hundos](/posts/100-worders/)
   * [Get It Write](/posts/getitwrite/)
   * [groks](/posts/groks/)
   * [techsposure](/posts/techsposure/)

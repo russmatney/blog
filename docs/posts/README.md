@@ -12,7 +12,7 @@ Blog posts from over the years.
 
 Some broad categories:
 
-* [100 word stories](/posts/100-worders/)
+* [Hundos](/posts/100-worders/)
 * [Get It Write](/posts/getitwrite/)
 * [groks](/posts/groks/)
 * [techsposure](/posts/techsposure/)
@@ -131,6 +131,24 @@ June 2016
 * [hot-damn-hot-corners](/posts/techsposure/2016-06-06-hot-damn-hot-corners.md) #techsposure
 
 
+April 2016
+
+
+* [drawing-a-crowd](/posts/100-worders/2016-04-02-drawing-a-crowd.md) #hundos
+
+
+October 2015
+
+
+* [straight-up-oj](/posts/100-worders/2015-10-22-straight-up-oj.md) #hundos
+* [would-it-bother-you](/posts/100-worders/2015-10-07-would-it-bother-you.md) #hundos
+* [dont-die-pizza](/posts/100-worders/2015-10-03-dont-die-pizza.md) #hundos
+* [how-to-fall-asleep](/posts/100-worders/2015-10-03-how-to-fall-asleep.md) #hundos
+* [ill-tell-you](/posts/100-worders/2015-10-03-ill-tell-you.md) #hundos
+* [sometimes](/posts/100-worders/2015-10-03-sometimes.md) #hundos
+* [the-frustrating-moment](/posts/100-worders/2015-10-03-the-frustrating-moment.md) #hundos
+
+
 April 2015
 
 
@@ -163,6 +181,7 @@ February 2014
 
 
 * [engineering-takes-time](/posts/techsposure/2014-02-28-engineering-takes-time.md) #techsposure
+* [first-thing-this-morning](/posts/100-worders/2014-02-16-first-thing-this-morning.md) #hundos
 * [how-i-rebuilt-my-dotfiles](/posts/techsposure/2014-02-09-how-i-rebuilt-my-dotfiles.md) #techsposure
 
 
@@ -206,6 +225,8 @@ July 2013
 
 * [hunger-pains](/posts/100-worders/2013-07-29-hunger-pains.md) #hundos
 * [in-between-feelings](/posts/100-worders/2013-07-28-in-between-feelings.md) #hundos
+* [in-the-skywaves](/posts/100-worders/2013-07-28-in-the-skywaves.md) #hundos
+* [its-for-suckers](/posts/100-worders/2013-07-28-its-for-suckers.md) #hundos
 * [javascript-must-knows-node-backbone-and-angularcoffeescriptsass-boilerplate](/posts/techsposure/2013-07-02-javascript-must-knows-node-backbone-and-angularcoffeescriptsass-boilerplate.md) #techsposure
 
 
@@ -230,9 +251,15 @@ April 2013
 
 * [the-smaller-you-are-the-more-youll-grow](/posts/getitwrite/2013-04-22-the-smaller-you-are-the-more-youll-grow.md) #getitwrite
 * [the-best-way-to-play-nes-games-and-game-dev-resources](/posts/techsposure/2013-04-17-the-best-way-to-play-nes-games-and-game-dev-resources.md) #techsposure
+* [great-owl-circle](/posts/100-worders/2013-04-13-great-owl-circle.md) #hundos
+* [heres-the-thing-cat](/posts/100-worders/2013-04-13-heres-the-thing-cat.md) #hundos
 * [mapping-memories-nanothon-and-structuring-productivity](/posts/getitwrite/2013-04-13-mapping-memories-nanothon-and-structuring-productivity.md) #getitwrite
 * [uncle-bob-demands-professionalism-and-test-driven-development](/posts/techsposure/2013-04-13-uncle-bob-demands-professionalism-and-test-driven-development.md) #techsposure
+* [everyone-accept-death](/posts/100-worders/2013-04-09-everyone-accept-death.md) #hundos
+* [the-last-place-you-look](/posts/100-worders/2013-04-09-the-last-place-you-look.md) #hundos
+* [nobodyd-notice](/posts/100-worders/2013-04-04-nobodyd-notice.md) #hundos
 * [a-new-medium-and-how-to-write-a-poem](/posts/getitwrite/2013-04-03-a-new-medium-and-how-to-write-a-poem.md) #getitwrite
+* [how-to-write-a-poem](/posts/100-worders/2013-04-03-how-to-write-a-poem.md) #hundos
 * [love-your-email-app-and-find-the-legendary-inbox-zero-every-day](/posts/techsposure/2013-04-03-love-your-email-app-and-find-the-legendary-inbox-zero-every-day.md) #techsposure
 
 

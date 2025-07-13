@@ -1,6 +1,7 @@
 # Fave Godot Addons
 
-A (hopefully well-maintained) list of Godot Addons that I love to "add on".
+A (hopefully well-maintained) list of Godot Addons that I love to `add on`.
+Amirite? `add on`?!
 
 > Apologies for that lame pun.
 

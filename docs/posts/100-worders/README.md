@@ -5,9 +5,10 @@
 
 
 
-## 100 Word Stories
+## Hundos
 
-Known colloquially as hundos.
+Formerly called 100-word-stories, but now including poems and rants of the
+arbitrary-word-count variety.
 
 
 
@@ -29,6 +30,30 @@ January 2025
 * [writing-hundos-again](/posts/100-worders/2025-01-05-writing-hundos-again.md)
 
 
+April 2016
+
+
+* [drawing-a-crowd](/posts/100-worders/2016-04-02-drawing-a-crowd.md)
+
+
+October 2015
+
+
+* [straight-up-oj](/posts/100-worders/2015-10-22-straight-up-oj.md)
+* [would-it-bother-you](/posts/100-worders/2015-10-07-would-it-bother-you.md)
+* [dont-die-pizza](/posts/100-worders/2015-10-03-dont-die-pizza.md)
+* [how-to-fall-asleep](/posts/100-worders/2015-10-03-how-to-fall-asleep.md)
+* [ill-tell-you](/posts/100-worders/2015-10-03-ill-tell-you.md)
+* [sometimes](/posts/100-worders/2015-10-03-sometimes.md)
+* [the-frustrating-moment](/posts/100-worders/2015-10-03-the-frustrating-moment.md)
+
+
+February 2014
+
+
+* [first-thing-this-morning](/posts/100-worders/2014-02-16-first-thing-this-morning.md)
+
+
 December 2013
 
 
@@ -40,12 +65,25 @@ July 2013
 
 * [hunger-pains](/posts/100-worders/2013-07-29-hunger-pains.md)
 * [in-between-feelings](/posts/100-worders/2013-07-28-in-between-feelings.md)
+* [in-the-skywaves](/posts/100-worders/2013-07-28-in-the-skywaves.md)
+* [its-for-suckers](/posts/100-worders/2013-07-28-its-for-suckers.md)
 
 
 May 2013
 
 
 * [manster-or-hamtaur](/posts/100-worders/2013-05-10-manster-or-hamtaur.md)
+
+
+April 2013
+
+
+* [great-owl-circle](/posts/100-worders/2013-04-13-great-owl-circle.md)
+* [heres-the-thing-cat](/posts/100-worders/2013-04-13-heres-the-thing-cat.md)
+* [everyone-accept-death](/posts/100-worders/2013-04-09-everyone-accept-death.md)
+* [the-last-place-you-look](/posts/100-worders/2013-04-09-the-last-place-you-look.md)
+* [nobodyd-notice](/posts/100-worders/2013-04-04-nobodyd-notice.md)
+* [how-to-write-a-poem](/posts/100-worders/2013-04-03-how-to-write-a-poem.md)
 
 
 February 2013

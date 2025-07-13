@@ -7,9 +7,37 @@ I'm an independent software engineer making games, mostly in Godot.
 > \
 > Hopefully this one sticks!
 
-## Lately (May 2025)
+## Lately
 
-### Godot Con in Boston
+### Ported Poems/Rants from Medium (July 2025)
+
+In the mid 2010s I wrote a bunch of poem-y things on Medium. They've since added
+a paywall, which is very :eyeroll: so I've ported them into the 'Hundos' section
+of the blog. Check 'em out!
+
+* [drawing-a-crowd](/posts/100-worders/2016-04-02-drawing-a-crowd.md)
+* [straight-up-oj](/posts/100-worders/2015-10-22-straight-up-oj.md)
+* [would-it-bother-you](/posts/100-worders/2015-10-07-would-it-bother-you.md)
+* [dont-die-pizza](/posts/100-worders/2015-10-03-dont-die-pizza.md)
+* [how-to-fall-asleep](/posts/100-worders/2015-10-03-how-to-fall-asleep.md)
+* [ill-tell-you](/posts/100-worders/2015-10-03-ill-tell-you.md)
+* [sometimes](/posts/100-worders/2015-10-03-sometimes.md)
+* [the-frustrating-moment](/posts/100-worders/2015-10-03-the-frustrating-moment.md)
+* [first-thing-this-morning](/posts/100-worders/2014-02-16-first-thing-this-morning.md)
+* [in-the-skywaves](/posts/100-worders/2013-07-28-in-the-skywaves.md)
+* [its-for-suckers](/posts/100-worders/2013-07-28-its-for-suckers.md)
+* [great-owl-circle](/posts/100-worders/2013-04-13-great-owl-circle.md)
+* [heres-the-thing-cat](/posts/100-worders/2013-04-13-heres-the-thing-cat.md)
+* [everyone-accept-death](/posts/100-worders/2013-04-09-everyone-accept-death.md)
+* [the-last-place-you-look](/posts/100-worders/2013-04-09-the-last-place-you-look.md)
+* [nobodyd-notice](/posts/100-worders/2013-04-04-nobodyd-notice.md)
+* [how-to-write-a-poem](/posts/100-worders/2013-04-03-how-to-write-a-poem.md)
+
+There's also a very technical post about Haskell's Lens library:
+
+* [haskell-lens-operator-onboarding](/posts/techsposure/2018-05-22-haskell-lens-operator-onboarding.md)
+
+### Godot Con in Boston (May 2025)
 
 I just got back from Godot Con, and it was amazing!! So glad there was finally
 one closer to me! So many indie devs and indie games to parse!
@@ -21,14 +49,14 @@ At Godot Con, I gave a lightning talk about
 [Log.gd](https://github.com/russmatney/log.gd). Updates, posts, and a YouTube
 link to come soon!
 
-### Dev Logs!
+### Dev Logs! (Jan 2025)
 
 Check out my new [Dev Logs](/devlogs/) section for updates on my projects and meanderings.
 
 * [DevLog: Zooming In On Dino](/devlogs/2025-01-08-zooming-in-on-dino.md)
 * [DevLog: Glossolalia Listen Prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md) #glossolalia
 
-### New Hundos? Old Hundos?
+### New Hundos? Old Hundos? (Jan 2025)
 
 I've resurrected a bunch of old content, including my [100 word
 stories](/posts/100-worders/), which I like to call 'Hundos'.
