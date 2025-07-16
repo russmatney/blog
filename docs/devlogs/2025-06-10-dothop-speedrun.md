@@ -88,6 +88,10 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
 
 ## 1-6
 
+| Level | Dots | Total Paths | Winning Paths |
+|-------|------|-------------|---------------|
+| 1-6   | 10   | 22          | 2             |
+
     o..o.o.
     ox.o.ot
     ...o.o.
@@ -96,6 +100,10 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
 <img src="_images/dothop/speedrun_clips/dothop_speedrun-1-6.GIF" />
 
 ## 1-7
+
+| Level | Dots | Total Paths | Winning Paths |
+|-------|------|-------------|---------------|
+| 1-7   | 9    | 12          | 2             |
 
     x.ooo
     .....
@@ -106,6 +114,10 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
 
 ## 1-8
 
+| Level | Dots | Total Paths | Winning Paths |
+|-------|------|-------------|---------------|
+| 1-8   | 9    | 7           | 1             |
+
     ...oo
     x.o..
     o.ooo
@@ -114,6 +126,10 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
 <img src="_images/dothop/speedrun_clips/dothop_speedrun-1-8.GIF" />
 
 ## 1-9
+
+| Level | Dots | Total Paths | Winning Paths |
+|-------|------|-------------|---------------|
+| 1-9   | 13   | 30          | 1             |
 
     oo..o.o
     ox.oto.
@@ -124,6 +140,10 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
 
 ## 1-10
 
+| Level | Dots | Total Paths | Winning Paths |
+|-------|------|-------------|---------------|
+| 1-10  | 12   | 19          | 1             |
+
     .o....o
     .x.ooo.
     .o.....
@@ -133,6 +153,10 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
 
 ## 1-11
 
+| Level | Dots | Total Paths | Winning Paths |
+|-------|------|-------------|---------------|
+| 1-11  | 15   | 105         | 1             |
+
     oo..o.o
     ox.ooo.
     .o.....
@@ -141,6 +165,10 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
 <img src="_images/dothop/speedrun_clips/dothop_speedrun-1-11.GIF" />
 
 ## 1-12
+
+| Level | Dots | Total Paths | Winning Paths |
+|-------|------|-------------|---------------|
+| 1-12  | 15   | 105         | 8             |
 
     oo..o.o
     ox.ooo.
