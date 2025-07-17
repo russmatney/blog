@@ -4,6 +4,7 @@
 
 
 (def repo-dir (str (fs/home) "/russmatney/blog"))
+(def dothop-repo-dir (str (fs/home) "/russmatney/dothop"))
 (def docs-dir (str repo-dir "/docs"))
 
 (def posts-dir (str docs-dir "/posts"))

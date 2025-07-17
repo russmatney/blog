@@ -2,11 +2,12 @@
  :deps  {tick/tick           {:mvn/version "1.0"}
          russmatney/org-crud {:git/url "https://github.com/russmatney/org-crud"
                               :git/sha "b7ac5818b57378427b7bbc8ad865acd398edabe7"}
-         }
+         org.babashka/json   {:mvn/version "0.1.6"}}
  :tasks
  {:requires ([babashka.fs :as fs]
              [clojure.edn :as edn]
-             [blog.tasks :as tasks])
+             [blog.tasks :as tasks]
+             )
   :init
   (do
     (defn log [& args]
