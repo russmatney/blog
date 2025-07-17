@@ -110,7 +110,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .xooot.
     .......
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-1.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-1.GIF" />
 
 ## 1-2
 
@@ -122,7 +122,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .x...o.
     ...o.o.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-2.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-2.GIF" />
 
 ## 1-3
 
@@ -134,7 +134,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     o.xt.o
     ......
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-3.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-3.GIF" />
 
 ## 1-4
 
@@ -147,7 +147,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .t.o.o.
     .o...o.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-4.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-4.GIF" />
 
 ## 1-5
 
@@ -159,7 +159,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .......
     o.o.x.t
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-5.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-5.GIF" />
 
 ## 1-6
 
@@ -172,7 +172,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ...o.o.
     .......
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-6.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-6.GIF" />
 
 ## 1-7
 
@@ -185,7 +185,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     o.ooo
     t....
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-7.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-7.GIF" />
 
 ## 1-8
 
@@ -198,7 +198,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     o.ooo
     t....
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-8.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-8.GIF" />
 
 ## 1-9
 
@@ -211,7 +211,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .......
     .o.o.oo
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-9.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-9.GIF" />
 
 ## 1-10
 
@@ -224,7 +224,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .o.....
     .t.oooo
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-10.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-10.GIF" />
 
 ## 1-11
 
@@ -237,7 +237,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .o.....
     .t.oooo
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-11.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-11.GIF" />
 
 ## 1-12
 
@@ -250,7 +250,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .t.....
     .o.oooo
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-12.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-1-12.GIF" />
 
 # A Spring in your Hop (World 2)
 
@@ -278,7 +278,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ooo
     oxt
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-1.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-1.GIF" />
 
 ## 2-2
 
@@ -290,7 +290,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     o.o.o..
     .x..o.t
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-2.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-2.GIF" />
 
 ## 2-3
 
@@ -303,7 +303,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .o.oo..
     .o.o..o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-3.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-3.GIF" />
 
 ## 2-4
 
@@ -317,7 +317,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     o.....o
     .o...o.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-4.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-4.GIF" />
 
 ## 2-5
 
@@ -330,7 +330,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     xooo..
     o...o.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-5.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-5.GIF" />
 
 ## 2-6
 
@@ -343,7 +343,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     xooo..o
     o.....o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-6.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-6.GIF" />
 
 ## 2-7
 
@@ -356,7 +356,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     oxoo...o
     .o.....o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-7.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-7.GIF" />
 
 ## 2-8
 
@@ -369,7 +369,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     oxt.o..o
     oo....oo
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-8.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-8.GIF" />
 
 ## 2-9
 
@@ -383,7 +383,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ...o.o.o
     .o.o....
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-9.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-9.GIF" />
 
 ## 2-10
 
@@ -398,7 +398,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ox.oo......
     oo.o.......
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-10.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-10.GIF" />
 
 ## 2-11
 
@@ -413,7 +413,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ox.oo.....
     oo.o......
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-11.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-11.GIF" />
 
 ## 2-12
 
@@ -428,7 +428,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ot.ooo....
     oo........
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-12.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-2-12.GIF" />
 
 # That's Just Beachy (World 3)
 
@@ -457,7 +457,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     o.x.o.t.
     o......o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-1.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-1.GIF" />
 
 ## 3-2
 
@@ -470,7 +470,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .x.....
     .o.o.t.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-2.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-2.GIF" />
 
 ## 3-3
 
@@ -483,7 +483,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ...o.o.
     .x..o..
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-3.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-3.GIF" />
 
 ## 3-4
 
@@ -497,7 +497,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ...o.o.
     ot..o.o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-4.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-4.GIF" />
 
 ## 3-5
 
@@ -510,7 +510,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ...x....o
     .oo.o..t.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-5.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-5.GIF" />
 
 ## 3-6
 
@@ -524,7 +524,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ...x.oo.o
     .oo.o..t.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-6.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-6.GIF" />
 
 ## 3-7
 
@@ -538,7 +538,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ...t.oo.o
     .oooo..x.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-7.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-7.GIF" />
 
 ## 3-8
 
@@ -553,7 +553,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ..o..o.....
     ......oo...
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-8.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-8.GIF" />
 
 ## 3-9
 
@@ -568,7 +568,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ..o...o....
     ...o.oo....
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-9.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-9.GIF" />
 
 ## 3-10
 
@@ -583,7 +583,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     oxo........o
     oo..........
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-10.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-10.GIF" />
 
 ## 3-11
 
@@ -597,7 +597,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     oox....o.o
     o.o.....oo
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-11.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-11.GIF" />
 
 ## 3-12
 
@@ -611,7 +611,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ox.oo.ooo.
     oo........
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-12.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-3-12.GIF" />
 
 # Leaf Me Alone (World 4)
 
@@ -639,7 +639,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     oo.
     oxt
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-1.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-1.GIF" />
 
 ## 4-2
 
@@ -652,7 +652,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     o.xo.
     o.oo.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-2.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-2.GIF" />
 
 ## 4-3
 
@@ -666,7 +666,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ..xo.
     ..oo.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-3.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-3.GIF" />
 
 ## 4-4
 
@@ -680,7 +680,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ...oo..
     ..o..o.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-4.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-4.GIF" />
 
 ## 4-5
 
@@ -695,7 +695,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ..xo..
     ..oo.o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-5.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-5.GIF" />
 
 ## 4-6
 
@@ -709,7 +709,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ..oo....
     oo..o.o.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-6.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-6.GIF" />
 
 ## 4-7
 
@@ -724,7 +724,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ..xo.oo
     ..oo.oo
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-7.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-7.GIF" />
 
 ## 4-8
 
@@ -738,7 +738,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ....oo..
     ...o..o.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-8.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-8.GIF" />
 
 ## 4-9
 
@@ -752,7 +752,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     o.o.oo.o.
     ooo...o..
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-9.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-9.GIF" />
 
 ## 4-10
 
@@ -766,7 +766,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ..o..o...
     .o..ooo.x
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-10.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-10.GIF" />
 
 ## 4-11
 
@@ -780,7 +780,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ...ooxo..
     oo.o..o.o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-11.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-11.GIF" />
 
 ## 4-12
 
@@ -795,7 +795,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     o.oxoto
     oo..o.o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-12.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-4-12.GIF" />
 
 # Snow Way (World 5)
 
@@ -826,7 +826,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .o.
     .t.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-1.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-1.GIF" />
 
 ## 5-2
 
@@ -839,7 +839,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .o...o.
     ...t...
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-2.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-2.GIF" />
 
 ## 5-3
 
@@ -852,7 +852,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ..oo....
     ...oooot
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-3.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-3.GIF" />
 
 ## 5-4
 
@@ -864,7 +864,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .o...o.
     .x.o..t
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-4.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-4.GIF" />
 
 ## 5-5
 
@@ -878,7 +878,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .....oo
     t.oo...
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-5.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-5.GIF" />
 
 ## 5-6
 
@@ -892,7 +892,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     x...o.o
     .oo.o.o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-6.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-6.GIF" />
 
 ## 5-7
 
@@ -907,7 +907,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ox.....o.o
     ..o.o.....
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-7.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-7.GIF" />
 
 ## 5-8
 
@@ -922,7 +922,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .....oo
     oo.....
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-8.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-8.GIF" />
 
 ## 5-9
 
@@ -937,7 +937,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .o.o.oo
     oo.....
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-9.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-9.GIF" />
 
 ## 5-10
 
@@ -952,7 +952,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ox......o.o
     oo.o...o...
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-10.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-10.GIF" />
 
 ## 5-11
 
@@ -967,7 +967,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ooo.....o.o
     .o......o..
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-11.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-11.GIF" />
 
 ## 5-12
 
@@ -982,7 +982,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     oox........o.o
     ooo.......o...
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-12.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-5-12.GIF" />
 
 # Get Outer Here (World 6)
 
@@ -1011,7 +1011,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     xo.ot
     ..oo.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-1.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-1.GIF" />
 
 ## 6-2
 
@@ -1023,7 +1023,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     xooot
     ..oo.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-2.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-2.GIF" />
 
 ## 6-3
 
@@ -1037,7 +1037,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     o.o..o..
     .t.ooo..
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-3.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-3.GIF" />
 
 ## 6-4
 
@@ -1051,7 +1051,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ..oo.o.
     .o.oo.o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-4.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-4.GIF" />
 
 ## 6-5
 
@@ -1066,7 +1066,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     o...oto.o
     ...o...o.
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-5.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-5.GIF" />
 
 ## 6-6
 
@@ -1081,7 +1081,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ...o...o.
     .....oo..
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-6.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-6.GIF" />
 
 ## 6-7
 
@@ -1096,7 +1096,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ..oo.oo..
     .o..o....
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-7.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-7.GIF" />
 
 ## 6-8
 
@@ -1111,7 +1111,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .t.ooo..
     o.o.....
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-8.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-8.GIF" />
 
 ## 6-9
 
@@ -1126,7 +1126,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ...oto...
     ...oo...o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-9.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-9.GIF" />
 
 ## 6-10
 
@@ -1141,7 +1141,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     .ooo.t..
     o.o..o.o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-10.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-10.GIF" />
 
 ## 6-11
 
@@ -1156,7 +1156,7 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ox.o..o.o
     .o.o..o.o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-11.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-11.GIF" />
 
 ## 6-12
 
@@ -1172,4 +1172,4 @@ Some metadata and clips from my Dot Hop 1.0 speedrun.
     ox.o.t.
     .o.oo.o
 
-<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-12.gif" />
+<img src= "_images/dothop/speedrun_clips/dothop_speedrun-6-12.GIF" />
