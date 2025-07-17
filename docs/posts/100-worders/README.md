@@ -16,6 +16,7 @@ arbitrary-word-count variety.
 July 2025
 
 
+* [the-procedure](/posts/100-worders/2025-07-17-the-procedure.md)
 * [my-rubber-wedding-ring](/posts/100-worders/2025-07-16-my-rubber-wedding-ring.md)
 
 
