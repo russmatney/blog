@@ -109,7 +109,7 @@
                  ;; gif tag
                  (str "<img src= \"_images/dothop/speedrun_clips/dothop_speedrun-"
                       (:puzzle_id data)
-                      ".GIF\" />")
+                      ".gif\" />")
 
                  "\n\n"
 
