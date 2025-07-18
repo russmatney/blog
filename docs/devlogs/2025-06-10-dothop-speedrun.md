@@ -32,10 +32,10 @@ in this list of links helpful for the rest of this post:
 
 ### sneak peak: GameDef is Dead
 
-I'm completely removing all the GameDef and game_def in the repo
-it was responsible for wrapping the ParsedGam
-(which is a raw array of strings and various metadata)
-GameDef also promoted a bunch of helper puzzle state datas
+I'm completely removing all the `GameDef` and `game_def` in the repo.\
+It was responsible for wrapping the `ParsedGame`.\
+(which is a raw array of strings and various metadata)\
+`GameDef` also promoted a bunch of helper puzzle state datas.
 
 > mostly it improved things from the parse that PuzzleScript (separate library) supported
 > e.g. a 'legend' for mapping the raw string inputs to lists of OR + AND
