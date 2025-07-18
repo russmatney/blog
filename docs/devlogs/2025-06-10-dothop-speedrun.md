@@ -1,24 +1,31 @@
+# Dot Hop Devlog
+
+!> **Spoiler Warning**: Animated Dot Hop Puzzle Solutions below!
+
 2025 July 18 17:00
 
 that's after 5 on Fridaze folks!\
 you're out in my seat at the bar\
 i'm `<leader-u-c>` to disable autocomplete in neovide
 
-> it's popping up like fireworks while i'm trying to type here
-> driving me bananas and distracting the heck out of me
+> popping up like fireworks\
+> someone's trying to type here\
+> driving me bananas\
+> \<switches to emacs\>\
+> oh thank god it's gone
 
 ### I'm working on Dot Hop 2.0!
 
 I'm hoping to dive on a Dot Hop refactor tonight - i started a huge one called
-GAME DEF IS DEAD today. Here's a sneak peak plus (confusingly) misc links for
-the rest of this post:
+`GAMEDEF IS DEAD` today. Here's links to some related commits confusingly buried
+in this list of links helpful for the rest of this post:
 
 - [Dot Hop on Steam](https://store.steampowered.com/app/2779710/Dot_Hop/)
 - [Dot Hop repo on Github](https://github.com/russmatney/dothop)
-- [GameDef-is-Dead-Related Commits](https://github.com/russmatney/dothop/commits/main/?since=2025-07-18&until=2025-07-18)
+- [`GAMEDEF IS DEAD` Commits](https://github.com/russmatney/dothop/commits/main/?since=2025-07-18&until=2025-07-18)
 - [Twitch Stream that all the GIFs below are cut from](https://www.twitch.tv/videos/2482474110)
 
-> Dot Hop for iOS and Android is in beta!
+> Dot Hop for iOS and Android is in beta!\
 > Ping me on Discord for an invite!
 
 ### sneak peak: GameDef is Dead
@@ -56,6 +63,7 @@ I recently finished two other refactors:
 
 ---
 
+
 --- snip ---
 
 Everything below here was auto-generated
@@ -63,17 +71,29 @@ by [`bb/blog/devlogs/dothop_puzzle_data.clj`](https://github.com/russmatney/blog
 
 # Dot Hop 1.0 Speedrun and Puzzle Data
 
-I did a full Dot Hop 1.0 playthrough in June - you can watch the whole thing via Twitch VODs! (links below)
+I streamed a full playthrough of Dot Hop 1.0 in June! (link above)
 
-I've been thinking about Dot Hop puzzle metrics more and thought to present some
-alongside the solutions - the result is this mess of a Dev Log.
+I've been thinking about Dot Hop puzzle metrics - here I'll present some
+alongside the solutions. The result is this mess of a Dev Log.
 
 Presenting: A bunch of Dot Hop Puzzle Spoilers
 Alongside: the raw plain-text puzzle input
 Tables of path, choice, and turn counts.
 
+> Path count: How many possible ways can this puzzle be brute-forced?
+> Winning path count: How many are 'wins'?
+> Choices: How many times did the player have multiple-next-dot options (besides 'undo')
+> Turns: How many times did the player change direction (besides 'undo')
+
 I'm hopeful to use metrics like these to work with puzzle difficulty,
-especially for evaluating generated puzzles.
+especially for evaluating generated puzzles. It's also been inspiring new ideas:
+e.g. why don't we skip to the next choice? why require more input?
+
+Anyway, here comes a bunch of data and gifs for each puzzle - good luck in there!
+
+?> **Navigation tip**: The `1-1` level links in the tables are intended to help navigate this thing.
+
+!> **Warning**: These tables render pretty poorly on mobile right now. I'm hoping to improve that soon....
 
 # All puzzle stats
 

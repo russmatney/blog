@@ -126,6 +126,7 @@
           })))
     (spit "./tmp.md")))
 
+;; TODO seek for \n--- snip ---\n and don't wipe the posts' intro
 (def post-intro "
 
 --- snip ---
@@ -135,20 +136,30 @@ by [`bb/blog/devlogs/dothop_puzzle_data.clj`](https://github.com/russmatney/blog
 
 # Dot Hop 1.0 Speedrun and Puzzle Data
 
-I did a full Dot Hop 1.0 playthrough in June - you can watch the whole thing via Twitch VODs! (links below)
+I streamed a full playthrough of Dot Hop 1.0 in June! (link above)
 
-I've been thinking about Dot Hop puzzle metrics more and thought to present some
-alongside the solutions - the result is this mess of a Dev Log.
+I've been thinking about Dot Hop puzzle metrics - here I'll present some
+alongside the solutions. The result is this mess of a Dev Log.
 
 Presenting: A bunch of Dot Hop Puzzle Spoilers
 Alongside: the raw plain-text puzzle input
 Tables of path, choice, and turn counts.
 
-I'm hopeful to use metrics like these to work with puzzle difficulty,
-especially for evaluating generated puzzles.
+> Path count: How many possible ways can this puzzle be brute-forced?
+> Winning path count: How many are 'wins'?
+> Choices: How many times did the player have multiple-next-dot options (besides 'undo')
+> Turns: How many times did the player change direction (besides 'undo')
 
-- [Twitch VODs that these GIFs are cut from](https://www.twitch.tv/videos/2482512802?collection=0tCOXvfGRxhZiA)
-- [DotHop on Steam]()
+I'm hopeful to use metrics like these to work with puzzle difficulty,
+especially for evaluating generated puzzles. It's also been inspiring new ideas:
+e.g. why don't we skip to the next choice? why require more input?
+
+Anyway, here comes a bunch of data and gifs for each puzzle - good luck in there!
+
+?> **Navigation tip**: The `1-1` level links in the tables are intended to help navigate this thing.
+
+!> **Warning**: These tables render pretty poorly on mobile right now.\
+!> I'm hoping to improve that soon....
 
 # All puzzle stats
 
