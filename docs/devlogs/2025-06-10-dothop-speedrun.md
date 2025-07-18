@@ -1,12 +1,81 @@
+2025 July 18 17:00
+
+that's after 5 on Fridaze folks!\
+you're out in my seat at the bar\
+i'm `<leader-u-c>` to disable autocomplete in neovide
+
+> it's popping up like fireworks while i'm trying to type here
+> driving me bananas and distracting the heck out of me
+
+### I'm working on Dot Hop 2.0!
+
+I'm hoping to dive on a Dot Hop refactor tonight - i started a huge one called
+GAME DEF IS DEAD today. Here's a sneak peak plus (confusingly) misc links for
+the rest of this post:
+
+- [Dot Hop on Steam](https://store.steampowered.com/app/2779710/Dot_Hop/)
+- [Dot Hop repo on Github](https://github.com/russmatney/dothop)
+- [GameDef-is-Dead-Related Commits](https://github.com/russmatney/dothop/commits/main/?since=2025-07-18&until=2025-07-18)
+- [Twitch Stream that all the GIFs below are cut from](https://www.twitch.tv/videos/2482474110)
+
+> Dot Hop for iOS and Android is in beta!
+> Ping me on Discord for an invite!
+
+### sneak peak: GameDef is Dead
+
+I'm completely removing all the GameDef and game_def in the repo
+it was responsible for wrapping the ParsedGam
+(which is a raw array of strings and various metadata)
+GameDef also promoted a bunch of helper puzzle state datas
+
+> mostly it improved things from the parse that PuzzleScript (separate library) supported
+> e.g. a 'legend' for mapping the raw string inputs to lists of OR + AND
+> > (now mostly referred to as cell data)
+> > (by now i've just hardcoded the legend - it's flexiblity i don't need rn)
+
+This morning i created a `EditorInputPlugin` that parses `.puzz` plaintext files
+into a Godot `Custom Resource`.
+
+!> if that one line doesn't cheer you up, you might hate the rest of this post :sweat_smile:
+
+We now support `dothop-tutorial.puzz` as a full-on `PuzzleSetData` godot 'resource'.
+It's read-only but will be the core of the new `PuzzleStore` (coming soon to a
+`src/*` near you!).
+
+....which is probably a stateless Autoload for all puzzle data? (Maybe exposed
+as lists/filters of `PuzzleDef`s?)
+
+I recently finished two other refactors:
+
+- `DotHopPuzzle` <> `PuzzleState` extraction
+- `PuzzleAnalysis` <> `StatLogger` puzzle-data exporter
+
+> `StatLogger` generated the json that supports the rest of this post.\
+> Thanks, `StatLogger`.\
+> You're an inspiration to us all.
+
+---
+
+--- snip ---
+
+Everything below here was auto-generated
+by [`bb/blog/devlogs/dothop_puzzle_data.clj`](https://github.com/russmatney/blog/blob/ba2db0263b953871d39444c62881079a52e10bef/bb/blog/devlogs/dothop_puzzle_data.clj#L131)
+
 # Dot Hop 1.0 Speedrun and Puzzle Data
 
-- [Twitch VODs](https://www.twitch.tv/videos/2482512802?collection=0tCOXvfGRxhZiA)
+I did a full Dot Hop 1.0 playthrough in June - you can watch the whole thing via Twitch VODs! (links below)
 
-# Intro
+I've been thinking about Dot Hop puzzle metrics more and thought to present some
+alongside the solutions - the result is this mess of a Dev Log.
 
-Some metadata and clips from my Dot Hop 1.0 speedrun.
+Presenting: A bunch of Dot Hop Puzzle Spoilers
+Alongside: the raw plain-text puzzle input
+Tables of path, choice, and turn counts.
 
-## All puzzle stats
+I'm hopeful to use metrics like these to work with puzzle difficulty,
+especially for evaluating generated puzzles.
+
+# All puzzle stats
 
 | World                | Level          | Dots | Paths (wins/all) | Choices (min/max) | Turns (min/max) |
 | -------------------- | -------------- | ---- | ---------------- | ----------------- | --------------- |

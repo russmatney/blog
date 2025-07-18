@@ -128,15 +128,29 @@
 
 (def post-intro "
 
+--- snip ---
+
+Everything below here was auto-generated
+by [`bb/blog/devlogs/dothop_puzzle_data.clj`](https://github.com/russmatney/blog/blob/ba2db0263b953871d39444c62881079a52e10bef/bb/blog/devlogs/dothop_puzzle_data.clj#L131)
+
 # Dot Hop 1.0 Speedrun and Puzzle Data
 
-- [Twitch VODs](https://www.twitch.tv/videos/2482512802?collection=0tCOXvfGRxhZiA)
+I did a full Dot Hop 1.0 playthrough in June - you can watch the whole thing via Twitch VODs! (links below)
 
-# Intro
+I've been thinking about Dot Hop puzzle metrics more and thought to present some
+alongside the solutions - the result is this mess of a Dev Log.
 
-Some metadata and clips from my Dot Hop 1.0 speedrun.
+Presenting: A bunch of Dot Hop Puzzle Spoilers
+Alongside: the raw plain-text puzzle input
+Tables of path, choice, and turn counts.
 
-## All puzzle stats
+I'm hopeful to use metrics like these to work with puzzle difficulty,
+especially for evaluating generated puzzles.
+
+- [Twitch VODs that these GIFs are cut from](https://www.twitch.tv/videos/2482512802?collection=0tCOXvfGRxhZiA)
+- [DotHop on Steam]()
+
+# All puzzle stats
 
 ")
 
