@@ -24,6 +24,8 @@ in this list of links helpful for the rest of this post:
 - [Dot Hop repo on Github](https://github.com/russmatney/dothop)
 - [`GAMEDEF IS DEAD` Commits](https://github.com/russmatney/dothop/commits/main/?since=2025-07-18&until=2025-07-18)
 - [Twitch Stream that all the GIFs below are cut from](https://www.twitch.tv/videos/2482474110)
+  - (if the stream has expired from the web there are should be a collection of
+    VOD/highlights around somewhere)
 
 > Dot Hop for iOS and Android is in beta!\
 > Ping me on Discord for an invite!
