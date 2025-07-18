@@ -1,4 +1,4 @@
-# Dot Hop Devlog
+# Devlog: Dot Hop Speed Run and Puzzle Spoilers
 
 !> **Spoiler Warning**: Animated Dot Hop Puzzle Solutions below!
 
