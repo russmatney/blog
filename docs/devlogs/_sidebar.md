@@ -17,6 +17,7 @@ Dev Logs
 
 
 
+* [dothopping-rearchitecting](/devlogs/2025-07-26-dothopping-rearchitecting.md)
 * [dothop-speedrun](/devlogs/2025-06-10-dothop-speedrun.md)
 * [zooming-in-on-dino](/devlogs/2025-01-08-zooming-in-on-dino.md)
 * [glossolalia-listen-prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md) #glossolalia

@@ -51,8 +51,10 @@
   ;; TODO we need a custom md-link impl/answer for id:<uuid> roam links/content
   ;; would be great to do something fancy - popups or expandable sections
 
-  (let [md-item (org-crud.markdown/item->md-item
-                  note {:drop-id-links true})]
+  (let [md-item
+        ;; TODO move frontmatter from --- to ```
+        (org-crud.markdown/item->md-item
+          note {:drop-id-links true})]
     (->> md-item :body (string/join "\n"))))
 
 (defn write-garden-post
@@ -81,29 +83,37 @@
 (defn daily-path->date-str [path]
   (string/replace (fs/file-name path) #"\.org" ""))
 
-(defn create-hundo [opts item]
-  (let [date-fname  (daily-path->date-str (:path opts))
-        title       (:org/name item)
-        file-title  (title->fname title)
-        hundo-fname (str date-fname "-" file-title ".md")]
-    (log/log "creating hundo from daily" hundo-fname
+(defn create-post-from-daily [opts item]
+  (let [date-fname (daily-path->date-str (:path opts))
+        title      (:org/name item)
+        file-title (title->fname title)
+        fname      (str date-fname "-" file-title ".md")]
+    (log/log "creating post from daily" fname
+             "in directory" (:directory opts)
              "word count:"(:org/word-count item))
     (gen/write-page
-      {:directory config/hundos-dir
-       :path      hundo-fname
+      {:directory (:directory opts)
+       :path      fname
        :content   (post->md-lines item)})))
-
-(defn create-til [opts item]
-  (let [path (:path opts)]
-    (println "todo create tils" item)))
 
 (defn process-daily-item [opts item]
   (cond
-    (contains? (:org/tags item) "hundo")
-    (create-hundo opts item)
+    (contains? (:org/tags item) "devlog")
+    (create-post-from-daily
+      (assoc opts :directory config/devlogs-dir)
+      item)
 
-    (contains? (:org/tags item) "til")
-    (create-til opts item)))
+    (contains? (:org/tags item) "hundo")
+    (create-post-from-daily
+      (assoc opts :directory config/hundos-dir)
+      item)
+
+    (or
+      (contains? (:org/tags item) "til")
+      (contains? (:org/tags item) "techsposure"))
+    (create-post-from-daily
+      (assoc opts :directory config/techsposure-dir)
+      item)))
 
 (defn process-daily [opts]
   (->>
