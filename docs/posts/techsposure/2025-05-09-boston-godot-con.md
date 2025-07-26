@@ -12,9 +12,14 @@
 > As the YouTube videos land, I'll update this post with some in-line
 > links to make this more useful.
 
-> Update: there's an [Interview with every Showcase
+> Update (May 2025): there's an [Interview with every Showcase
 > Developer](https://www.youtube.com/watch?v=9NJn7dTTZnw) on Youtube - a great
 > way to see all the indie games in the showcase!
+
+> Update (July 2025): Godot has started releasing the talks on YouTube! [Here is the full
+> playlist](https://www.youtube.com/playlist?list=PLeG_dAglpVo5oOrjQqDTMQadVDqe1Zsom).
+> They're releasing one per day, so expect this list to grow over the next
+> couple weeks.
 
 # Boston Godot Con
 
@@ -59,39 +64,44 @@ autobattler with an awful lot of rats. So there's that.
 ## Some Day 1 Talks
 
 My favorite talk from Day 1 (and maybe the whole conference?) was
-[badcop](https://www.twitch.tv/badcop_)'s mixed-reality streaming hacks. It was
-an awesome hack-tale full of ingenuity,
-cutting-corners-to-dodge-deeper-rabbit-holes, and some stellar visual results.
-One of my TODOs is to hop in that discord and consider hacking on an OSX or
-Linux version.
+[badcop](https://www.twitch.tv/badcop_)'s mixed-reality streaming hacks ([video
+link here](https://youtu.be/T0HZDonU7BI)). It was an awesome hack-tale full of
+ingenuity, cutting-corners-to-dodge-deeper-rabbit-holes, and some stellar visual
+results. One of my TODOs is to hop in that discord and consider hacking on an
+OSX or Linux version.
 
 There was solid Godot iOS content on Day 1 - [Xogot](https://xogot.com/) (the
 Godot Editor as a native iPad app) and the
 [`SwiftGodotKit`](https://github.com/migueldeicaza/SwiftGodotKit) that supported
 it. I'll definitely be exploring this more for my ongoing Dot Hop mobile port.
+([SwiftGodotKit talk](https://youtu.be/1V1G6H-vzxU), [Xogot
+talk](https://youtu.be/bzKIaD-KHPQ))
 
 [Jeff Ward](https://www.fuzzybinary.com/index.html)'s overview of impling your
 own scripting language for Godot is still hitting me. My brain has been rooting
 around, wondering if it's crazy to try to support a clojure-like syntax as a
-scripting language for Godot.
+scripting language for Godot. ([full talk here](https://youtu.be/opHWwaogQvw))
 
 > I hacked a .tscn/.tres <> .edn (clojure data format) thing together a few years
 > ago called [godot-edn](https://github.com/russmatney/godot-edn)... maybe
 > there's something there?
 
-Eric Peterson's ([Baja The Frog](https://linktr.ee/BajaTheFrog)) Event-Bus-Pattern talk was enlightening. I'd
+Eric Peterson's ([Baja The Frog](https://linktr.ee/BajaTheFrog))
+[Event-Bus-Pattern talk](https://youtu.be/yB3Wv-Lr7pg) was enlightening. I'd
 seen a bit about this pattern before, but always shyed away - I assumed I'd need
 to implement some fancy library to make it reasonable. Nope! Just an autoload
 with some signals on it! I'm hopeful to delete a bunch of defensive code in Dino
-:D [Here's a blog post by Eric covering
-this pattern](https://dev.to/bajathefrog/riding-the-event-bus-in-godot-ped).
+:D [Here's a blog post by Eric covering this
+pattern](https://dev.to/bajathefrog/riding-the-event-bus-in-godot-ped).
 
 [Rawb Herb](https://rawbherb.art/)'s UI design talk was also awesome, and so was
-[Adam Scott](https://adamscott.studio/)'s state of the Godot on the Web. Plus
-[Casey](https://bsky.app/profile/naud.bsky.social) + Sarah's Cross-Disciplinary Collaboration tips (and love for
-custom resources and in-house tooling). [HP van Braam](https://blog.tmm.cx/)'s
-nanotech tool was mind-blowing. So many insights and so much inspiration to
-glean!
+[Adam Scott](https://adamscott.studio/)'s [state of the Godot on the
+Web](https://youtu.be/u_WMJG0menc). Plus
+[Casey](https://bsky.app/profile/naud.bsky.social) + Sarah's [Cross-Disciplinary
+Collaboration tips](https://youtu.be/5kE3m1-huDE) (and love for custom resources
+and in-house tooling). [HP van Braam](https://blog.tmm.cx/)'s nanotech tool was
+mind-blowing ([talk here](https://youtu.be/ywl5ot_rdgc)). So many insights and
+so much inspiration to glean!
 
 By the end I was overwhelmed and socially fried, and walked back to the hotel in
 the rain, which I rather enjoyed.
@@ -110,10 +120,11 @@ to make an indie game (e.g. for Tiny Mass). Between this and Xogot, I'm excited 
 working on games away from the (proper) keyboard.
 
 [Acerola](https://www.youtube.com/@acerola_t)'s dry sense of humor was a riot,
-and now I know that a CE (some shader term) is a generic work load at the
-bottom of a GPU's well... or something like that. Mostly I learned that now
-Godot can do everything in the known universe, across all space and time,
-whereas before things were slightly more limited.
+and now I know that a CE (some shader term) is a generic work load at the bottom
+of a GPU's well... or something like that. Mostly I learned that now Godot can
+do everything in the known universe, across all space and time, whereas before
+things were slightly more limited. ([Compositor Effects talk
+here](https://youtu.be/fiyf4XPanf4))
 
 > Digging through my notes, it's a `Compositor Effect` - [here's a tutorial for
 > understanding them
@@ -224,6 +235,16 @@ Blogs:
 - [Exodrifter on showcasing _no signal_](https://www.exodrifter.space/blog/20250516012109)
 - [Snoozy Kazoo's hilarious Godot Con wrap-up](https://snoozykazoo.com/news/2025/05/23/may-devpost)
 - [My Experience at GodotCon by Josh Anthony](https://joshanthony.info/2025/05/24/my-experience-at-godotcon/)
+
+## After the facts
+
+Update (July 2025)! Now that the talks are coming out, I was able to catch up on more of
+them, and have to share at least a few here.
+
+Nicholas O'Brien's [Narrative Design + Godot + Ink
+Workshop](https://youtu.be/f0CsbuHDr44) was awesome - a great pace and tons of
+background for working with inkgd. Highly recommend if you're not familiar with
+the tools!
 
 ## T'was a blast!
 
