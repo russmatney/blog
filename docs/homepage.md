@@ -9,7 +9,20 @@ I'm an independent software engineer making games, mostly in Godot.
 
 ## Lately
 
-### Ported Poems/Rants from Medium (July 2025)
+### Dot Hop 1.2 Release and Devlogs (Late July 2025)
+
+I cranked on Dot Hop for most of July, ultimately releasing a 1.2 version at the
+end of the month to all-the-places (Steam, Itch, Android, iOS, and soon Github
+and Flathub).
+
+Some relevant new posts:
+
+* [Dot Hop Rearchitecting Devlog](https://russmatney.com/#/devlogs/2025-07-26-dothopping-rearchitecting)
+* [Dot Hop Speedrun/Spoilers/Stats Devlog](https://russmatney.com/#/devlogs/2025-06-10-dothop-speedrun)
+
+More coming soon on the [Dot Hop docs site](https://russmatney.github.io/dothop/#/).
+
+### Ported Poems/Rants from Medium (Early July 2025)
 
 In the mid 2010s I wrote a bunch of poem-y things on Medium. They've since added
 a paywall, which is very :eyeroll: so I've ported them into the 'Hundos' section
