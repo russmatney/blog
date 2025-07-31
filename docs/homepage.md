@@ -3,8 +3,8 @@ Hi there, I'm Russ!
 
 I'm an independent software engineer making games, mostly in Godot.
 
-> Welcome to my portfolio and devlogs site, AKA BLOG REFACTOR #74!\
-> \
+> Welcome to my portfolio and devlogs site, AKA BLOG REFACTOR #74!
+>
 > Hopefully this one sticks!
 
 ## Lately
@@ -17,6 +17,7 @@ and Flathub).
 
 Some relevant new posts:
 
+* [Dot Hop's All The Places Docs Page](https://russmatney.github.io/dothop/#/all-the-places)
 * [Dot Hop Rearchitecting Devlog](https://russmatney.com/#/devlogs/2025-07-26-dothopping-rearchitecting)
 * [Dot Hop Speedrun/Spoilers/Stats Devlog](https://russmatney.com/#/devlogs/2025-06-10-dothop-speedrun)
 

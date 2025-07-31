@@ -121,7 +121,8 @@ version hasn't been updated in over a year (same for the Steam version), but
 along with this FlatHub push I'm going to get a new version (`1.2`) out
 everywhere in the next week or so.
 
-- TODO link to this doc in dothop's docsify
+- [Dot Hop's new All The Places
+  page](https://russmatney.github.io/dothop/#/all-the-places)
 
 ## My first GitHub Sponsor!
 
