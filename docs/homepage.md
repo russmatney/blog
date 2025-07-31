@@ -17,6 +17,8 @@ and Flathub).
 
 Some relevant new posts:
 
+* [Steam 1.0 -> 1.2 Release Notes](https://store.steampowered.com/news/app/2779710/view/539986853961400427)
+* [Itch 1.0 -> 1.2 Release Notes](https://russmatney.itch.io/dot-hop/devlog/998752/dot-hop-12-now-available)
 * [Dot Hop's All The Places Docs Page](https://russmatney.github.io/dothop/#/all-the-places)
 * [Dot Hop Rearchitecting Devlog](https://russmatney.com/#/devlogs/2025-07-26-dothopping-rearchitecting)
 * [Dot Hop Speedrun/Spoilers/Stats Devlog](https://russmatney.com/#/devlogs/2025-06-10-dothop-speedrun)
