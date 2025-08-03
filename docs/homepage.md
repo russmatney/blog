@@ -9,6 +9,16 @@ I'm an independent software engineer making games, mostly in Godot.
 
 ## Lately
 
+### Log.gd v0.0.9 (August 2025)
+
+#### Bring your own color theme!
+
+A small Log.gd release on Friday broke the hard-coded colors out into
+custom-resources. Now you can create your own `LogColorTheme`, or just point to
+the included light or dark one in your project settings.
+
+* [Log.gd v0.0.9 Release notes](https://github.com/russmatney/log.gd/releases/tag/v0.0.9)
+
 ### Dot Hop 1.2 Release and Devlogs (Late July 2025)
 
 I cranked on Dot Hop for most of July, ultimately releasing a 1.2 version at the
