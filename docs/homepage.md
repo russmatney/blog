@@ -9,7 +9,13 @@ I'm an independent software engineer making games, mostly in Godot.
 
 ## Lately
 
-### Log.gd v0.0.9 (August 2025)
+### Godot Con talk live! (late August 2025)
+
+My Godot Con Boston talk is finally [on
+youtube](https://www.youtube.com/watch?v=4Fv9YXHMA_U)! Check it out to see a bit
+of what [Log.gd](https://github.com/russmatney/log.gd) has to offer!
+
+### Log.gd v0.0.9 (early August 2025)
 
 #### Bring your own color theme!
 
