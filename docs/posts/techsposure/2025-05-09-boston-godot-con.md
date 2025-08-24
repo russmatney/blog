@@ -21,6 +21,10 @@
 > They're releasing one per day, so expect this list to grow over the next
 > couple weeks.
 
+> Update (August 2025): All the talks are now released! You can watch my
+> [lightning talk here](https://youtu.be/4Fv9YXHMA_U), all the videos via the
+> playlist link above or linked throughout this post. Enjoy!
+
 # Boston Godot Con
 
 I'm feeling crazed but ambitious and in good spirits after a very busy few
@@ -94,7 +98,7 @@ with some signals on it! I'm hopeful to delete a bunch of defensive code in Dino
 :D [Here's a blog post by Eric covering this
 pattern](https://dev.to/bajathefrog/riding-the-event-bus-in-godot-ped).
 
-[Rawb Herb](https://rawbherb.art/)'s UI design talk was also awesome, and so was
+[Rawb Herb](https://rawbherb.art/)'s [UI design talk](https://youtu.be/sjmAD1ZLBcE) was also awesome, and so was
 [Adam Scott](https://adamscott.studio/)'s [state of the Godot on the
 Web](https://youtu.be/u_WMJG0menc). Plus
 [Casey](https://bsky.app/profile/naud.bsky.social) + Sarah's [Cross-Disciplinary
@@ -114,9 +118,10 @@ inspiration from [Sokpop](https://www.sokpop.co/). They align their schedules to
 release solo and small-team games every 2 months, then take a month off. What a
 great cadence! I'm hopeful to join for Season 11, starting in July!
 
-Chad Stewart's ([binarysolo](https://www.binarysolo.com/)) talk showed some
-great mobile game-dev tools, if you lose your laptop to a flood but still need
-to make an indie game (e.g. for Tiny Mass). Between this and Xogot, I'm excited to get more time
+Chad Stewart's ([binarysolo](https://www.binarysolo.com/)) [I make games on my
+phone talk](https://youtu.be/qoCWp_oP9Ng) showed some great mobile game-dev
+tools, if you lose your laptop to a flood but still need to make an indie game
+(e.g. for Tiny Mass). Between this and Xogot, I'm excited to get more time
 working on games away from the (proper) keyboard.
 
 [Acerola](https://www.youtube.com/@acerola_t)'s dry sense of humor was a riot,
@@ -132,30 +137,32 @@ here](https://youtu.be/fiyf4XPanf4))
 > I can't read this without laughing aloud at how lost I feel!
 > Maybe this is a good candidate for a future stream or video tutorial.
 
-The Godot AMA was great - too much to capture here. One moment I liked was Emi's
-5-years-in-the-future dream: more tools supporting all the disparate use-cases
-in the ecosystem. Godot is not trying to grab-all-the-game-devs like some of
-its for-profit competitors. The recent rise in popularity has led to problems
-of scale, and it is difficulty to support users with such a wide variety of
-needs. Some devs want amazing, Unreal-Engine-like 3D, while others just want an
-upgraded RPG-Maker.
+The [Godot Foundation AMA](https://youtu.be/scKCNoxtRTE) was great - too much to
+capture here. One moment I liked was Emi's 5-years-in-the-future dream: more
+tools supporting all the disparate use-cases in the ecosystem. Godot is not
+trying to grab-all-the-game-devs like some of its for-profit competitors. The
+recent rise in popularity has led to problems of scale, and it is difficulty to
+support users with such a wide variety of needs. Some devs want amazing,
+Unreal-Engine-like 3D, while others just want an upgraded RPG-Maker.
 
 > Looking for more game engines to poke at? Defold, Bevy, Heaps.io, Luxe, Love2D all
 > look pretty cool! If only we had infinite time....
 
-[Chris Ridenour](https://www.linkedin.com/in/cridenour/)'s Multiplayer Dome
-Keeper talk was spot on - multiplayer is challenging and complicated, and he did
-a great job of unpacking the terms and decisions required to make the magic
-happen. I was having flashbacks to working out our approach in [Rapid Eye
+[Chris Ridenour](https://www.linkedin.com/in/cridenour/)'s [Multiplayer Dome
+Keeper talk](https://youtu.be/MEZoKKAoUAU) was spot on - multiplayer is
+challenging and complicated, and he did a great job of unpacking the terms and
+decisions required to make the magic happen. I was having flashbacks to working
+out our approach in [Rapid Eye
 Madness](https://store.steampowered.com/app/3248030/Rapid_Eye_Madness/) last
 fall - a talk like this would have gotten us all on the same page much more
 quickly!
 
-[StayAtHomeDev](https://www.youtube.com/@stayathomedev)'s talk may have been my
-favorite overall - the strong throughline was encouragement to be yourself and
-to make things that are YOU. He also outlined a reasonable approach to finding
-your voice as a Youtuber - it's inspired me to create a few more videos without
-sweating the stats. Maybe a T-shirt Tier List, or something fun?
+[StayAtHomeDev](https://www.youtube.com/@stayathomedev)'s [Youtube Crash
+Course](https://youtu.be/aJKf-l5wa0I) may have been my favorite overall - the
+strong throughline was encouragement to be yourself and to make things that are
+YOU. He also outlined a reasonable approach to finding your voice as a
+Youtuber - it's inspired me to create a few more videos without sweating the
+stats. Maybe a T-shirt Tier List, or something fun?
 
 ## The Lightning Talks
 
@@ -177,14 +184,21 @@ several people told me they're excited to use
 > I've been beefing up Log.gd's documentation lately - feel free to reach out or
 > [create an issue](https://github.com/russmatney/log.gd) about whatever!
 
-The other Lightning talks were excellent: [Joesph](https://github.com/JosephHill)'s push into the mobile space,
-[Maaack](https://maaack.itch.io/)'s Game Jam experience,
-[Matt](https://pondersoft.itch.io/)'s Time Management advice,
-[Warner](https://github.com/nonameentername)'s cutting edge Csound integration,
-and [Sam](https://szunami.com/)'s Custom Resource clarity. Plus the final tale
+> Update: My talk is finally on youtube! Check out [Log.gd, A Godot
+> pretty-printer](https://youtu.be/4Fv9YXHMA_U)!
+
+The other Lightning talks were excellent:
+[Joesph](https://github.com/JosephHill)'s [push into the mobile
+space](https://youtu.be/57_BRpxDKzo), [Maaack](https://maaack.itch.io/)'s [Game
+Jam experience](https://youtu.be/nUOAzSNmz1A),
+[Matt](https://pondersoft.itch.io/)'s [Time Management
+advice](https://youtu.be/FI0N4NBScoo),
+[Warner](https://github.com/nonameentername)'s cutting edge [Csound
+integration](https://youtu.be/RsOCO_rVT90), and [Sam](https://szunami.com/)'s
+[Custom Resource clarity](https://youtu.be/1qHPKg_Xovs). Plus the final tale
 from [Annalivia](https://annalivia.xyz/) and [Tyler](https://ambiguous.name/)
-about building a game (and arcade cabinet) for a museum - what a great way to
-wrap everything up!
+about [building a game and arcade cabinet for a
+museum](https://youtu.be/JQxgV3s-sv8) - what a great way to wrap everything up!
 
 I'm pumped to watch all of these again!
 
