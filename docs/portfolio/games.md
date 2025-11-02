@@ -222,6 +222,26 @@ Team: Cat Tale Games
 
 <iframe frameborder="0" src="https://itch.io/embed/3103109" width="552" height="167"><a href="https://cat-tale-games.itch.io/carving-with-care">Carving with Care by Cat Tale Games, russmatney, margaretglin, Ariyassa, artmuse62, questionmarc, Leanasta, becdar, Miraiya, Vulspera</a></iframe>
 
+## Antifun Bloc
+
+### Zohran's Run
+
+Play as Zohran across NYC neighborhoods, collecting constituents and listening to their stories.
+
+```
+Status: Launched
+Platforms: Steam, Itch
+Date: November 2025
+Engine: Unity
+Tools: Ink
+Team: Antifun Bloc
+```
+
+- [Zohran's Run on Steam](https://store.steampowered.com/app/4072500/Zohrans_Run/)
+- [Zohran's Run on Itch.io](https://antifunbloc.itch.io/zrun)
+
+<iframe src="https://store.steampowered.com/widget/4072500/" frameborder="0" width="646" height="190"></iframe>
+
 # In-progress
 
 ### Glossolalia

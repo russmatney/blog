@@ -9,6 +9,19 @@ I'm an independent software engineer making games, mostly in Godot.
 
 ## Lately
 
+### Early November 2025
+
+A project I was a part of this Summer/Fall wrapped up this month:
+[Zohran's Run](https://store.steampowered.com/app/4072500/Zohrans_Run/) released
+on Steam on November 3rd, just in time for the NYC Mayoral election.
+
+### October 2025
+
+At the end of September, I started in a new role (Director of Games Engineering)
+at Merriam-Webster/Encyclopedia Britannica! Check out our latest games,
+[Reunion](https://www.merriam-webster.com/games/reunion) and
+[Revealed](https://www.britannica.com/games/revealed).
+
 ### Godot Con talk live! (late August 2025)
 
 My Godot Con Boston talk is finally [on
