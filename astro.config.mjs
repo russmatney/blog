@@ -1,19 +1,25 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://russmatney.com',
   integrations: [
+    sitemap(),
     starlight({
       title: 'Danger Russ Blog',
       description: 'A nerdy and meandering mind garden',
       logo: {
         src: './src/assets/portrait-nobg-2x.png',
       },
-      social: {
-        github: 'https://github.com/russmatney/blog',
-      },
+      social: [
+        {
+          label: 'GitHub',
+          icon: 'github',
+          href: 'https://github.com/russmatney/blog',
+        },
+      ],
       customCss: [
         './src/styles/custom.css',
       ],
