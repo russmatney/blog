@@ -10,3 +10,7 @@ node_modules/
 .work/
 
 public/
+
+# Astro
+dist/
+.astro/

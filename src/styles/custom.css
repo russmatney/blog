@@ -1,0 +1,14 @@
+:root {
+  /* Match current Docsify theme */
+  --sl-hue-accent: 325;
+  --sl-color-accent: hsl(325, 70%, 60%);
+  --sl-font-size-base: 18px;
+}
+
+/* Custom footer styling */
+.footer-content {
+  text-align: right;
+  border-top: 1px solid var(--sl-color-gray-5);
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
