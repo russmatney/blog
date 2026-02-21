@@ -9,6 +9,8 @@ support the old content AND make devlogging minimal-effort.
 Check out the 100-word stories from way back, and hopefully soon I'll pull in
 some poetry and fiction doodles from over the years.
 
+Feb 2026: This repo is now hosted [[https://codeberg.org/russmatney/blog][on codeberg]]!
+
 # tools
 
 This blog is built with docsify! It's a simple and modern way to host a bunch of
