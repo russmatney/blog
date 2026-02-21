@@ -1,0 +1,17 @@
+---
+// Custom head component for hash-based URL redirects (Docsify -> Astro migration)
+---
+
+<script is:inline>
+  // Redirect old Docsify hash-based URLs to new Astro paths
+  // Example: https://russmatney.com/#/devlogs/2025-06-10-dothop-speedrun
+  //       -> https://russmatney.com/devlogs/2025-06-10-dothop-speedrun
+  (function() {
+    const hash = window.location.hash;
+    if (hash && hash.startsWith('#/')) {
+      const path = hash.substring(2); // Remove '#/'
+      const newUrl = window.location.origin + '/' + path;
+      window.location.replace(newUrl);
+    }
+  })();
+</script>
