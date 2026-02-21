@@ -1,14 +1,11 @@
 ---
-layout: post
-title: 'How I rebuilt my dotfiles'
-categories:
-- Techsposure
-tags:
-- dotfiles
-- vim
-type: post
-published: false
+title: ""'How I rebuilt my dotfiles'""
+date: 2014-02-09T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

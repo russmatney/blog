@@ -1,36 +1,11 @@
 ---
-layout: post
-title: Mapping memories, NaNoThon, and Structuring productivity
-categories:
-- GetItWrite
-tags:
-- creativity
-- how to write a poem
-- letters and light
-- map
-- mapping
-- medium
-- memories
-- nanothon
-- nanowrimo
-- organizing
-- productivity
-- structure
-- under a well
-- writing
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:380;}s:2:"fb";a:1:{i:1917337;i:653;}s:2:"wp";a:1:{i:0;i:3;}}
-  _wpas_mess: Mapping memories, NaNoThon, and Structuring productivity
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
+title: ""Mapping memories, NaNoThon, and Structuring productivity""
+date: 2013-04-13T00:00-04:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 If you only read the first sentence: create every day, and keep putting yourself out there! I've posted a <a title="Under a well" href="https://medium.com/under-a-well">few more poems on Medium</a>, and am enjoying how easy it is and the attention it is getting (over 500 hits on <a title="How to write a poem" href="https://medium.com/under-a-well/b7099d618f6">this How-to-write-a-poem post</a>, thanks to a kind Editor's Pick and front-page feature). I'm also trying to get a picture up with every one. Rather than getting into techniques for optimizing organic web traffic, I'm just going to say: people like that kind of thing.
 
 Breaking your routine or being creative in other ways is an amazing way to discover new internal topics or to get through writer's block. One of my favorites is doodling or drawing before you start writing, but sometimes that's still too open-ended. Try drawing a map, especially one based on your memories. A <a title="Eddie Sniegocki Sketch Blog" href="http://eddiesniegocki.com/sketch-blog">more visual friend of mine</a> (who really understands creativity) recommended this way back, and of course BrainPickings <a title="Mapping Manhattan - Brain pickings" href="http://www.brainpickings.org/index.php/2013/04/02/mapping-manhattan-becky-cooper/">knows what I'm talking about</a>. For <a title="Great Owl Circle" href="https://medium.com/under-a-well/ded342c0e444">this poem </a>about the street I grew up on, this was the prompt: Draw a map of where you grew up, featuring exactly seven locations. Then write.

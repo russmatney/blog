@@ -1,10 +1,11 @@
 ---
-layout: post
-title: Who's your favorite uncle?
-categories:
-- 100-worders
-tags: 
+title: ""Who's your favorite uncle?""
+date: 2012-02-15T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Reports of Uncle Sam robbing convenience stores bounced around until they cornered him in a tree house behind a dumpy trailer. The policeman smirked over the speaker, “I WANT YOU to come down from there.”
 
 A purple minivan pulled up and a young mother stepped out. She took in the scene, inhaled, and yelled, “YOU BETTER GET YOUR BUTT INSIDE BEFORE I GET UP THERE.”

@@ -1,13 +1,11 @@
 ---
-layout: post
-title: 'Diving into PostgreSQL with node-postgres'
-categories:
-- Techsposure
-tags:
-- database
-- postgreSQL
-type: post
+title: ""'Diving into PostgreSQL with node-postgres'""
+date: 2015-01-03T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

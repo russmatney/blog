@@ -1,24 +1,11 @@
 ---
-layout: post
-title: NaNoWriMo Approaches!
-categories:
-- GetItWrite
-tags: []
-status: publish
-type: post
-published: true
-meta:
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:334;}s:2:"fb";a:1:{i:1917337;i:648;}s:2:"wp";a:1:{i:0;i:0;}}
-  _publicize_pending: '1'
-  _wpas_mess: 'New #getitwrite post: NaNoWriMo Approaches!'
-  _wpas_skip_1917361: '1'
-  _wpas_done_1917337: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_skip_1917337: '1'
-  _wpas_skip_1917358: '1'
+title: ""NaNoWriMo Approaches!""
+date: 2012-10-26T00:00-04:00[America/New_York]
+category: getitwrite
+tags: [writing]
 ---
+
+
 If you've ever wanted to write a novel, now is the time! NaNoWriMo (short for National Novel Writing Month) starts in just a few days. It's a fast paced approach to getting a draft of a novel totally done in 30 days. The goal is to write 50,000 words in one month, no editing, just pure creative chaos. If you're interested, grab paper and a pen and run, hop, skip, or jump (don't walk) to your nearest thinking chair.
 
 You don't have to sign up, but you can <a title="NaNoWriMo" href="http://www.nanowrimo.org/" target="_blank">at the website</a> if you want encouraging emails and notifications about local writery meetups.

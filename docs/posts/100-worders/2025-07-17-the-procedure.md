@@ -1,3 +1,10 @@
+---
+title: ""the-procedure""
+date: 2025-07-17T00:00-04:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 ```
 title: "the procedure"
 words: 100

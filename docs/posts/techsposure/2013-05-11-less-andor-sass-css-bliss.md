@@ -1,28 +1,11 @@
 ---
-layout: post
-title: LESS and/or Sass = CSS bliss
-categories:
-- Techsposure
-tags:
-- compass
-- css preprocessors
-- less
-- mixins
-- sass
-- stylesheets
-- web design
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917361: '1'
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2013-05-11
-    18:39:12";}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:204680660;b:1;}}
+title: ""LESS and/or Sass = CSS bliss""
+date: 2013-05-11T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 What's up code-monkeys? This post is all about <a title="Wikipedia - Cascading style sheets" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a>. In just a few minutes, you'll be able to style with, um, style.
 
 For the first few months of my hack of a web development career, I've been writing CSS the way I thought it had to be: pure CSS. Different projects had different levels of organization, from well-named, modular files to disgusting, hundred-line Frankenstein monsters. I'd heard of CSS preprocessors, but hadn't gotten into them. It's definitely important to learn the basics, sure. But once you can ride a bike, you might as well get a motorcycle. Especially if it's free, downloads in seconds, and makes you a much better, um, bicyclist.

@@ -1,15 +1,11 @@
 ---
-layout: post
-title: The Right Reasons
-categories:
-- GetItWrite
-tags:
-- ambitions
-- prestige
-- success
-- purpose
-type: post
+title: ""The Right Reasons""
+date: 2013-09-28T00:00-04:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 
 *TL;DR*:
 

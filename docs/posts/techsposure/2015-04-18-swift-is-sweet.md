@@ -1,16 +1,11 @@
 ---
-layout: post
-title: 'Swift is sweet - Workflow and tools that pleasantly surprised me'
-categories:
-- Techsposure
-tags:
-- Swift
-- Xcode
-- ios
-- workflow
-- vim
-type: post
+title: ""'Swift is sweet - Workflow and tools that pleasantly surprised me'""
+date: 2015-04-18T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

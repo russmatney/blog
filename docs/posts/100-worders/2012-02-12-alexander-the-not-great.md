@@ -1,17 +1,11 @@
 ---
-layout: post
-title: Alexander, the not great
-categories:
-- 100-worders
-tags:
-- '100'
-- Timeless
-- alexander
-- drabble
-- gravity
-- story
-- word
+title: ""Alexander, the not great""
+date: 2012-02-12T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Alexander did not think about death. He could not comprehend the concept of time, and paid no mind to the sheer size of the universe. He only knew that he had an important presentation the next morning, and preferred a good night’s sleep.
 
 So, when several Timeless Beings visited him that night, the gravity of the meeting escaped him.

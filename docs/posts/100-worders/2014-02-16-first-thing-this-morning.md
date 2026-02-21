@@ -1,3 +1,10 @@
+---
+title: ""first-thing-this-morning""
+date: 2014-02-16T00:00-05:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 <img src="_images/hundos/first-thing-this-morning.webp" />
 
 # First Thing This Morning

@@ -1,15 +1,11 @@
 ---
-layout: post
-title: 'Angular Jekyll and ngRepeat Headers'
-categories:
-- Techsposure
-tags:
-- jekyll
-- angularjs
-- ng-repeat
-type: post
-published: true
+title: ""'Angular Jekyll and ngRepeat Headers'""
+date: 2013-09-10T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 **TL;DR**:
 

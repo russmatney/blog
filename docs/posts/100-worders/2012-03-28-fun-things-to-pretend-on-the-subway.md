@@ -1,21 +1,11 @@
 ---
-layout: post
-title: Fun things to pretend on the subway
-categories:
-- 100-worders
-tags:
-- subway
-- story
-- '100'
-- word
-- drabble
-- pretend
-- cotton candy
-- esp
-- fart
-- wizard jail
-- martha stewart
+title: ""Fun things to pretend on the subway""
+date: 2012-03-28T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Pretend everyone is trying to decide whether they like pink or blue cotton candy more.
 
 Pretend everyone is dancing in rhythm like at a party.

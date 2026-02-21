@@ -1,18 +1,11 @@
 ---
-layout: post
-title: Get nice and clean
-categories:
-- 100-worders
-tags:
-- gin
-- bathtub
-- showers
-- alcohol kills germs
-- '100'
-- word
-- story
-- drabble
+title: ""Get nice and clean""
+date: 2012-03-05T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 It was a strange reality that You woke up in one morning. Everything was essentially the same. Gravity still pulled toward the center of the earth, the sun still rose in the east and set in the west, and people still spent inordinate amounts of time in traffic or subway cars.
 
 The thing was, there were no showers. Everyone took baths. Not in water. They bathed in gin.

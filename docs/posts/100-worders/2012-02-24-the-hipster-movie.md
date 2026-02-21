@@ -1,20 +1,11 @@
 ---
-layout: post
-title: The hipster movie
-categories:
-- 100-worders
-tags:
-- '100'
-- words
-- word
-- drabble
-- story
-- hipsters
-- gatsby
-- converse
-- movie
-- overheard
+title: ""The hipster movie""
+date: 2012-02-24T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Things overheard from hipsters outside a hipster movie:
 
 “Yeah, I guess I would say it was… good.”

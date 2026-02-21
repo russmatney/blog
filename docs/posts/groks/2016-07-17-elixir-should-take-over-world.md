@@ -1,4 +1,11 @@
 ---
+title: ""elixir-should-take-over-world""
+date: 2016-07-17T00:00-04:00[America/New_York]
+category: groks
+tags: [learning]
+---
+
+---
 
 
 Offload: people at every level answering questions, not just experts, not just beginners

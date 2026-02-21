@@ -1,12 +1,11 @@
 ---
-layout: post
-title: ''
-categories:
-- Techsposure
-tags:
-type: post
-published: false
+title: ""''""
+date: 2014-02-28T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 
 Why does engineering take time?

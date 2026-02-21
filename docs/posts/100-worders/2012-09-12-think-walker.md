@@ -1,21 +1,11 @@
 ---
-layout: post
-title: Think-walker
-categories:
-- 100-worders
-tags:
-- i can't stop thinking
-- and the thoughts keep coming
-- how relevant are tag words
-- thinker
-- walker
-- subway
-- thoughts
-- thought
-- mind
-- uninterrupted
-- cut
+title: ""Think-walker""
+date: 2012-09-12T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 He was a thinker who couldn’t stop. When the thoughts came, he walked out, down the street, and into the next subway station.
 
 He was at a bar one night when the thoughts came. He propped a hand under his chin and started walking. In a station, he got on and sat down.

@@ -1,14 +1,11 @@
 ---
-layout: post
-title: 'Basic Koa API + Gulp + Supertest'
-categories:
-- Techsposure
-tags:
-- Koa
-- Nodejs
-- Gulp
-type: post
+title: ""'Basic Koa API + Gulp + Supertest'""
+date: 2014-10-04T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

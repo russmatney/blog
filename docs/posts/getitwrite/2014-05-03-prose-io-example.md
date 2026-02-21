@@ -1,12 +1,11 @@
 ---
-published: false
-layout: post
-categories: 
-  - GetItWrite
-tags: 
-  - null
-type: post
+title: ""prose-io-example""
+date: 2014-05-03T00:00-04:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 
 ## Checking out prose.io
 

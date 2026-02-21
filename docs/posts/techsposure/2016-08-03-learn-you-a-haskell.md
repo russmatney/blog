@@ -1,14 +1,11 @@
 ---
-categories:
-- GROKs
+title: ""'GROK: Learn You A Haskell For Great Good'""
 date: '2016-07-03'
-draft: true
-tags:
-- Haskell
-title: 'GROK: Learn You A Haskell For Great Good'
-type: post
-url: /2016/07/03/learn-you-a-haskell
+category: techsposure
+tags: [tech]
 ---
+
+
 
 
 ###GROK: [*Learn You A Haskell For Great Good*](http://learnyouahaskell.com/):

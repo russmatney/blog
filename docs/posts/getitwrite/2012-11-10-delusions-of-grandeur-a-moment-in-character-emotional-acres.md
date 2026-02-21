@@ -1,36 +1,11 @@
 ---
-layout: post
-title: Delusions of Grandeur, a Moment in Character, Emotional Acres
-categories:
-- GetItWrite
-tags:
-- anne lamott
-- bird by bird
-- change
-- character development
-- delusions of grandeur
-- details
-- emotional acre
-- ge
-- nanowrimo
-- polaroid picture
-- stories
-- story
-- writing
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_mess: 'Get It Write: Delusions of Grandeur, a Moment in Character, Emotional
-    Acres'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  _wpas_done_1917361: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:335;}s:2:"fb";a:1:{i:1917337;i:652;}s:2:"wp";a:1:{i:0;i:1;}}
+title: ""Delusions of Grandeur, a Moment in Character, Emotional Acres""
+date: 2012-11-10T00:00-05:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 I AM TOTALLY COMPLETELY IN LOVE WITH MY NOVEL! I've never liked writing a story as much as this. It should be noted that I'm only 4k words in. WAY behind by NaNoWriMo standards. I started late because I wanted to get farther along with my planning, and I'm glad I did. I'm hoping to catch up to 50k, but I'm more worried about getting it write than hitting that number by December.
 
 I've written from outlines before, but this one is something I'm finally excited to write and tell people about. This is why I always advise going crazy and telling the story you want to tell. I'm having so much fun.

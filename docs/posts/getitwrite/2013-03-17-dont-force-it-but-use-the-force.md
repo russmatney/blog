@@ -1,30 +1,11 @@
 ---
-layout: post
-title: Don't force it, but use the force
-categories:
-- GetItWrite
-tags:
-- figment
-- get it write
-- kick ass
-- medium
-- muse
-- perspective
-- prompt
-- reasses
-- writing
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917361: '1'
-  _wpas_done_1917337: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:365;}s:2:"fb";a:1:{i:1917337;i:651;}s:2:"wp";a:1:{i:0;i:3;}}
+title: ""Don't force it, but use the force""
+date: 2013-03-17T00:00-04:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 I have been writing a lot of code lately, and my fiction and journals have suffered. However, a break is not always bad. Perspective and some fresh air are crucial to moving in the right direction. I took the time away to have a healthy, honest conversation with my muse.
 
 First of all, she is beautiful, so whatever she says is correct. What is changing for me is the intended output of my writing work. I have been building toward a novel idea (which has since fallen to a more realistic set of writings/stories/essays) and I have been desperate for some kind of meaning in my work. I thought I could force it. I wanted to write essays with big, sweeping titles, like "Death," or "Life," or "Love." I wanted to make remarkable points that people knew but had never articulated, or bring some perspective they'd never considered.

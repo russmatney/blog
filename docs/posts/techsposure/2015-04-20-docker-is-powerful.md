@@ -1,19 +1,11 @@
 ---
-layout: post
-title: 'Docker is powerful - a quick overview'
-categories:
-- Techsposure
-tags:
-- docker
-- machine
-- compose
-- swarm
-- consul
-- registrator
-- system administration
-- wordpress
-type: post
+title: ""'Docker is powerful - a quick overview'""
+date: 2015-04-20T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

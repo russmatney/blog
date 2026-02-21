@@ -1,42 +1,11 @@
 ---
-layout: post
-title: (Brain)Picking(s) out meaning, diaries, losing your head, daily poetry, and
-  the War of Art
-categories:
-- GetItWrite
-tags:
-- brainpicking
-- brainpickings
-- brautigan
-- commencement speech
-- creative benefits
-- daily poetry
-- david foster wallace
-- diary
-- head garden
-- journals
-- lilli carre
-- no more excuses
-- poetry
-- rattle
-- Resistance
-- stephen pressfield
-- the war of art
-- virginia woolf
-- writing
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  _wpas_mess: (Brain)Picking(s) out meaning, diaries, losing your head, daily poetry,
-    and the War of Art
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
+title: ""(Brain)Picking(s) out meaning, diaries, losing your head, daily poetry, and""
+date: 2013-01-27T00:00-05:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 Today, a slew of BrainPickings for you, daily poetry that will Rattle you, and a serious battle with Resistance.
 
 My still favorite website BrainPickings has a few more must-sees I came across this week. <a title="This is Water: David Foster Wallace on Life" href="http://www.brainpickings.org/index.php/2012/09/12/this-is-water-david-foster-wallace/" target="_blank">This is Water: David Foster Wallace on Life</a> is a commencement speech Wallace gave that everyone should hear, about avoiding the shallow autonomy, the default behaviors, and the thought processes of daily life. If you can, give Part 2 of the speech the 12 minutes it deserves. He'll tell you what the Capital-T Truth is.

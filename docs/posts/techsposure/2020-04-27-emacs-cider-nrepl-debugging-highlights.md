@@ -1,10 +1,11 @@
 ---
-title: Emacs, Cider, Nrepl Debugging Keywords
+title: ""Emacs, Cider, Nrepl Debugging Keywords""
 date: 2020-04-27
-tags:
-  - tech
-  - clojure
+category: techsposure
+tags: [tech]
 ---
+
+
 
 One of the most enjoyable and productive features of Clojure is
 the interactive, repl-driven development. But when some link in the

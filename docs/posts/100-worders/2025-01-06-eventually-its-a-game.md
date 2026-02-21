@@ -1,6 +1,11 @@
 ---
-title: Eventually, it's a game.
+title: ""Eventually, it's a game.""
+date: 2025-01-06T00:00-05:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
 ---
+
+
 
 You're writing a story, a novel, a comic.
 In the end, you can't justify it unless it's a game.

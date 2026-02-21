@@ -1,12 +1,11 @@
 ---
-layout: post
-title: 'Option-click-ftw'
-categories:
-- Techsposure
-tags:
-- Productivity
-type: post
+title: ""'Option-click-ftw'""
+date: 2016-06-21T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

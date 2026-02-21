@@ -1,22 +1,11 @@
 ---
-layout: post
-title: An interview with the cranes on top of the Freedom Tower, whose names are Mel
-  and Gilgamesh
-categories:
-- 100-worders
-tags:
-- i've sat on this idea for a long time
-- i hope you guys enjoy it
-- 'so here''s one more joke:'
-- guy gets into a cab
-- in a hurry
-- and says
-- get me to 42nd and 10th on the double
-- and then he looks up
-- and the cab driver is a gigantic crane
-- and the guys says
-- THIS CAB IS YUUUGE!
+title: ""An interview with the cranes on top of the Freedom Tower, whose names are Mel""
+date: 2013-02-03T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 <strong>How did you get all the way up here?</strong>
 
 Mel: I wanted to be a swan, but I was born here instead.

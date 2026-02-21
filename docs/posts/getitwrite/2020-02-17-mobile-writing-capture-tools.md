@@ -1,12 +1,11 @@
 ---
-title: Mobile Writing (Capture) Tools
+title: ""Mobile Writing (Capture) Tools""
 date: 2020-02-17
-tags:
-  - writing
-  - tech
-  - capture
-  - org-mode
+category: getitwrite
+tags: [writing]
 ---
+
+
 
 I've struggled in the last few years to use my phone for anything productive.
 Compared to sitting at my laptop, with vim or emacs bindings available, or

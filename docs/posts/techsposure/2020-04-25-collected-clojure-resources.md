@@ -1,10 +1,11 @@
 ---
-title: Collected Clojure Resources
+title: ""Collected Clojure Resources""
 date: 2020-04-25
-tags:
-  - tech
-  - clojure
+category: techsposure
+tags: [tech]
 ---
+
+
 
 Clojure developers love to say that Clojure is simple. It definitely gets to the
 point where things make sense to work with, but dealing with a new language

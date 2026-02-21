@@ -1,11 +1,11 @@
 ---
-layout: post
-title: 'GROK: How Did Consciousness Evolve?'
-categories:
-- GROKs
-tags:
-type: post
+title: ""'GROK: How Did Consciousness Evolve?'""
+date: 2016-07-03T00:00-04:00[America/New_York]
+category: groks
+tags: [GROKs, learning]
 ---
+
+
 
 ###GROK: [*How Did Consciousness Evolve?*](http://www.theatlantic.com/science/archive/2016/06/how-consciousness-evolved/485558/?single_page=true)
 

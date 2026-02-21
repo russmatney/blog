@@ -1,11 +1,11 @@
 ---
-categories:
-  - Techsposure
+title: ""Composing a Nested Elasticsearch Query in Golang""
 date: '2016-07-24'
-tags:
-  - tech
-title: Composing a Nested Elasticsearch Query in Golang
+category: techsposure
+tags: [tech]
 ---
+
+
 
 ### _TL;DR_: A well-composed elasticsearch query is a beautiful thing, but it's easy to get lost on the way there. This post is one path. Stay clear-headed from the top down and you should be fine.
 

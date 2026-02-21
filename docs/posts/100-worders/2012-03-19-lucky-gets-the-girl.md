@@ -1,18 +1,11 @@
 ---
-layout: post
-title: Lucky gets the girl
-categories:
-- 100-worders
-tags:
-- lucky
-- girl
-- gets
-- never
-- '100'
-- word
-- story
-- drabble
+title: ""Lucky gets the girl""
+date: 2012-03-19T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 I never thought I’d get a girl. Either I’m stupid or I just don’t think.
 
 Then one day, it happened on the subway. She had a mouth, telling people to look her way and roll their eyes one more goddamn time and see what happens.

@@ -1,3 +1,8 @@
+---
+title: "Projects"
+category: devlogs
+---
+
 # Projects
 
 A big list of projects and links, mostly to make it easy to find and share urls

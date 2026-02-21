@@ -1,21 +1,11 @@
 ---
-layout: post
-title: Discovering the Big Things
-categories:
-- GetItWrite
-tags:
-- writing
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1876337: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1876333: '1'
-  _wpas_done_1908245: '1'
+title: ""Discovering the Big Things""
+date: 2012-10-20T00:00-04:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 Do you ever feel like the things you are writing don't mean a thing? I'm 500 words into a story, I've used all my punchlines, and the two main characters are standing in an elevator wondering who is supposed to speak first. Meanwhile, neither one remembered to press a button. The story is in limbo.
 
 I hate that moment. I want to write something that means <em>something</em>. I want people to read it and say "Yes. YES. Exactly this." Up until now, I've been ok with, "Yeah, I liked it, it was good." Now I want to move up to the Big Leagues.

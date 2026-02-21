@@ -1,48 +1,11 @@
 ---
-layout: post
-title: Prompts, that precious writing time, so you want to be a writer
-categories:
-- GetItWrite
-tags:
-- brainpickings
-- bukowski
-- charles bukowski
-- dave eggers
-- eggers
-- family
-- figment
-- gaiman
-- gogol
-- greaney
-- journal
-- journaling
-- keret
-- kurt vonnegut
-- literature
-- neil gaiman
-- nikolai gogol
-- prompt
-- time
-- trevor
-- vonnegut
-- vukcevich
-- write
-- writing
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  publicize_twitter_user: RussMatney
-  _wpas_mess: Prompts, that precious writing time, so you want to be a writer
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:355;}s:2:"fb";a:1:{i:1917337;i:652;}s:2:"wp";a:1:{i:0;i:2;}}
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2012-12-27
-    17:27:32";}
+title: ""Prompts, that precious writing time, so you want to be a writer""
+date: 2012-12-27T00:00-05:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 Happy Holidays to everyone, and a happy new year! I pulled in a good haul for Christmas: new stories by authors I've never touched (<a title="Meet me in the moon room - ray vukcevich" href="http://www.amazon.com/Meet-Me-Moon-Room-Stories/dp/1931520011" target="_blank">Ray Vukcevich</a>, <a title="Nicolai Gogol Collected Tales" href="http://www.amazon.com/Collected-Tales-Nikolai-Gogol/dp/0375706151" target="_blank">Nikolai Gogol</a>, and <a title="WIlliam Trevor's collected works" href="http://www.amazon.com/William-Trevor-Collected-Stories/dp/0140232451" target="_blank">William Trevor</a>), one from each of my Big Three (<a title="Etgar Keret - Girl on the Fridge" href="http://www.amazon.com/Girl-Fridge-Stories-Etgar-Keret/dp/0374531056" target="_blank">Etgar Keret</a>, <a title="VOnnegut we are what we pretend to be" href="http://www.amazon.com/We-Are-What-Pretend-To/dp/1593157436" target="_blank">Kurt Vonnegut</a>, and <a title="Gaiman Sandman Vol. 1" href="http://www.amazon.com/Sandman-Vol-Preludes-Nocturnes-New/dp/1401225756" target="_blank">Neil Gaiman</a>), <a title="Writer with a day job - aine Greaney" href="http://www.amazon.com/Writer-Day-Job-Inspiration-Exercises/dp/1582979960" target="_blank">Writer with a Day Job by Aine Greaney</a> and <a title="Best American Nonrequired reading" href="http://www.amazon.com/Best-American-Nonrequired-Reading-2012/dp/0547595964" target="_blank">Best American Nonrequired Reading edited by Dave Eggers</a>.
 
 Finding that time to write becomes even more difficult for me during the holidays, when my super-busy-with-work mindset switches to an even-busier-with-family one. I've been taking twenty minutes before bed every few days to record as many of the events and interactions as possible, a writing/journaling habit that I've practiced for the last three years.

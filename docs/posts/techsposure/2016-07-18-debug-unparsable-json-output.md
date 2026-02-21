@@ -1,14 +1,11 @@
 ---
-layout: post
-title: 'Debug Story: Unparsable JSON file'
-categories:
-- Techsposure
-tags:
-- Debug
-- JSON
-- Golang
-type: post
+title: ""'Debug Story: Unparsable JSON file'""
+date: 2016-07-18T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

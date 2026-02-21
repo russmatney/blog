@@ -1,12 +1,11 @@
 ---
-layout: post
-title: 'Vimium Adventures'
-categories:
-- Techsposure
-tags:
-- Productivity
-type: post
+title: ""'Vimium Adventures'""
+date: 2016-08-02T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

@@ -1,14 +1,11 @@
 ---
-layout: post
-title: Optimism and Creativity vs Entropy
-categories:
-- GetItWrite
-tags:
-- optimism
-- creativity
-- entropy
-type: post
+title: ""Optimism and Creativity vs Entropy""
+date: 2013-09-15T00:00-04:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 
 *TL;DR*:
 

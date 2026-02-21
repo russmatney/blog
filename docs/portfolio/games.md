@@ -1,3 +1,8 @@
+---
+title: "Games Portfolio"
+category: portfolio
+---
+
 # Games Portfolio
 
 > I started solo-deving on games full time in July of 2022.

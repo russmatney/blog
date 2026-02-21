@@ -1,3 +1,8 @@
+---
+title: "Home"
+template: splash
+---
+
 Hi there, I'm Russ!
 ===================
 

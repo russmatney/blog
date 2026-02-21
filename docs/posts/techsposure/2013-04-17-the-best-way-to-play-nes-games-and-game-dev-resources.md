@@ -1,42 +1,11 @@
 ---
-layout: post
-title: The best way to play NES games, and game dev resources
-categories:
-- Techsposure
-tags:
-- AI
-- artificial intelligence
-- box2d
-- chipmunk
-- cocos2d
-- enchantjs
-- gaming
-- impactjs
-- ios
-- karate kid
-- mario
-- minecraft
-- nes
-- pac-man
-- ray wenderlich
-- super mario
-- technology
-- tetris
-- tom murphy
-- tom7
-- unity3d
-- wired
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
+title: ""The best way to play NES games, and game dev resources""
+date: 2013-04-17T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 I saw a <a title="WIred AI Mario" href="http://www.wired.co.uk/news/archive/2013-04/12/super-mario-solved">great article in Wired</a> this weekend about <a title="Tom7" href="https://twitter.com/tom7">Tom Murphy</a>, a software engineer who built a generic program to play NES games. He built two tools, one to record himself playing his NES, and one to play it on its own. It does pretty well! It finishes a few levels!
 
 The amazing thing is how simple the program is, and how it applies to multiple games (except Tetris, as you'll see). The program doesn't use any pathfinding or advanced algorithms. It maps input from the controller and a relative screen position for the character, and then uses a few constraints to try to increase the player's score. <a title="Tom7 video" href="http://www.youtube.com/watch?feature=player_embedded&amp;v=xOCurBYI_gY">Watch the video</a> to see it trying to beat Super Mario, Karate Kid, Pac-man, and Tetris.

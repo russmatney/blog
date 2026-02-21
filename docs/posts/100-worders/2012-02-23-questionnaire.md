@@ -1,19 +1,11 @@
 ---
-layout: post
-title: Questionnaire
-categories:
-- 100-worders
-tags:
-- '100'
-- word
-- story
-- drabble
-- cinnamon
-- rolls
-- vices
-- smell
-- roommate
+title: ""Questionnaire""
+date: 2012-02-23T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Before moving in, she asked him one question.
 
 “Any vices I should know about?”

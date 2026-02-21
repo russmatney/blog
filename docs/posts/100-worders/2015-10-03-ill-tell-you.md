@@ -1,3 +1,10 @@
+---
+title: ""ill-tell-you""
+date: 2015-10-03T00:00-04:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 # I'll Tell You!
 
 My buddy greg told me this story about his niece\

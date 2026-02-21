@@ -1,35 +1,11 @@
 ---
-layout: post
-title: 'An Assortment of Goodies: Progressive Reduction, Parallax Scrollers, Backbone-Hangman,
-  and Heroku'
-categories:
-- Techsposure
-tags:
-- aware.js
-- backbone
-- backbone.js
-- haml
-- handlebars
-- hangman game
-- heroku
-- javascript
-- layervault
-- parallax
-- progressive reduction
-- ruby
-- sinatra
-- ux
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
+title: ""'An Assortment of Goodies: Progressive Reduction, Parallax Scrollers, Backbone-Hangman,""
+date: 2013-03-03T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 This post is a little bit of UX, a little bit design, and a nice pair of tutorials to build your first backbone app (as a hangman game) and then push it live with a Heroku dyno.
 
 User-experience drives everything (duh). Given the incredibly dynamic and data-driven internet, I'm surprised we aren't seeing more attention given to Progressive Reduction, an idea that I first read about at <a href="http://layervault.tumblr.com/post/42361566927/progressive-reduction">LayerVault's tumblr</a>. Progressive Reduction is simple enough: the more often users visit your website or use your app, the less you need to explain what all the buttons do. First-time users or those who haven't been back in a few weeks will get more labels and different call to actions than those who are coming back twice a day. If you're interested in implementing it, <a title="Aware.js" href="http://notes.xoxco.com/post/36766728425/aware-js-make-your-site-reader-aware">Aware.js</a> is a nice jQuery plugin designed to handle this idea.

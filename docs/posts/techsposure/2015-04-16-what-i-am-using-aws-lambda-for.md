@@ -1,16 +1,11 @@
 ---
-layout: post
-title: 'What I am using AWS Lambda for'
-categories:
-- Techsposure
-tags:
-- Lambda
-- AWS
-- ffmpeg
-- node
-- javascript
-type: post
+title: ""'What I am using AWS Lambda for'""
+date: 2015-04-16T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

@@ -1,3 +1,10 @@
+---
+title: ""the-last-place-you-look""
+date: 2013-04-09T00:00-04:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 <img src="_images/hundos/the-last-place-you-look.webp" />
 
 # The Last Place You Look

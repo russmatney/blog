@@ -17,6 +17,7 @@
 (def garden-posts-dir (str posts-dir "/notes"))
 
 (def devlogs-dir (str docs-dir "/devlogs"))
+(def portfolio-dir (str docs-dir "/portfolio"))
 (def html-dir (str docs-dir "/html"))
 
 (def org-dir (str (fs/home) "/todo"))

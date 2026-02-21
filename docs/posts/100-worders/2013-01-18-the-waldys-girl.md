@@ -1,23 +1,11 @@
 ---
-layout: post
-title: The Waldy's girl
-categories:
-- 100-worders
-tags:
-- this is not a true story
-- ;)
-- ok maybe
-- lovefool is a fantastic song and it didn't make me feel awkward
-- i just worried about the tension it may have caused
-- there's a longer version of this story if you're interested.
-- '100'
-- word
-- story
-- coffee
-- ask
-- out
-- first date
+title: ""The Waldy's girl""
+date: 2013-01-18T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Is there a rule about asking a girl out while she’s working? Romantic-comedies make me sick, so if there’s a rule, someone needs to tell me.
 
 She’s pretty and nice, and the pizza here is really good. I asked.

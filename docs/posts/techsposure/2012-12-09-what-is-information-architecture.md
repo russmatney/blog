@@ -1,39 +1,11 @@
 ---
-layout: post
-title: What is Information Architecture?
-categories:
-- Techsposure
-tags:
-- IA
-- IAs
-- information architects
-- information architecture
-- persona
-- scenario
-- site map
-- software
-- stakeholder
-- target audience
-- technology
-- user
-- web design
-- web development
-- wireframe
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  _wpas_done_1917337: '1'
-  _wpas_mess: What is Information Architecture?
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:350;}s:2:"fb";a:1:{i:1917337;i:649;}s:2:"wp";a:1:{i:0;i:2;}}
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2012-12-09
-    04:20:19";}
+title: ""What is Information Architecture?""
+date: 2012-12-09T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 Information Architecture is a <em>relatively</em> new part of web development (as compared to, say, responsive design), and something that may be foreign and annoying to any website stakeholders. What do these guys do, anyway? Why do we need one? I will tell you up front that, unless this is a one or two page website, you DO need one. Planning is a HUGELY important part of any website, and getting it right before the design phase will save you boatloads of money in development.
 
 Now then, onto the good stuff.

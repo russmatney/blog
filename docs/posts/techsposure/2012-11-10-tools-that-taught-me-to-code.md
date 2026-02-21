@@ -1,43 +1,11 @@
 ---
-layout: post
-title: Tools that taught me to code
-categories:
-- Techsposure
-tags:
-- code
-- codecademy
-- css
-- developer
-- development
-- google it
-- html
-- javascript
-- jquery
-- objective-c
-- programming
-- raywenderlich
-- self-taught
-- sublime text
-- syntax
-- tech
-- thenewboston
-- tutorial
-- udemy
-- xcode
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  _wpas_mess: 'A new bit of Techsposure: Tools that taught me to code'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2012-11-10
-    17:17:37";}
+title: ""Tools that taught me to code""
+date: 2012-11-10T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 I'm not an advanced developer by any means (in fact, my title is "Junior Developer"). But I think I'm in a good position to look back and see what helped me reach this level, and share some of the more useful tools for anyone looking to get started building websites and apps.
 
 <strong>A note on teaching yourself</strong>. My development experience has been largely self-taught, meaning, I sat down by myself and toyed with this stuff for hours, googling around for answers, following tutorials, and just hitting Run over 9000 times until the program did what I wanted it to. THIS IS SO IMPORTANT. The best way for me to learn was to plug my nose and jump into the deep end, keeping my eyes painfully open for keywords. Learn how to use Google, learn to always click on the <a title="StackOverFlow" href="http://stackoverflow.com/" target="_blank">StackOverFlow</a> answer, read alot, try alot, take breaks, but keep at it.

@@ -1,19 +1,11 @@
 ---
-layout: post
-title: A periodic purchase
-categories:
-- 100-worders
-tags:
-- periodic
-- table
-- elements
-- walmart
-- nobel prize
-- '100'
-- word
-- story
-- drabble
+title: ""A periodic purchase""
+date: 2012-03-19T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 The day I saved the world I was at Walmart looking at shower curtains. I went because my wife wouldn’t stop nagging.
 
 They had all kinds. Too many, if you ask me. I bought one called: “Periodic Table of the Elements.” Thought it would piss her off the most.

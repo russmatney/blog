@@ -1,15 +1,11 @@
 ---
-draft: true
-categories:
-- Techsposure
+title: ""Learn your browser dev tools""
 date: '2016-07-20'
-tags:
-- Productivity
-- Browser
-title: Learn your browser dev tools
-type: post
-url: /2016/07/20/learn-your-browser-dev-tools
+category: techsposure
+tags: [tech]
 ---
+
+
 
 
 ###*TL;DR*:

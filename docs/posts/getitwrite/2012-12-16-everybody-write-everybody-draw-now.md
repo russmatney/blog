@@ -1,35 +1,11 @@
 ---
-layout: post
-title: Everybody write, everybody draw, now
-categories:
-- GetItWrite
-tags:
-- arc
-- brainpickings
-- creative
-- debbie millman
-- doodle
-- imagination
-- inspiration
-- love what you make
-- scripting the spectrum
-- write
-- write right now
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  _wpas_mess: Everybody write, everybody draw, now
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  _wpas_skip_1917337: '1'
-  _wpas_skip_1917358: '1'
-  _wpas_skip_1917361: '1'
+title: ""Everybody write, everybody draw, now""
+date: 2012-12-16T00:00-05:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 <a title="Maria Popova Twitter" href="https://twitter.com/brainpicker" target="_blank">Maria Popova</a>, of my favorite blog/website, <a title="BrainPickings" href="http://www.brainpickings.org/" target="_blank">BrainPickings.org</a>, has a tumblr that matches up music with well-chosen excerpts from books. I really liked <a title="Literary Jukebox" href="http://literaryjukebox.brainpickings.org/post/34546633423" target="_blank">this one</a>. Especially the last part, which comes from <a title="Debbie Millman's Look Both Ways" href="http://www.amazon.com/Look-Both-Ways-Illustrated-Intersection/dp/1600613217/ref=sr_1_1?tag=ljbox-20" target="_blank">Debbie Millman</a>:
 <blockquote>"If you imagine less, less will be what you undoubtedly deserve. Do what you love, and don’t stop until you get what you love. Work as hard as you can, imagine immensities, don’t compromise, and don’t waste time. Start now. Not 20 years from now, not two weeks from now. Now."</blockquote>
 DO IT.

@@ -1,14 +1,11 @@
 ---
-layout: post
-title: 'GROK: Using Elm to Create a Fun Game in Just Five Days'
-categories:
-- GROKs
-tags:
-- elm
-- games
-- functional reactive
-type: post
+title: ""'GROK: Using Elm to Create a Fun Game in Just Five Days'""
+date: 2016-07-12T00:00-04:00[America/New_York]
+category: groks
+tags: [GROKs, learning]
 ---
+
+
 
 ###GROK: [*Using Elm to Create a Fun Game in Just Five Days*](https://tech.zalando.de/blog/using-elm-to-create-a-fun-game-in-just-five-days/)
 

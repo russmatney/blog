@@ -1,18 +1,11 @@
 ---
-layout: post
-title: The cutest angry couple
-categories:
-- 100-worders
-tags:
-- cute
-- angry
-- couple
-- pesky bubbles
-- story
-- drabble
-- '100'
-- word
+title: ""The cutest angry couple""
+date: 2012-02-08T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 He was a man of illogical emotions.
 
             She could not stand extreme temperatures.

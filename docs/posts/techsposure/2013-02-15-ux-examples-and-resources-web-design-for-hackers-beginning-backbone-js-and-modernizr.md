@@ -1,38 +1,11 @@
 ---
-layout: post
-title: UX examples and resources, web design for hackers, beginning backbone.js, and
-  modernizr
-categories:
-- Techsposure
-tags:
-- backbone
-- css techniques
-- design
-- hack design
-- heroku
-- modernizr
-- ruby
-- sidebar
-- sinatra
-- ui
-- ux design
-- web design
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  _wpas_done_1917337: '1'
-  _wpas_mess: UX examples and resources, web design for hackers, beginning backbone.js,
-    and modernizr
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:361;}s:2:"fb";a:1:{i:1917337;i:650;}s:2:"wp";a:1:{i:0;i:3;}}
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2013-02-15
-    05:26:06";}
+title: ""UX examples and resources, web design for hackers, beginning backbone.js, and""
+date: 2013-02-15T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 What's up, code monkeys? Another post, another slew of things I loved and would love to share with you.
 
 There are a handful of websites collecting and glorifying examples of great web interaction. <a title="Small Nudges" href="http://www.smallnudg.es/" target="_blank">Small Nudges</a> focuses on ways businesses are nudging users toward conversion. <a title="Little Big Details" href="http://littlebigdetails.com/" target="_blank">Little Big Details</a> and <a title="Pattern Tap" href="http://patterntap.com/" target="_blank">Pattern Tap</a> bring us great examples of user interaction. I may have mentioned <a title="UI Cloud" href="http://ui-cloud.com/" target="_blank">UI Cloud</a> before, but it belongs in this group, as it is essentially a search engine for UI elements. Web design is getting cleaner, faster, and more intuitive as we continue to raise the bar, and these sites are a great place to check in on the latest trends.

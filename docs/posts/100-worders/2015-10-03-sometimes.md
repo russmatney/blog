@@ -1,3 +1,10 @@
+---
+title: ""sometimes""
+date: 2015-10-03T00:00-04:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 # Sometimes
 
 Sometimes you’re writing\

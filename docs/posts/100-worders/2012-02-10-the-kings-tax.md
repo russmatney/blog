@@ -1,19 +1,11 @@
 ---
-layout: post
-title: The king's tax
-categories:
-- 100-worders
-tags:
-- king
-- carl
-- c
-- train
-- camelot
-- '100'
-- word
-- story
-- drabble
+title: ""The king's tax""
+date: 2012-02-10T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 He was King Carl of Camelot, or, as his people called it, the C Train. In robes and a crown, he’d walk between the cars, announcing his arrival with a fanfare of electronic trumpets.
 
 “Here ye, here ye, the King has arrived for the daily tax collection!” And he’d walk along with his golden basket, taking what was rightfully his.

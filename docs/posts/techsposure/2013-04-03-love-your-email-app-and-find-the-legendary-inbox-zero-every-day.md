@@ -1,29 +1,11 @@
 ---
-layout: post
-title: Love your email app and find the legendary INBOX ZERO every day
-categories:
-- Techsposure
-tags:
-- apps
-- email
-- inbox zero
-- mailbox
-- sparrow
-- sublime
-- unsubscribe
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917361: '1'
-  _wpas_mess: Love your email app and find the legendary INBOX ZERO every day
-  _wpas_done_1917337: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:369;}s:2:"fb";a:1:{i:1917337;i:651;}s:2:"wp";a:1:{i:0;i:3;}}
+title: ""Love your email app and find the legendary INBOX ZERO every day""
+date: 2013-04-03T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 We spend so much time in our inboxes these days, why not make the most of it? I only recently moved away from Gmail's browser app for all my communication, and it has made my daily workflow smoother and less overwhelming.
 
 First of all, get to inbox zero! It's only a few clicks away! Mark all as read and just be done with it! Then, most importantly, start two habits: Unsubscribing from email you don't care about, and set up filters to mark those you don't read as read. For me that means finally unsubscribing from worthless PlayStation Network emails I don't read, and setting up filters for Github repos I supposedly "watch." You'll be much happier! And you'll free up time for the important things. And there's a certain bit of satisfaction I get when I unsubscribe. It almost tastes like...freedom.

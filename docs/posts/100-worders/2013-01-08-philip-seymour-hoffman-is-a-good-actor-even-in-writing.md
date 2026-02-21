@@ -1,20 +1,11 @@
 ---
-layout: post
-title: Philip Seymour Hoffman is a good actor even in writing
-categories:
-- 100-worders
-tags:
-- philip
-- seymour
-- hoffman
-- is
-- the
-- man
-- didn't mean to make him sad
-- not sure where this came from
-- my mind tells me what to do
-- i can only listen
+title: ""Philip Seymour Hoffman is a good actor even in writing""
+date: 2013-01-08T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 I was riding the train and thinking too much, when I realized the man sitting next to me was Phillip Seymour Hoffman, old as death, like at the end of Synecdoche, holding a manuscript, and crying a little.
 
 I eyed him in the reflections and stared out the corner of my eye. He heaved silent sobs.

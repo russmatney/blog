@@ -1,40 +1,11 @@
 ---
-layout: post
-title: Writing when you're stuck
-categories:
-- GetItWrite
-tags:
-- books
-- bounce
-- break
-- finish
-- first drafts
-- imagination limits
-- literature
-- love
-- nanowrimo
-- steal
-- stuck
-- subconscious
-- superhero
-- timer
-- writer's block
-- writing
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_mess: 'new #Getitwrite post! Writing when you''re stuck.'
-  _wpas_done_1917337: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:334;}s:2:"fb";a:1:{i:1917337;i:650;}s:2:"wp";a:1:{i:0;i:0;}}
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2012-11-03
-    18:36:40";}
+title: ""Writing when you're stuck""
+date: 2012-11-03T00:00-04:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 <a title="NanoWrimo" href="http://www.nanowrimo.org/" target="_blank">NaNoWriMo</a> started this week, and tens of thousands of writers are diving into their dream novels (or drafts thereof). This is a month of writing without thinking, blazing bravely forward and then finishing the junk that you started. It's a month of fun and adventure and stress and hard-work. Early decisions can change the course of the story, and it's not uncommon to write yourself into a high-walled corner. Writer's block is a real thing. Don't be discouraged!
 
 Here are few things I like to do when I get stuck in my own writing.

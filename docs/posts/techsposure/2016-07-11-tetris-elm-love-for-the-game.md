@@ -1,15 +1,11 @@
 ---
-layout: post
-title: 'Tetris, Elm, and Love for the Game'
-categories:
-- Techsposure
-- Elm
-- Tetris
-- Code
-tags:
-- Productivity
-type: post
+title: ""'Tetris, Elm, and Love for the Game'""
+date: 2016-07-11T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, Elm, Tetris, Code, tech]
 ---
+
+
 
 ###*TL;DR*: Was reading some Elm, found a tetris remake with a file that make me smile
 

@@ -1,18 +1,11 @@
 ---
-layout: post
-title: Anyone else have dreams like this?
-categories:
-- 100-worders
-tags:
-- dreams
-- gun
-- crash
-- dated
-- '100'
-- word
-- story
-- drabble
+title: ""Anyone else have dreams like this?""
+date: 2012-03-19T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 I used to know them.
 
 They had dated on and off, and now they came to me in a dream, where you can never quite think properly.

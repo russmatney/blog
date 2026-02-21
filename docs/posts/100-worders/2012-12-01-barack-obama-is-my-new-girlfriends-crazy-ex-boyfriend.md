@@ -1,21 +1,11 @@
 ---
-layout: post
-title: Barack Obama is my new girlfriend's crazy ex-boyfriend
-categories:
-- 100-worders
-tags:
-- Obama
-- boyfriend
-- girlfriend
-- debate
-- weird
-- first lady
-- highly important matters of national attention
-- president
-- gummy worms
-- ex
-- two month rule
+title: ""Barack Obama is my new girlfriend's crazy ex-boyfriend""
+date: 2012-12-01T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 There we are, watching the debate, eating gummy worms and pickles, considering highly important matters of national attention, when I find out.
 
 She forgot to tell me, she says. It’s not that big of a deal, she says.

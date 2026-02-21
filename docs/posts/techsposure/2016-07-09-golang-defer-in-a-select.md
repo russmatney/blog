@@ -1,13 +1,11 @@
 ---
-layout: post
-title: 'Golang gotcha: `defer` zealot'
-categories:
-- Techsposure
-tags:
-- Golang
-- defer
-type: post
+title: ""'Golang gotcha: `defer` zealot'""
+date: 2016-07-09T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*: Golang's `defer` and `sync.WaitGroup`s go hand in hand, but hit me with a conceptual gotcha this week.
 Beware those `for{select}`s! Read on for details.

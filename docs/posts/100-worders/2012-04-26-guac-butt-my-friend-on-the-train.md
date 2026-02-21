@@ -1,19 +1,11 @@
 ---
-layout: post
-title: Guac-butt, my friend on the train
-categories:
-- 100-worders
-tags:
-- guacamole
-- butt
-- '100'
-- word
-- stories
-- train
-- stranger
-- friend
-- awkward
+title: ""Guac-butt, my friend on the train""
+date: 2012-04-26T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 It’s funny when someone you run into remembers you, and you don’t. You nod and squint and ask if they are sure just short of too many times. Ha ha ha, right?
 
 But it’s funnier when they are lying and just feel like talking or making a new friend on the train.

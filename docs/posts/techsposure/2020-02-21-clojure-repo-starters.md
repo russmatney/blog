@@ -1,10 +1,11 @@
 ---
-title: Clojure Repo Starters
+title: ""Clojure Repo Starters""
 date: 2020-02-21
-tags:
-  - clojure
-  - tech
+category: techsposure
+tags: [tech]
 ---
+
+
 
 I haven't followed through on this yet, but writing this will add the right
 amount of anonymous social pressure, so here goes.

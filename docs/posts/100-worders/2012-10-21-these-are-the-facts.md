@@ -1,21 +1,11 @@
 ---
-layout: post
-title: These are the facts
-categories:
-- 100-worders
-tags:
-- enstein
-- mosquitos
-- aliens
-- invade
-- chemicals
-- farming
-- smarter
-- happier
-- technology
-- productivity
-- chemical-carrying
+title: ""These are the facts""
+date: 2012-10-21T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Albert Einstein once said: “The best way for aliens to invade the earth would be as chemical-carrying mosquitos.” Once they heard that, they started working.
 
 Now: Here I am, riding the subway to work, swatting away. Who knew anyone on earth could defeat these guys? As such, we don’t worry about it too much.

@@ -1,52 +1,11 @@
 ---
-layout: post
-title: New York Tech Meetup, Image Search, Good Karma, Layout + Typography, Angular
-  JS, and Code School
-categories:
-- Techsposure
-tags:
-- angularjs
-- chrome
-- clarity
-- codeschool
-- emberjs
-- hackdesign
-- haml
-- handlebars
-- ios
-- jade
-- jekyll
-- karma
-- learn css layout
-- less
-- march
-- moveline
-- new york tech
-- new york tech meetup
-- rails for zombies
-- ruby
-- ruby on rails
-- sass
-- shutterstock
-- slim
-- testacular
-- testing
-- vim
-- year of moo
-- yext
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  _wpas_done_1917361: '1'
-  _wpas_mess: New York Tech Meetup, Image Search, Karma, Layout+Type, Angular JS,
-    and Code School
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
+title: ""New York Tech Meetup, Image Search, Good Karma, Layout + Typography, Angular""
+date: 2013-03-25T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 Lots of goodies for you this week, mah nerds. I'll try to keep it concise.
 
 Last week was the New York Tech Meet-up for March, and my company <a title="Moveline" href="https://www.moveline.com/">Moveline</a> gave one of the featured demos. There's a quick mini-review <a title="moveline, clarity, yext" href="http://madisonandmountainview.com/post/45845099613/new-york-tech-meetup-recap-march-2013">here</a> that touches on it. Besides <a title="Clarity app" href="http://clarityapp.co/">Clarity</a> (an app to help teachers and parents cross the language barrier) and <a title="Yext" href="http://www.yext.com/">Yext</a> (a location-control resource for businesses), one demo of note came from <a title="Shutterstock" href="http://www.shutterstock.com/">Shutterstock</a>, who is trying to fix image search. Their <a title="Shutterstock Labs" href="http://www.shutterstock.com/labs/">Labs</a> page features two different options, <a title="shutterstock spectrum" href="http://www.shutterstock.com/labs/spectrum/">Spectrum</a> and <a title="Instant" href="http://www.shutterstock.com/instant/">Instant</a>, both of which are great tools for anyone looking for the perfect piece of stock art. Check them out and take a look at that colorful bubbling beaker on their Labs page.  The bubbles are pop-able! I love it.

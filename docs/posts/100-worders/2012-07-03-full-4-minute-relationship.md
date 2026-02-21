@@ -1,14 +1,11 @@
 ---
-layout: post
-title: Full, 4-minute relationship
-categories:
-- 100-worders
-tags:
-- missed connections
-- potential creepers
-- subway loveway
-- i hope this isn't real
+title: ""Full, 4-minute relationship""
+date: 2012-07-03T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Crush: I stand next to her on the platform because she’s cute, and because she smiled at me.
 
 Honeymoon: I am happy to have found such a person, and catch her stealing glances while checking for the train.

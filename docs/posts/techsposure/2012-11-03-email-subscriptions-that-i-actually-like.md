@@ -1,32 +1,11 @@
 ---
-layout: post
-title: Email Subscriptions That I Actually Like
-categories:
-- Techsposure
-tags:
-- business
-- design
-- email
-- subscriptions
-- tech
-- technology
-- trends
-- web design
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:334;}s:2:"fb";a:1:{i:1917337;i:650;}s:2:"wp";a:1:{i:0;i:0;}}
-  _wpas_mess: 'new bit of #Techsposure: Email Subscriptions That I Actually Like'
-  _wpas_done_1917337: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2012-11-03
-    19:24:44";}
+title: ""Email Subscriptions That I Actually Like""
+date: 2012-11-03T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 I hate getting spam, and I love Unsubscribing from email chains. In fact, I do it on an immediate, get-this-out-of-my-inbox-I-never-want-to-see-you-again basis. But there are some that make me just glow, and I thought I'd share the happier side of email with you guys. These are my favorites.
 
 <strong>Webdesigner Depot's monthly newsletter. </strong>The consistency of the great content in WD's newsletter actually inspired this blog post. I recommend signing up as well as checking out the past issues. You can do both <a title="Webdesigner Depot Newsletter" href="http://www.webdesignerdepot.com/newsletter/" target="_blank">here</a>.

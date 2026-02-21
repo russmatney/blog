@@ -1,14 +1,11 @@
 ---
-layout: post
-title: 'Angular TDD + CRUD Example Part 1'
-categories:
-- Techsposure
-tags:
-- Angularjs
-- Clean Code
-type: post
-published: false
+title: ""'Angular TDD + CRUD Example Part 1'""
+date: 2014-10-17T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

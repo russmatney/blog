@@ -1,35 +1,11 @@
 ---
-layout: post
-title: 'JavaScript must-knows: Node, Backbone, and Angular/CoffeeScript/Sass Boilerplate'
-categories:
-- Techsposure
-tags:
-- angular
-- backbone
-- bower
-- coffeescript
-- compass
-- evan hahn
-- express
-- grunt
-- javascript
-- node
-- npm
-- sass
-- yeoman
-status: publish
-type: post
-published: true
-meta:
-  _wpas_mess: 'JavaScript must-knows: Node, Backbone, and Angular/CoffeeScript/Sass
-    Boilerplate http://wp.me/p2ODBY-30'
-  _publicize_pending: '1'
-  _wpas_done_3911020: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
+title: ""'JavaScript must-knows: Node, Backbone, and Angular/CoffeeScript/Sass Boilerplate'""
+date: 2013-07-02T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 JavaScript resources this post, touching Node/Express, Backbone, and Angular. Come on down!
 
 <a title="Evan Hahn" href="http://evanhahn.com/">Evan Hahn</a> wrote <a title="Evan Hahn Understanding Express Js" href="http://evanhahn.com/understanding-express-js/">a great Express.js overview</a> that I've needed for a while now. <a title="Nodejs" href="http://nodejs.org/">NodeJS</a> is a platform for building network applications (i.e. non-static websites) that has become a JavaScript standard. Hahn's article covers just what a basic Node app is, what <a title="Connect" href="http://www.senchalabs.org/connect/">Connect</a> attempts to cover/simplify in Node, and then what <a title="Expressjs" href="http://expressjs.com/">Express</a> attempts to cover/simplify in Connect. It's well-structured and readable and I recommend it to everyone. It even gets into some basic <a title="Jade" href="http://jade-lang.com/">Jade</a> for HTML templating, which is a great thing to be familiar with.

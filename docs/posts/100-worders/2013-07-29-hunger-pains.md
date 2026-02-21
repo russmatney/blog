@@ -1,13 +1,11 @@
 ---
-layout: post
-title: Hunger Pains
-categories:
-- 100-worders
-tags:
-- based on a true story
-- don't forget sunscreen!
-- i refuse to leave the beach for anything except maybe another beach
+title: ""Hunger Pains""
+date: 2013-07-29T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 
 We are at the beach: blue sky, light wind, perfect temperature. We can’t miss a single moment. But we are hungry, and there is no food, so we eat Alyssa. It was a difficult but satisfactory solution.
 

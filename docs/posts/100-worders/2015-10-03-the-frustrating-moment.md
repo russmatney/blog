@@ -1,3 +1,10 @@
+---
+title: ""the-frustrating-moment""
+date: 2015-10-03T00:00-04:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 # The Frustrating Moment
 
 The frustrating moment\

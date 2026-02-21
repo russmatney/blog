@@ -1,6 +1,11 @@
 ---
-words: 100
+title: ""my-rubber-wedding-ring""
+date: 2025-07-16T00:00-04:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
 ---
+
+
 
 # my lil rubber wedding ring
 

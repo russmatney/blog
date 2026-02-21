@@ -1,17 +1,11 @@
 ---
-layout: post
-title: Dear Christy or Kristy or Cristie or Kristie in SoHo
-categories:
-- 100-worders
-tags:
-- version two
-- extra-sensory ebb and flow
-- fort greene
-- soho
-- don't be passive
-- unless you're passing thoughts and moods (good ones)
-- please)
+title: ""Dear Christy or Kristy or Cristie or Kristie in SoHo""
+date: 2013-01-03T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Dear Christy or Kristy or Cristie or Kristie in SoHo,
 
 You said my name was old school. I appreciate it. Old school sounds so cool. Chucks, short-shorts, Magic Johnson.

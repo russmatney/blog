@@ -1,10 +1,11 @@
 ---
-layout: post
-title: Traumatic points
-categories:
-- 100-worders
-tags: 
+title: ""Traumatic points""
+date: 2012-02-16T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Jerry was a salesman one point from a sale. “The point is…” Jerry was saying. The intern to his left, whom Jerry would soon learn “seemed troubled,” ran to the window and leapt into free fall. 
 
 Jerry lost his job weeks later. His sell line, “The point is…” brought to mind the boy’s final moments, leaving Jerry speechless.

@@ -1,17 +1,11 @@
 ---
-layout: post
-title: 'Prompt from a friend: basketball'
-categories:
-- 100-worders
-tags:
-- basketball
-- shootout
-- secret weapon
-- '100'
-- word
-- story
-- BANG
+title: ""'Prompt from a friend: basketball'""
+date: 2012-02-09T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Everyday after school there was a shootout. Noah’s Arcs vs. Three’s Company. The chain nets rattled like spurs.
 
 Each one got dirtier. Lowered the moral bar. No one remembers who threw the first rock. By now you’d get home with nicks and bruises.

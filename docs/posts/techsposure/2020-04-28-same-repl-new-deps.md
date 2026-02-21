@@ -1,10 +1,11 @@
 ---
-title: Adding dependencies during REPL-driven development
+title: ""Adding dependencies during REPL-driven development""
 date: 2020-04-28
-tags:
-  - tech
-  - clojure
+category: techsposure
+tags: [tech]
 ---
+
+
 
 Developing in a repl is a different paradigm, and one that you won't want to
 leave. It's like the fun part of web development, after you've experienced

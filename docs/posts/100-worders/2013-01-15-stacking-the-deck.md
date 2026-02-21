@@ -1,17 +1,11 @@
 ---
-layout: post
-title: Stacking the deck
-categories:
-- 100-worders
-tags:
-- sorry this story ends so abruptly
-- i didn't want to make the conclusion
-- it might be a little bit too spiteful or cynical or
-- i'm not sure the word
-- smarmy?
-- chilling?
-- cutting?
+title: ""Stacking the deck""
+date: 2013-01-15T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 I wish I could stack the deck on my commute.
 
 People who are lucky – their lives play out like stacked decks. All express stops to the next purple.

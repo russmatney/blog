@@ -1,18 +1,11 @@
 ---
-layout: post
-title: The Deleter
-categories:
-- 100-worders
-tags:
-- '100'
-- word
-- story
-- drabble
-- the deleter
-- oval office
-- aunt marge
-- it technician
+title: ""The Deleter""
+date: 2012-03-25T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 He was The Deleter. He deleted anything and everything, without a second thought.
 
 Soon, he was in the Oval Office. “I hear you… delete… things.” The Deleter nodded and deleted the memory, eyeing the computer.

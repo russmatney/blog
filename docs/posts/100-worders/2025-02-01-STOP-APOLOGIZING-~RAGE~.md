@@ -1,11 +1,11 @@
 ---
-title: "STOP APOLOGIZING"
-
-tags:
-  - hundo
-words:
-  - oops like 600+
+title: """STOP APOLOGIZING"""
+date: 2025-02-01T00:00-05:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
 ---
+
+
 
 It starts with a nod\
 and ends with a screamed "STOP APOLOGIZING!"

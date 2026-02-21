@@ -1,13 +1,11 @@
 ---
-layout: post
-title: 'Composing an Elasticsearch Query in Golang'
-categories:
-- Techsposure
-tags:
-- Golang
-- Elasticsearch
-type: post
+title: ""'Composing an Elasticsearch Query in Golang'""
+date: 2016-07-19T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

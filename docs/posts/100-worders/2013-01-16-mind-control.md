@@ -1,21 +1,11 @@
 ---
-layout: post
-title: Mind-control
-categories:
-- 100-worders
-tags:
-- overthinking
-- will
-- be
-- the
-- death
-- of
-- us
-- magical
-- realism
-- meditation?
-- probably a good idea
+title: ""Mind-control""
+date: 2013-01-16T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Story idea: guy who can make people go away, just by writing about them.
 
 Later, he learns the trick, and can do it by talking at or about them.

@@ -1,17 +1,11 @@
 ---
-layout: post
-title: Small hands
-categories:
-- 100-worders
-tags:
-- small hands
-- carneys
-- quotes
-- from good friends of mine
-- circus
-- ultimately
-- he's just annoyed by the scientists being wrong
+title: ""Small hands""
+date: 2012-09-15T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 The circus was coming to town. I, for one, was not excited. 
 
 “Circus” means peanuts, clowns. It means carneys, small hands, and frowns.

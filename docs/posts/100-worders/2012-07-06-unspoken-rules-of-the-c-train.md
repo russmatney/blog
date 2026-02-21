@@ -1,17 +1,11 @@
 ---
-layout: post
-title: Unspoken rules of the C train
-categories:
-- 100-worders
-tags:
-- c train
-- rules
-- doors
-- seniority
-- pretty girls
-- full train
-- beiber
+title: ""Unspoken rules of the C train""
+date: 2012-07-06T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 You can at anytime claim seniority and get a seat, if you have been on the train longer than someone who is sitting.
 
 Leaning on the doors is totally fine.

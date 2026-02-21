@@ -1,3 +1,10 @@
+---
+title: ""its-for-suckers""
+date: 2013-07-28T00:00-04:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 <img src="_images/hundos/its-for-suckers.webp" />
 
 # It's For Suckers

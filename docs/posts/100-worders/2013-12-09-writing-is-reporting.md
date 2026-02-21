@@ -1,10 +1,11 @@
 ---
-layout: post
-title: Writing is reporting
-categories:
-- 100-worders
-tags:
+title: ""Writing is reporting""
+date: 2013-12-09T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 
 Saturday, on the A train.
 He got on around Canal or Chambers, and said his name was John Hennessy.

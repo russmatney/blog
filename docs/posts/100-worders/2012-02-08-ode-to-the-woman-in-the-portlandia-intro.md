@@ -1,14 +1,11 @@
 ---
-layout: post
-title: Ode to the woman in the Portlandia intro
-categories:
-- 100-worders
-tags:
-- ode
-- poem
-- portland
-- portlandia
+title: ""Ode to the woman in the Portlandia intro""
+date: 2012-02-08T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Oh, brown-eyed woman in the Portlandia intro
 
 even though your show is not super well-known

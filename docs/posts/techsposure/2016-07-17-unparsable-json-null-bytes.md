@@ -1,13 +1,11 @@
 ---
-layout: post
-title: 'Unparsable JSON (null bytes) bug'
-categories:
-- Techsposure
-tags:
-- Golang
-- Elasticsearch
-type: post
+title: ""'Unparsable JSON (null bytes) bug'""
+date: 2016-07-17T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

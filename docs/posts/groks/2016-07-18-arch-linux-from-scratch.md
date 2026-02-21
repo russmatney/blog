@@ -1,11 +1,11 @@
 ---
-layout: post
-title: 'ArchLinux from scratch'
-categories:
-- GROKs
-tags:
-type: post
+title: ""'ArchLinux from scratch'""
+date: 2016-07-18T00:00-04:00[America/New_York]
+category: groks
+tags: [GROKs, learning]
 ---
+
+
 
 ###*TL;DR*:
 

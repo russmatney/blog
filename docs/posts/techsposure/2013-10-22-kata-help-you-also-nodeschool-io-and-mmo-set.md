@@ -1,15 +1,11 @@
 ---
-layout: post
-title: 'Kata help you? Also, nodeschool.io and MMO Set.'
-categories:
-- Techsposure
-tags:
-- nodejs
-- katas
-- vim
-- software engineering
-type: post
+title: ""'Kata help you? Also, nodeschool.io and MMO Set.'""
+date: 2013-10-22T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 *TL;DR*:
 

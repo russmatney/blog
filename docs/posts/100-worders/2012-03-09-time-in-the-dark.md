@@ -1,14 +1,11 @@
 ---
-layout: post
-title: Time in the dark
-categories:
-- 100-worders 
-tags:
-- dark
-- '100'
-- word
-- drabble
+title: ""Time in the dark""
+date: 2012-03-09T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Darkness only comes out at night, and, sadly, less and less these days. It barely has time to breathe anymore.
 
 When the lights go out and the screens flick off, there is so much to see. Let your imagination open its eyes. Let the stories come to life.

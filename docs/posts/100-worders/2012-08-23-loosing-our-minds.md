@@ -1,20 +1,11 @@
 ---
-layout: post
-title: Loosing our minds
-categories:
-- 100-worders
-tags:
-- minds
-- loosing
-- hope i'm not loosing my mind
-- balloons
-- storm
-- wind
-- cry
-- kids
-- mom
-- dad
+title: ""Loosing our minds""
+date: 2012-08-23T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 The kids said Dad was loosing his mind. "You mean losing." Mom said. The kids frowned. She wouldn’t understand. Maybe she’s loosing her mind, too. 
 
 The tethers loosened more and more, and the minds floated higher and higher, like kites, or hot air balloons. 

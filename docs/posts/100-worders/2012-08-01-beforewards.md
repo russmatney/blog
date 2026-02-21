@@ -1,24 +1,11 @@
 ---
-layout: post
-title: Beforewards
-categories:
-- 100-worders
-tags:
-- time is like whaaaaaaat
-- the end
-- forwards
-- backwards
-- reverse! reverse!
-- this doesn't make cents
-- finally silent
-- it begins
-- story
-- '100'
-- word
-- words
-- wish i could get back into bed
-- time is just the order of events
+title: ""Beforewards""
+date: 2012-08-01T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 "The End," she’s reading, but then turns the page backwards.
 
 The train stops and I moonwalk onto the platform, then smile, walking backwards up the stairs. I’ve been here before, I know where I’m going.

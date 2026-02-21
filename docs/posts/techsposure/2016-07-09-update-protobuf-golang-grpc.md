@@ -1,14 +1,11 @@
 ---
-layout: post
-title: 'Updating Protobuf and GRPC in Golang'
-categories:
-- Techsposure
-tags:
-- Golang
-- Protobuf
-- GRPC
-type: post
+title: ""'Updating Protobuf and GRPC in Golang'""
+date: 2016-07-09T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*: When protobuf updates, all the `.proto`s and deps need to update.
 This post is a quick-lookup for how to do that so I'm not googling it every time.

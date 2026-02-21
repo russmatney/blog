@@ -1,10 +1,11 @@
 ---
-layout: post
-title: Speak before you think
-categories:
-- 100-worders
-tags: 
+title: ""Speak before you think""
+date: 2012-09-06T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 The artist that changed the world wasn’t known when he was alive.
 
 A girl across the tracks makes eyes at you. You think, “Maybe if she were here…."

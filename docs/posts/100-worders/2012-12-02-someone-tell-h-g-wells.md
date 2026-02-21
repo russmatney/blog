@@ -1,19 +1,11 @@
 ---
-layout: post
-title: Someone tell H.G. Wells
-categories:
-- 100-worders
-tags:
-- the time machine
-- subway
-- this is another true story
-- time
-- travel
-- lower east
-- saturday night
-- pausing
-- worlds
+title: ""Someone tell H.G. Wells""
+date: 2012-12-02T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Sometimes you walk into a room, or a restaurant, and you’re the only one there, and suddenly the moment steps outside of time. You hold your breath and your brain and watch are on hold.
 
 That’s where I found The Time Traveler. He was eating an Italian sub on the Lower East Side on a Saturday night.

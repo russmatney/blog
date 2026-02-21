@@ -1,35 +1,11 @@
 ---
-layout: post
-title: The smaller you are, the more you'll grow
-categories:
-- Techsposure
-tags:
-- Coyier
-- design
-- development
-- feel small
-- grow
-- learn
-- Murphy
-- rebecca murphy
-- sidebar
-- Smashing
-- technology
-- uncle bob
-- web
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  _wpas_done_1917361: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2013-04-23
-    01:25:44";}
+title: ""The smaller you are, the more you'll grow""
+date: 2013-04-22T00:00-04:00[America/New_York]
+category: getitwrite
+tags: [Techsposure, writing]
 ---
+
+
 I read a <a title="Rebecca Murphy article" href="http://rmurphey.com/blog/2011/05/20/getting-better-at-javascript/">great article this weekend by Rebecca Murphy</a>. It's not new, but is still very relevant. My favorite point was this: "Getting good at a thing involves seeking out opportunities to feel small." If you want to be good, don't let yourself get comfortable. Comfort is static. Keep shifting gears, keep tackling new things. <span style="font-style:inherit;line-height:1.625;"><a title="uncle bob says" href="https://twitter.com/unclebobmartin">Uncle Bob says</a> software developers need to surf the wave of whatever language is in style now, while keeping an eye out for when to jump to the next one.</span>
 
 I saw a great slide deck from Chris Coyier last week, called <a title="How to stay up to date chris coyier" href="https://speakerdeck.com/chriscoyier/how-to-stay-up-to-date-on-web-technology">How to Stay Up to Date on Web Technology</a>. My big takeaways have been a shift from reading to doing. He mentions a number of weekly newsletters from great divisions of your programming skill set. These weekly check-ins are perfect: you don't get caught up in the day-to-day opinions. instead, you keep your ear to the ground, scan the headlines, and don't miss anything big. Sign up for some! My suggestions: <a title="Sidebar" href="http://sidebar.io/">SideBar</a>, <a title="Web Design Weekly" href="http://web-design-weekly.com/">Web-Design-Weekly</a>, <a title="Web Designer Depot" href="http://www.webdesignerdepot.com/">WebDesignerDepot</a>, and  <a title="Smashing Magazine" href="http://www.smashingmagazine.com/">Smashing Magazine</a>.

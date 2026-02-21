@@ -1,28 +1,11 @@
 ---
-layout: post
-title: Uncle Bob Demands Professionalism and Test-Driven Development
-categories:
-- Techsposure
-tags:
-- bob martin
-- professionalism
-- TDD
-- technology
-- test driven development
-- test driven development tdd
-- uncle bob
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  _wpas_mess: Uncle Bob Demands Professionalism and Test-Driven Development
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
+title: ""Uncle Bob Demands Professionalism and Test-Driven Development""
+date: 2013-04-13T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 I watched a presentation last week: <a title="Uncle Bob Demands Professionalism" href="http://vimeo.com/56708193">Uncle Bob on Demanding Professionalism (in software development)</a> (80 minutes. It's worth it! Or here it is in <a title="30 minute uncle bob" href="http://vimeo.com/54025415">30 minutes, without the TDD intro</a>). It was my first exposure to <a title="Uncle Bob Martin" href="https://twitter.com/unclebobmartin">Uncle Bob Martin</a>, and it won't be my last. The video made me very excited about working with Moveline's Test-Driven Development process, and for the future of the software and web development industries. Uncle Bob knows what he's talking about, and it just seems like so much fun. (Nerd alert.)
 
 The talk starts with a Test-Driven Development (TDD) of a Word-Wrap function. (Note the use of emacs as a text editor, and of course the unicorn that skips happily across the screen every time tests pass.) If you write code and you've never heard of TDD, here's my attempt at explaining it. TDD is a way of writing software in which you write 'tests' before the code itself. These 'tests' represent everything that your code needs to be able to do (Requirements).

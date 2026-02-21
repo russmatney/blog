@@ -1,29 +1,11 @@
 ---
-layout: post
-title: Gettin' mobile-webby wit it (Native vs PhoneGap vs Titanium)
-categories:
-- Techsposure
-tags:
-- appcelerator
-- html5
-- javascript
-- mobile web
-- Native
-- native apps
-- non-native
-- PhoneGap
-- Titanium
-- web apps
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:204680660;b:1;}}
-  _wpas_done_1917361: '1'
+title: ""Gettin' mobile-webby wit it (Native vs PhoneGap vs Titanium)""
+date: 2013-06-21T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 Yes, that was a <a title="Gettin' Jiggy Wit it" href="http://www.dailymotion.com/video/x1hv4v_will-smith-gettin-jiggy_music#.Ub6S2PbD7rY">Gettin' Jiggy Wit It</a> reference.
 
 Lately I've wandered from iOS land into the world of non-native app development, and I'm going to be in hot pursuit of performance boosting CSS techniques, handy-dandy HTML5 tricks, and browser-compatibility smoothing for the next few weeks. This post: two tiny but packed articles and then a <a title="PhoneGap" href="http://phonegap.com/">PhoneGap</a> Vs <a href="http://www.appcelerator.com/developers/">Titanium</a> Vs Native comparison. TL;DR: I'm prototyping with PhoneGap because it has the smallest learning curve, the widest reach, and because the mobile web is improving rapidly these days.

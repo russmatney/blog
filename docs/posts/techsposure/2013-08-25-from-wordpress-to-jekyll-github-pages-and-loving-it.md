@@ -1,15 +1,11 @@
 ---
-layout: post
-title: 'From Wordpress to Jekyll + Github Pages and loving it'
-categories:
-- Techsposure
-tags:
-- jekyll
-- wordpress
-- github pages
-type: post
-published: true
+title: ""'From Wordpress to Jekyll + Github Pages and loving it'""
+date: 2013-08-25T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 A project I put off for almost a year,
 and it took just a few hours.

@@ -1,13 +1,11 @@
 ---
-layout: post
-title: 'Open (Source) Sesame'
-categories:
-- Techsposure
-tags:
-- open-source
-- github
-type: post
+title: ""'Open (Source) Sesame'""
+date: 2013-10-05T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 *TL;DR*:
 

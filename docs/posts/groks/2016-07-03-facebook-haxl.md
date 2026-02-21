@@ -1,11 +1,11 @@
 ---
-layout: post
-title: 'GROK: Haxl from Facebook'
-categories:
-- GROKs
-tags:
-type: post
+title: ""'GROK: Haxl from Facebook'""
+date: 2016-07-03T00:00-04:00[America/New_York]
+category: groks
+tags: [GROKs, learning]
 ---
+
+
 
 Two here that are close enough to the same: a github repo and an article on its origins
 

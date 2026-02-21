@@ -1,16 +1,11 @@
 ---
-layout: post
-title: Creative excuses
-categories:
-- 100-worders
-tags:
-- subway stories
-- write what you know
-- right?
-- i do my laundry like everyone else
-- well
-- most times
+title: ""Creative excuses""
+date: 2013-02-04T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 I’m asked to be creative everyday. This morning, it’s what to do about underwear, three days after what should have been laundry Sunday.
 
 Sunglasses on the subway – twin shields, bold first lines of defense against the eye contact of the general public.

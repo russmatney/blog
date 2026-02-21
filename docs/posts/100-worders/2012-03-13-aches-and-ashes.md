@@ -1,18 +1,11 @@
 ---
-layout: post
-title: Aches and ashes
-categories:
-- 100-worders
-tags:
-- aches
-- ashes
-- '100'
-- word
-- story
-- drabble
-- friend
-- apart
+title: ""Aches and ashes""
+date: 2012-03-13T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 I had this friend who totally fell apart. Aches started in his joints, and his face was burning up. 
 
 Later he was losing things. He dropped his fork and never found it. He thought it was gremlins, or the cat. 

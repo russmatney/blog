@@ -1,27 +1,11 @@
 ---
-layout: post
-title: These are one or two liners
-categories:
-- 100-worders
-tags:
-- liners
-- couldn't write a whole story
-- these have been in the oven for too long
-- smorgasbords of words aren't really stories
-- but here's a handful of smiles anyway
-- jewish
-- christian
-- needs
-- hair
-- air
-- heir
-- princes
-- girls
-- elderly marching band
-- cat in the hat
-- prince charming
-- tooth fairy
+title: ""These are one or two liners""
+date: 2012-07-06T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Blind date: Christian. Is he Christian? Or is that his name? Never met a boy named Jewish.
 
 Needs. Girls: Air conditioning and Hair conditioning. Medieval Princes: Heir conditioning.

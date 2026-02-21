@@ -1,69 +1,11 @@
 ---
-layout: post
-title: '20+ Technologies in 6 days at Moveline: Links onnnn links'
-categories:
-- Techsposure
-tags:
-- backbone
-- backbonejs
-- better snap tool
-- cake
-- chef
-- coffeescript
-- command line
-- continuous integration
-- ctrlp
-- cucumber
-- dot-files
-- dotfiles
-- f.lux
-- flux
-- fuzzy files searching
-- git
-- github
-- gmail
-- groupme
-- heroku
-- hipchat
-- iterm
-- javascript
-- mocha
-- mongodb
-- mongoose
-- moveline
-- moving
-- node
-- nodejs
-- shortcut commands
-- shortcut foo
-- software
-- sprint.ly
-- start-up
-- startup
-- sublime
-- technology
-- terminal
-- terminal multiplexer
-- tmux
-- vagrant
-- vi
-- vim
-- vim adventures
-- vim golf
-- vimrc
-status: publish
-type: post
-published: true
-meta:
-  _wpas_mess: '20+ Technologies in 6 days at Moveline: Links onnnn links'
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:365;}s:2:"fb";a:1:{i:1917337;i:654;}s:2:"wp";a:1:{i:0;i:3;}}
+title: ""'20+ Technologies in 6 days at Moveline: Links onnnn links'""
+date: 2013-01-29T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 Last week was my first week at <a title="Moveline" href="https://www.moveline.com/" target="_blank">Moveline</a>, a startup that is changing the way people move. Ramping up to the speed and technology of a cutting-edge business has been overwhelming and brain-blasting. Below is an attempt at a comprehensive list of the new vernacular.
 
 The first big shift was not a language or a framework, but actually writing the code. I dove head-first into <a title="Vim" href="http://en.wikipedia.org/wiki/Vim_(text_editor)" target="_blank">Vim</a>, a text editor from 1991 that is still very efficient today. Vim saves you that precious time when you move your hands off the keyboard to the arrows or mouse, which might sound crazy, but once you rewire your brain, the little things add up. There are thousands of shortcuts, and after six days of mental heavy lifting, I'm starting to get a feel for them. For extra practice: <a title="Vim Adventures" href="http://vim-adventures.com/" target="_blank">Vim Adventures</a>, and <a title="Vim Golf" href="http://vimgolf.com/" target="_blank">Vim Golf</a>.

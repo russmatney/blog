@@ -1,3 +1,10 @@
+---
+title: ""three-minutes-to-midnight""
+date: 2025-01-26T00:00-05:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 # Three minutes to midnight
 
 You're home alone and nothing to do\

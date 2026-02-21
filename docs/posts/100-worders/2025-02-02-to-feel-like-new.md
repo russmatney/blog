@@ -1,9 +1,11 @@
 ---
-title: "to feel like new"
-
-tags:
-  - hundo
+title: """to feel like new"""
+date: 2025-02-02T00:00-05:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
 ---
+
+
 
 # to feel like new
 

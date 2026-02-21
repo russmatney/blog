@@ -1,12 +1,11 @@
 ---
-layout: post
-title: 'Fast App/Window Control'
-categories:
-- Techsposure
-tags:
-- Productivity
-type: post
+title: ""'Fast App/Window Control'""
+date: 2016-06-28T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

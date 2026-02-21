@@ -1,22 +1,11 @@
 ---
-layout: post
-title: You don't wanna
-categories:
-- 100-worders
-tags:
-- 'things you don''t wanna do that didn''t make the cut:'
-- eat that sandwich
-- kill that guy
-- see that movie
-- drink that coffee
-- go to that city
-- watch that show
-- take that job
-- ride that ride
-- take that train
-- use that brush
-- call that bluff
+title: ""You don't wanna""
+date: 2013-01-29T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 That girl? You don’t wanna dance with that girl. She’s got leftover feet. Man feet. Clumsy, stinky ones.
 
 That beer? You don’t wanna drink that beer. Gordo drinks that beer. They soak it in gym socks before they let the monkeys swim in it.

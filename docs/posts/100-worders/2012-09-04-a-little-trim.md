@@ -1,18 +1,11 @@
 ---
-layout: post
-title: A little trim
-categories:
-- 100-worders
-tags:
-- Jack
-- Nicholson
-- crazy
-- eyebrows
-- look at them
-- they're wild
-- trimmings
-- couples
+title: ""A little trim""
+date: 2012-09-04T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Couples, like eyebrows, should be more or less the same thickness and shape.
 
 If one of two is a little twisted, it’s quirky. If both are, it’s Jack Nicholson crazy.

@@ -1,20 +1,11 @@
 ---
-layout: post
-title: Mourning my morning
-categories:
-- 100-worders
-tags:
-- missing
-- train
-- blame
-- scapegoat
-- conclusion
-- pep
-- talk
-- frantic
-- alarm
-- phone
+title: ""Mourning my morning""
+date: 2012-08-02T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Missing the train by seconds gives me time to curse, swear, and stomp my feet, then thoroughly critique my morning. Forgetting 20 minutes of alarms, I place the blame on three moments:
 
 The neighbors’ phone drove me on a frantic search for my own, only to find it in my hand.

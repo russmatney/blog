@@ -1,27 +1,11 @@
 ---
-layout: post
-title: (Graduation) Advice
-categories:
-- GetItWrite
-tags:
-- address
-- david foster wallace
-- Graduation
-- jon lovett
-- joss weedon
-status: publish
-type: post
-published: true
-meta:
-  _wpas_skip_1917358: '1'
-  publicize_reach: a:2:{s:7:"twitter";a:1:{i:1917358;i:391;}s:2:"wp";a:1:{i:0;i:3;}}
-  _wpas_mess: (Graduation) Advice  http://wp.me/p2ODBY-2L
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:204680660;b:1;}}
-  _wpas_done_1917361: '1'
-  _wpas_skip_1917361: '1'
+title: ""(Graduation) Advice""
+date: 2013-06-22T00:00-04:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 Before Graduation season has totally petered out (what does that even mean?), here are some addresses I liked recently, and some paraphrased summaries. I recommend all of these for everyone at any time, regardless of graduation-status.
 
 <a title="Joss Weedon at Wesleyan College" href="http://www.upworthy.com/behold-the-bluntest-funniest-and-deadliest-graduation-speech-in-the-history-of-the-known-universe?c=upw1">Joss Weedon at Wesleyan</a>. TL;DR: Will you change the world? "Wrong question. You are changing the world. You don't have a choice."

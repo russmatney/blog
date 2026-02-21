@@ -1,20 +1,11 @@
 ---
-layout: post
-title: Is funny the right word?
-categories:
-- 100-worders
-tags:
-- funny
-- drabble
-- magic hat
-- the one
-- how people grow apart
-- '100'
-- word
-- drabble
-- story
-- chick
+title: ""Is funny the right word?""
+date: 2012-03-13T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 It’s funny how people grow apart.
 
 I met her at a bar, like any other chick. She was drinking Magic Hat. Fine by me.

@@ -1,10 +1,12 @@
 ---
-title: Reitit Router in Re-frame
+title: """Reitit Router in Re-frame"""
 date: 2020-04-23
-tags:
-  - tech
-  - clojure
+category: techsposure
+tags: [tech]
 ---
+
+
+
 
 I've built [re-frame](https://github.com/day8/re-frame) apps for about a year
 now, and have always used [secretary](https://github.com/clj-commons/secretary)

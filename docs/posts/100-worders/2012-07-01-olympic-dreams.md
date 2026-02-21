@@ -1,18 +1,11 @@
 ---
-layout: post
-title: Olympic dreams
-categories:
-- 100-worders
-tags:
-- olympic
-- dreams
-- cheerios
-- butterscotch
-- food tasting like other food
-- cereal
-- 15 hours
-- dream-loss
+title: ""Olympic dreams""
+date: 2012-07-01T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 It was late and the car was empty, save for the cutest, prettiest girl that floated next to me.
 
 “You have to hear about my dream.”

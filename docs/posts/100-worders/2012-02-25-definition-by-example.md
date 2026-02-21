@@ -1,21 +1,11 @@
 ---
-layout: post
-title: Definition by example
-categories:
-- 100-worders
-tags:
-- '100'
-- words
-- word
-- drabble
-- story
-- comedy
-- tragedy
-- conflict
-- irony
-- plot
-- tuna
+title: ""Definition by example""
+date: 2012-02-25T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Comedy: A couple fell in love and was married. They settled in together. She made him tuna for lunch each day.
 
 Tragedy: He loved his work. She began to resent him. He didn’t like tuna, but never told her.

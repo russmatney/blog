@@ -1,18 +1,11 @@
 ---
-layout: post
-title: The ugly bros
-categories:
-- 100-worders
-tags:
-- ugly bros
-- band
-- chopsticks
-- '100'
-- word
-- story
-- drabble
-- underground
+title: ""The ugly bros""
+date: 2012-03-28T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 We had a band called The Ugly Bros. It started as a joke. The five of us were conductors for the subway, and we’d play in different stations on our breaks. People liked us pretty well, I guess.
 
 Pretty soon there were too many people to have the concerts underground, so we started setting up in parks around the city.

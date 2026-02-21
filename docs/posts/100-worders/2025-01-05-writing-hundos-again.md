@@ -1,6 +1,11 @@
 ---
-title: Writing Hundos Again
+title: ""Writing Hundos Again""
+date: 2025-01-05T00:00-05:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
 ---
+
+
 
 recent daily posts have me remembering the hundo flow
 

@@ -1,11 +1,11 @@
 ---
-layout: post
-title: The Stepford Whites
-categories:
-- 100-worders
-tags:
-- based on a true story
+title: ""The Stepford Whites""
+date: 2013-02-02T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 “I told you moving here was a bad idea. When it doesn’t stink, it tastes like paste.”
 
 “Oh hush. You’re always aching.”

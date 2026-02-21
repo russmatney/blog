@@ -1,3 +1,10 @@
+---
+title: ""nobodyd-notice""
+date: 2013-04-04T00:00-04:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 <img src="_images/hundos/nobodyd-notice.webp" />
 
 # Nobody'd Notice

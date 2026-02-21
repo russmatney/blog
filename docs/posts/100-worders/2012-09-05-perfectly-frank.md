@@ -1,17 +1,11 @@
 ---
-layout: post
-title: Perfectly frank
-categories:
-- 100-worders
-tags:
-- frank
-- quiet
-- mostly made up
-- imagination
-- dreamer
-- overthinking
-- maybe
+title: ""Perfectly frank""
+date: 2012-09-05T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Frank kept his life to himself, scrutinizing every word.
 
 He liked to wonder what people thought of him. Less information led to wilder ideas, so Frank always kept a tight lip.

@@ -1,12 +1,11 @@
 ---
-layout: post
-title: Assorted brainy things related to being a human
-categories:
-- GetItWrite
-tags:
--
-type: post
+title: ""Assorted brainy things related to being a human""
+date: 2014-01-27T00:00-05:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 
 ##*TL;DR*:
 

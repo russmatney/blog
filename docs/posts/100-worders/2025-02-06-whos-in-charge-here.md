@@ -1,14 +1,11 @@
 ---
-
-title: "Who's in charge here?"
-
-tags:
-  - hundo
-  - flashfictionfebruary
-
-words: 227
-
+title: """Who's in charge here?"""
+date: 2025-02-06T00:00-05:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
 ---
+
+
 
 # Who's in charge here?
 

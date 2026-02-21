@@ -1,19 +1,11 @@
 ---
-layout: post
-title: A problem that I have
-categories:
-- 100-worders
-tags:
-- mojo
-- chambers
-- subway
-- '100'
-- word
-- story
-- drabbles
-- knobby hands
-- rake of hair
+title: ""A problem that I have""
+date: 2012-03-28T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 I always find it at Chambers. Where I lose it, I don’t know.
 
 I usually notice it’s gone at the bar. I approach someone or I bump into the prettiest girl coming out of the bathroom. I figure my knobby hands or my rake of hair sends her off. Then I realize that it’s missing.

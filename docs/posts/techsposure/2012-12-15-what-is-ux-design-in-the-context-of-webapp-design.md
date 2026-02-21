@@ -1,39 +1,11 @@
 ---
-layout: post
-title: What is UX Design? (In the context of web/app design)
-categories:
-- Techsposure
-tags:
-- graphic design
-- IA
-- information architecture
-- interaction
-- ui
-- usability
-- user
-- user experience
-- user interface
-- ux
-- visual design
-- web design
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  _wpas_mess: What is UX Design? (In the context of web/app design) http://wp.me/p2ODBY-1f
-  _wpas_done_1917337: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:347;}s:2:"fb";a:1:{i:1917337;i:650;}s:2:"wp";a:1:{i:0;i:2;}}
-  _wpas_skip_1917337: '1'
-  _wpas_skip_1917358: '1'
-  _wpas_skip_1917361: '1'
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2012-12-16
-    04:04:56";}
+title: ""What is UX Design? (In the context of web/app design)""
+date: 2012-12-15T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 <p style="text-align:left;" align="center">To talk about User Experience Design, we have to first talk about User Experience. So…</p>
 <p style="text-align:left;" align="center">What is user experience (UX)?</p>
 User experience (UX) is the way a user feels about using something. <i>Feels</i>, an emotional reaction that occurs during the use of the product. A good user experience is often satisfaction and pleasure, and a poor UX can range from annoyance to frustration.

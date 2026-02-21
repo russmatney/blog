@@ -1,21 +1,11 @@
 ---
-layout: post
-title: Pipedream
-categories:
-- 100-worders
-tags:
-- capsized
-- pipedream
-- arnold
-- '100'
-- word
-- stories
-- drabble
-- long-sitters
-- bathroom
-- sink
-- love
+title: ""Pipedream""
+date: 2012-04-27T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Arnold found he was in love with the office bathroom, in particular the bathroom’s sink. It whispered sweet things to him and told pointed jokes, things about his coworkers no one had ever seen.
 
 Arnold kept it very quiet. He was the guy who made fun of the Long-Sitters, as he called them. Now he couldn’t stay away. 

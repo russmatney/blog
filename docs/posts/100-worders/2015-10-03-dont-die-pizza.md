@@ -1,3 +1,10 @@
+---
+title: ""dont-die-pizza""
+date: 2015-10-03T00:00-04:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 # Don't Die Pizza
 
 new york happens in a moment\

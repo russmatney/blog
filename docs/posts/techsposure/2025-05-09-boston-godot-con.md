@@ -1,3 +1,10 @@
+---
+title: ""boston-godot-con""
+date: 2025-05-09T00:00-04:00[America/New_York]
+category: techsposure
+tags: [tech]
+---
+
 > This post tries to be comprehensive for my own experience of the conference -
 > there were so many other talks and showcases that I missed that are unfortunately
 > not represented in this post. :cry:

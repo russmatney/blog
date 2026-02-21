@@ -1,36 +1,11 @@
 ---
-layout: post
-title: Get Pocket, teach yourself a new language (and algorithm) via Project Euler,
-  and fail at gaming to get better at life
-categories:
-- Techsposure
-tags:
-- adam gibbons
-- codeschool
-- failing
-- gaming
-- hackerrank
-- jane mcgonigal
-- kickstarter
-- project euler
-- ruby
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:390;}s:2:"fb";a:1:{i:3911020;i:656;}s:2:"wp";a:1:{i:0;i:3;}}
-  _wpas_mess: Get Pocket, teach yourself a new language (and algorithm) via Project
-    Euler, and fail at gaming to get better at life http://wp.me/p2ODBY-34
-  _wpas_done_3911020: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  _wpas_skip_3911020: '1'
-  _wpas_skip_1917358: '1'
-  _wpas_skip_1917361: '1'
+title: ""Get Pocket, teach yourself a new language (and algorithm) via Project Euler,""
+date: 2013-06-28T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 A quick post this week, as I'm taking some time to build my own WP theme, (<a title="Tutsplus Wp theme with sass and compass" href="http://wp.tutsplus.com/tutorials/creative-coding/cross-platform-sass-and-compass-in-wordpress/">using Sass and Compass, of course</a>).
 
 First of all, <a title="Adam Gibbons" href="http://agibbons.com/">a fellow Moveline engineer</a> pointed me toward the solution to my obsessive bookmarking: <a title="Pocket Bookmarking App" href="http://getpocket.com/a/queue/">Pocket</a>, a bookmarking app. It not only saves your links, but formats them into a nice view, lets you tag, search, and archive them, and even has iPhone and Android apps for amazingly productive OFFLINE reading, which has immediately impacted my commute. Get the chrome extension. Just saying.

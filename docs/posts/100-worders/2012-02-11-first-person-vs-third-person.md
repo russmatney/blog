@@ -1,16 +1,11 @@
 ---
-layout: post
-title: First person vs third person
-categories:
-- 100-worders
-tags:
-- first
-- person
-- third
-- '100'
-- word
-- drabble
+title: ""First person vs third person""
+date: 2012-02-11T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 I carry baggage.
 
 Henry Thompson doesn’t.

@@ -1,57 +1,11 @@
 ---
-layout: post
-title: 'My workflow settings in the Cloud: Zero to Hero to Boxen'
-categories:
-- Techsposure
-tags:
-- bettersnaptool
-- boxen
-- chrome
-- cloud
-- coffeescript
-- command line tools
-- computer
-- dotfiles
-- dropbox
-- evernote
-- flux
-- git
-- github
-- hipchat
-- homebrew
-- iterm2
-- native applications
-- new mac
-- node
-- npm
-- pathogen
-- personal settings
-- puppet
-- repo
-- rvm
-- software
-- sparrow
-- spotify
-- sublime
-- sublime text
-- technology
-- xcode
-- zen-coding
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2013-03-17
-    19:55:19";}
-  _wpas_mess: 'My workflow settings in the Cloud: Zero to Hero...to Boxen http://wp.me/p2ODBY-20'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:365;}s:2:"fb";a:1:{i:1917337;i:651;}s:2:"wp";a:1:{i:0;i:3;}}
+title: ""'My workflow settings in the Cloud: Zero to Hero to Boxen'""
+date: 2013-03-17T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 Getting a new computer up to speed can take hours or even days. Finding the time to do so without cutting into your own productivity can be an issue.
 
 I just got a new computer (Macbook Pro 13", non-Retina) a few weeks ago, and had been keeping an exhaustive list of everything I did to it, thinking it'd be a helpful tool for anyone interested and my next computer. Making this list seemed like a painful but one-and-done process. That, however, was before we started using <a title="Boxen" href="http://boxen.github.com/">Boxen</a>.

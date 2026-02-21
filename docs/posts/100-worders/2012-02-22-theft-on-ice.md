@@ -1,16 +1,11 @@
 ---
-layout: post
-title: Theft on ice
-categories:
-- 100-worders
-tags:
-- '100'
-- word
-- story
-- drabble
-- frosty
-- puddle
+title: ""Theft on ice""
+date: 2012-02-22T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Joan was on her third consecutive double-shift when Frosty slid in, top hat and all.
 
 “Empty the register,” he ordered, thrusting a bag across the counter.

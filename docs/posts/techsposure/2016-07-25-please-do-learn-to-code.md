@@ -1,12 +1,11 @@
 ---
-layout: post
-title: 'Please do learn to code'
-categories:
-- Techsposure
-tags:
-- learn-code
-type: post
+title: ""'Please do learn to code'""
+date: 2016-07-25T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

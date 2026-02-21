@@ -1,37 +1,11 @@
 ---
-layout: post
-title: Fiction is good for you, some life advice, an amazing poem, and honesty
-categories:
-- GetItWrite
-tags:
-- alan watts
-- books
-- brainpickings
-- flowerburgers
-- galilee hitch-hiker
-- good for you
-- honesty
-- quora
-- reading
-- richard brautigan
-- sloane crosley
-- what to do with your life
-- writing
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  _wpas_done_1917358: '1'
-  _wpas_done_1917337: '1'
-  _wpas_mess: Fiction is good for you, some life advice, an amazing poem, and honesty
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917361: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:358;}s:2:"fb";a:1:{i:1917337;i:646;}s:2:"wp";a:1:{i:0;i:2;}}
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2013-01-15
-    05:53:35";}
+title: ""Fiction is good for you, some life advice, an amazing poem, and honesty""
+date: 2013-01-15T00:00-05:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 This just in! (10 months ago) <a title="Brain on Fiction" href="http://www.nytimes.com/2012/03/18/opinion/sunday/the-neuroscience-of-your-brain-on-fiction.html?pagewanted=all&amp;_r=0" target="_blank">this article</a> explained how good fiction is for our brains. In a nutshell, we get to practice real life in our heads, and therefore get better at it, or at least more flexible and accepting of new situations. So, if you read alot of Sci-Fi, in the near-future, you will be just a little bit more helpful to have around than these hordes of Fantasy nerds.
 
 <a title="Quora" href="http://www.quora.com/" target="_blank">Quora</a> is a great website to find well thought-out answers to somewhat open-ended questions. <a title="Quora 25 corporate vs happiness" href="http://www.quora.com/Career-Advice/At-age-25-would-you-pursue-a-good-paying-corporate-job-that-makes-you-unhappy-or-a-hobby-that-makes-you-happy-but-has-no-guarantee-to-pay-the-bills" target="_blank">One question</a> asks about pursuing a high-paying corporate job or a low-paying passion. <a title="Highest leverage activities" href="http://www.quora.com/Life-Advice/What-are-the-highest-leverage-activities-that-are-best-for-ensuring-that-you-have-a-good-life" target="_blank">Another</a> asks about high-leverage activities that ensure a good life. This is part of the answer:

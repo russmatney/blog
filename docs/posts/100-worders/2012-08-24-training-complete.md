@@ -1,21 +1,11 @@
 ---
-layout: post
-title: Training complete
-categories:
-- 100-worders
-tags:
-- nods
-- smiles
-- miracles
-- first-name
-- crew
-- malibu
-- newark
-- postal
-- suits
-- train
-- keep your eyes open
+title: ""Training complete""
+date: 2012-08-24T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 It’s not quite a first-name basis, strictly nods and smiles, but with the occasional simulated steam whistle. The crew doesn’t know I’m leaving. Don’t tell.
 
 I’ll miss the train, its crew, its miracles. Especially the miracles.

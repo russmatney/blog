@@ -1,38 +1,11 @@
 ---
-layout: post
-title: Gamification in a nutshell and gaming to save the real world
-categories:
-- Techsposure
-tags:
-- call of duty
-- codecademy
-- foldit
-- foursquare
-- games
-- gamification
-- gaming
-- gaming elements
-- interactive molecules
-- jane mcgonigal
-- khan academy
-- lumosity
-- world of warcraft
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  _wpas_mess: Gamification in a nutshell and gaming to save the real world http://wp.me/p2ODBY-11
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:353;}s:2:"fb";a:1:{i:1917337;i:651;}s:2:"wp";a:1:{i:0;i:2;}}
-  _wpas_skip_1917337: '1'
-  _wpas_skip_1917358: '1'
-  _wpas_skip_1917361: '1'
+title: ""Gamification in a nutshell and gaming to save the real world""
+date: 2012-12-29T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 Gamification has been infiltrating websites, apps, and user experiences everywhere for several years. So what is it?
 
 Gamification is the use of gaming elements in non-gaming experiences. The goal is usually to make things seem more fun or more productive. Subtle progress bars and points systems encourage you to keep going, while achievements and badges reward your brain for 'winning.' When done right, it works well, increasing conversions and adherence.

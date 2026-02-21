@@ -1,3 +1,10 @@
+---
+title: ""platformer-jump-mechanic""
+date: 2025-05-25T00:00-04:00[America/New_York]
+category: techsposure
+tags: [tech]
+---
+
 # Platformer Jump Mechanic
 
 TODO rewrite this into something more consumable

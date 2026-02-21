@@ -1,3 +1,10 @@
+---
+title: ""how-to-write-a-poem""
+date: 2013-04-03T00:00-04:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 <img src="_images/hundos/how-to-write-a-poem.webp" />
 
 # How To Write A Poem

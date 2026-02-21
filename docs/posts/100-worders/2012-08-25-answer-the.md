@@ -1,19 +1,11 @@
 ---
-layout: post
-title: Answer, the
-categories:
-- 100-worders
-tags:
-- answer
-- big
-- question
-- search
-- meaning
-- life
-- reason
-- secret
-- ask yourself why
+title: ""Answer, the""
+date: 2012-08-25T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 So. I found the Answer. The Big Secret. The Reason to Be.
 
 Don’t worry, I’ll tell you. But wait a moment. Ask yourself: Do you really want to know? Why do you feel such a strong pull towards the Answer? Most importantly: What are you going to do if the Answer, well, kind of sucks?

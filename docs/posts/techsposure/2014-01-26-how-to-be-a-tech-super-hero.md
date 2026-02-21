@@ -1,11 +1,11 @@
 ---
-layout: post
-title: 'How to be a tech super hero'
-categories:
-- Techsposure
-tags:
-type: post
+title: ""'How to be a tech super hero'""
+date: 2014-01-26T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

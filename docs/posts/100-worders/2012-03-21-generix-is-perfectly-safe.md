@@ -1,10 +1,11 @@
 ---
-layout: post
-title: Generix is perfectly safe
-categories:
-- 100-worders
-tags: 
+title: ""Generix is perfectly safe""
+date: 2012-03-21T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 I’m at work. My lungs are burning, my muscles are weak, and my headache is blaring.
 
 Some big name pharmaceutical companies, desperate to fill their clinical trials, have turned to testing the copywriters at their ad agencies. 

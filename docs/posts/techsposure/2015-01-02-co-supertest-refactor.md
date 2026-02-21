@@ -1,16 +1,11 @@
 ---
-layout: post
-title: 'Glorious E2E refactor via generators and co'
-categories:
-- Techsposure
-tags:
-- Koa
-- Nodejs
-- E2E
-- Co
-- Supertest
-type: post
+title: ""'Glorious E2E refactor via generators and co'""
+date: 2015-01-02T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

@@ -1,16 +1,11 @@
 ---
-layout: post
-title: "Programming Creativity: Defy Dogma, Make Waves"
-categories:
-- Techsposure
-tags:
-- Bret Victor
-- Angelina Fabbro
-- Uncle Bob
-- Creativity
-type: post
-published: true
+title: """Programming Creativity: Defy Dogma, Make Waves"""
+date: 2013-09-21T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 *TL;DR*:
 

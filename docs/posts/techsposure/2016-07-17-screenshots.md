@@ -1,12 +1,11 @@
 ---
-layout: post
-title: 'Screenshots'
-categories:
-- Techsposure
-tags:
-- Productivity
-type: post
+title: ""'Screenshots'""
+date: 2016-07-17T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 how to screenshots!
 
 TLDR: OSX/iOS makes basic screen shots super easy.

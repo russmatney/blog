@@ -1,3 +1,7 @@
+---
+title: "About"
+---
+
 # About
 
 Welcome to my blog! I've been through several implementations over the years -

@@ -1,3 +1,9 @@
+---
+title: "zooming-in-on-dino"
+date: 2025-01-08T00:00-05:00[America/New_York]
+category: devlogs
+tags: [devlog]
+---
 # Zooming In On Dino
 
 Took some screen caps of poking around with org-roam-ui today.

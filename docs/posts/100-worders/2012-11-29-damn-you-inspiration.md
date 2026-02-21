@@ -1,19 +1,11 @@
 ---
-layout: post
-title: Damn you, inspiration!
-categories:
-- 100-worders
-tags:
-- i cheated twice to make it 100
-- don't tell
-- 100 word poem
-- what?
-- poem
-- '100'
-- word
-- inspiration
-- find who to be with-out first
+title: ""Damn you, inspiration!""
+date: 2012-11-29T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Inspiration comes in the night.
 
 It’s where I look, where you might 

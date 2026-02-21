@@ -1,13 +1,11 @@
 ---
-layout: post
-title: 'Hot damn, hot corners!'
-categories:
-- Techsposure
-tags:
-- Productivity
-- OSX
-type: post
+title: ""'Hot damn, hot corners!'""
+date: 2016-06-06T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

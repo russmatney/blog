@@ -1,49 +1,11 @@
 ---
-layout: post
-title: Vision and Brilliance at the Connecticut Forum
-categories:
-- GetItWrite
-tags:
-- 3d printing
-- 4d printing
-- art
-- augmented human power
-- brilliance
-- carl sagan
-- connecticut forum
-- design
-- down to earth
-- engineer
-- hartford
-- making
-- media lab
-- MIT
-- neil degrasse tyson
-- neil gaiman
-- neri oxman
-- problem seeker
-- reddit ama
-- science
-- star dust
-- star stuff
-- the universe
-- vision
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917337: '1'
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2012-12-08
-    23:28:12";}
-  _wpas_mess: 'Vision and Brilliance at the Connecticut Forum: a summary of an mind-blowing
-    conversation'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _wpas_done_1917361: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:350;}s:2:"fb";a:1:{i:1917337;i:649;}s:2:"wp";a:1:{i:0;i:2;}}
+title: ""Vision and Brilliance at the Connecticut Forum""
+date: 2012-12-08T00:00-05:00[America/New_York]
+category: getitwrite
+tags: [GetItWrite, writing]
 ---
+
+
 A very special friend of mine got me a ticket to the <a title="CT Forum: Vision &amp; Brilliance" href="http://www.ctforum.org/forum/vision-brilliance" target="_blank">Connecticut Forum's Vision &amp; Brilliance</a> last weekend. The talk was nothing short of mind-blowing. I made a weekend out of it (visiting Hartford for the first time) and did lots of note-taking and writing. The result is a bit of an organizational issue, but I've done my best to share as much as I could without being <em>too</em> overwhelming.
 
 The forum's host, <a title="CT Forum John Dankosky" href="http://www.ctforum.org/panelist/john-dankosky" target="_blank">John Dankosky</a> of WNPR's Where We Live, correctly defined the night as an "awesome nerd-fest." He said it's never wrong to ask stupid questions, and tonight he'd have no trouble with that. The forum consisted of <a title="Neil deGrasse Tyson" href="http://en.wikipedia.org/wiki/Neil_deGrasse_Tyson" target="_blank">Neil deGrasse Tyson</a>, <a title="Neri Oxman WIki" href="http://en.wikipedia.org/wiki/Neri_Oxman" target="_blank">Neri Oxman</a>, and <a title="Neil Gaiman Wiki" href="http://en.wikipedia.org/wiki/Neil_Gaiman" target="_blank">Neil Gaiman</a>, who in a nutshell represent Science/Astrophysics, Art/Design, and Imagination/Writing, or, if you'll allow me, Past, Present, Future.

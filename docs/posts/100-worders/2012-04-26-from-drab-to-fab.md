@@ -1,25 +1,11 @@
 ---
-layout: post
-title: From drab to fab
-categories:
-- 100-worders
-tags:
-- '100'
-- word
-- stories
-- drabble
-- drab
-- fab
-- subway
-- sun
-- crayola
-- dull dark grey
-- black blue
-- pink
-- flamingo
-- mac and cheese
-- color
+title: ""From drab to fab""
+date: 2012-04-26T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Why is the subway’s dominant clothing color a dull dark grey black blue? 
 
 I’m not saying it’s a problem, it’s fine, wear what you want. I just wonder why we don’t break out more. 

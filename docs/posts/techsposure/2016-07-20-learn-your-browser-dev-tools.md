@@ -1,13 +1,11 @@
 ---
-layout: post
-title: 'Learn your browser dev tools'
-categories:
-- Techsposure
-tags:
-- Productivity
-- Browser
-type: post
+title: ""'Learn your browser dev tools'""
+date: 2016-07-20T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 
 ###*TL;DR*:
 

@@ -1,3 +1,10 @@
+---
+title: ""drawing-a-crowd""
+date: 2016-04-02T00:00-04:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 <img src="_images/hundos/drawing-a-crowd.webp" />
 
 # Drawing A Crowd

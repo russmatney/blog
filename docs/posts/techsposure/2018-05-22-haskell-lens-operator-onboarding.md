@@ -1,3 +1,10 @@
+---
+title: ""haskell-lens-operator-onboarding""
+date: 2018-05-22T00:00-04:00[America/New_York]
+category: techsposure
+tags: [tech]
+---
+
 This post is also available [as a literate haskell
 doc](https://github.com/urbint/lens-operator-onboarding).
 

@@ -1,18 +1,11 @@
 ---
-layout: post
-title: Third from the door, before the turned seats
-categories:
-- 100-worders
-tags:
-- fading
-- weather
-- seasons
-- change
-- gravestones
-- wartime
-- unrelated tags
-- i hate that it says been becoming
+title: ""Third from the door, before the turned seats""
+date: 2012-09-14T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Been becoming more and more aware of myself, yet increasingly less conscious. The train is full and slow and fading, and I found a new favorite seat.
 
 These real-life characters are evolving with the weather. Samba stripes take on every color. Heels become boots. Jackets pin more and more to their lapels. Smartphones multiply like gravestones during wartime.

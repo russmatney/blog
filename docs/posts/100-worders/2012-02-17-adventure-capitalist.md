@@ -1,19 +1,11 @@
 ---
-layout: post
-title: Adventure capitalist
-categories:
-- 100-worders
-tags:
-- '100'
-- word
-- story
-- drabble
-- investment
-- diverse
-- subway
-- bluetooth
-- mind the gap
+title: ""Adventure capitalist""
+date: 2012-02-17T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Joe owned no phone, but wandered the C-train talking on a Bluetooth earpiece. The subway regulars knew all his girls: his dramatic ex-girlfriend, his half-sister in Idaho, his niece who loved Barbie.
 
 Joe only talked to one man: Benny, an investor with diverse assets that touched every angle of the consumer market: medical devices, sporting equipment, advertising, television, retail. Benny’s wealth was economy-proof. He continued to grow, reading the market and making bold, successful moves. Nothing could stop him.

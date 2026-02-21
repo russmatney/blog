@@ -1,19 +1,11 @@
 ---
-layout: post
-title: Don't force it
-categories:
-- 100-worders
-tags:
-- shoes
-- hipster girl
-- c-3po
-- chatterbox
-- '100'
-- word
-- STORY
-- junk yard
-- subway
+title: ""Don't force it""
+date: 2012-08-09T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 This hipster girl is wearing C-3PO shoes. Not look-alikes, the real thing. Bulky, but she can pull it, uh, him, off. 
 
 The whole thing annoys me. He’s a chatterbox, C-3PO. Lots to say, nothing to say.

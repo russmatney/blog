@@ -1,3 +1,10 @@
+---
+title: ""writing-a-one-hundred-worder-is-like""
+date: 2025-01-10T00:00-05:00[America/New_York]
+category: hundos
+tags: [hundos, writing]
+---
+
 # Writing a 100 worder is like
 
 just write 1000 words and delete everything that could go in parenthesis

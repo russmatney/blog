@@ -1,18 +1,11 @@
 ---
-layout: post
-title: 'Productivity: find something you want to do less'
-categories:
-- 100-worders
-tags:
-- productive
-- pigsty
-- portal
-- hell
-- how to clean your room
-- find something that you want to do even less
-- remarkable
-- no idea what i would do about a portal to hell in my own room
+title: ""'Productivity: find something you want to do less'""
+date: 2012-10-22T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 My room was a COMPLETE pigsty (no exaggeration) until this portal to hell opened up right in the middle of it.
 
 At first it was a few inches wide, but it’s growing. Now it’s a few feet across. I have to hop around it in some places.

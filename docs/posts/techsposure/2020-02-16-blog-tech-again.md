@@ -1,9 +1,11 @@
 ---
-title: Blog Tech, Again
+title: ""Blog Tech, Again""
 date: 2020-02-16
-tags:
-  - tech
+category: techsposure
+tags: [tech]
 ---
+
+
 
 I usually tell people not to write posts that say "Hey, I'm blogging again!".
 

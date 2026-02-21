@@ -1,17 +1,11 @@
 ---
-layout: post
-title: Manster or Hamtaur?
-categories:
-- 100-worders
-tags:
-- hamster huey and the gooey kablooie
-- is a ficticious comic in calvin and hobbes
-- which is a comic that is fiction
-- but not ficitious
-- i hope i'm getting that right
-- based on a true story
-- about a manster/hamtaur
+title: ""Manster or Hamtaur?""
+date: 2013-05-10T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 This is the story of an extreme girlfriend that wanted her boyfriend to look into scientific procedures for shrinking and merging his body with a hamster’s in order to carry him around in her pocket and call him Hamster Huey, and of the grotesque boyfriend that resulted thereof. These are some of the activities they did together afterwards:
 
 Skiing

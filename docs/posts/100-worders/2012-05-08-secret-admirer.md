@@ -1,19 +1,11 @@
 ---
-layout: post
-title: Secret admirer
-categories:
-- 100-worders
-tags:
-- secret
-- admirer
-- '100'
-- words
-- post-it
-- sunshines
-- flowers
-- cheetos
-- love-love
+title: ""Secret admirer""
+date: 2012-05-08T00:00-04:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 In a post-it note, she wrote that I smelled like sunshines and flowers. Weird, but here’s some logic: those two things defy gravity in the same way that I resisted the pull of her rotund figure. 
 
 She smelled like Cheetos. I love Cheetos, but not love-love, you know?

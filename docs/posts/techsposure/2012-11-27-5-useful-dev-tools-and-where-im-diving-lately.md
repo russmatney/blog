@@ -1,54 +1,11 @@
 ---
-layout: post
-title: 5 Useful Dev Tools and Where I'm Diving Lately
-categories:
-- Techsposure
-tags:
-- analytics
-- android
-- cloud
-- color scheme
-- css
-- design
-- development
-- elements
-- examples
-- flash
-- git
-- github
-- html
-- ipad
-- iphone
-- javascript
-- jquery
-- mixpanel
-- mobile safari
-- sink or swim
-- svn
-- swiffy
-- terminal
-- touch punch
-- ui
-- user interface
-- vim
-- web
-- web design
-- web development
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  _wpas_done_1917361: '1'
-  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"35796325";s:7:"blog_id";s:8:"41621342";s:9:"mod_stamp";s:19:"2012-11-27
-    04:15:40";}
-  _wpas_mess: '#Techsposure 5 Useful Dev Tools and Where I''m Diving in Lately'
-  _wpas_done_1917337: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:569696174;b:1;}}
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  publicize_reach: a:3:{s:7:"twitter";a:1:{i:1917358;i:342;}s:2:"fb";a:1:{i:1917337;i:650;}s:2:"wp";a:1:{i:0;i:1;}}
+title: ""5 Useful Dev Tools and Where I'm Diving Lately""
+date: 2012-11-27T00:00-05:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 Happy Thanksgiving everyone! Here's what I've found useful in the last few weeks.
 
 For anyone making web color scheme decisions, the <a title="Color Scheme Designer" href="http://colorschemedesigner.com/" target="_blank">Color Scheme Designer</a> lets you pick a number of colors and includes "Light" and "Dark" layout examples right on the site.

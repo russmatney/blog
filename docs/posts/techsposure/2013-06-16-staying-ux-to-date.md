@@ -1,32 +1,11 @@
 ---
-layout: post
-title: Staying UX to date
-categories:
-- Techsposure
-tags:
-- front-end
-- grinblo
-- matt gemmell
-- mind-maps
-- poncho
-- staying up to date
-- user experience
-- ux
-status: publish
-type: post
-published: true
-meta:
-  _publicize_pending: '1'
-  publicize_reach: a:2:{s:7:"twitter";a:1:{i:1917358;i:384;}s:2:"wp";a:1:{i:0;i:3;}}
-  _wpas_mess: Staying UX to date http://wp.me/p2ODBY-2F
-  publicize_twitter_user: RussMatney
-  _wpas_done_1917358: '1'
-  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:204680660;b:1;}}
-  _wpas_done_1917361: '1'
-  _wpas_skip_1917337: '1'
-  _wpas_skip_1917358: '1'
-  _wpas_skip_1917361: '1'
+title: ""Staying UX to date""
+date: 2013-06-16T00:00-04:00[America/New_York]
+category: techsposure
+tags: [Techsposure, tech]
 ---
+
+
 A little tech-sposure never hurt anyone. Well, almost anyone. A few quick hits: Staying up to date on the front-end, and some good UX examples (UXamples?) plus readings.
 
 There's a great little one-pager laying out the recipe for how any front-end developer or code monkey can stay up to date in this constantly evolving world of web dev. <a title="how to stay up to date with front-end dev" href="http://uptodate.frontendrescue.org/">Check it out here</a>. TL;DR: follow twitter taste-makers, sign up for relevant weekly emails, go to conferences, and find your own sources. My advice would be to spend some time every week building with something new. One tutorial and one talk per week, no excuses. Mine this week: <a title="Angularjs phonegap tutorial" href="http://briantford.com/blog/angular-phonegap.html">an awesome PhoneGap + Angular tutorial</a> and <a title="So you want to be a front end engineer" href="http://www.youtube.com/watch?v=Lsg84NtJbmI">a talk about how exactly a browser turns your code into a webpage</a>.

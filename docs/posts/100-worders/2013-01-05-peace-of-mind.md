@@ -1,22 +1,11 @@
 ---
-layout: post
-title: Peace of mind
-categories:
-- 100-worders
-tags:
-- gun control
-- peace of mind
-- self-defense
-- kill
-- be concealed
-- assault
-- weapons
-- nukes
-- warheads
-- state
-- classroom
-- school
+title: ""Peace of mind""
+date: 2013-01-05T00:00-05:00[America/New_York]
+category: hundos
+tags: [100-worders, hundos, writing]
 ---
+
+
 Says one side: “Anything designed to kill and be concealed should be illegal."
 
 Says the other: “The state has no right to limit the self-defense of its citizens."
