@@ -17,20 +17,62 @@
       (apply println args)
       (apply shell args)))
 
-  build (do
-          (log "regenerating all pages")
-          (tasks/regen-all-pages))
+  ;; === Astro/Starlight Commands ===
+
+  dev
+  (do
+    (log "Starting Astro dev server...")
+    (shelll "npm run dev"))
+
+  build
+  (do
+    (log "Building Astro site...")
+    (shelll "npm run build"))
+
+  preview
+  (do
+    (log "Previewing built site...")
+    (shelll "npm run preview"))
+
+  serve
+  (do
+    (log "Alias for dev...")
+    (shelll "npm run dev"))
 
   watch
   (do
-    ;; hmmmm need to fork to run all watchers here
-    ;; how do i usually do this?
-
+    (log "Alias for dev (with nREPL suggestion)...")
     (when true #_osx?
           (println "you might want to 'bb --nrepl-server 1667'"))
-    (shelll "docsify serve docs")
-    )
+    (shelll "npm run dev"))
 
-  serve
-  (shelll "docsify serve docs")
+  ;; === Migration Utilities ===
+
+  migrate-frontmatter
+  (do
+    (log "Migrating frontmatter...")
+    (require '[blog.migrate :as m])
+    (m/migrate-all-posts))
+
+  copy-to-astro
+  (do
+    (log "Copying content to Astro...")
+    (require '[blog.copy-to-astro :as c])
+    (c/copy-all-content)
+    (c/copy-assets))
+
+  ;; === DEPRECATED: Old Docsify Commands ===
+
+  build-old
+  (do
+    (log "⚠️  DEPRECATED: This was for Docsify page generation")
+    (log "The blog now uses Astro/Starlight")
+    (log "Use 'bb build' to build the Astro site")
+    (tasks/regen-all-pages))
+
+  serve-old
+  (do
+    (log "⚠️  DEPRECATED: This was for Docsify")
+    (log "Use 'bb dev' for Astro dev server")
+    (shelll "docsify serve docs"))
   }}

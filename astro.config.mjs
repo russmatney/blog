@@ -73,7 +73,7 @@ export default defineConfig({
   markdown: {
     shikiConfig: {
       theme: 'one-dark-pro',
-      langs: ['gdscript', 'haskell', 'clojure', 'bash', 'javascript', 'typescript'],
+      langs: ['gdscript', 'haskell', 'clojure', 'bash', 'javascript', 'typescript', 'go'],
     },
   },
 });
