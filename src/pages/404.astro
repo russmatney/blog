@@ -1,0 +1,21 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+---
+
+<StarlightPage frontmatter={{ title: '404 - Page Not Found' }}>
+  <p>The page you're looking for doesn't exist.</p>
+  <p><a href="/">Return to homepage</a></p>
+</StarlightPage>
+
+<script>
+  // Redirect .md URLs to their correct paths
+  if (typeof window !== 'undefined') {
+    const currentPath = window.location.pathname;
+
+    if (currentPath.endsWith('.md')) {
+      // Strip the .md extension and redirect
+      const newPath = currentPath.slice(0, -3);
+      window.location.replace(newPath);
+    }
+  }
+</script>
