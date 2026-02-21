@@ -1,11 +1,12 @@
 ---
+
 title: "platformer-jump-mechanic"
 date: 2025-05-25
 category: techsposure
 tags: [tech]
 ---
 
-# Platformer Jump Mechanic
+
 
 TODO rewrite this into something more consumable
 

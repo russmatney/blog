@@ -1,14 +1,15 @@
 ---
+
 title: "haskell-lens-operator-onboarding"
 date: 2018-05-22
 category: techsposure
 tags: [tech]
 ---
 
+
 This post is also available [as a literate haskell
 doc](https://github.com/urbint/lens-operator-onboarding).
 
-# Haskell Lens Operator Onboarding
 
 Lenses are immensely useful to the Haskell programmer, but suffer from a
 discovery problem - without enough exposure or experience, it's hard to know
@@ -68,7 +69,7 @@ on a Mac, this can be done via [Alfred](https://www.alfredapp.com/) and [Dash](h
 motivate you, searching for a `Lens` operator like `^.` can be done via
 `[cmd]+[space] hs ^.`.
 
-<img src="_images/haskell-lens-operator-onboarding/haskell_dash_search.webp" />
+<img src="../../../assets/_images/haskell-lens-operator-onboarding/haskell_dash_search.webp" />
 
 ^ Searchable Lens documentation on OSX via Alfred and Dash integration.
 

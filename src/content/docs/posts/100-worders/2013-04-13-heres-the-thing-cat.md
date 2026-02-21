@@ -1,13 +1,14 @@
 ---
+
 title: "heres-the-thing-cat"
 date: 2013-04-13
 category: hundos
 tags: [hundos, writing]
 ---
 
-<img src="_images/hundos/heres-the-thing-cat.webp" />
 
-# Here's The Thing, Cat
+<img src="../../../assets/_images/hundos/heres-the-thing-cat.webp" />
+
 
 Since we met, I’ve been your biggest fan\
 I pet you.\

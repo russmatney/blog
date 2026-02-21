@@ -1,9 +1,11 @@
 ---
+
 title: "boston-godot-con"
 date: 2025-05-09
 category: techsposure
 tags: [tech]
 ---
+
 
 > This post tries to be comprehensive for my own experience of the conference -
 > there were so many other talks and showcases that I missed that are unfortunately
@@ -32,7 +34,6 @@ tags: [tech]
 > [lightning talk here](https://youtu.be/4Fv9YXHMA_U), all the videos via the
 > playlist link above or linked throughout this post. Enjoy!
 
-# Boston Godot Con
 
 I'm feeling crazed but ambitious and in good spirits after a very busy few
 weeks. I got married! Then did a weekend in the Catskills with a bunch of

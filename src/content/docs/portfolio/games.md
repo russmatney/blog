@@ -1,9 +1,10 @@
 ---
+
 title: "Games Portfolio"
 category: portfolio
 ---
 
-# Games Portfolio
+
 
 > I started solo-deving on games full time in July of 2022.
 >
@@ -38,7 +39,7 @@ A short puzzle game. Try to find a path connecting all the dots!
 
 <video controls width="80%" height="400px">
     <source
-    src="_images/dothop/dothop_gameplay_feb_10_2024.mp4"
+    src="/images/dothop/dothop_gameplay_feb_10_2024.mp4"
     type="video/mp4"
     />
 </video>
@@ -88,7 +89,7 @@ supported by some basic procedural level generation.
 
 <video controls width="80%" height="400px">
     <source
-    src="_images/dino/dino-first-villagers 2024-05-07 19-35.mp4"
+    src="/images/dino/dino-first-villagers 2024-05-07 19-35.mp4"
     type="video/mp4"
     />
 </video>
@@ -148,14 +149,14 @@ the microgames, and keep playing to unlock all the audiolog-lore.
 
 <video controls width="80%" height="400px">
     <source
-    src="_images/rapid-eye-madness/microgame tvs and playthroughs 2024-10-08 at 16.51.24.mp4"
+    src="/images/rapid-eye-madness/microgame tvs and playthroughs 2024-10-08 at 16.51.24.mp4"
     type="video/mp4"
     />
 </video>
 
 <figcaption><em>REM's minigames, all at once.</em></figcaption>
 
-<img src="_images/rapid-eye-madness/REMClip_Mix_2.gif" alt="REM Mixed gameplay clip" />
+<img src="/images/rapid-eye-madness/REMClip_Mix_2.gif" alt="REM Mixed gameplay clip" />
 
 ```
 Status: Launched
@@ -179,7 +180,7 @@ game jam.
 
 <video controls width="80%" height="400px">
     <source
-    src="_images/wicked-peak/prelaunch gameplay 2024-07-16 17-28.mp4"
+    src="/images/wicked-peak/prelaunch gameplay 2024-07-16 17-28.mp4"
     type="video/mp4"
     />
 </video>
@@ -207,7 +208,7 @@ cozy rune-carving game. Use your book of runes and careful carving skills to enr
 
 <video controls width="80%" height="400px">
     <source
-    src="_images/carving-with-care/carving recording 2024-11-18 18-31.mp4"
+    src="/images/carving-with-care/carving recording 2024-11-18 18-31.mp4"
     type="video/mp4"
     />
 </video>
@@ -257,14 +258,14 @@ A Godot Metroidvania, coming in 2025.
 
 <video controls width="80%" height="400px">
     <source
-    src="_images/glossolalia/listen prototyping 2024-12-11 13-07.mp4"
+    src="/images/glossolalia/listen prototyping 2024-12-11 13-07.mp4"
     type="video/mp4"
     />
 </video>
 
 <video controls width="80%" height="400px">
     <source
-    src="_images/glossolalia/listen gym two playthrough 2024-12-11 16-51.mp4"
+    src="/images/glossolalia/listen gym two playthrough 2024-12-11 16-51.mp4"
     type="video/mp4"
     />
 </video>
@@ -296,7 +297,7 @@ I'm not making enough time for this project at the moment :/
 
 <video controls width="80%" height="400px">
     <source
-    src="_images/blox/editing-while-running-in-editor 2024-06-15 19-01.mp4"
+    src="/images/blox/editing-while-running-in-editor 2024-06-15 19-01.mp4"
     type="video/mp4"
     />
 </video>
@@ -325,7 +326,7 @@ city, meet your neighbors, defend your territory, build up your reputation!
 
 <video controls width="80%" height="400px">
     <source
-    src="_images/beatemupcity/Peek 2023-08-17 14-21.mp4"
+    src="/images/beatemupcity/Peek 2023-08-17 14-21.mp4"
     type="video/mp4"
     />
 </video>

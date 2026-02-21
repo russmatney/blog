@@ -1,11 +1,12 @@
 ---
+
 title: "Devlog: Dot Hop Speed Run and Puzzle Spoilers"
 date: 2025-06-10
 category: devlogs
 tags: [devlog, dothop]
 ---
 
-# Devlog: Dot Hop Speed Run and Puzzle Spoilers
+
 
 !> **Spoiler Warning**: Animated Dot Hop Puzzle Solutions below!
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Who's in charge here?"
 date: 2025-02-06
 category: hundos
@@ -7,7 +8,7 @@ tags: [hundos, writing]
 
 
 
-# Who's in charge here?
+
 
 My boss: not the brightest bulb.
 

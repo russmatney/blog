@@ -1,13 +1,14 @@
 ---
+
 title: "drawing-a-crowd"
 date: 2016-04-02
 category: hundos
 tags: [hundos, writing]
 ---
 
-<img src="_images/hundos/drawing-a-crowd.webp" />
 
-# Drawing A Crowd
+<img src="../../../assets/_images/hundos/drawing-a-crowd.webp" />
+
 
 NYC hat\
 Thick rubber boots\

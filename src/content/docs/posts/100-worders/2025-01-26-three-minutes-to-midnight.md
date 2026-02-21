@@ -1,11 +1,12 @@
 ---
+
 title: "three-minutes-to-midnight"
 date: 2025-01-26
 category: hundos
 tags: [hundos, writing]
 ---
 
-# Three minutes to midnight
+
 
 You're home alone and nothing to do\
 you look up to the sky and realize\

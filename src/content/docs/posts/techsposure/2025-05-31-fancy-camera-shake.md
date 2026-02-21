@@ -1,11 +1,12 @@
 ---
+
 title: "fancy-camera-shake"
 date: 2025-05-31
 category: techsposure
 tags: [tech]
 ---
 
-# Fancy Camera Shake
+
 
 A few resources and a gdscript walkthrough of a camera shake implementation.
 

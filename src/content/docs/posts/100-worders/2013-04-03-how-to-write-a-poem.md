@@ -1,13 +1,14 @@
 ---
+
 title: "how-to-write-a-poem"
 date: 2013-04-03
 category: hundos
 tags: [hundos, writing]
 ---
 
-<img src="_images/hundos/how-to-write-a-poem.webp" />
 
-# How To Write A Poem
+<img src="../../../assets/_images/hundos/how-to-write-a-poem.webp" />
+
 
 Get a pen and get a notebook and open the pen and open the notebook and sit down.\
 Title it: [insert awesome title]. Try: “How to Write a Poem.”\

@@ -1,13 +1,14 @@
 ---
+
 title: "first-thing-this-morning"
 date: 2014-02-16
 category: hundos
 tags: [hundos, writing]
 ---
 
-<img src="_images/hundos/first-thing-this-morning.webp" />
 
-# First Thing This Morning
+<img src="../../../assets/_images/hundos/first-thing-this-morning.webp" />
+
 
 She says:\
 we were driving\

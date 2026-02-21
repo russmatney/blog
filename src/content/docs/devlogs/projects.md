@@ -1,9 +1,10 @@
 ---
+
 title: "Projects"
 category: devlogs
 ---
 
-# Projects
+
 
 A big list of projects and links, mostly to make it easy to find and share urls
 for folks, but also to help me realize i may be overstretching on things.

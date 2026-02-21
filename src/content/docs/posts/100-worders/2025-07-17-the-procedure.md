@@ -1,16 +1,17 @@
 ---
+
 title: "the-procedure"
 date: 2025-07-17
 category: hundos
 tags: [hundos, writing]
 ---
 
+
 ```
 title: "the procedure"
 words: 100
 ```
 
-# the procedure
 
 overheard folks talking about a cat\
 wasn't sure for a minute\

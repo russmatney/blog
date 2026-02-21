@@ -1,13 +1,14 @@
 ---
+
 title: "great-owl-circle"
 date: 2013-04-13
 category: hundos
 tags: [hundos, writing]
 ---
 
-<img src="_images/hundos/great-owl-circle.webp" />
 
-# Great Owl Circle
+<img src="../../../assets/_images/hundos/great-owl-circle.webp" />
+
 
 1.\
 I had an uncle who was always so fun\

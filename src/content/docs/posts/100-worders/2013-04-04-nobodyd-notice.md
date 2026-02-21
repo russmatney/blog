@@ -1,13 +1,14 @@
 ---
+
 title: "nobodyd-notice"
 date: 2013-04-04
 category: hundos
 tags: [hundos, writing]
 ---
 
-<img src="_images/hundos/nobodyd-notice.webp" />
 
-# Nobody'd Notice
+<img src="../../../assets/_images/hundos/nobodyd-notice.webp" />
+
 
 Nobody’d notice\
 But I wear colorful stripey socks\

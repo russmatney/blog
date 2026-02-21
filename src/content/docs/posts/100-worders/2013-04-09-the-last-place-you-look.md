@@ -1,13 +1,14 @@
 ---
+
 title: "the-last-place-you-look"
 date: 2013-04-09
 category: hundos
 tags: [hundos, writing]
 ---
 
-<img src="_images/hundos/the-last-place-you-look.webp" />
 
-# The Last Place You Look
+<img src="../../../assets/_images/hundos/the-last-place-you-look.webp" />
+
 
 This won’t help you\
 Because we’re all different\

@@ -1,22 +1,17 @@
 ---
-title: "Home"
-template: splash
-hero:
-  title: "Hi there, I'm Russ!"
-  tagline: "Independent software engineer making games, mostly in Godot"
-  image:
-    file: ../../assets/portrait-nobg-2x.png
-  actions:
-    - text: Dev Logs
-      link: /devlogs/
-      icon: right-arrow
-      variant: primary
-    - text: Portfolio
-      link: /portfolio/games
-      icon: external
-    - text: Posts
-      link: /posts/
+title: "Hi there, I'm Russ!"
 ---
+
+import { Image } from 'astro:assets';
+import portraitImage from '../../assets/portrait-nobg-2x.png';
+
+<div style="text-align: center; margin: 2rem 0;">
+  <Image src={portraitImage} alt="Russ portrait" width={200} />
+</div>
+
+**Independent software engineer making games, mostly in Godot**
+
+Quick links: [Dev Logs](/devlogs/) | [Portfolio](/portfolio/games) | [Posts](/posts/)
 
 > Welcome to my portfolio and devlogs site, AKA BLOG REFACTOR #74!
 >
@@ -75,27 +70,27 @@ In the mid 2010s I wrote a bunch of poem-y things on Medium. They've since added
 a paywall, which is very :eyeroll: so I've ported them into the 'Hundos' section
 of the blog. Check 'em out!
 
-* [drawing-a-crowd](/posts/100-worders/2016-04-02-drawing-a-crowd.md)
-* [straight-up-oj](/posts/100-worders/2015-10-22-straight-up-oj.md)
-* [would-it-bother-you](/posts/100-worders/2015-10-07-would-it-bother-you.md)
-* [dont-die-pizza](/posts/100-worders/2015-10-03-dont-die-pizza.md)
-* [how-to-fall-asleep](/posts/100-worders/2015-10-03-how-to-fall-asleep.md)
-* [ill-tell-you](/posts/100-worders/2015-10-03-ill-tell-you.md)
-* [sometimes](/posts/100-worders/2015-10-03-sometimes.md)
-* [the-frustrating-moment](/posts/100-worders/2015-10-03-the-frustrating-moment.md)
-* [first-thing-this-morning](/posts/100-worders/2014-02-16-first-thing-this-morning.md)
-* [in-the-skywaves](/posts/100-worders/2013-07-28-in-the-skywaves.md)
-* [its-for-suckers](/posts/100-worders/2013-07-28-its-for-suckers.md)
-* [great-owl-circle](/posts/100-worders/2013-04-13-great-owl-circle.md)
-* [heres-the-thing-cat](/posts/100-worders/2013-04-13-heres-the-thing-cat.md)
-* [everyone-accept-death](/posts/100-worders/2013-04-09-everyone-accept-death.md)
-* [the-last-place-you-look](/posts/100-worders/2013-04-09-the-last-place-you-look.md)
-* [nobodyd-notice](/posts/100-worders/2013-04-04-nobodyd-notice.md)
-* [how-to-write-a-poem](/posts/100-worders/2013-04-03-how-to-write-a-poem.md)
+* [drawing-a-crowd](/posts/100-worders/2016-04-02-drawing-a-crowd/)
+* [straight-up-oj](/posts/100-worders/2015-10-22-straight-up-oj/)
+* [would-it-bother-you](/posts/100-worders/2015-10-07-would-it-bother-you/)
+* [dont-die-pizza](/posts/100-worders/2015-10-03-dont-die-pizza/)
+* [how-to-fall-asleep](/posts/100-worders/2015-10-03-how-to-fall-asleep/)
+* [ill-tell-you](/posts/100-worders/2015-10-03-ill-tell-you/)
+* [sometimes](/posts/100-worders/2015-10-03-sometimes/)
+* [the-frustrating-moment](/posts/100-worders/2015-10-03-the-frustrating-moment/)
+* [first-thing-this-morning](/posts/100-worders/2014-02-16-first-thing-this-morning/)
+* [in-the-skywaves](/posts/100-worders/2013-07-28-in-the-skywaves/)
+* [its-for-suckers](/posts/100-worders/2013-07-28-its-for-suckers/)
+* [great-owl-circle](/posts/100-worders/2013-04-13-great-owl-circle/)
+* [heres-the-thing-cat](/posts/100-worders/2013-04-13-heres-the-thing-cat/)
+* [everyone-accept-death](/posts/100-worders/2013-04-09-everyone-accept-death/)
+* [the-last-place-you-look](/posts/100-worders/2013-04-09-the-last-place-you-look/)
+* [nobodyd-notice](/posts/100-worders/2013-04-04-nobodyd-notice/)
+* [how-to-write-a-poem](/posts/100-worders/2013-04-03-how-to-write-a-poem/)
 
 There's also a very technical post about Haskell's Lens library:
 
-* [haskell-lens-operator-onboarding](/posts/techsposure/2018-05-22-haskell-lens-operator-onboarding.md)
+* [haskell-lens-operator-onboarding](/posts/techsposure/2018-05-22-haskell-lens-operator-onboarding/)
 
 ### Godot Con in Boston (May 2025)
 
@@ -103,7 +98,7 @@ I just got back from Godot Con, and it was amazing!! So glad there was finally
 one closer to me! So many indie devs and indie games to parse!
 
 I wrote a Techsposure post covering most of my interactions here:
-[Post: Boston Godot Con](/posts/techsposure/2025-05-09-boston-godot-con.md)
+[Post: Boston Godot Con](/posts/techsposure/2025-05-09-boston-godot-con/)
 
 At Godot Con, I gave a lightning talk about
 [Log.gd](https://github.com/russmatney/log.gd). Updates, posts, and a YouTube
@@ -113,8 +108,8 @@ link to come soon!
 
 Check out my new [Dev Logs](/devlogs/) section for updates on my projects and meanderings.
 
-* [DevLog: Zooming In On Dino](/devlogs/2025-01-08-zooming-in-on-dino.md)
-* [DevLog: Glossolalia Listen Prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping.md) #glossolalia
+* [DevLog: Zooming In On Dino](/devlogs/2025-01-08-zooming-in-on-dino/)
+* [DevLog: Glossolalia Listen Prototyping](/devlogs/2024-12-11-glossolalia-listen-prototyping/) #glossolalia
 
 ### New Hundos? Old Hundos? (Jan 2025)
 
@@ -123,15 +118,15 @@ stories](/posts/100-worders/), which I like to call 'Hundos'.
 
 Some 'new' "Hundos" (~2025)!
 
-* [Writing Hundos Again](/posts/100-worders/2025-01-05-writing-hundos-again.md)
-* [Eventually It's A Game](/posts/100-worders/2025-01-06-eventually-its-a-game.md)
+* [Writing Hundos Again](/posts/100-worders/2025-01-05-writing-hundos-again/)
+* [Eventually It's A Game](/posts/100-worders/2025-01-06-eventually-its-a-game/)
 
 Some Old Ones (~2012):
 
-* [New Clear Warfare](/posts/100-worders/2012-07-06-new-clear-warfare.md)
-* [Full 4-minute relationship](/posts/100-worders/2012-07-03-full-4-minute-relationship.md)
-* [Loosing our Minds](/posts/100-worders/2012-08-23-loosing-our-minds.md)
-* [First-Person vs Third-Person](/posts/100-worders/2012-02-11-first-person-vs-third-person.md)
+* [New Clear Warfare](/posts/100-worders/2012-07-06-new-clear-warfare/)
+* [Full 4-minute relationship](/posts/100-worders/2012-07-03-full-4-minute-relationship/)
+* [Loosing our Minds](/posts/100-worders/2012-08-23-loosing-our-minds/)
+* [First-Person vs Third-Person](/posts/100-worders/2012-02-11-first-person-vs-third-person/)
 
 > ### Yee Olde Scribblings
 >
@@ -164,5 +159,5 @@ I released three steam games in 2024, be sure to check em out!
 Moonstorm Clerics.
 [itch.io](https://moonstorm-clerics.itch.io/rapid-eye-madness) | [steam](https://store.steampowered.com/app/3248030/Rapid_Eye_Madness)
 
-Check out my [games portfolio](/portfolio/games.md) or [my itch.io](https://russmatney.itch.io) for more.
+Check out my [games portfolio](/portfolio/games/) or [my itch.io](https://russmatney.itch.io) for more.
 

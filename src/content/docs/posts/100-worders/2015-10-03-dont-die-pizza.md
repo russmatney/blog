@@ -1,11 +1,12 @@
 ---
+
 title: "dont-die-pizza"
 date: 2015-10-03
 category: hundos
 tags: [hundos, writing]
 ---
 
-# Don't Die Pizza
+
 
 new york happens in a moment\
 you haven’t missed it. it’s a long one. if you’re here, you’re in it.\

@@ -1,13 +1,14 @@
 ---
+
 title: "in-the-skywaves"
 date: 2013-07-28
 category: hundos
 tags: [hundos, writing]
 ---
 
-<img src="_images/hundos/in-the-skywaves.webp" />
 
-# In the Skywaves
+<img src="../../../assets/_images/hundos/in-the-skywaves.webp" />
+
 
 Once I’m there and back again and then a few weeks later\
 I find the receipt in my desk and say, yeah, I went there, I remember that.\

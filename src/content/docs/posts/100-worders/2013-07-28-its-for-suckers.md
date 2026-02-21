@@ -1,13 +1,14 @@
 ---
+
 title: "its-for-suckers"
 date: 2013-07-28
 category: hundos
 tags: [hundos, writing]
 ---
 
-<img src="_images/hundos/its-for-suckers.webp" />
 
-# It's For Suckers
+<img src="../../../assets/_images/hundos/its-for-suckers.webp" />
+
 
 transitions and line breaks are very important\
 to me\

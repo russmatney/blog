@@ -1,13 +1,14 @@
 ---
+
 title: "straight-up-oj"
 date: 2015-10-22
 category: hundos
 tags: [hundos, writing]
 ---
 
-<img src="_images/hundos/straight-up-oj.webp" />
 
-# Straight Up OJ
+<img src="../../../assets/_images/hundos/straight-up-oj.webp" />
+
 
 There’s a moment.\
 when you live alone,\

@@ -61,6 +61,14 @@
     (c/copy-all-content)
     (c/copy-assets))
 
+  fix-assets
+  {:doc "Fix asset paths for Astro migration"
+   :task (load-file "bb/blog/fix_assets.clj")}
+
+  fix-titles
+  {:doc "Remove duplicate H1 headings"
+   :task (load-file "bb/blog/fix_duplicate_titles.clj")}
+
   ;; === DEPRECATED: Old Docsify Commands ===
 
   build-old

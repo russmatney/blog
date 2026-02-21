@@ -1,9 +1,10 @@
 ---
+
 title: "Videos"
 category: portfolio
 ---
 
-# Videos
+
 
 ## YouTube Dev Logs
 

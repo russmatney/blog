@@ -1,13 +1,14 @@
 ---
+
 title: "everyone-accept-death"
 date: 2013-04-09
 category: hundos
 tags: [hundos, writing]
 ---
 
-<img src="_images/hundos/everyone-accept-death.webp" />
 
-# Everyone Accept Death
+<img src="../../../assets/_images/hundos/everyone-accept-death.webp" />
+
 
 This isn’t a real fear\
 but sometimes\
