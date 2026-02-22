@@ -69,7 +69,7 @@ on a Mac, this can be done via [Alfred](https://www.alfredapp.com/) and [Dash](h
 motivate you, searching for a `Lens` operator like `^.` can be done via
 `[cmd]+[space] hs ^.`.
 
-<img src="../../../assets/_images/haskell-lens-operator-onboarding/haskell_dash_search.webp" />
+<img src="/images/haskell-lens-operator-onboarding/haskell_dash_search.webp" />
 
 ^ Searchable Lens documentation on OSX via Alfred and Dash integration.
 

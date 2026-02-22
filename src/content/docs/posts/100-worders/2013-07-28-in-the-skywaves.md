@@ -7,7 +7,7 @@ tags: [hundos, writing]
 ---
 
 
-<img src="../../../assets/_images/hundos/in-the-skywaves.webp" />
+<img src="/images/hundos/in-the-skywaves.webp" />
 
 
 Once I’m there and back again and then a few weeks later\

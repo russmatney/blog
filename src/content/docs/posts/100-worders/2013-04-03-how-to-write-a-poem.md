@@ -7,7 +7,7 @@ tags: [hundos, writing]
 ---
 
 
-<img src="../../../assets/_images/hundos/how-to-write-a-poem.webp" />
+<img src="/images/hundos/how-to-write-a-poem.webp" />
 
 
 Get a pen and get a notebook and open the pen and open the notebook and sit down.\

@@ -7,7 +7,7 @@ tags: [hundos, writing]
 ---
 
 
-<img src="../../../assets/_images/hundos/straight-up-oj.webp" />
+<img src="/images/hundos/straight-up-oj.webp" />
 
 
 There’s a moment.\

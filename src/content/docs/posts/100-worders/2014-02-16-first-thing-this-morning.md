@@ -7,7 +7,7 @@ tags: [hundos, writing]
 ---
 
 
-<img src="../../../assets/_images/hundos/first-thing-this-morning.webp" />
+<img src="/images/hundos/first-thing-this-morning.webp" />
 
 
 She says:\

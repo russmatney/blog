@@ -9,8 +9,6 @@ node_modules/
 .lsp/
 .work/
 
-public/
-
 # Astro
 dist/
 .astro/

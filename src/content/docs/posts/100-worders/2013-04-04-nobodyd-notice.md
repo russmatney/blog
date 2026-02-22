@@ -7,7 +7,7 @@ tags: [hundos, writing]
 ---
 
 
-<img src="../../../assets/_images/hundos/nobodyd-notice.webp" />
+<img src="/images/hundos/nobodyd-notice.webp" />
 
 
 Nobody’d notice\

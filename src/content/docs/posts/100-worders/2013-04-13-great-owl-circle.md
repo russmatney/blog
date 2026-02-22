@@ -7,7 +7,7 @@ tags: [hundos, writing]
 ---
 
 
-<img src="../../../assets/_images/hundos/great-owl-circle.webp" />
+<img src="/images/hundos/great-owl-circle.webp" />
 
 
 1.\

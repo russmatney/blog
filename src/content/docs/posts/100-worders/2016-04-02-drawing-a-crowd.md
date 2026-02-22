@@ -7,7 +7,7 @@ tags: [hundos, writing]
 ---
 
 
-<img src="../../../assets/_images/hundos/drawing-a-crowd.webp" />
+<img src="/images/hundos/drawing-a-crowd.webp" />
 
 
 NYC hat\

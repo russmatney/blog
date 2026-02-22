@@ -7,7 +7,7 @@ tags: [hundos, writing]
 ---
 
 
-<img src="../../../assets/_images/hundos/heres-the-thing-cat.webp" />
+<img src="/images/hundos/heres-the-thing-cat.webp" />
 
 
 Since we met, I’ve been your biggest fan\

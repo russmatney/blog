@@ -7,7 +7,7 @@ tags: [hundos, writing]
 ---
 
 
-<img src="../../../assets/_images/hundos/its-for-suckers.webp" />
+<img src="/images/hundos/its-for-suckers.webp" />
 
 
 transitions and line breaks are very important\

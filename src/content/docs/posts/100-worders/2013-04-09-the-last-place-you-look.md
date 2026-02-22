@@ -7,7 +7,7 @@ tags: [hundos, writing]
 ---
 
 
-<img src="../../../assets/_images/hundos/the-last-place-you-look.webp" />
+<img src="/images/hundos/the-last-place-you-look.webp" />
 
 
 This won’t help you\

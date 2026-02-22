@@ -7,7 +7,7 @@ tags: [hundos, writing]
 ---
 
 
-<img src="../../../assets/_images/hundos/everyone-accept-death.webp" />
+<img src="/images/hundos/everyone-accept-death.webp" />
 
 
 This isn’t a real fear\

@@ -31,13 +31,13 @@ gigantic org file full of ideas for mechanics, themes, systems, game modes, etc.
 
 Some shares from that:
 
-<img src= "_images/dothop/org_file_share_1.png" />
+<img src="/images/dothop/org_file_share_1.png" />
 
-<img src= "_images/dothop/org_file_share_2.png" />
+<img src="/images/dothop/org_file_share_2.png" />
 
-<img src= "_images/dothop/org_file_share_3.png" />
+<img src="/images/dothop/org_file_share_3.png" />
 
-<img src= "_images/dothop/org_file_share_4.png" />
+<img src="/images/dothop/org_file_share_4.png" />
 
 That's an awful lot of ideas to manage....
 
@@ -146,8 +146,8 @@ wants to reduce the effort of reading your logs. Rainbow Delimiters is a tool
 for cycling colors when nesting parens and brackets - the colors make it more
 clear when this or that object starts and ends.
 
-<img src= "_images/log-gd/rainbow-delims.png" />
-<img src= "_images/log-gd/rainbow-delims-small.png" />
+<img src="/images/log-gd/rainbow-delims.png" />
+<img src="/images/log-gd/rainbow-delims-small.png" />
 
 I was surprised it hadn't occurred to me sooner to add this, and I was very
 happy with how easily it fit into Log's code. Afterward, I also added the
@@ -157,7 +157,7 @@ One step further could be to include some `bgcolor` per object - I'll do some
 testing with this before shipping it, but it might be just what the Godotctor
 ordered.
 
-<img src= "_images/log-gd/rainbow-delims-object.png" />
+<img src="/images/log-gd/rainbow-delims-object.png" />
 
 
 # More Dot Hop Things
@@ -180,11 +180,11 @@ I created my first godot input plugin this week! I had been parsing puzzles from
 treated as full-on Godot Resources. This helped to completely cut out a few
 in-betweener classes I'd been using (e.g. the `GameDef` is no more!).
 
-<img src= "_images/dothop/puzzle_set_data_resource.png" />
+<img src="/images/dothop/puzzle_set_data_resource.png" />
 
 The raw .puzz files look like this:
 
-<img src= "_images/dothop/raw_puzz_file.png" />
+<img src="/images/dothop/raw_puzz_file.png" />
 
 ## A fun 'bug' slash chaotic puzzle visualization
 
@@ -199,7 +199,7 @@ somewhat reasonably.
 I say somewhat - you'll see in the clip - here's what happens when you forget to
 remove the puzzle_node before adding a new one!
 
-<img src= "_images/dothop/puzzle_stacking.gif" />
+<img src="/images/dothop/puzzle_stacking.gif" />
 
 I love this chaos - I'm wondering if I can use it as a background/banner or some
 other fun thing.
