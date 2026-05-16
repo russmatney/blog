@@ -26,7 +26,9 @@ e.g. specific videos, posts, lists, etc
 ** [ ] add copy/gifs/links for wicked peak
 ** [ ] add copy/gifs/links for carving with care
 ** [ ] add rough resume
-** [ ] add yt devlogs
+** [X] add yt devlogs
+** [ ] add twitch vods to videos page
+** [X] add ZSA vimeo interview to videos page
 * dothop puzz importer devlog
 ** [ ] study dothop repo: find and read the import plugin GDScript source
 look in addons/ or the project root for EditorImportPlugin subclass

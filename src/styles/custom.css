@@ -5,6 +5,14 @@
   --sl-font-size-base: 18px;
 }
 
+/* Responsive video embeds — maintains 16:9 aspect ratio */
+.video-embed {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  margin: 1rem 0;
+}
+
 /* Custom footer styling */
 .footer-content {
   text-align: right;
