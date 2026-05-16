@@ -33,6 +33,10 @@ export default defineConfig({
           link: '/about',
         },
         {
+          label: 'Neighborhood',
+          link: '/neighborhood',
+        },
+        {
           label: 'Dev Logs',
           autogenerate: { directory: 'devlogs' },
         },
