@@ -74,6 +74,7 @@ export default defineConfig({
       components: {
         Footer: './src/components/Footer.astro',
         Head: './src/components/Head.astro',
+        ContentPanel: './src/components/ContentPanel.astro',
       },
     }),
   ],

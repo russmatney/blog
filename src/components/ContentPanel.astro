@@ -1,0 +1,102 @@
+---
+// Custom ContentPanel that adds frontmatter metadata widget
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/ContentPanel.astro';
+
+// Get the entry data which contains frontmatter
+const { entry } = Astro.props;
+
+// Debug logging
+console.log('=== ContentPanel Component ===');
+console.log('entry exists?', !!entry);
+console.log('entry?.data:', entry?.data);
+console.log('All props keys:', Object.keys(Astro.props));
+
+// Safely extract frontmatter fields with fallbacks
+const date = entry?.data?.date;
+const category = entry?.data?.category;
+const tags = entry?.data?.tags || [];
+
+// Calculate reading time and word count from rendered content
+const content = entry?.body || '';
+const words = content.trim().split(/\s+/).length;
+const readingTime = Math.ceil(words / 200); // ~200 words per minute
+
+// Format date
+const formattedDate = date
+  ? new Intl.DateTimeFormat('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    }).format(date)
+  : null;
+
+// Only show metadata widget if we have at least one piece of metadata
+const hasMetadata = date || category || tags.length > 0;
+console.log('hasMetadata:', hasMetadata, 'date:', date, 'category:', category);
+---
+
+<Default {...Astro.props}>
+  {formattedDate && (
+    <div class="published-date">
+      <time datetime={date?.toISOString()}>
+        Published: {formattedDate}
+      </time>
+    </div>
+  )}
+
+  {hasMetadata && (
+    <div class="post-metadata">
+      <pre class="metadata-widget"><code>{date && `📅 Date:     ${date.toISOString().split('T')[0]}`}
+{category && `📁 Category: ${category}`}
+{tags.length > 0 && `🏷️  Tags:     ${tags.join(', ')}`}
+{`📊 Words:    ${words.toLocaleString()}`}
+{`⏱️  Reading:  ~${readingTime} min`}</code></pre>
+    </div>
+  )}
+
+  <slot />
+</Default>
+
+<style>
+  .published-date {
+    margin: 0 0 1.5rem 0;
+    color: var(--sl-color-gray-3);
+    font-size: var(--sl-text-sm);
+  }
+
+  .post-metadata {
+    margin: 0 0 2rem 0;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+    background: var(--sl-color-gray-7);
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .metadata-widget {
+    margin: 0;
+    padding: 1rem;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--sl-color-gray-2);
+    background: var(--sl-color-gray-6);
+    border-radius: 0.5rem;
+    overflow-x: auto;
+  }
+
+  .metadata-widget code {
+    background: transparent;
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+  }
+
+  @media (max-width: 768px) {
+    .metadata-widget {
+      font-size: 0.75rem;
+    }
+  }
+</style>
