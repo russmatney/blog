@@ -27,6 +27,21 @@ e.g. specific videos, posts, lists, etc
 ** [ ] add copy/gifs/links for carving with care
 ** [ ] add rough resume
 ** [ ] add yt devlogs
+* dothop puzz importer devlog
+** [ ] study dothop repo: find and read the import plugin GDScript source
+look in addons/ or the project root for EditorImportPlugin subclass
+** [ ] find and read PuzzleSetData resource + any parser helper scripts
+note fields, how the grid is stored, what GameDef used to do
+** [ ] confirm complete .puzz character key (., o, x, t — any others?)
+** [ ] confirm whether one .puzz file = one puzzle or one set of puzzles
+** [ ] fill in TLDR callout with final 2-3 sentence summary
+** [ ] fill in the import plugin section with code walk-through + links
+link directly to the plugin script in the dothop repo
+** [ ] fill in GDScript wrappers section with actual class names and field list
+** [ ] grab any missing in-engine screenshots; copy to public/images/dothop/
+** [ ] proofread full draft; run bb build to validate no TypeScript/Astro errors
+** [ ] update devlogs index.md link (already staged in plan)
+
 * bullet devlog
 ** [ ] generate some older devlogs based on old clips and dates
 * mind-garden and notes

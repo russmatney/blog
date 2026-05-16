@@ -13,3 +13,4 @@ Browse the sidebar to see all devlogs, or check out some recent ones below:
 - [Zooming In On Dino](/devlogs/2025-01-08-zooming-in-on-dino/)
 - [Dot Hop Speedrun](/devlogs/2025-06-10-dothop-speedrun/)
 - [Dot Hopping Rearchitecting](/devlogs/2025-07-26-dothopping-rearchitecting/)
+- [Dot Hop: Plain-Text Levels with a Godot Import Plugin](/devlogs/2026-05-16-dothop-puzz-importer/)
