@@ -12,3 +12,7 @@ If the internet is a city, these are the neighbors worth knowing.
 - **[mochee.xyz](https://mochee.xyz/)** — mochee's place
 - **[fennec.fyi](https://fennec.fyi/)** — fennec's place
 - **[freaks.town](https://freaks.town/)** — freaks.town
+- **[thealex.ac](https://thealex.ac/)** — thealex's place
+- **[blog.kiranshila.com](https://blog.kiranshila.com/)** — kiran's blog
+- **[gws.fyi](https://gws.fyi/)** — gws's place
+- **[tasshin.com](https://tasshin.com/)** — tasshin's place
