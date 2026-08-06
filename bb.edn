@@ -6,6 +6,7 @@
  :tasks
  {:requires ([babashka.fs :as fs]
              [clojure.edn :as edn]
+             [clojure.string :as str]
              [blog.tasks :as tasks]
              )
   :init
@@ -62,12 +63,37 @@
     (c/copy-assets))
 
   fix-assets
-  {:doc "Fix asset paths for Astro migration"
+  {:doc  "Fix asset paths for Astro migration"
    :task (load-file "bb/blog/fix_assets.clj")}
 
   fix-titles
-  {:doc "Remove duplicate H1 headings"
+  {:doc  "Remove duplicate H1 headings"
    :task (load-file "bb/blog/fix_duplicate_titles.clj")}
+
+  new-hundo
+  {:doc  "Create a new hundo. Usage: bb new-hundo <title>"
+   :task (do
+           (let [title   (str/join " " *command-line-args*)
+                 _       (when (str/blank? title)
+                           (println "Usage: bb new-hundo <title>")
+                           (System/exit 1))
+                 slug    (-> title
+                             str/lower-case
+                             (str/replace (re-pattern "[^a-z0-9]+") "-")
+                             (str/replace (re-pattern "-+$") "")
+                             (str/replace (re-pattern "^-+") ""))
+                 today   (.format (java.time.LocalDate/now)
+                                  (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd"))
+                 fname   (str today "-" slug ".md")
+                 dir     (str (fs/home) "/russmatney/blog/src/content/docs/posts/100-worders")
+                 path    (str dir "/" fname)
+                 content (str "---\ntitle: \"" title "\"\ndate: " today "\ncategory: hundos\ntags: [hundos, writing]\n---\n\n")]
+             (if (fs/exists? path)
+               (println "Already exists:" path)
+               (do
+                 (spit path content)
+                 (println "Created:" path)))))}
+
 
   ;; === DEPRECATED: Old Docsify Commands ===
 
