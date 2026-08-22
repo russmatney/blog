@@ -95,6 +95,31 @@
                  (println "Created:" path)))))}
 
 
+  new-techsposure
+  {:doc  "Create a new techsposure post. Usage: bb new-techsposure <title>"
+   :task (do
+           (let [title   (str/join " " *command-line-args*)
+                 _       (when (str/blank? title)
+                           (println "Usage: bb new-techsposure <title>")
+                           (System/exit 1))
+                 slug    (-> title
+                             str/lower-case
+                             (str/replace (re-pattern "[^a-z0-9]+") "-")
+                             (str/replace (re-pattern "-+$") "")
+                             (str/replace (re-pattern "^-+") ""))
+                 today   (.format (java.time.LocalDate/now)
+                                  (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd"))
+                 fname   (str today "-" slug ".md")
+                 dir     (str (fs/home) "/russmatney/blog/src/content/docs/posts/techsposure")
+                 path    (str dir "/" fname)
+                 content (str "---\ntitle: \"" title "\"\ndate: " today "\ncategory: techsposure\ntags: [techsposure]\n---\n\n")]
+             (if (fs/exists? path)
+               (println "Already exists:" path)
+               (do
+                 (spit path content)
+                 (println "Created:" path)))))}
+
+
   ;; === DEPRECATED: Old Docsify Commands ===
 
   build-old

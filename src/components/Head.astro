@@ -16,5 +16,12 @@
       const newUrl = window.location.origin + '/' + path;
       window.location.replace(newUrl);
     }
+
+    // Redirect .md URLs to their correct paths (legacy link support)
+    const currentPath = window.location.pathname;
+    if (currentPath.endsWith('.md')) {
+      const newPath = currentPath.slice(0, -3);
+      window.location.replace(newPath);
+    }
   })();
 </script>

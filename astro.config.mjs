@@ -38,38 +38,38 @@ export default defineConfig({
         },
         {
           label: 'Dev Logs',
-          autogenerate: { directory: 'devlogs' },
+          items: [{autogenerate: { directory: 'devlogs' }}]
         },
         {
           label: 'Portfolio',
-          autogenerate: { directory: 'portfolio' },
+          items: [{autogenerate: { directory: 'portfolio' }}]
         },
         {
           label: 'Posts',
           items: [
             {
               label: 'Hundos',
-              autogenerate: { directory: 'posts/100-worders' },
+              items: [{autogenerate: { directory: 'posts/100-worders' }}],
               collapsed: true,
             },
             {
               label: 'Techsposure',
-              autogenerate: { directory: 'posts/techsposure' },
+              items: [{autogenerate: { directory: 'posts/techsposure' },}],
               collapsed: true,
             },
             {
               label: 'Get It Write',
-              autogenerate: { directory: 'posts/getitwrite' },
+              items: [{autogenerate: { directory: 'posts/getitwrite' },}],
               collapsed: true,
             },
             {
               label: 'Groks',
-              autogenerate: { directory: 'posts/groks' },
+              items: [{autogenerate: { directory: 'posts/groks' },}],
               collapsed: true,
             },
             {
               label: 'Notes',
-              autogenerate: { directory: 'posts/notes' },
+              items: [{autogenerate: { directory: 'posts/notes' },}],
               collapsed: true,
             },
           ],

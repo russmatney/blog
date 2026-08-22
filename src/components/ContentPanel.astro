@@ -6,12 +6,6 @@ import Default from '@astrojs/starlight/components/ContentPanel.astro';
 // Get the entry data which contains frontmatter
 const { entry } = Astro.props;
 
-// Debug logging
-console.log('=== ContentPanel Component ===');
-console.log('entry exists?', !!entry);
-console.log('entry?.data:', entry?.data);
-console.log('All props keys:', Object.keys(Astro.props));
-
 // Safely extract frontmatter fields with fallbacks
 const date = entry?.data?.date;
 const category = entry?.data?.category;
@@ -33,7 +27,6 @@ const formattedDate = date
 
 // Only show metadata widget if we have at least one piece of metadata
 const hasMetadata = date || category || tags.length > 0;
-console.log('hasMetadata:', hasMetadata, 'date:', date, 'category:', category);
 ---
 
 <Default {...Astro.props}>
